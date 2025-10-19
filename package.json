@@ -1,0 +1,23 @@
+{
+  "name": "milliondollardev",
+  "version": "1.0.0",
+  "description": "百万研发知识平台 - 从小白到价值百万的研发专家成长指南",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "keywords": [
+    "software-development",
+    "career-guide",
+    "knowledge-sharing",
+    "programming",
+    "architecture"
+  ],
+  "author": "百万研发知识平台",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}

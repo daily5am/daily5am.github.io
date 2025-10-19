@@ -1,0 +1,63 @@
+/* 自定义样式 */
+
+/* 品牌色彩 */
+:root {
+  --vp-c-brand-1: #3b82f6;
+  --vp-c-brand-2: #2563eb;
+  --vp-c-brand-3: #1d4ed8;
+  --vp-c-brand-soft: rgba(59, 130, 246, 0.14);
+}
+
+/* 深色模式品牌色彩 */
+.dark {
+  --vp-c-brand-1: #60a5fa;
+  --vp-c-brand-2: #3b82f6;
+  --vp-c-brand-3: #2563eb;
+  --vp-c-brand-soft: rgba(96, 165, 250, 0.16);
+}
+
+/* 首页样式优化 */
+.VPHome {
+  padding: 0;
+}
+
+/* 视频播放器样式 */
+.video-player {
+  margin: 1rem 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.video-player iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* 卡片样式 */
+.vp-doc .custom-block {
+  border-radius: 8px;
+}
+
+/* 代码块样式优化 */
+.vp-doc div[class*='language-'] {
+  border-radius: 8px;
+}
+
+/* 导航栏样式 */
+.VPNav {
+  backdrop-filter: blur(10px);
+}
+
+/* 侧边栏样式 */
+.VPSidebar {
+  border-right: 1px solid var(--vp-c-divider);
+}
+
+/* 响应式优化 */
+@media (max-width: 768px) {
+  .video-player {
+    margin: 0.5rem 0;
+  }
+}

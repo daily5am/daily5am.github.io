@@ -1,0 +1,44 @@
+# GitLab CI 配置文件
+# 用于自动构建和部署 VitePress 站点到 GitLab Pages
+
+# 定义阶段
+stages:
+  - build
+  - deploy
+
+# 缓存配置
+cache:
+  paths:
+    - node_modules/
+
+# 构建阶段
+build:
+  stage: build
+  image: node:18-alpine
+  before_script:
+    - npm ci
+  script:
+    - npm run docs:build
+  artifacts:
+    paths:
+      - docs/.vitepress/dist/
+    expire_in: 1 hour
+  only:
+    - main
+    - master
+
+# 部署到 GitLab Pages
+pages:
+  stage: deploy
+  image: alpine:latest
+  before_script:
+    - apk add --no-cache rsync
+  script:
+    - mkdir public
+    - rsync -av docs/.vitepress/dist/ public/
+  artifacts:
+    paths:
+      - public
+  only:
+    - main
+    - master
