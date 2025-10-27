@@ -18,6 +18,12 @@ sidebar: false
       <input type="text" placeholder="搜索协会..." id="searchInput">
     </div>
   </div>
+  
+  <!-- 标签过滤器 -->
+  
+  <div class="filter-section" id="filterSection">
+    <!-- 过滤器将通过JavaScript动态生成 -->
+  </div>
 </div>
 
 <div class="content-section">
@@ -47,7 +53,7 @@ sidebar: false
       </div>
       <div class="card-tags">
         <span class="tag official">官方</span>
-        <span class="tag">软件产业</span>
+        <span class="tag">软件服务</span>
         <span class="tag">5A级</span>
       </div>
     </div>
@@ -70,9 +76,9 @@ sidebar: false
         <span class="meta-highlight">全国首家AI行业协会，46家上市企业</span>
       </div>
       <div class="card-tags">
-        <span class="tag premium">优质</span>
+        <span class="tag premium">非官方</span>
         <span class="tag">人工智能</span>
-        <span class="tag">全国首家</span>
+        <span class="tag">5A级</span>
       </div>
     </div>
   </div>
@@ -96,7 +102,7 @@ sidebar: false
       <div class="card-tags">
         <span class="tag official">官方</span>
         <span class="tag">金融科技</span>
-        <span class="tag">CIO社群</span>
+        <span class="tag">5A级</span>
       </div>
     </div>
   </div>
@@ -119,8 +125,8 @@ sidebar: false
       </div>
       <div class="card-tags">
         <span class="tag official">官方</span>
-        <span class="tag">计算机</span>
-        <span class="tag">历史悠久</span>
+        <span class="tag">软件服务</span>
+        <span class="tag">5A级</span>
       </div>
     </div>
   </div>
@@ -142,9 +148,9 @@ sidebar: false
         <span class="meta-highlight">专注于AI技术推广，提供技术交流和合作平台</span>
       </div>
       <div class="card-tags">
-        <span class="tag premium">优质</span>
+        <span class="tag premium">非官方</span>
         <span class="tag">人工智能</span>
-        <span class="tag">技术推广</span>
+        <span class="tag">5A级</span>
       </div>
     </div>
   </div>
@@ -166,9 +172,9 @@ sidebar: false
         <span class="meta-highlight">聚焦智能硬件产业发展，推动硬件与软件深度融合</span>
       </div>
       <div class="card-tags">
-        <span class="tag standard">标准</span>
+        <span class="tag premium">非官方</span>
         <span class="tag">智能硬件</span>
-        <span class="tag">产业融合</span>
+        <span class="tag">4A级</span>
       </div>
     </div>
   </div>
@@ -191,8 +197,8 @@ sidebar: false
       </div>
       <div class="card-tags">
         <span class="tag official">官方</span>
-        <span class="tag">智能终端</span>
-        <span class="tag">2023年</span>
+        <span class="tag">智能硬件</span>
+        <span class="tag">4A级</span>
       </div>
     </div>
   </div>
@@ -214,9 +220,9 @@ sidebar: false
         <span class="meta-highlight">深圳首个市级区块链协会，会员从80多家发展到400多家</span>
       </div>
       <div class="card-tags">
-        <span class="tag premium">优质</span>
+        <span class="tag premium">非官方</span>
         <span class="tag">区块链</span>
-        <span class="tag">深圳首个</span>
+        <span class="tag">4A级</span>
       </div>
     </div>
   </div>
@@ -238,9 +244,9 @@ sidebar: false
         <span class="meta-highlight">国内最大区块链组织，FISCO BCOS平台，10万名开发者</span>
       </div>
       <div class="card-tags">
-        <span class="tag premium">优质</span>
-        <span class="tag">金链盟</span>
-        <span class="tag">FISCO BCOS</span>
+        <span class="tag premium">非官方</span>
+        <span class="tag">区块链</span>
+        <span class="tag">5A级</span>
       </div>
     </div>
   </div>
@@ -262,9 +268,9 @@ sidebar: false
         <span class="meta-highlight">2012年成立，连续两年发布物联网产业白皮书</span>
       </div>
       <div class="card-tags">
-        <span class="tag standard">标准</span>
+        <span class="tag premium">非官方</span>
         <span class="tag">物联网</span>
-        <span class="tag">白皮书</span>
+        <span class="tag">4A级</span>
       </div>
     </div>
   </div>
@@ -286,9 +292,9 @@ sidebar: false
         <span class="meta-highlight">2016年成立，1500余家会员企业，聚焦智能制造产业链</span>
       </div>
       <div class="card-tags">
-        <span class="tag official">官方</span>
+        <span class="tag premium">非官方</span>
         <span class="tag">智能制造</span>
-        <span class="tag">1500家</span>
+        <span class="tag">4A级</span>
       </div>
     </div>
   </div>
@@ -310,9 +316,9 @@ sidebar: false
         <span class="meta-highlight">东方汇富主导，大健康产业孵化器和资源整合平台</span>
       </div>
       <div class="card-tags">
-        <span class="tag premium">优质</span>
+        <span class="tag premium">非官方</span>
         <span class="tag">智慧医疗</span>
-        <span class="tag">大健康</span>
+        <span class="tag">4A级</span>
       </div>
     </div>
   </div>
@@ -336,7 +342,7 @@ sidebar: false
       <div class="card-tags">
         <span class="tag official">官方</span>
         <span class="tag">信创</span>
-        <span class="tag">2019年</span>
+        <span class="tag">5A级</span>
       </div>
     </div>
   </div>
@@ -359,8 +365,8 @@ sidebar: false
       </div>
       <div class="card-tags">
         <span class="tag official">官方</span>
-        <span class="tag">鲲鹏</span>
-        <span class="tag">生态建设</span>
+        <span class="tag">信创</span>
+        <span class="tag">5A级</span>
       </div>
     </div>
   </div>
@@ -382,9 +388,9 @@ sidebar: false
         <span class="meta-highlight">CCF首个城市分部，三次被评为优秀分部</span>
       </div>
       <div class="card-tags">
-        <span class="tag premium">优质</span>
-        <span class="tag">CCF</span>
-        <span class="tag">首个分部</span>
+        <span class="tag standard">学术</span>
+        <span class="tag">软件服务</span>
+        <span class="tag">5A级</span>
       </div>
     </div>
   </div>
@@ -406,9 +412,9 @@ sidebar: false
         <span class="meta-highlight">2024年成立，866位院士/会士，推动全球AI产业发展</span>
       </div>
       <div class="card-tags">
-        <span class="tag premium">优质</span>
-        <span class="tag">国际AI</span>
-        <span class="tag">2024年</span>
+        <span class="tag premium">国际</span>
+        <span class="tag">人工智能</span>
+        <span class="tag">5A级</span>
       </div>
     </div>
   </div>
@@ -416,13 +422,76 @@ sidebar: false
 </div>
 
 <script setup>
-// 使用Vue的客户端组件来处理搜索功能
+// 使用Vue的客户端组件来处理搜索和过滤功能
 import { onMounted } from 'vue'
 
 onMounted(() => {
   const searchInput = document.getElementById('searchInput')
   const countBadge = document.querySelector('.count-badge')
   const associationCards = document.querySelectorAll('.association-card')
+  const filterSection = document.getElementById('filterSection')
+  
+  let currentSearchTerm = ''
+  let activeFilters = {
+    nature: 'all',
+    industry: 'all', 
+    level: 'all'
+  }
+  
+  // 动态创建过滤器
+  function createFilterSection() {
+    const filterGroups = [
+      {
+        title: '性质分类',
+        type: 'nature',
+        filters: [
+          { value: 'all', text: '全部', active: true },
+          { value: '官方', text: '官方' },
+          { value: '非官方', text: '非官方' },
+          { value: '学术', text: '学术' },
+          { value: '国际', text: '国际' }
+        ]
+      },
+      {
+        title: '行业分类',
+        type: 'industry',
+        filters: [
+          { value: 'all', text: '全部', active: true },
+          { value: '人工智能', text: '人工智能' },
+          { value: '金融科技', text: '金融科技' },
+          { value: '软件服务', text: '软件服务' },
+          { value: '智能硬件', text: '智能硬件' },
+          { value: '区块链', text: '区块链' },
+          { value: '物联网', text: '物联网' },
+          { value: '智能制造', text: '智能制造' },
+          { value: '智慧医疗', text: '智慧医疗' },
+          { value: '信创', text: '信创' }
+        ]
+      },
+      {
+        title: '等级分类',
+        type: 'level',
+        filters: [
+          { value: 'all', text: '全部', active: true },
+          { value: '5A级', text: '5A级' },
+          { value: '4A级', text: '4A级' }
+        ]
+      }
+    ]
+    
+    filterSection.innerHTML = filterGroups.map(group => `
+      <div class="filter-group">
+        <h3 class="filter-title">${group.title}</h3>
+        <div class="filter-tags">
+          ${group.filters.map(filter => `
+            <button class="filter-tag ${filter.active ? 'active' : ''}" data-filter="${filter.value}" data-type="${group.type}">
+              ${filter.text}
+            </button>
+          `).join('')}
+        </div>
+      </div>
+    `).join('')
+  }
   
   function updateCount() {
     const visibleCards = document.querySelectorAll('.association-card:not([style*="display: none"])')
@@ -431,20 +500,34 @@ onMounted(() => {
     }
   }
   
-  function filterCards(searchTerm) {
-    const term = searchTerm.toLowerCase().trim()
+  function filterCards(searchTerm = '', filterType = '', filterValue = '') {
+    currentSearchTerm = searchTerm.toLowerCase().trim()
+    
+    // 更新活动过滤器
+    if (filterType && filterValue) {
+      activeFilters[filterType] = filterValue
+    }
     
     associationCards.forEach(card => {
       const searchData = card.getAttribute('data-search')?.toLowerCase() || ''
       const cardTitle = card.querySelector('.card-title')?.textContent?.toLowerCase() || ''
       const cardDescription = card.querySelector('.card-description')?.textContent?.toLowerCase() || ''
       
-      // 搜索标题、描述和搜索数据
-      const matches = searchData.includes(term) || 
-                     cardTitle.includes(term) || 
-                     cardDescription.includes(term)
+      // 搜索匹配
+      const searchMatches = currentSearchTerm === '' || 
+                           searchData.includes(currentSearchTerm) || 
+                           cardTitle.includes(currentSearchTerm) || 
+                           cardDescription.includes(currentSearchTerm)
       
-      if (matches || term === '') {
+      // 标签过滤匹配
+      const cardTags = Array.from(card.querySelectorAll('.tag')).map(tag => tag.textContent.trim())
+      
+      const natureMatches = activeFilters.nature === 'all' || cardTags.includes(activeFilters.nature)
+      const industryMatches = activeFilters.industry === 'all' || cardTags.includes(activeFilters.industry)
+      const levelMatches = activeFilters.level === 'all' || cardTags.includes(activeFilters.level)
+      
+      // 同时满足搜索和所有过滤条件
+      if (searchMatches && natureMatches && industryMatches && levelMatches) {
         card.style.display = 'block'
       } else {
         card.style.display = 'none'
@@ -465,10 +548,92 @@ onMounted(() => {
     }
   }
   
+  // 处理标签过滤点击事件
+  function handleFilterClick(event) {
+    event.stopPropagation() // 防止事件冒泡
+    const clickedTag = event.currentTarget
+    const filter = clickedTag.getAttribute('data-filter')
+    const filterType = clickedTag.getAttribute('data-type')
+    const filterGroup = clickedTag.closest('.filter-group')
+    
+    // 更新活动状态 - 只更新同一组内的标签
+    if (filterGroup) {
+      const groupTags = filterGroup.querySelectorAll('.filter-tag')
+      groupTags.forEach(tag => tag.classList.remove('active'))
+    }
+    clickedTag.classList.add('active')
+    
+    // 执行过滤
+    filterCards(currentSearchTerm, filterType, filter)
+  }
+  
+  // 处理协会卡片标签点击事件
+  function handleCardTagClick(event) {
+    event.stopPropagation() // 防止触发卡片点击事件
+    const clickedTag = event.currentTarget
+    const tagText = clickedTag.textContent.trim()
+    
+    // 确定过滤器类型
+    let filterType = ''
+    let filterValue = tagText
+    
+    if (['官方', '非官方', '学术', '国际'].includes(tagText)) {
+      filterType = 'nature'
+    } else if (['人工智能', '金融科技', '软件服务', '智能硬件', '区块链', '物联网', '智能制造', '智慧医疗', '信创'].includes(tagText)) {
+      filterType = 'industry'
+    } else if (['5A级', '4A级'].includes(tagText)) {
+      filterType = 'level'
+    }
+    
+    if (filterType) {
+      // 更新过滤器按钮状态
+      updateFilterButtonState(filterType, filterValue)
+      
+      // 执行过滤
+      filterCards(currentSearchTerm, filterType, filterValue)
+    }
+  }
+  
+  // 更新过滤器按钮状态
+  function updateFilterButtonState(filterType, filterValue) {
+    // 重置所有过滤器组
+    const filterGroups = document.querySelectorAll('.filter-group')
+    filterGroups.forEach(group => {
+      const groupTags = group.querySelectorAll('.filter-tag')
+      groupTags.forEach(tag => tag.classList.remove('active'))
+      
+      // 激活对应的过滤器按钮
+      const targetTag = group.querySelector(`[data-filter="${filterValue}"][data-type="${filterType}"]`)
+      if (targetTag) {
+        targetTag.classList.add('active')
+      } else {
+        // 如果没有找到对应的按钮，激活"全部"按钮
+        const allTag = group.querySelector('[data-filter="all"]')
+        if (allTag) {
+          allTag.classList.add('active')
+        }
+      }
+    })
+  }
+  
+  // 为所有过滤标签添加点击事件监听器
+  function setupFilterListeners() {
+    const filterTags = document.querySelectorAll('.filter-tag')
+    filterTags.forEach(tag => {
+      tag.addEventListener('click', handleFilterClick)
+    })
+  }
+  
   // 为所有可点击卡片添加点击事件监听器
   associationCards.forEach(card => {
     if (card.classList.contains('clickable-card')) {
       card.addEventListener('click', handleCardClick)
+      
+      // 为卡片上的标签添加点击事件监听器
+      const cardTags = card.querySelectorAll('.tag')
+      cardTags.forEach(tag => {
+        tag.addEventListener('click', handleCardTagClick)
+      })
     }
   })
   
@@ -479,7 +644,9 @@ onMounted(() => {
     })
   }
   
-  // 初始化计数
+  // 初始化
+  createFilterSection()
+  setupFilterListeners()
   updateCount()
 })
 </script>

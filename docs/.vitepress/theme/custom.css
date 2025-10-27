@@ -874,6 +874,68 @@
   box-shadow: 0 0 0 2px rgba(64, 158, 255, 0.2);
 }
 
+/* 标签过滤器样式 */
+.filter-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.filter-group {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.filter-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+  margin: 0;
+  white-space: nowrap;
+  min-width: fit-content;
+}
+
+.filter-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.filter-tag {
+  padding: 0.5rem 1rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-border);
+  border-radius: 20px;
+  color: var(--vp-c-text-2);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.filter-tag:hover {
+  background: var(--vp-c-bg-soft-hover);
+  border-color: var(--vp-c-brand-1);
+  color: var(--vp-c-text-1);
+  transform: translateY(-1px);
+}
+
+.filter-tag.active {
+  background: var(--vp-c-brand-1);
+  border-color: var(--vp-c-brand-1);
+  color: white;
+  box-shadow: 0 2px 8px rgba(64, 158, 255, 0.3);
+}
+
+.filter-tag.active:hover {
+  background: var(--vp-c-brand-2);
+  border-color: var(--vp-c-brand-2);
+  transform: translateY(-1px);
+}
+
 .content-section {
   max-width: 1600px;
   margin: 0 auto;
@@ -1058,6 +1120,17 @@
   border: 1px solid var(--vp-c-border);
 }
 
+/* 协会卡片标签点击样式 */
+.association-card .tag {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.association-card .tag:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 /* 响应式设计 */
 @media (max-width: 768px) {
   .hero-section {
@@ -1083,6 +1156,29 @@
   .search-bar input {
     padding: 0.875rem 1rem 0.875rem 3.5rem;
     font-size: 1rem;
+  }
+  
+  .filter-section {
+    gap: 0.8rem;
+  }
+  
+  .filter-group {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .filter-title {
+    font-size: 0.85rem;
+  }
+  
+  .filter-tags {
+    gap: 0.4rem;
+  }
+  
+  .filter-tag {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.8rem;
   }
   
   .content-section {
