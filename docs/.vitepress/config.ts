@@ -38,6 +38,19 @@ export default defineConfig({
         ]
       },
       {
+        text: '运维开发',
+        items: [
+          { text: '发布部署', link: '/guide/devops/deployment' },
+          { text: '可观测技术', link: '/guide/devops/observability' },
+          { text: 'CI/CD', link: '/guide/devops/cicd' },
+          { text: '容器化', link: '/guide/devops/containerization' },
+          { text: '基础设施即代码', link: '/guide/devops/iac' },
+          { text: '监控告警', link: '/guide/devops/monitoring' },
+          { text: '日志管理', link: '/guide/devops/logging' },
+          { text: '性能调优', link: '/guide/devops/performance' }
+        ]
+      },
+      {
         text: '人工智能',
         items: [
           { text: 'AI Agent', link: '/guide/ai/ai-agent' },
