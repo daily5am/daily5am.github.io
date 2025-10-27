@@ -788,14 +788,15 @@
 
 /* 深圳软件协会资源页面样式 - 简洁无边框设计 */
 .hero-section {
-  max-width: 1400px;
+  max-width: 1600px;
+  margin: 0 auto;
   padding: 4rem 3rem;
   text-align: center;
   position: relative;
 }
 
 .hero-content {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -830,7 +831,7 @@
 
 .search-section {
   margin: 0 0 3rem 0;
-  max-width: 1400px;
+  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 3rem;
@@ -874,7 +875,7 @@
 }
 
 .content-section {
-  max-width: 1400px;
+  max-width: 1600px;
   margin: 0 auto;
   padding: 0 3rem;
 }
@@ -910,8 +911,8 @@
 
 .associations-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 2rem;
 }
 
 .association-card {
@@ -925,10 +926,20 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
-.association-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+.clickable-card {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.clickable-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.2);
   border-color: var(--vp-c-brand-1);
+}
+
+.clickable-card:active {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 .association-card::before {
@@ -950,33 +961,20 @@
 .card-header {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  justify-content: space-between;
   margin-bottom: 1rem;
-}
-
-.card-icon {
-  font-size: 2rem;
-  width: 3rem;
-  height: 3rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--vp-c-bg);
-  border-radius: 12px;
-  border: 2px solid var(--vp-c-border);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .card-title {
   font-size: 1.2rem;
   font-weight: 700;
   color: var(--vp-c-text-1);
-  flex: 1;
   margin: 0;
+  flex: 1;
 }
 
 .card-action {
-  margin-left: auto;
+  margin-left: 1rem;
 }
 
 .install-btn {
@@ -1020,17 +1018,11 @@
   font-size: 0.85rem;
 }
 
-.meta-author {
-  color: var(--vp-c-text-3);
-  font-weight: 500;
-}
-
-.meta-stars {
-  color: var(--vp-c-text-2);
+.meta-highlight {
+  color: var(--vp-c-brand-1);
   font-weight: 600;
-  display: flex;
-  align-items: center;
-  gap: 0.25rem;
+  font-size: 0.9rem;
+  line-height: 1.4;
 }
 
 .card-tags {
@@ -1103,7 +1095,7 @@
   
   .associations-gallery {
     grid-template-columns: 1fr;
-    gap: 1rem;
+    gap: 1.5rem;
   }
   
   .association-card {
@@ -1111,19 +1103,25 @@
   }
   
   .card-header {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .card-title {
+    font-size: 1.1rem;
+    flex: 1;
+    margin-right: 0.5rem;
   }
   
   .card-action {
-    margin-left: 0;
-    width: 100%;
+    margin-left: 0.5rem;
+    flex-shrink: 0;
   }
   
   .install-btn {
-    width: 100%;
-    justify-content: center;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -1135,6 +1133,6 @@
 
 @media (min-width: 1600px) {
   .associations-gallery {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }

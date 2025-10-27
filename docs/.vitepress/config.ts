@@ -26,6 +26,7 @@ export default defineConfig({
         text: '就业面试',
         items: [
           { text: '面试指导', link: '/guide/career/' },
+          { text: '软件协会资源', link: '/guide/career/associations/' },
           { text: '优质企业名录', link: '/guide/career/top-companies' },
           { text: '产业趋势分析', link: '/guide/career/industry-trends' },
           { text: '政策支持解读', link: '/guide/career/policy-support' }
@@ -116,6 +117,20 @@ export default defineConfig({
             { text: '技能提升计划', link: '/guide/career/skill-development' },
             { text: '薪资谈判技巧', link: '/guide/career/salary-negotiation' },
             { text: '跳槽策略指南', link: '/guide/career/job-hopping-strategy' }
+          ]
+        }
+      ],
+      '/guide/career/associations/': [
+        {
+          text: '软件协会资源',
+          items: [
+            { text: '协会概览', link: '/guide/career/associations/' },
+            { text: '深圳市软件行业协会', link: '/guide/career/associations/shenzhen-software-industry' },
+            { text: '深圳市人工智能产业协会', link: '/guide/career/associations/shenzhen-ai-industry' },
+            { text: '深圳市金融科技协会', link: '/guide/career/associations/shenzhen-fintech' },
+            { text: '深圳市计算机行业协会', link: '/guide/career/associations/shenzhen-computer-industry' },
+            { text: '深圳市人工智能行业协会', link: '/guide/career/associations/shenzhen-ai-association' },
+            { text: '深圳市智能硬件协会', link: '/guide/career/associations/shenzhen-smart-hardware' }
           ]
         }
       ],
