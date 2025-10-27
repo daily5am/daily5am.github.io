@@ -28,9 +28,9 @@ sidebar: false
     </div>
   </div>
 
-  <div class="associations-gallery">
+  <div class="associations-gallery" id="associationsGallery">
   <!-- 深圳市软件行业协会 -->
-  <div class="association-card">
+  <div class="association-card" data-search="深圳市软件行业协会 软件产业 5A级 官方 4000家会员企业">
     <div class="card-header">
       <div class="card-icon">💻</div>
       <div class="card-title">深圳市软件行业协会</div>
@@ -56,7 +56,7 @@ sidebar: false
   </div>
 
   <!-- 深圳市人工智能产业协会 -->
-  <div class="association-card">
+  <div class="association-card" data-search="深圳市人工智能产业协会 人工智能 AI 优质 全国首家 46家上市企业 291家专精特新">
     <div class="card-header">
       <div class="card-icon">🤖</div>
       <div class="card-title">深圳市人工智能产业协会</div>
@@ -82,7 +82,7 @@ sidebar: false
   </div>
 
   <!-- 深圳市金融科技协会 -->
-  <div class="association-card">
+  <div class="association-card" data-search="深圳市金融科技协会 金融科技 CIO社群 官方 深交所 中国平安">
     <div class="card-header">
       <div class="card-icon">💰</div>
       <div class="card-title">深圳市金融科技协会</div>
@@ -108,7 +108,7 @@ sidebar: false
   </div>
 
   <!-- 深圳市计算机行业协会 -->
-  <div class="association-card">
+  <div class="association-card" data-search="深圳市计算机行业协会 计算机 官方 历史悠久 1987年">
     <div class="card-header">
       <div class="card-icon">🖥️</div>
       <div class="card-title">深圳市计算机行业协会</div>
@@ -134,7 +134,7 @@ sidebar: false
   </div>
 
   <!-- 深圳市人工智能行业协会 -->
-  <div class="association-card">
+  <div class="association-card" data-search="深圳市人工智能行业协会 人工智能 AI 优质 技术推广 合作平台">
     <div class="card-header">
       <div class="card-icon">🧠</div>
       <div class="card-title">深圳市人工智能行业协会</div>
@@ -160,7 +160,7 @@ sidebar: false
   </div>
 
   <!-- 深圳市智能硬件协会 -->
-  <div class="association-card">
+  <div class="association-card" data-search="深圳市智能硬件协会 智能硬件 标准 产业融合 硬件软件">
     <div class="card-header">
       <div class="card-icon">🔧</div>
       <div class="card-title">深圳市智能硬件协会</div>
@@ -186,3 +186,55 @@ sidebar: false
   </div>
 </div>
 </div>
+
+<script setup>
+// 使用Vue的客户端组件来处理搜索功能
+import { onMounted } from 'vue'
+
+onMounted(() => {
+  const searchInput = document.getElementById('searchInput')
+  const countBadge = document.querySelector('.count-badge')
+  const associationCards = document.querySelectorAll('.association-card')
+  
+  function updateCount() {
+    const visibleCards = document.querySelectorAll('.association-card:not([style*="display: none"])')
+    if (countBadge) {
+      countBadge.textContent = visibleCards.length
+    }
+  }
+  
+  function filterCards(searchTerm) {
+    const term = searchTerm.toLowerCase().trim()
+    
+    associationCards.forEach(card => {
+      const searchData = card.getAttribute('data-search')?.toLowerCase() || ''
+      const cardTitle = card.querySelector('.card-title')?.textContent?.toLowerCase() || ''
+      const cardDescription = card.querySelector('.card-description')?.textContent?.toLowerCase() || ''
+      
+      // 搜索标题、描述和搜索数据
+      const matches = searchData.includes(term) || 
+                     cardTitle.includes(term) || 
+                     cardDescription.includes(term)
+      
+      if (matches || term === '') {
+        card.style.display = 'block'
+      } else {
+        card.style.display = 'none'
+      }
+    })
+    
+    updateCount()
+  }
+  
+  // 监听搜索输入
+  if (searchInput) {
+    searchInput.addEventListener('input', function() {
+      filterCards(this.value)
+    })
+  }
+  
+  // 初始化计数
+  updateCount()
+})
+</script>
+
