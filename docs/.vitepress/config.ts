@@ -25,7 +25,8 @@ export default defineConfig({
       {
         text: '就业面试',
         items: [
-          { text: '面试指导', link: '/guide/career/' }
+          { text: '面试指导', link: '/guide/career/' },
+          { text: '求职平台', link: '/guide/career/job-platforms' }
         ]
       },
       {
@@ -142,6 +143,254 @@ export default defineConfig({
             { text: '申报流程指南', link: '/guide/career/policy-support#申报流程指南' },
             { text: '政策利用建议', link: '/guide/career/policy-support#政策利用建议' },
             { text: '相关资源', link: '/guide/career/policy-support#相关资源' }
+          ]
+        }
+      ],
+      '/guide/career/job-platforms': [
+        {
+          text: '求职平台',
+          items: [
+            { text: '概览', link: '/guide/career/job-platforms' },
+            {
+              text: '国内求职平台',
+              items: [
+                { text: '智联招聘', link: '/guide/career/platforms/zhaopin' },
+                { text: '前程无忧', link: '/guide/career/platforms/51job' },
+                { text: '58同城', link: '/guide/career/platforms/58' },
+                { text: 'Boss直聘', link: '/guide/career/platforms/boss' },
+                { text: '拉勾网', link: '/guide/career/platforms/lagou' },
+                { text: '猎聘网', link: '/guide/career/platforms/liepin' },
+                { text: '牛客网', link: '/guide/career/platforms/nowcoder' },
+                { text: '实习僧', link: '/guide/career/platforms/shixiseng' }
+              ]
+            },
+            {
+              text: '国外求职平台',
+              items: [
+                { text: 'LinkedIn', link: '/guide/career/platforms/linkedin' },
+                { text: 'Indeed', link: '/guide/career/platforms/indeed' },
+                { text: 'Stack Overflow Jobs', link: '/guide/career/platforms/stackoverflow' },
+                { text: 'AngelList', link: '/guide/career/platforms/angellist' }
+              ]
+            },
+            { text: '平台使用策略', link: '/guide/career/job-platforms#平台使用策略' },
+            { text: '相关资源', link: '/guide/career/job-platforms#相关资源' }
+          ]
+        }
+      ],
+      '/guide/career/platforms/zhaopin': [
+        {
+          text: '智联招聘',
+          items: [
+            { text: '平台简介', link: '/guide/career/platforms/zhaopin' },
+            { text: '平台特色', link: '/guide/career/platforms/zhaopin#平台特色' },
+            { text: '主要功能', link: '/guide/career/platforms/zhaopin#主要功能' },
+            { text: '使用技巧', link: '/guide/career/platforms/zhaopin#使用技巧' },
+            { text: '注意事项', link: '/guide/career/platforms/zhaopin#注意事项' },
+            { text: '适用人群', link: '/guide/career/platforms/zhaopin#适用人群' },
+            { text: '费用说明', link: '/guide/career/platforms/zhaopin#费用说明' },
+            { text: '平台优势', link: '/guide/career/platforms/zhaopin#平台优势' },
+            { text: '成功案例', link: '/guide/career/platforms/zhaopin#成功案例' },
+            { text: '相关资源', link: '/guide/career/platforms/zhaopin#相关资源' },
+            { text: '总结', link: '/guide/career/platforms/zhaopin#总结' }
+          ]
+        }
+      ],
+      '/guide/career/platforms/51job': [
+        {
+          text: '前程无忧',
+          items: [
+            { text: '平台简介', link: '/guide/career/platforms/51job' },
+            { text: '平台特色', link: '/guide/career/platforms/51job#平台特色' },
+            { text: '主要功能', link: '/guide/career/platforms/51job#主要功能' },
+            { text: '使用技巧', link: '/guide/career/platforms/51job#使用技巧' },
+            { text: '注意事项', link: '/guide/career/platforms/51job#注意事项' },
+            { text: '适用人群', link: '/guide/career/platforms/51job#适用人群' },
+            { text: '费用说明', link: '/guide/career/platforms/51job#费用说明' },
+            { text: '平台优势', link: '/guide/career/platforms/51job#平台优势' },
+            { text: '成功案例', link: '/guide/career/platforms/51job#成功案例' },
+            { text: '相关资源', link: '/guide/career/platforms/51job#相关资源' },
+            { text: '总结', link: '/guide/career/platforms/51job#总结' }
+          ]
+        }
+      ],
+      '/guide/career/platforms/58': [
+        {
+          text: '58同城',
+          items: [
+            { text: '平台简介', link: '/guide/career/platforms/58' },
+            { text: '平台特色', link: '/guide/career/platforms/58#平台特色' },
+            { text: '主要功能', link: '/guide/career/platforms/58#主要功能' },
+            { text: '使用技巧', link: '/guide/career/platforms/58#使用技巧' },
+            { text: '注意事项', link: '/guide/career/platforms/58#注意事项' },
+            { text: '适用人群', link: '/guide/career/platforms/58#适用人群' },
+            { text: '费用说明', link: '/guide/career/platforms/58#费用说明' },
+            { text: '平台优势', link: '/guide/career/platforms/58#平台优势' },
+            { text: '成功案例', link: '/guide/career/platforms/58#成功案例' },
+            { text: '相关资源', link: '/guide/career/platforms/58#相关资源' },
+            { text: '总结', link: '/guide/career/platforms/58#总结' }
+          ]
+        }
+      ],
+      '/guide/career/platforms/boss': [
+        {
+          text: 'Boss直聘',
+          items: [
+            { text: '平台简介', link: '/guide/career/platforms/boss' },
+            { text: '平台特色', link: '/guide/career/platforms/boss#平台特色' },
+            { text: '主要功能', link: '/guide/career/platforms/boss#主要功能' },
+            { text: '使用技巧', link: '/guide/career/platforms/boss#使用技巧' },
+            { text: '注意事项', link: '/guide/career/platforms/boss#注意事项' },
+            { text: '适用人群', link: '/guide/career/platforms/boss#适用人群' },
+            { text: '费用说明', link: '/guide/career/platforms/boss#费用说明' },
+            { text: '平台优势', link: '/guide/career/platforms/boss#平台优势' },
+            { text: '成功案例', link: '/guide/career/platforms/boss#成功案例' },
+            { text: '相关资源', link: '/guide/career/platforms/boss#相关资源' },
+            { text: '总结', link: '/guide/career/platforms/boss#总结' }
+          ]
+        }
+      ],
+      '/guide/career/platforms/lagou': [
+        {
+          text: '拉勾网',
+          items: [
+            { text: '平台简介', link: '/guide/career/platforms/lagou' },
+            { text: '平台特色', link: '/guide/career/platforms/lagou#平台特色' },
+            { text: '主要功能', link: '/guide/career/platforms/lagou#主要功能' },
+            { text: '使用技巧', link: '/guide/career/platforms/lagou#使用技巧' },
+            { text: '注意事项', link: '/guide/career/platforms/lagou#注意事项' },
+            { text: '适用人群', link: '/guide/career/platforms/lagou#适用人群' },
+            { text: '费用说明', link: '/guide/career/platforms/lagou#费用说明' },
+            { text: '平台优势', link: '/guide/career/platforms/lagou#平台优势' },
+            { text: '成功案例', link: '/guide/career/platforms/lagou#成功案例' },
+            { text: '相关资源', link: '/guide/career/platforms/lagou#相关资源' },
+            { text: '总结', link: '/guide/career/platforms/lagou#总结' }
+          ]
+        }
+      ],
+      '/guide/career/platforms/liepin': [
+        {
+          text: '猎聘网',
+          items: [
+            { text: '平台简介', link: '/guide/career/platforms/liepin' },
+            { text: '平台特色', link: '/guide/career/platforms/liepin#平台特色' },
+            { text: '主要功能', link: '/guide/career/platforms/liepin#主要功能' },
+            { text: '使用技巧', link: '/guide/career/platforms/liepin#使用技巧' },
+            { text: '注意事项', link: '/guide/career/platforms/liepin#注意事项' },
+            { text: '适用人群', link: '/guide/career/platforms/liepin#适用人群' },
+            { text: '费用说明', link: '/guide/career/platforms/liepin#费用说明' },
+            { text: '平台优势', link: '/guide/career/platforms/liepin#平台优势' },
+            { text: '成功案例', link: '/guide/career/platforms/liepin#成功案例' },
+            { text: '相关资源', link: '/guide/career/platforms/liepin#相关资源' },
+            { text: '总结', link: '/guide/career/platforms/liepin#总结' }
+          ]
+        }
+      ],
+      '/guide/career/platforms/nowcoder': [
+        {
+          text: '牛客网',
+          items: [
+            { text: '平台简介', link: '/guide/career/platforms/nowcoder' },
+            { text: '平台特色', link: '/guide/career/platforms/nowcoder#平台特色' },
+            { text: '主要功能', link: '/guide/career/platforms/nowcoder#主要功能' },
+            { text: '使用技巧', link: '/guide/career/platforms/nowcoder#使用技巧' },
+            { text: '注意事项', link: '/guide/career/platforms/nowcoder#注意事项' },
+            { text: '适用人群', link: '/guide/career/platforms/nowcoder#适用人群' },
+            { text: '费用说明', link: '/guide/career/platforms/nowcoder#费用说明' },
+            { text: '平台优势', link: '/guide/career/platforms/nowcoder#平台优势' },
+            { text: '成功案例', link: '/guide/career/platforms/nowcoder#成功案例' },
+            { text: '相关资源', link: '/guide/career/platforms/nowcoder#相关资源' },
+            { text: '总结', link: '/guide/career/platforms/nowcoder#总结' }
+          ]
+        }
+      ],
+      '/guide/career/platforms/shixiseng': [
+        {
+          text: '实习僧',
+          items: [
+            { text: '平台简介', link: '/guide/career/platforms/shixiseng' },
+            { text: '平台特色', link: '/guide/career/platforms/shixiseng#平台特色' },
+            { text: '主要功能', link: '/guide/career/platforms/shixiseng#主要功能' },
+            { text: '使用技巧', link: '/guide/career/platforms/shixiseng#使用技巧' },
+            { text: '注意事项', link: '/guide/career/platforms/shixiseng#注意事项' },
+            { text: '适用人群', link: '/guide/career/platforms/shixiseng#适用人群' },
+            { text: '费用说明', link: '/guide/career/platforms/shixiseng#费用说明' },
+            { text: '平台优势', link: '/guide/career/platforms/shixiseng#平台优势' },
+            { text: '成功案例', link: '/guide/career/platforms/shixiseng#成功案例' },
+            { text: '相关资源', link: '/guide/career/platforms/shixiseng#相关资源' },
+            { text: '总结', link: '/guide/career/platforms/shixiseng#总结' }
+          ]
+        }
+      ],
+      '/guide/career/platforms/linkedin': [
+        {
+          text: 'LinkedIn',
+          items: [
+            { text: '平台简介', link: '/guide/career/platforms/linkedin' },
+            { text: '平台特色', link: '/guide/career/platforms/linkedin#平台特色' },
+            { text: '主要功能', link: '/guide/career/platforms/linkedin#主要功能' },
+            { text: '使用技巧', link: '/guide/career/platforms/linkedin#使用技巧' },
+            { text: '注意事项', link: '/guide/career/platforms/linkedin#注意事项' },
+            { text: '适用人群', link: '/guide/career/platforms/linkedin#适用人群' },
+            { text: '费用说明', link: '/guide/career/platforms/linkedin#费用说明' },
+            { text: '平台优势', link: '/guide/career/platforms/linkedin#平台优势' },
+            { text: '成功案例', link: '/guide/career/platforms/linkedin#成功案例' },
+            { text: '相关资源', link: '/guide/career/platforms/linkedin#相关资源' },
+            { text: '总结', link: '/guide/career/platforms/linkedin#总结' }
+          ]
+        }
+      ],
+      '/guide/career/platforms/indeed': [
+        {
+          text: 'Indeed',
+          items: [
+            { text: '平台简介', link: '/guide/career/platforms/indeed' },
+            { text: '平台特色', link: '/guide/career/platforms/indeed#平台特色' },
+            { text: '主要功能', link: '/guide/career/platforms/indeed#主要功能' },
+            { text: '使用技巧', link: '/guide/career/platforms/indeed#使用技巧' },
+            { text: '注意事项', link: '/guide/career/platforms/indeed#注意事项' },
+            { text: '适用人群', link: '/guide/career/platforms/indeed#适用人群' },
+            { text: '费用说明', link: '/guide/career/platforms/indeed#费用说明' },
+            { text: '平台优势', link: '/guide/career/platforms/indeed#平台优势' },
+            { text: '成功案例', link: '/guide/career/platforms/indeed#成功案例' },
+            { text: '相关资源', link: '/guide/career/platforms/indeed#相关资源' },
+            { text: '总结', link: '/guide/career/platforms/indeed#总结' }
+          ]
+        }
+      ],
+      '/guide/career/platforms/stackoverflow': [
+        {
+          text: 'Stack Overflow Jobs',
+          items: [
+            { text: '平台简介', link: '/guide/career/platforms/stackoverflow' },
+            { text: '平台特色', link: '/guide/career/platforms/stackoverflow#平台特色' },
+            { text: '主要功能', link: '/guide/career/platforms/stackoverflow#主要功能' },
+            { text: '使用技巧', link: '/guide/career/platforms/stackoverflow#使用技巧' },
+            { text: '注意事项', link: '/guide/career/platforms/stackoverflow#注意事项' },
+            { text: '适用人群', link: '/guide/career/platforms/stackoverflow#适用人群' },
+            { text: '费用说明', link: '/guide/career/platforms/stackoverflow#费用说明' },
+            { text: '平台优势', link: '/guide/career/platforms/stackoverflow#平台优势' },
+            { text: '成功案例', link: '/guide/career/platforms/stackoverflow#成功案例' },
+            { text: '相关资源', link: '/guide/career/platforms/stackoverflow#相关资源' },
+            { text: '总结', link: '/guide/career/platforms/stackoverflow#总结' }
+          ]
+        }
+      ],
+      '/guide/career/platforms/angellist': [
+        {
+          text: 'AngelList',
+          items: [
+            { text: '平台简介', link: '/guide/career/platforms/angellist' },
+            { text: '平台特色', link: '/guide/career/platforms/angellist#平台特色' },
+            { text: '主要功能', link: '/guide/career/platforms/angellist#主要功能' },
+            { text: '使用技巧', link: '/guide/career/platforms/angellist#使用技巧' },
+            { text: '注意事项', link: '/guide/career/platforms/angellist#注意事项' },
+            { text: '适用人群', link: '/guide/career/platforms/angellist#适用人群' },
+            { text: '费用说明', link: '/guide/career/platforms/angellist#费用说明' },
+            { text: '平台优势', link: '/guide/career/platforms/angellist#平台优势' },
+            { text: '成功案例', link: '/guide/career/platforms/angellist#成功案例' },
+            { text: '相关资源', link: '/guide/career/platforms/angellist#相关资源' },
+            { text: '总结', link: '/guide/career/platforms/angellist#总结' }
           ]
         }
       ],
