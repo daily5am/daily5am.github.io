@@ -27,7 +27,13 @@ export default defineConfig({
     
     nav: [
       { text: '首页', link: '/' },
-      { text: '学习指南', link: '/guide/beginner/' },
+      {
+        text: '学习指南',
+        items: [
+          { text: '学习路径', link: '/guide/learning-path' },
+          { text: '新手入门', link: '/guide/beginner/' }
+        ]
+      },
       {
         text: '系统设计',
         items: [
