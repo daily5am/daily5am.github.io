@@ -55,6 +55,7 @@ sidebar: false
         <span class="tag official">官方</span>
         <span class="tag">软件服务</span>
         <span class="tag">5A级</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -79,6 +80,7 @@ sidebar: false
         <span class="tag premium">非官方</span>
         <span class="tag">人工智能</span>
         <span class="tag">5A级</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -103,6 +105,7 @@ sidebar: false
         <span class="tag official">官方</span>
         <span class="tag">金融科技</span>
         <span class="tag">5A级</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -127,6 +130,7 @@ sidebar: false
         <span class="tag official">官方</span>
         <span class="tag">软件服务</span>
         <span class="tag">5A级</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -151,6 +155,7 @@ sidebar: false
         <span class="tag premium">非官方</span>
         <span class="tag">人工智能</span>
         <span class="tag">5A级</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -175,6 +180,7 @@ sidebar: false
         <span class="tag premium">非官方</span>
         <span class="tag">智能硬件</span>
         <span class="tag">4A级</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -199,6 +205,7 @@ sidebar: false
         <span class="tag official">官方</span>
         <span class="tag">智能硬件</span>
         <span class="tag">4A级</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -223,6 +230,7 @@ sidebar: false
         <span class="tag premium">非官方</span>
         <span class="tag">区块链</span>
         <span class="tag">4A级</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -247,6 +255,7 @@ sidebar: false
         <span class="tag premium">非官方</span>
         <span class="tag">区块链</span>
         <span class="tag">5A级</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -271,6 +280,7 @@ sidebar: false
         <span class="tag premium">非官方</span>
         <span class="tag">物联网</span>
         <span class="tag">4A级</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -295,6 +305,7 @@ sidebar: false
         <span class="tag premium">非官方</span>
         <span class="tag">智能制造</span>
         <span class="tag">4A级</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -319,6 +330,7 @@ sidebar: false
         <span class="tag premium">非官方</span>
         <span class="tag">智慧医疗</span>
         <span class="tag">4A级</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -343,6 +355,7 @@ sidebar: false
         <span class="tag official">官方</span>
         <span class="tag">信创</span>
         <span class="tag">5A级</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -367,6 +380,7 @@ sidebar: false
         <span class="tag official">官方</span>
         <span class="tag">信创</span>
         <span class="tag">5A级</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -391,6 +405,7 @@ sidebar: false
         <span class="tag standard">学术</span>
         <span class="tag">软件服务</span>
         <span class="tag">5A级</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -415,6 +430,7 @@ sidebar: false
         <span class="tag premium">国际</span>
         <span class="tag">人工智能</span>
         <span class="tag">5A级</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -435,7 +451,8 @@ onMounted(() => {
   let activeFilters = {
     nature: 'all',
     industry: 'all', 
-    level: 'all'
+    level: 'all',
+    city: 'all'
   }
   
   // 动态创建过滤器
@@ -475,6 +492,14 @@ onMounted(() => {
           { value: 'all', text: '全部', active: true },
           { value: '5A级', text: '5A级' },
           { value: '4A级', text: '4A级' }
+        ]
+      },
+      {
+        title: '城市分布',
+        type: 'city',
+        filters: [
+          { value: 'all', text: '全部', active: true },
+          { value: '深圳', text: '深圳' }
         ]
       }
     ]
@@ -525,9 +550,10 @@ onMounted(() => {
       const natureMatches = activeFilters.nature === 'all' || cardTags.includes(activeFilters.nature)
       const industryMatches = activeFilters.industry === 'all' || cardTags.includes(activeFilters.industry)
       const levelMatches = activeFilters.level === 'all' || cardTags.includes(activeFilters.level)
+      const cityMatches = activeFilters.city === 'all' || cardTags.includes(activeFilters.city)
       
       // 同时满足搜索和所有过滤条件
-      if (searchMatches && natureMatches && industryMatches && levelMatches) {
+      if (searchMatches && natureMatches && industryMatches && levelMatches && cityMatches) {
         card.style.display = 'block'
       } else {
         card.style.display = 'none'
@@ -583,6 +609,8 @@ onMounted(() => {
       filterType = 'industry'
     } else if (['5A级', '4A级'].includes(tagText)) {
       filterType = 'level'
+    } else if (['深圳'].includes(tagText)) {
+      filterType = 'city'
     }
     
     if (filterType) {

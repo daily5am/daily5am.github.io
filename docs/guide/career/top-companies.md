@@ -55,6 +55,7 @@ sidebar: false
         <span class="tag premium">独角兽</span>
         <span class="tag">人工智能</span>
         <span class="tag">芯片设计</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -79,6 +80,7 @@ sidebar: false
         <span class="tag premium">独角兽</span>
         <span class="tag">人工智能</span>
         <span class="tag">芯片设计</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -127,6 +129,7 @@ sidebar: false
         <span class="tag premium">独角兽</span>
         <span class="tag">人工智能</span>
         <span class="tag">算法研发</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -151,6 +154,7 @@ sidebar: false
         <span class="tag standard">小巨人</span>
         <span class="tag">人工智能</span>
         <span class="tag">算法研发</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -175,6 +179,7 @@ sidebar: false
         <span class="tag standard">专精特新</span>
         <span class="tag">人工智能</span>
         <span class="tag">算法研发</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -199,6 +204,7 @@ sidebar: false
         <span class="tag premium">独角兽</span>
         <span class="tag">人工智能</span>
         <span class="tag">应用开发</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -223,6 +229,7 @@ sidebar: false
         <span class="tag standard">专精特新</span>
         <span class="tag">人工智能</span>
         <span class="tag">应用开发</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -247,6 +254,7 @@ sidebar: false
         <span class="tag premium">独角兽</span>
         <span class="tag">人工智能</span>
         <span class="tag">应用开发</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -271,6 +279,7 @@ sidebar: false
         <span class="tag standard">上市</span>
         <span class="tag">金融科技</span>
         <span class="tag">数字货币</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -295,6 +304,7 @@ sidebar: false
         <span class="tag standard">上市</span>
         <span class="tag">金融科技</span>
         <span class="tag">支付</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -319,6 +329,7 @@ sidebar: false
         <span class="tag standard">上市</span>
         <span class="tag">金融科技</span>
         <span class="tag">保险科技</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -343,6 +354,7 @@ sidebar: false
         <span class="tag standard">上市</span>
         <span class="tag">金融科技</span>
         <span class="tag">区块链</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -367,6 +379,7 @@ sidebar: false
         <span class="tag standard">专精特新</span>
         <span class="tag">金融科技</span>
         <span class="tag">区块链</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -391,6 +404,7 @@ sidebar: false
         <span class="tag standard">专精特新</span>
         <span class="tag">金融科技</span>
         <span class="tag">智能金融</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -415,6 +429,7 @@ sidebar: false
         <span class="tag standard">上市</span>
         <span class="tag">智能硬件</span>
         <span class="tag">消费电子</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -439,6 +454,7 @@ sidebar: false
         <span class="tag standard">上市</span>
         <span class="tag">智能硬件</span>
         <span class="tag">消费电子</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -463,6 +479,7 @@ sidebar: false
         <span class="tag standard">上市</span>
         <span class="tag">智能硬件</span>
         <span class="tag">消费电子</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -487,6 +504,7 @@ sidebar: false
         <span class="tag standard">上市</span>
         <span class="tag">智能硬件</span>
         <span class="tag">消费电子</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -511,6 +529,7 @@ sidebar: false
         <span class="tag standard">上市</span>
         <span class="tag">智能硬件</span>
         <span class="tag">消费电子</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -535,6 +554,7 @@ sidebar: false
         <span class="tag standard">上市</span>
         <span class="tag">智能硬件</span>
         <span class="tag">智能穿戴</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -559,6 +579,7 @@ sidebar: false
         <span class="tag standard">上市</span>
         <span class="tag">智能硬件</span>
         <span class="tag">智能穿戴</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -583,6 +604,7 @@ sidebar: false
         <span class="tag standard">上市</span>
         <span class="tag">智能硬件</span>
         <span class="tag">智能穿戴</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -607,6 +629,7 @@ sidebar: false
         <span class="tag standard">上市</span>
         <span class="tag">智能硬件</span>
         <span class="tag">核心器件</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -631,6 +654,7 @@ sidebar: false
         <span class="tag standard">上市</span>
         <span class="tag">智能硬件</span>
         <span class="tag">核心器件</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -655,6 +679,7 @@ sidebar: false
         <span class="tag standard">专精特新</span>
         <span class="tag">智能硬件</span>
         <span class="tag">核心器件</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -679,6 +704,7 @@ sidebar: false
         <span class="tag standard">上市</span>
         <span class="tag">智慧医疗</span>
         <span class="tag">医疗设备</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -703,6 +729,7 @@ sidebar: false
         <span class="tag standard">专精特新</span>
         <span class="tag">智慧医疗</span>
         <span class="tag">智慧服务</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -727,6 +754,7 @@ sidebar: false
         <span class="tag standard">专精特新</span>
         <span class="tag">智慧医疗</span>
         <span class="tag">智慧服务</span>
+        <span class="tag city">深圳</span>
       </div>
     </div>
   </div>
@@ -747,7 +775,8 @@ onMounted(() => {
   let activeFilters = {
     nature: 'all',
     industry: 'all', 
-    level: 'all'
+    level: 'all',
+    city: 'all'
   }
   
   // 动态创建过滤器
@@ -793,6 +822,14 @@ onMounted(() => {
           { value: '核心器件', text: '核心器件' },
           { value: '医疗设备', text: '医疗设备' },
           { value: '智慧服务', text: '智慧服务' }
+        ]
+      },
+      {
+        title: '城市分布',
+        type: 'city',
+        filters: [
+          { value: 'all', text: '全部', active: true },
+          { value: '深圳', text: '深圳' }
         ]
       }
     ]
@@ -843,9 +880,10 @@ onMounted(() => {
       const natureMatches = activeFilters.nature === 'all' || cardTags.includes(activeFilters.nature)
       const industryMatches = activeFilters.industry === 'all' || cardTags.includes(activeFilters.industry)
       const levelMatches = activeFilters.level === 'all' || cardTags.includes(activeFilters.level)
+      const cityMatches = activeFilters.city === 'all' || cardTags.includes(activeFilters.city)
       
       // 同时满足搜索和所有过滤条件
-      if (searchMatches && natureMatches && industryMatches && levelMatches) {
+      if (searchMatches && natureMatches && industryMatches && levelMatches && cityMatches) {
         card.style.display = 'block'
       } else {
         card.style.display = 'none'
@@ -901,6 +939,8 @@ onMounted(() => {
       filterType = 'industry'
     } else if (['芯片设计', '算法研发', '应用开发', '数字货币', '支付', '保险科技', '区块链', '智能金融', '消费电子', '智能穿戴', '核心器件', '医疗设备', '智慧服务'].includes(tagText)) {
       filterType = 'level'
+    } else if (['深圳'].includes(tagText)) {
+      filterType = 'city'
     }
     
     if (filterType) {

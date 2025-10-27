@@ -97,7 +97,13 @@ export default defineConfig({
           { text: '政策支持解读', link: '/guide/career/policy-support' }
         ]
       },
-      { text: '竞赛指导', link: '/guide/competition/' },
+      {
+        text: '竞赛科研',
+        items: [
+          { text: '竞赛指导', link: '/guide/competition/' },
+          { text: '科研机构', link: '/guide/research/' }
+        ]
+      },
       {
         text: '周刊',
         items: [

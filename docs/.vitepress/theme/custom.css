@@ -983,7 +983,11 @@
   background: linear-gradient(135deg, var(--vp-c-text-3), var(--vp-c-text-2));
 }
 
-.tag:not(.official):not(.premium):not(.standard) {
+.tag.city {
+  background: linear-gradient(135deg, #8b5cf6, #7c3aed);
+}
+
+.tag:not(.official):not(.premium):not(.standard):not(.city) {
   background: var(--vp-c-bg);
   color: var(--vp-c-text-2);
   border: 1px solid var(--vp-c-border);
