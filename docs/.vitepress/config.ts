@@ -23,6 +23,19 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '学习指南', link: '/guide/beginner/' },
       {
+        text: '人工智能',
+        items: [
+          { text: 'AI Agent', link: '/guide/ai/ai-agent' },
+          { text: '大语言模型', link: '/guide/ai/llm' },
+          { text: '机器学习', link: '/guide/ai/machine-learning' },
+          { text: '深度学习', link: '/guide/ai/deep-learning' },
+          { text: '计算机视觉', link: '/guide/ai/computer-vision' },
+          { text: '自然语言处理', link: '/guide/ai/nlp' },
+          { text: '强化学习', link: '/guide/ai/reinforcement-learning' },
+          { text: 'AI工具与框架', link: '/guide/ai/tools-frameworks' }
+        ]
+      },
+      {
         text: '就业面试',
         items: [
           { text: '面试指导', link: '/guide/career/' },
@@ -143,6 +156,146 @@ export default defineConfig({
             { text: '申报流程指南', link: '/guide/career/policy-support#申报流程指南' },
             { text: '政策利用建议', link: '/guide/career/policy-support#政策利用建议' },
             { text: '相关资源', link: '/guide/career/policy-support#相关资源' }
+          ]
+        }
+      ],
+      '/guide/ai/ai-agent': [
+        {
+          text: 'AI Agent',
+          items: [
+            { text: '概览', link: '/guide/ai/ai-agent' },
+            { text: 'AI Agent基础', link: '/guide/ai/ai-agent#ai-agent基础' },
+            { text: 'Agent架构', link: '/guide/ai/ai-agent#agent架构' },
+            { text: '智能决策', link: '/guide/ai/ai-agent#智能决策' },
+            { text: '技术实现', link: '/guide/ai/ai-agent#技术实现' },
+            { text: '应用场景', link: '/guide/ai/ai-agent#应用场景' },
+            { text: '开发实践', link: '/guide/ai/ai-agent#开发实践' },
+            { text: '学习资源', link: '/guide/ai/ai-agent#学习资源' },
+            { text: '下一步', link: '/guide/ai/ai-agent#下一步' }
+          ]
+        }
+      ],
+      '/guide/ai/llm': [
+        {
+          text: '大语言模型',
+          items: [
+            { text: '概览', link: '/guide/ai/llm' },
+            { text: '模型架构', link: '/guide/ai/llm#模型架构' },
+            { text: '技术原理', link: '/guide/ai/llm#技术原理' },
+            { text: '应用场景', link: '/guide/ai/llm#应用场景' },
+            { text: '实践应用', link: '/guide/ai/llm#实践应用' },
+            { text: '技术挑战', link: '/guide/ai/llm#技术挑战' },
+            { text: '学习资源', link: '/guide/ai/llm#学习资源' },
+            { text: '下一步', link: '/guide/ai/llm#下一步' }
+          ]
+        }
+      ],
+      '/guide/ai/machine-learning': [
+        {
+          text: '机器学习',
+          items: [
+            { text: '概览', link: '/guide/ai/machine-learning' },
+            { text: '基础概念', link: '/guide/ai/machine-learning#基础概念' },
+            { text: '监督学习', link: '/guide/ai/machine-learning#监督学习' },
+            { text: '无监督学习', link: '/guide/ai/machine-learning#无监督学习' },
+            { text: '强化学习', link: '/guide/ai/machine-learning#强化学习' },
+            { text: '实践应用', link: '/guide/ai/machine-learning#实践应用' },
+            { text: '应用场景', link: '/guide/ai/machine-learning#应用场景' },
+            { text: '开发实践', link: '/guide/ai/machine-learning#开发实践' },
+            { text: '学习资源', link: '/guide/ai/machine-learning#学习资源' },
+            { text: '下一步', link: '/guide/ai/machine-learning#下一步' }
+          ]
+        }
+      ],
+      '/guide/ai/deep-learning': [
+        {
+          text: '深度学习',
+          items: [
+            { text: '概览', link: '/guide/ai/deep-learning' },
+            { text: '神经网络基础', link: '/guide/ai/deep-learning#神经网络基础' },
+            { text: '卷积神经网络', link: '/guide/ai/deep-learning#卷积神经网络' },
+            { text: '循环神经网络', link: '/guide/ai/deep-learning#循环神经网络' },
+            { text: '注意力机制', link: '/guide/ai/deep-learning#注意力机制' },
+            { text: '训练技术', link: '/guide/ai/deep-learning#训练技术' },
+            { text: '应用场景', link: '/guide/ai/deep-learning#应用场景' },
+            { text: '实践应用', link: '/guide/ai/deep-learning#实践应用' },
+            { text: '技术挑战', link: '/guide/ai/deep-learning#技术挑战' },
+            { text: '学习资源', link: '/guide/ai/deep-learning#学习资源' },
+            { text: '下一步', link: '/guide/ai/deep-learning#下一步' }
+          ]
+        }
+      ],
+      '/guide/ai/computer-vision': [
+        {
+          text: '计算机视觉',
+          items: [
+            { text: '概览', link: '/guide/ai/computer-vision' },
+            { text: '图像基础', link: '/guide/ai/computer-vision#图像基础' },
+            { text: '特征提取', link: '/guide/ai/computer-vision#特征提取' },
+            { text: '图像分类', link: '/guide/ai/computer-vision#图像分类' },
+            { text: '目标检测', link: '/guide/ai/computer-vision#目标检测' },
+            { text: '图像分割', link: '/guide/ai/computer-vision#图像分割' },
+            { text: '图像生成', link: '/guide/ai/computer-vision#图像生成' },
+            { text: '实践应用', link: '/guide/ai/computer-vision#实践应用' },
+            { text: '应用场景', link: '/guide/ai/computer-vision#应用场景' },
+            { text: '技术挑战', link: '/guide/ai/computer-vision#技术挑战' },
+            { text: '学习资源', link: '/guide/ai/computer-vision#学习资源' },
+            { text: '下一步', link: '/guide/ai/computer-vision#下一步' }
+          ]
+        }
+      ],
+      '/guide/ai/nlp': [
+        {
+          text: '自然语言处理',
+          items: [
+            { text: '概览', link: '/guide/ai/nlp' },
+            { text: '文本基础', link: '/guide/ai/nlp#文本基础' },
+            { text: '词向量技术', link: '/guide/ai/nlp#词向量技术' },
+            { text: '语言模型', link: '/guide/ai/nlp#语言模型' },
+            { text: '序列到序列模型', link: '/guide/ai/nlp#序列到序列模型' },
+            { text: '文本分类', link: '/guide/ai/nlp#文本分类' },
+            { text: '信息提取', link: '/guide/ai/nlp#信息提取' },
+            { text: '对话系统', link: '/guide/ai/nlp#对话系统' },
+            { text: '实践应用', link: '/guide/ai/nlp#实践应用' },
+            { text: '应用场景', link: '/guide/ai/nlp#应用场景' },
+            { text: '技术挑战', link: '/guide/ai/nlp#技术挑战' },
+            { text: '学习资源', link: '/guide/ai/nlp#学习资源' },
+            { text: '下一步', link: '/guide/ai/nlp#下一步' }
+          ]
+        }
+      ],
+      '/guide/ai/reinforcement-learning': [
+        {
+          text: '强化学习',
+          items: [
+            { text: '概览', link: '/guide/ai/reinforcement-learning' },
+            { text: '基本概念', link: '/guide/ai/reinforcement-learning#基本概念' },
+            { text: '价值函数方法', link: '/guide/ai/reinforcement-learning#价值函数方法' },
+            { text: '策略梯度方法', link: '/guide/ai/reinforcement-learning#策略梯度方法' },
+            { text: '深度强化学习', link: '/guide/ai/reinforcement-learning#深度强化学习' },
+            { text: '应用场景', link: '/guide/ai/reinforcement-learning#应用场景' },
+            { text: '实践应用', link: '/guide/ai/reinforcement-learning#实践应用' },
+            { text: '技术挑战', link: '/guide/ai/reinforcement-learning#技术挑战' },
+            { text: '学习资源', link: '/guide/ai/reinforcement-learning#学习资源' },
+            { text: '下一步', link: '/guide/ai/reinforcement-learning#下一步' }
+          ]
+        }
+      ],
+      '/guide/ai/tools-frameworks': [
+        {
+          text: 'AI工具与框架',
+          items: [
+            { text: '概览', link: '/guide/ai/tools-frameworks' },
+            { text: 'Python生态', link: '/guide/ai/tools-frameworks#python生态' },
+            { text: '云平台服务', link: '/guide/ai/tools-frameworks#云平台服务' },
+            { text: '开发工具', link: '/guide/ai/tools-frameworks#开发工具' },
+            { text: '部署工具', link: '/guide/ai/tools-frameworks#部署工具' },
+            { text: '数据处理工具', link: '/guide/ai/tools-frameworks#数据处理工具' },
+            { text: '模型评估工具', link: '/guide/ai/tools-frameworks#模型评估工具' },
+            { text: '应用场景', link: '/guide/ai/tools-frameworks#应用场景' },
+            { text: '选择建议', link: '/guide/ai/tools-frameworks#选择建议' },
+            { text: '学习资源', link: '/guide/ai/tools-frameworks#学习资源' },
+            { text: '下一步', link: '/guide/ai/tools-frameworks#下一步' }
           ]
         }
       ],
