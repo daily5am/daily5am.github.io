@@ -19,6 +19,12 @@ export default defineConfig({
   themeConfig: {
     logo: '/logo.svg',
     
+    // 外观设置
+    appearance: true,
+    darkModeSwitchLabel: '外观',
+    lightModeSwitchTitle: '切换到亮色模式',
+    darkModeSwitchTitle: '切换到暗色模式',
+    
     nav: [
       { text: '首页', link: '/' },
       { text: '学习指南', link: '/guide/beginner/' },
