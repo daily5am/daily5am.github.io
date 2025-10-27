@@ -23,6 +23,15 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '学习指南', link: '/guide/beginner/' },
       {
+        text: '系统设计',
+        items: [
+          { text: '架构基础', link: '/guide/system-design/architecture-basics' },
+          { text: '分布式系统', link: '/guide/system-design/distributed-systems' },
+          { text: '微服务系统', link: '/guide/system-design/microservices' },
+          { text: '系统设计', link: '/guide/system-design/system-design' }
+        ]
+      },
+      {
         text: '人工智能',
         items: [
           { text: 'AI Agent', link: '/guide/ai/ai-agent' },
