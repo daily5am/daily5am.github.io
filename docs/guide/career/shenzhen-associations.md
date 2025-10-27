@@ -24,7 +24,7 @@ sidebar: false
   <div class="section-header">
     <h2 class="section-title">所有协会资源</h2>
     <div class="section-count">
-      <span class="count-badge">6</span>
+      <span class="count-badge">16</span>
     </div>
   </div>
 
@@ -169,6 +169,246 @@ sidebar: false
         <span class="tag standard">标准</span>
         <span class="tag">智能硬件</span>
         <span class="tag">产业融合</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 深圳市智能终端产业协会 -->
+  <div class="association-card clickable-card" data-search="深圳市智能终端产业协会 智能终端 2023年 华为中兴 政府支持" data-article="/milliondollardev/guide/career/associations/shenzhen-smart-terminal">
+    <div class="card-header">
+      <div class="card-title">深圳市智能终端产业协会</div>
+      <div class="card-action">
+        <button class="install-btn" onclick="event.stopPropagation(); window.open('http://www.szita.cn', '_blank');">
+          访问官网
+          <i class="fas fa-external-link-alt"></i>
+        </button>
+      </div>
+    </div>
+    <div class="card-content">
+      <p class="card-description">2023年成立，由华为、中兴等8家企业发起，在政府支持下推动智能终端产业发展。</p>
+      <div class="card-meta">
+        <span class="meta-highlight">2023年成立，华为中兴等8家企业发起，300多家会员</span>
+      </div>
+      <div class="card-tags">
+        <span class="tag official">官方</span>
+        <span class="tag">智能终端</span>
+        <span class="tag">2023年</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 深圳市信息服务业区块链协会 -->
+  <div class="association-card clickable-card" data-search="深圳市信息服务业区块链协会 区块链 深圳首个 2019年 自律公约" data-article="/milliondollardev/guide/career/associations/shenzhen-blockchain">
+    <div class="card-header">
+      <div class="card-title">深圳市信息服务业区块链协会</div>
+      <div class="card-action">
+        <button class="install-btn" onclick="event.stopPropagation(); window.open('http://www.szblockchain.org', '_blank');">
+          访问官网
+          <i class="fas fa-external-link-alt"></i>
+        </button>
+      </div>
+    </div>
+    <div class="card-content">
+      <p class="card-description">深圳首个市级区块链协会，2019年成立，发布行业自律公约，会员从80多家发展到400多家。</p>
+      <div class="card-meta">
+        <span class="meta-highlight">深圳首个市级区块链协会，会员从80多家发展到400多家</span>
+      </div>
+      <div class="card-tags">
+        <span class="tag premium">优质</span>
+        <span class="tag">区块链</span>
+        <span class="tag">深圳首个</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 深圳市金融区块链发展促进会 -->
+  <div class="association-card clickable-card" data-search="深圳市金融区块链发展促进会 金链盟 FISCO BCOS 微众银行 腾讯" data-article="/milliondollardev/guide/career/associations/shenzhen-fisco">
+    <div class="card-header">
+      <div class="card-title">深圳市金融区块链发展促进会</div>
+      <div class="card-action">
+        <button class="install-btn" onclick="event.stopPropagation(); window.open('https://www.fisco.com.cn', '_blank');">
+          访问官网
+          <i class="fas fa-external-link-alt"></i>
+        </button>
+      </div>
+    </div>
+    <div class="card-content">
+      <p class="card-description">金链盟，国内最大区块链组织，协同打造FISCO BCOS平台，汇聚10万名开发者、超5000家机构。</p>
+      <div class="card-meta">
+        <span class="meta-highlight">国内最大区块链组织，FISCO BCOS平台，10万名开发者</span>
+      </div>
+      <div class="card-tags">
+        <span class="tag premium">优质</span>
+        <span class="tag">金链盟</span>
+        <span class="tag">FISCO BCOS</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 深圳市物联网产业协会 -->
+  <div class="association-card clickable-card" data-search="深圳市物联网产业协会 物联网 2012年 白皮书 产业研究" data-article="/milliondollardev/guide/career/associations/shenzhen-iot">
+    <div class="card-header">
+      <div class="card-title">深圳市物联网产业协会</div>
+      <div class="card-action">
+        <button class="install-btn" onclick="event.stopPropagation(); window.open('https://www.sziota.com', '_blank');">
+          访问官网
+          <i class="fas fa-external-link-alt"></i>
+        </button>
+      </div>
+    </div>
+    <div class="card-content">
+      <p class="card-description">2012年成立，持续深耕产业研究，连续两年编制发布《深圳市物联网产业白皮书》。</p>
+      <div class="card-meta">
+        <span class="meta-highlight">2012年成立，连续两年发布物联网产业白皮书</span>
+      </div>
+      <div class="card-tags">
+        <span class="tag standard">标准</span>
+        <span class="tag">物联网</span>
+        <span class="tag">白皮书</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 深圳市智能制造产业促进会 -->
+  <div class="association-card clickable-card" data-search="深圳市智能制造产业促进会 智能制造 1500家 航盛电子 产业链" data-article="/milliondollardev/guide/career/associations/shenzhen-smart-manufacturing">
+    <div class="card-header">
+      <div class="card-title">深圳市智能制造产业促进会</div>
+      <div class="card-action">
+        <button class="install-btn" onclick="event.stopPropagation(); window.open('http://www.szima.org.cn', '_blank');">
+          访问官网
+          <i class="fas fa-external-link-alt"></i>
+        </button>
+      </div>
+    </div>
+    <div class="card-content">
+      <p class="card-description">2016年成立，由航盛电子牵头，拥有1500余家会员企业，聚焦智能制造产业链上下游。</p>
+      <div class="card-meta">
+        <span class="meta-highlight">2016年成立，1500余家会员企业，聚焦智能制造产业链</span>
+      </div>
+      <div class="card-tags">
+        <span class="tag official">官方</span>
+        <span class="tag">智能制造</span>
+        <span class="tag">1500家</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 深圳市智慧医疗协会 -->
+  <div class="association-card clickable-card" data-search="深圳市智慧医疗协会 智慧医疗 东方汇富 大健康 投资基金" data-article="/milliondollardev/guide/career/associations/shenzhen-smart-health">
+    <div class="card-header">
+      <div class="card-title">深圳市智慧医疗协会</div>
+      <div class="card-action">
+        <button class="install-btn" onclick="event.stopPropagation(); window.open('http://www.szsmarthealth.org', '_blank');">
+          访问官网
+          <i class="fas fa-external-link-alt"></i>
+        </button>
+      </div>
+    </div>
+    <div class="card-content">
+      <p class="card-description">由东方汇富主导，联合50家企事业单位发起，定位为大健康产业"孵化器"和"资源整合平台"。</p>
+      <div class="card-meta">
+        <span class="meta-highlight">东方汇富主导，大健康产业孵化器和资源整合平台</span>
+      </div>
+      <div class="card-tags">
+        <span class="tag premium">优质</span>
+        <span class="tag">智慧医疗</span>
+        <span class="tag">大健康</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 深圳市信息技术应用创新联盟 -->
+  <div class="association-card clickable-card" data-search="深圳市信息技术应用创新联盟 信创 2019年 工信局 华为" data-article="/milliondollardev/guide/career/associations/shenzhen-xinchuang">
+    <div class="card-header">
+      <div class="card-title">深圳市信息技术应用创新联盟</div>
+      <div class="card-action">
+        <button class="install-btn" onclick="event.stopPropagation(); window.open('http://www.sita.org.cn', '_blank');">
+          访问官网
+          <i class="fas fa-external-link-alt"></i>
+        </button>
+      </div>
+    </div>
+    <div class="card-content">
+      <p class="card-description">2019年12月在深圳市工信局指导下成立，挂靠在深圳市软件行业协会，推动信创技术创新应用。</p>
+      <div class="card-meta">
+        <span class="meta-highlight">2019年成立，工信局指导，推动信创技术创新应用</span>
+      </div>
+      <div class="card-tags">
+        <span class="tag official">官方</span>
+        <span class="tag">信创</span>
+        <span class="tag">2019年</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 深圳市鲲鹏产业联盟 -->
+  <div class="association-card clickable-card" data-search="深圳市鲲鹏产业联盟 鲲鹏 工信局 生态建设 信创" data-article="/milliondollardev/guide/career/associations/shenzhen-kunpeng">
+    <div class="card-header">
+      <div class="card-title">深圳市鲲鹏产业联盟</div>
+      <div class="card-action">
+        <button class="install-btn" onclick="event.stopPropagation(); window.open('http://www.szkunpeng.org', '_blank');">
+          访问官网
+          <i class="fas fa-external-link-alt"></i>
+        </button>
+      </div>
+    </div>
+    <div class="card-content">
+      <p class="card-description">在深圳市工信局指导下成立，推动鲲鹏产业生态建设，培育市场新动力，保障信创工作高质量发展。</p>
+      <div class="card-meta">
+        <span class="meta-highlight">工信局指导，推动鲲鹏产业生态建设</span>
+      </div>
+      <div class="card-tags">
+        <span class="tag official">官方</span>
+        <span class="tag">鲲鹏</span>
+        <span class="tag">生态建设</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 中国计算机学会深圳分部 -->
+  <div class="association-card clickable-card" data-search="中国计算机学会深圳分部 CCF 2012年 首个城市分部 优秀分部" data-article="/milliondollardev/guide/career/associations/shenzhen-ccf">
+    <div class="card-header">
+      <div class="card-title">中国计算机学会深圳分部</div>
+      <div class="card-action">
+        <button class="install-btn" onclick="event.stopPropagation(); window.open('https://www.ccf.org.cn', '_blank');">
+          访问官网
+          <i class="fas fa-external-link-alt"></i>
+        </button>
+      </div>
+    </div>
+    <div class="card-content">
+      <p class="card-description">CCF首个城市分部，2012年成立，2013-2015年三次被评为优秀分部，办公地点设在中国超级计算深圳中心。</p>
+      <div class="card-meta">
+        <span class="meta-highlight">CCF首个城市分部，三次被评为优秀分部</span>
+      </div>
+      <div class="card-tags">
+        <span class="tag premium">优质</span>
+        <span class="tag">CCF</span>
+        <span class="tag">首个分部</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 国际人工智能产业联盟深圳中心 -->
+  <div class="association-card clickable-card" data-search="国际人工智能产业联盟深圳中心 国际AI 2024年 北大科创园 866位院士" data-article="/milliondollardev/guide/career/associations/shenzhen-international-ai">
+    <div class="card-header">
+      <div class="card-title">国际人工智能产业联盟深圳中心</div>
+      <div class="card-action">
+        <button class="install-btn" onclick="event.stopPropagation(); window.open('http://www.iaiia.org', '_blank');">
+          访问官网
+          <i class="fas fa-external-link-alt"></i>
+        </button>
+      </div>
+    </div>
+    <div class="card-content">
+      <p class="card-description">2024年12月在北大科创园揭牌，汇聚866位院士/会士、45家社会组织、200家企业，推动全球AI产业发展。</p>
+      <div class="card-meta">
+        <span class="meta-highlight">2024年成立，866位院士/会士，推动全球AI产业发展</span>
+      </div>
+      <div class="card-tags">
+        <span class="tag premium">优质</span>
+        <span class="tag">国际AI</span>
+        <span class="tag">2024年</span>
       </div>
     </div>
   </div>

@@ -130,7 +130,17 @@ export default defineConfig({
             { text: '深圳市金融科技协会', link: '/guide/career/associations/shenzhen-fintech' },
             { text: '深圳市计算机行业协会', link: '/guide/career/associations/shenzhen-computer-industry' },
             { text: '深圳市人工智能行业协会', link: '/guide/career/associations/shenzhen-ai-association' },
-            { text: '深圳市智能硬件协会', link: '/guide/career/associations/shenzhen-smart-hardware' }
+            { text: '深圳市智能硬件协会', link: '/guide/career/associations/shenzhen-smart-hardware' },
+            { text: '深圳市智能终端产业协会', link: '/guide/career/associations/shenzhen-smart-terminal' },
+            { text: '深圳市信息服务业区块链协会', link: '/guide/career/associations/shenzhen-blockchain' },
+            { text: '深圳市金融区块链发展促进会', link: '/guide/career/associations/shenzhen-fisco' },
+            { text: '深圳市物联网产业协会', link: '/guide/career/associations/shenzhen-iot' },
+            { text: '深圳市智能制造产业促进会', link: '/guide/career/associations/shenzhen-smart-manufacturing' },
+            { text: '深圳市智慧医疗协会', link: '/guide/career/associations/shenzhen-smart-health' },
+            { text: '深圳市信息技术应用创新联盟', link: '/guide/career/associations/shenzhen-xinchuang' },
+            { text: '深圳市鲲鹏产业联盟', link: '/guide/career/associations/shenzhen-kunpeng' },
+            { text: '中国计算机学会深圳分部', link: '/guide/career/associations/shenzhen-ccf' },
+            { text: '国际人工智能产业联盟深圳中心', link: '/guide/career/associations/shenzhen-international-ai' }
           ]
         }
       ],
