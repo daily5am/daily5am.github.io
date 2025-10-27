@@ -18,6 +18,10 @@
   "author": "百万研发知识平台",
   "license": "MIT",
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.16",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.16",
     "vitepress": "^1.6.4"
   }
 }

@@ -1,63 +1,617 @@
 /* 自定义样式 */
-
-/* 品牌色彩 */
 :root {
   --vp-c-brand-1: #3b82f6;
   --vp-c-brand-2: #2563eb;
   --vp-c-brand-3: #1d4ed8;
-  --vp-c-brand-soft: rgba(59, 130, 246, 0.14);
+  
+  --vp-c-text-1: #1f2937;
+  --vp-c-text-2: #4b5563;
+  --vp-c-text-3: #6b7280;
+  
+  --vp-c-bg: #ffffff;
+  --vp-c-bg-soft: #f9fafb;
+  --vp-c-bg-mute: #f3f4f6;
+  
+  --vp-c-border: #e5e7eb;
+  --vp-c-border-light: #f3f4f6;
+  
+  --vp-c-divider: #e5e7eb;
+  
+  --vp-c-sponsor: #db2777;
+  
+  /* 深色主题菜单颜色 */
+  --menu-bg: #282c34;
+  --menu-item-bg: #2c313a;
+  --menu-item-hover: #3c4043;
+  --menu-item-active: #4a4d52;
+  --menu-text: #ffffff;
+  --menu-border: #3c4043;
 }
 
-/* 深色模式品牌色彩 */
+/* 深色模式 */
 .dark {
   --vp-c-brand-1: #60a5fa;
   --vp-c-brand-2: #3b82f6;
   --vp-c-brand-3: #2563eb;
-  --vp-c-brand-soft: rgba(96, 165, 250, 0.16);
+  
+  --vp-c-text-1: #f9fafb;
+  --vp-c-text-2: #e5e7eb;
+  --vp-c-text-3: #d1d5db;
+  
+  --vp-c-bg: #111827;
+  --vp-c-bg-soft: #1f2937;
+  --vp-c-bg-mute: #374151;
+  
+  --vp-c-border: #374151;
+  --vp-c-border-light: #4b5563;
+  
+  --vp-c-divider: #374151;
 }
 
-/* 首页样式优化 */
-.VPHome {
-  padding: 0;
+/* VitePress原生导航栏样式优化 */
+.VPNav {
+  background-color: var(--menu-bg) !important;
+  border-bottom: 1px solid var(--menu-border) !important;
 }
 
-/* 视频播放器样式 */
-.video-player {
-  margin: 1rem 0;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+.VPNavBarMenu .VPNavBarMenuLink {
+  color: var(--menu-text) !important;
+  transition: color 0.2s ease !important;
 }
 
-.video-player iframe {
-  width: 100%;
-  height: 100%;
-  border: none;
+.VPNavBarMenu .VPNavBarMenuLink:hover {
+  color: var(--vp-c-brand-1) !important;
+}
+
+.VPNavBarMenu .VPNavBarMenuLink.active {
+  color: var(--vp-c-brand-1) !important;
+}
+
+/* 下拉菜单样式优化 */
+.VPNavBarMenuDropdown {
+  background-color: var(--menu-item-bg) !important;
+  border: 1px solid var(--menu-border) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3) !important;
+  margin-top: 8px !important;
+  padding: 8px 0 !important;
+  min-width: 200px !important;
+}
+
+.VPNavBarMenuDropdown .VPNavBarMenuLink {
+  color: var(--menu-text) !important;
+  padding: 8px 16px !important;
+  transition: all 0.2s ease !important;
+  border-left: 3px solid transparent !important;
+}
+
+.VPNavBarMenuDropdown .VPNavBarMenuLink:hover {
+  background-color: var(--menu-item-hover) !important;
+  border-left-color: var(--vp-c-brand-1) !important;
+  padding-left: 20px !important;
+}
+
+/* 侧边栏样式调整 - 按照VitePress官方方式 */
+.VPSidebar {
+  border-right: 1px solid var(--menu-border) !important;
+  background-color: var(--menu-bg) !important;
+}
+
+.VPSidebarItem .item {
+  border-radius: 6px !important;
+  margin: 2px 0 !important;
+  transition: all 0.2s ease !important;
+  color: var(--menu-text) !important;
+}
+
+.VPSidebarItem .item:hover {
+  background-color: var(--menu-item-hover) !important;
+}
+
+.VPSidebarItem .item.active {
+  background-color: var(--menu-item-active) !important;
+  color: var(--menu-text) !important;
+}
+
+/* 内容区域样式 - 保持VitePress默认布局 */
+.VPContent {
+  background-color: var(--vp-c-bg) !important;
+}
+
+/* 代码块样式 */
+.vp-doc div[class*='language-'] {
+  border-radius: 8px !important;
+  border: 1px solid var(--vp-c-border) !important;
+}
+
+/* 表格样式 */
+.vp-doc table {
+  border-collapse: collapse !important;
+  width: 100% !important;
+  margin: 16px 0 !important;
+}
+
+.vp-doc th,
+.vp-doc td {
+  border: 1px solid var(--vp-c-border) !important;
+  padding: 12px !important;
+  text-align: left !important;
+}
+
+.vp-doc th {
+  background-color: var(--vp-c-bg-soft) !important;
+  font-weight: 600 !important;
+}
+
+/* 引用块样式 */
+.vp-doc blockquote {
+  border-left: 4px solid var(--vp-c-brand-1) !important;
+  background-color: var(--vp-c-bg-soft) !important;
+  padding: 16px 20px !important;
+  margin: 16px 0 !important;
+  border-radius: 0 8px 8px 0 !important;
+}
+
+/* 按钮样式 */
+.VPButton {
+  border-radius: 6px !important;
+  font-weight: 500 !important;
+  transition: all 0.2s ease !important;
+}
+
+.VPButton.brand {
+  background-color: var(--vp-c-brand-1) !important;
+  border-color: var(--vp-c-brand-1) !important;
+}
+
+.VPButton.brand:hover {
+  background-color: var(--vp-c-brand-2) !important;
+  border-color: var(--vp-c-brand-2) !important;
+  transform: translateY(-1px) !important;
 }
 
 /* 卡片样式 */
-.vp-doc .custom-block {
-  border-radius: 8px;
+.custom-card {
+  border: 1px solid var(--vp-c-border) !important;
+  border-radius: 8px !important;
+  padding: 20px !important;
+  margin: 16px 0 !important;
+  background-color: var(--vp-c-bg) !important;
+  transition: all 0.3s ease !important;
 }
 
-/* 代码块样式优化 */
-.vp-doc div[class*='language-'] {
+.custom-card:hover {
+  border-color: var(--vp-c-brand-1) !important;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.1) !important;
+}
+
+/* 徽章样式 */
+.badge {
+  display: inline-block !important;
+  padding: 4px 8px !important;
+  border-radius: 4px !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  background-color: var(--vp-c-brand-1) !important;
+  color: white !important;
+  margin: 0 4px !important;
+}
+
+.badge.secondary {
+  background-color: var(--vp-c-text-3) !important;
+}
+
+.badge.success {
+  background-color: #10b981 !important;
+}
+
+.badge.warning {
+  background-color: #f59e0b !important;
+}
+
+.badge.danger {
+  background-color: #ef4444 !important;
+}
+
+/* 首页特色区域 */
+.VPHome .VPFeature {
+  border: 1px solid var(--vp-c-border);
   border-radius: 8px;
+  padding: 24px;
+  transition: all 0.3s ease;
+}
+
+.VPHome .VPFeature:hover {
+  border-color: var(--vp-c-brand-1);
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.15);
+  transform: translateY(-2px);
 }
 
 /* 导航栏样式 */
 .VPNav {
-  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--vp-c-border);
+  backdrop-filter: blur(8px);
 }
 
 /* 侧边栏样式 */
 .VPSidebar {
-  border-right: 1px solid var(--vp-c-divider);
+  border-right: 1px solid var(--vp-c-border);
 }
 
-/* 响应式优化 */
+.VPSidebarItem .item {
+  border-radius: 6px;
+  margin: 2px 0;
+  transition: all 0.2s ease;
+}
+
+.VPSidebarItem .item:hover {
+  background-color: var(--vp-c-bg-soft);
+}
+
+.VPSidebarItem .item.active {
+  background-color: var(--vp-c-brand-1);
+  color: white;
+}
+
+/* 内容区域样式 */
+.VPContent {
+  padding: 32px 24px;
+}
+
+/* 代码块样式 */
+.vp-doc div[class*='language-'] {
+  border-radius: 8px;
+  border: 1px solid var(--vp-c-border);
+}
+
+/* 表格样式 */
+.vp-doc table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 16px 0;
+}
+
+.vp-doc th,
+.vp-doc td {
+  border: 1px solid var(--vp-c-border);
+  padding: 12px;
+  text-align: left;
+}
+
+.vp-doc th {
+  background-color: var(--vp-c-bg-soft);
+  font-weight: 600;
+}
+
+/* 引用块样式 */
+.vp-doc blockquote {
+  border-left: 4px solid var(--vp-c-brand-1);
+  background-color: var(--vp-c-bg-soft);
+  padding: 16px 20px;
+  margin: 16px 0;
+  border-radius: 0 8px 8px 0;
+}
+
+/* 按钮样式 */
+.VPButton {
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.VPButton.brand {
+  background-color: var(--vp-c-brand-1);
+  border-color: var(--vp-c-brand-1);
+}
+
+.VPButton.brand:hover {
+  background-color: var(--vp-c-brand-2);
+  border-color: var(--vp-c-brand-2);
+  transform: translateY(-1px);
+}
+
+/* 卡片样式 */
+.custom-card {
+  border: 1px solid var(--vp-c-border);
+  border-radius: 8px;
+  padding: 20px;
+  margin: 16px 0;
+  background-color: var(--vp-c-bg);
+  transition: all 0.3s ease;
+}
+
+.custom-card:hover {
+  border-color: var(--vp-c-brand-1);
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.1);
+}
+
+/* 徽章样式 */
+.badge {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  background-color: var(--vp-c-brand-1);
+  color: white;
+  margin: 0 4px;
+}
+
+.badge.secondary {
+  background-color: var(--vp-c-text-3);
+}
+
+.badge.success {
+  background-color: #10b981;
+}
+
+.badge.warning {
+  background-color: #f59e0b;
+}
+
+.badge.danger {
+  background-color: #ef4444;
+}
+
+/* 响应式设计 */
 @media (max-width: 768px) {
-  .video-player {
-    margin: 0.5rem 0;
+  .VPContent {
+    padding: 16px 12px;
+  }
+  
+  .VPHome .VPFeature {
+    padding: 16px;
+  }
+  
+  .vp-doc th,
+  .vp-doc td {
+    padding: 8px;
+    font-size: 14px;
+  }
+}
+
+/* 企业分享页面样式 */
+.enterprise-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.enterprise-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.enterprise-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.enterprise-card .card-header {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  color: white;
+}
+
+.enterprise-card .company-logo {
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+
+.enterprise-card .company-info h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.enterprise-card .company-tag {
+  margin: 0.25rem 0 0 0;
+  font-size: 0.875rem;
+  opacity: 0.9;
+}
+
+.enterprise-card .card-content {
+  padding: 1.5rem;
+}
+
+.enterprise-card .card-content h4 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #374151;
+}
+
+.enterprise-card .card-content p {
+  margin: 0 0 1rem 0;
+  color: #6b7280;
+  line-height: 1.5;
+}
+
+.enterprise-card .card-content ul {
+  margin: 0 0 1rem 0;
+  padding-left: 1.25rem;
+}
+
+.enterprise-card .card-content li {
+  margin-bottom: 0.5rem;
+  color: #6b7280;
+}
+
+.enterprise-card .card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.enterprise-card .event-date {
+  color: #6b7280;
+  font-size: 0.875rem;
+}
+
+.enterprise-card .join-btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.enterprise-card .join-btn:hover {
+  background: #1d4ed8;
+}
+
+/* 产业趋势分析页面样式 */
+.trend-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.trend-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.trend-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.trend-card .card-header {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+  color: white;
+}
+
+.trend-card .trend-icon {
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+
+.trend-card .trend-info h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.trend-card .trend-status {
+  margin: 0.25rem 0 0 0;
+  font-size: 0.875rem;
+  opacity: 0.9;
+}
+
+.trend-card .card-content {
+  padding: 1.5rem;
+}
+
+.trend-card .metrics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.trend-card .metric {
+  text-align: center;
+  padding: 1rem;
+  background: #f9fafb;
+  border-radius: 8px;
+}
+
+.trend-card .metric-value {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2563eb;
+  margin-bottom: 0.25rem;
+}
+
+.trend-card .metric-label {
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
+.trend-card .card-content h4 {
+  margin: 0 0 0.75rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #374151;
+}
+
+.trend-card .card-content ul {
+  margin: 0 0 1rem 0;
+  padding-left: 1.25rem;
+}
+
+.trend-card .card-content li {
+  margin-bottom: 0.5rem;
+  color: #6b7280;
+}
+
+.trend-card .tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.trend-card .tag {
+  background: rgba(37, 99, 235, 0.1);
+  color: #2563eb;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .enterprise-cards,
+  .trend-cards {
+    grid-template-columns: 1fr;
+  }
+  
+  .trend-card .metrics {
+    grid-template-columns: 1fr;
+  }
+  
+  .enterprise-card .card-header,
+  .trend-card .card-header {
+    padding: 1rem;
+  }
+  
+  .enterprise-card .card-content,
+  .trend-card .card-content {
+    padding: 1rem;
   }
 }
