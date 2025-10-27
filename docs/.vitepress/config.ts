@@ -25,14 +25,30 @@ export default defineConfig({
       {
         text: '就业面试',
         items: [
-          { text: '面试指导', link: '/guide/career/' },
-          { text: '软件协会资源', link: '/guide/career/associations/' },
-          { text: '优质企业名录', link: '/guide/career/top-companies' },
+          { text: '面试指导', link: '/guide/career/' }
+        ]
+      },
+      {
+        text: '行业资讯',
+        items: [
+          {
+            text: '优质企业',
+            items: [
+              { text: '优质企业列表', link: '/guide/career/companies/' },
+              { text: '优质企业搜索', link: '/guide/career/top-companies' }
+            ]
+          },
+          {
+            text: '协会资源',
+            items: [
+              { text: '协会资源列表', link: '/guide/career/associations/' },
+              { text: '协会资源搜索', link: '/guide/career/shenzhen-associations' }
+            ]
+          },
           { text: '产业趋势分析', link: '/guide/career/industry-trends' },
           { text: '政策支持解读', link: '/guide/career/policy-support' }
         ]
       },
-      { text: '深圳软件协会资源', link: '/guide/career/shenzhen-associations' },
       { text: '竞赛指导', link: '/guide/competition/' },
       { text: '关于', link: '/about' }
     ],
@@ -98,6 +114,37 @@ export default defineConfig({
           ]
         }
       ],
+      '/guide/career/industry-trends': [
+        {
+          text: '产业趋势分析',
+          items: [
+            { text: '概览', link: '/guide/career/industry-trends' },
+            { text: 'AI与人工智能', link: '/guide/career/industry-trends#ai与人工智能' },
+            { text: '云计算与大数据', link: '/guide/career/industry-trends#云计算与大数据' },
+            { text: '物联网与5G', link: '/guide/career/industry-trends#物联网与5g' },
+            { text: '区块链与Web3', link: '/guide/career/industry-trends#区块链与web3' },
+            { text: '量子计算', link: '/guide/career/industry-trends#量子计算' },
+            { text: '元宇宙与VR/AR', link: '/guide/career/industry-trends#元宇宙与vrar' },
+            { text: '自动驾驶', link: '/guide/career/industry-trends#自动驾驶' },
+            { text: '技术发展建议', link: '/guide/career/industry-trends#技术发展建议' },
+            { text: '相关资源', link: '/guide/career/industry-trends#相关资源' }
+          ]
+        }
+      ],
+      '/guide/career/policy-support': [
+        {
+          text: '政策支持解读',
+          items: [
+            { text: '概览', link: '/guide/career/policy-support' },
+            { text: '国家层面政策', link: '/guide/career/policy-support#国家层面政策' },
+            { text: '深圳地方政策', link: '/guide/career/policy-support#深圳地方政策' },
+            { text: '资金支持政策', link: '/guide/career/policy-support#资金支持政策' },
+            { text: '申报流程指南', link: '/guide/career/policy-support#申报流程指南' },
+            { text: '政策利用建议', link: '/guide/career/policy-support#政策利用建议' },
+            { text: '相关资源', link: '/guide/career/policy-support#相关资源' }
+          ]
+        }
+      ],
       '/guide/career/': [
         {
           text: '面试指导',
@@ -145,9 +192,44 @@ export default defineConfig({
         }
       ],
       '/guide/career/shenzhen-associations': false,
+      '/guide/career/companies/': [
+        {
+          text: '优质企业资源',
+          items: [
+            { text: '企业概览', link: '/guide/career/companies/' },
+            { text: '云天励飞', link: '/guide/career/companies/yunshan-lifly' },
+            { text: '云豹智能', link: '/guide/career/companies/cloud-leopard' },
+            { text: '奥比中光', link: '/guide/career/companies/orbbec' },
+            { text: '元象科技', link: '/guide/career/companies/yuanxiang-tech' },
+            { text: '实在智能', link: '/guide/career/companies/shizai-intelligent' },
+            { text: '极视角', link: '/guide/career/companies/extreme-vision' },
+            { text: '优必选', link: '/guide/career/companies/ubtech' },
+            { text: '力维智联', link: '/guide/career/companies/levi-intelligent' },
+            { text: '商汤科技', link: '/guide/career/companies/sense-time' },
+            { text: '微众银行', link: '/guide/career/companies/webank' },
+            { text: '腾讯金融科技', link: '/guide/career/companies/tencent-fintech' },
+            { text: '平安科技', link: '/guide/career/companies/pingan-tech' },
+            { text: '金证科技', link: '/guide/career/companies/jinzheng-tech' },
+            { text: '招银云创', link: '/guide/career/companies/cmb-cloud' },
+            { text: '集友科创', link: '/guide/career/companies/jiyou-tech' },
+            { text: '华为技术', link: '/guide/career/companies/huawei' },
+            { text: '中兴通讯', link: '/guide/career/companies/zte' },
+            { text: 'TCL', link: '/guide/career/companies/tcl' },
+            { text: '创维', link: '/guide/career/companies/skyworth' },
+            { text: '康佳', link: '/guide/career/companies/konka' },
+            { text: '华勤控股', link: '/guide/career/companies/huaqin' },
+            { text: '闻泰科技', link: '/guide/career/companies/wingtech' },
+            { text: '广和通', link: '/guide/career/companies/fibocom' },
+            { text: '富士康', link: '/guide/career/companies/foxconn' },
+            { text: '正威集团', link: '/guide/career/companies/amer' },
+            { text: '华珑国际', link: '/guide/career/companies/hualong' },
+            { text: '迈瑞医疗', link: '/guide/career/companies/mindray' },
+            { text: '卫盈联信息技术', link: '/guide/career/companies/weiyinlian' },
+            { text: '中电科新型智慧城市研究院', link: '/guide/career/companies/cetc-smart-city' }
+          ]
+        }
+      ],
       '/guide/career/top-companies': false,
-      '/guide/career/industry-trends': false,
-      '/guide/career/policy-support': false,
       '/guide/competition/': [
         {
           text: '竞赛指导',
