@@ -25,12 +25,13 @@ export default defineConfig({
       {
         text: '就业面试',
         items: [
-          { text: '深圳软件协会资源', link: '/guide/career/shenzhen-associations' },
+          { text: '面试指导', link: '/guide/career/' },
           { text: '优质企业名录', link: '/guide/career/top-companies' },
           { text: '产业趋势分析', link: '/guide/career/industry-trends' },
           { text: '政策支持解读', link: '/guide/career/policy-support' }
         ]
       },
+      { text: '深圳软件协会资源', link: '/guide/career/shenzhen-associations' },
       { text: '竞赛指导', link: '/guide/competition/' },
       { text: '关于', link: '/about' }
     ],
@@ -98,19 +99,10 @@ export default defineConfig({
       ],
       '/guide/career/': [
         {
-          text: '就业面试指导',
+          text: '面试指导',
           items: [
             { text: '学习路径', link: '/guide/career/' },
             { text: '面试技巧', link: '/guide/career/interview-skills' },
-            { 
-              text: '深圳软件协会', 
-              items: [
-                { text: '深圳软件协会资源', link: '/guide/career/shenzhen-associations' },
-                { text: '优质企业名录', link: '/guide/career/top-companies' },
-                { text: '产业趋势分析', link: '/guide/career/industry-trends' },
-                { text: '政策支持解读', link: '/guide/career/policy-support' }
-              ]
-            },
             { text: '企业分享', link: '/guide/career/enterprise-sharing' },
             { text: '技术面试准备', link: '/guide/career/interview-preparation' },
             { text: '算法面试技巧', link: '/guide/career/algorithm-interview' },
@@ -127,6 +119,10 @@ export default defineConfig({
           ]
         }
       ],
+      '/guide/career/shenzhen-associations': false,
+      '/guide/career/top-companies': false,
+      '/guide/career/industry-trends': false,
+      '/guide/career/policy-support': false,
       '/guide/competition/': [
         {
           text: '竞赛指导',

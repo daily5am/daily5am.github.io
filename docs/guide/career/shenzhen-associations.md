@@ -1,138 +1,188 @@
-# 深圳软件技术协会资源
-
-基于深入调研，为你提供深圳软件技术相关协会的完整资源指南。
-
-## 🎯 平台介绍
-
-整合深圳地区科技领域优质协会资源，聚焦AI、金融科技、智能硬件、智慧医疗等新质生产力赛道，助力开发者洞察行业趋势、寻找技术合作与投资机会。
-
-<AssociationGrid />
-
-## 📊 协会影响力评估
-
-### 行业影响力排名
-
-根据"深圳行业协会商会高质量100"榜单：
-
-| 协会名称 | 榜单排名 | 主要荣誉 |
-|---------|---------|---------|
-| 深圳市软件行业协会 | 第一阵容 | 5A社会组织、中国软件行业协会常务理事单位 |
-| 深圳市人工智能产业协会 | 第一阵容 | 5A社会组织、全国"四好"商会 |
-| 深圳市人工智能行业协会 | 第一阵容 | 5A社会组织、全国首家AI行业协会 |
-| 深圳市计算机行业协会 | 第一阵容 | 5A社会组织、成立于1987年 |
-| 深圳市金融科技协会 | 第一阵容 | 5A社会组织、全国最活跃金融CIO社群 |
-
-### 会员质量分析
-
-- **深圳市人工智能产业协会**: 会员质量最高，拥有46家上市企业、291家专精特新企业
-- **深圳市软件行业协会**: 会员规模最大，近4000家会员企业
-- **深圳市金融科技协会**: 会员含金量高，涵盖深交所、中国平安等知名机构
-
-## 🎯 协会入会指南
-
-### 入会条件
-
-#### 深圳市软件行业协会
-- **基本条件**: 从事软件研发、销售、系统集成和信息服务的企业
-- **入会流程**: 登录协会信息管理系统填写申请
-- **会费标准**: 普通会员3000元/年，副会长单位15000元/年
-- **申请地址**: [http://app.ssia.org.cn/](http://app.ssia.org.cn/)
-
-#### 深圳市人工智能产业协会
-- **基本条件**: 人工智能相关领域企事业单位
-- **入会流程**: 提交入会申请书，经理事会讨论通过
-- **会员权益**: 宣传推广、政府对接、商务对接、专家资源等
-- **申请方式**: 联系协会秘书处
-
-#### 深圳市金融科技协会
-- **基本条件**: 在金融科技领域内具有一定影响
-- **入会流程**: 提交入会申请书，经理事会讨论通过
-- **会费标准**: 普通会员3000元/年，理事单位10000元/年
-- **申请方式**: 联系协会秘书处
-
-### 会员权益
-
-#### 通用权益
-- 参与行业交流活动
-- 获得行业资讯和政策信息
-- 业务对接和合作机会
-- 参与标准制定和评选活动
-- 获得协会专业服务
-
-#### 差异化权益
-- **理事单位**: 免费参与团体标准编制、优先推送采购信息
-- **副会长单位**: 更多宣传机会、政府资源对接
-- **会长单位**: 行业影响力、政策参与机会
-
-## 🚀 协会活动参与
-
-### 高频活动类型
-
-#### 技术交流活动
-- **频率**: 每月2-4场
-- **内容**: 热门技术、优惠政策、项目管理、人力资源
-- **参与方式**: 免费参加，需提前报名
-- **价值**: 技术学习、人脉建立、行业了解
-
-#### 商务对接活动
-- **频率**: 每月1-2场
-- **内容**: 供需对接、投融资路演、企业考察
-- **参与方式**: 会员优先，部分对外开放
-- **价值**: 商业机会、投资对接、合作洽谈
-
-#### 政府对接活动
-- **频率**: 每季度1-2场
-- **内容**: 政策解读、政府资源对接、产业调研
-- **参与方式**: 会员专享，需申请参与
-- **价值**: 政策了解、政府关系、资源获取
-
-### 活动参与策略
-
-1. **定期参与** - 至少每月参加一次协会活动
-2. **主动交流** - 在活动中主动与其他企业交流
-3. **深度参与** - 充分利用协会提供的一对一服务
-4. **展示优势** - 通过协会平台展示企业技术实力
-
-## 📊 协会影响力评估
-
-### 行业影响力排名
-
-根据"深圳行业协会商会高质量100"榜单：
-
-| 协会名称 | 榜单排名 | 主要荣誉 |
-|---------|---------|---------|
-| 深圳市软件行业协会 | 第一阵容 | 5A社会组织、中国软件行业协会常务理事单位 |
-| 深圳市人工智能产业协会 | 第一阵容 | 5A社会组织、全国"四好"商会 |
-| 深圳市人工智能行业协会 | 第一阵容 | 5A社会组织、全国首家AI行业协会 |
-| 深圳市计算机行业协会 | 第一阵容 | 5A社会组织、成立于1987年 |
-| 深圳市金融科技协会 | 第一阵容 | 5A社会组织、全国最活跃金融CIO社群 |
-
-### 会员质量分析
-
-- **深圳市人工智能产业协会**: 会员质量最高，拥有46家上市企业、291家专精特新企业
-- **深圳市软件行业协会**: 会员规模最大，近4000家会员企业
-- **深圳市金融科技协会**: 会员含金量高，涵盖深交所、中国平安等知名机构
-
-## 💡 资源利用建议
-
-### 企业利用策略
-1. **选择核心协会** - 根据业务定位选择1-2个核心协会深度参与
-2. **积极参与活动** - 重点关注与自身赛道相关的主题活动
-3. **主动对接资源** - 充分利用协会提供的各项服务
-4. **建立行业人脉** - 通过协会平台建立广泛的行业关系
-
-### 个人利用策略
-1. **关注协会动态** - 通过协会了解行业趋势和机会
-2. **参与技术交流** - 参加协会组织的技术研讨会
-3. **建立专业网络** - 通过协会活动结识行业专家
-4. **获取职业机会** - 利用协会资源寻找职业发展机会
-
-## 🔗 相关链接
-
-- [深圳市社会组织平台](http://sgj.mzj.sz.gov.cn:9008/#information)
-- [广东省社会组织综合信息服务平台](http://smzt.gd.gov.cn/shzz/tjcx/shzzcx/?MainMC=%u6DF1%u5733)
-- [中国社会组织政务服务平台](https://chinanpo.mca.gov.cn/)
-
+---
+layout: page
+sidebar: false
 ---
 
-> 💡 **提示**: 协会资源是连接政府、企业、资本的重要桥梁，充分利用这些资源将有助于把握发展机遇，实现高质量发展。
+<div class="hero-section">
+  <div class="hero-content">
+    <h1 class="hero-title">深圳软件技术协会资源</h1>
+    <p class="hero-subtitle">基于深入调研的协会资源整合平台</p>
+    <p class="hero-description">整合深圳地区科技领域优质协会资源，聚焦AI、金融科技、智能硬件、智慧医疗等新质生产力赛道，助力开发者洞察行业趋势、寻找技术合作与投资机会。</p>
+  </div>
+</div>
+
+<div class="search-section">
+  <div class="search-container">
+    <div class="search-bar">
+      <i class="fas fa-search"></i>
+      <input type="text" placeholder="搜索协会..." id="searchInput">
+    </div>
+  </div>
+</div>
+
+<div class="content-section">
+  <div class="section-header">
+    <h2 class="section-title">所有协会资源</h2>
+    <div class="section-count">
+      <span class="count-badge">6</span>
+    </div>
+  </div>
+
+  <div class="associations-gallery">
+  <!-- 深圳市软件行业协会 -->
+  <div class="association-card">
+    <div class="card-header">
+      <div class="card-icon">💻</div>
+      <div class="card-title">深圳市软件行业协会</div>
+      <div class="card-action">
+        <button class="install-btn">
+          访问官网
+          <i class="fas fa-external-link-alt"></i>
+        </button>
+      </div>
+    </div>
+    <div class="card-content">
+      <p class="card-description">深圳软件产业的核心组织，拥有近4000家会员企业，是5A级社会组织。</p>
+      <div class="card-meta">
+        <span class="meta-author">By 深圳市软件行业协会</span>
+        <span class="meta-stars">⭐ 4000+</span>
+      </div>
+      <div class="card-tags">
+        <span class="tag official">官方</span>
+        <span class="tag">软件产业</span>
+        <span class="tag">5A级</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 深圳市人工智能产业协会 -->
+  <div class="association-card">
+    <div class="card-header">
+      <div class="card-icon">🤖</div>
+      <div class="card-title">深圳市人工智能产业协会</div>
+      <div class="card-action">
+        <button class="install-btn">
+          访问官网
+          <i class="fas fa-external-link-alt"></i>
+        </button>
+      </div>
+    </div>
+    <div class="card-content">
+      <p class="card-description">全国首家AI行业协会，会员质量最高，拥有46家上市企业、291家专精特新企业。</p>
+      <div class="card-meta">
+        <span class="meta-author">By 深圳市人工智能产业协会</span>
+        <span class="meta-stars">⭐ 500+</span>
+      </div>
+      <div class="card-tags">
+        <span class="tag premium">优质</span>
+        <span class="tag">人工智能</span>
+        <span class="tag">全国首家</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 深圳市金融科技协会 -->
+  <div class="association-card">
+    <div class="card-header">
+      <div class="card-icon">💰</div>
+      <div class="card-title">深圳市金融科技协会</div>
+      <div class="card-action">
+        <button class="install-btn">
+          访问官网
+          <i class="fas fa-external-link-alt"></i>
+        </button>
+      </div>
+    </div>
+    <div class="card-content">
+      <p class="card-description">全国最活跃金融CIO社群，涵盖深交所、中国平安等知名机构。</p>
+      <div class="card-meta">
+        <span class="meta-author">By 深圳市金融科技协会</span>
+        <span class="meta-stars">⭐ 300+</span>
+      </div>
+      <div class="card-tags">
+        <span class="tag official">官方</span>
+        <span class="tag">金融科技</span>
+        <span class="tag">CIO社群</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 深圳市计算机行业协会 -->
+  <div class="association-card">
+    <div class="card-header">
+      <div class="card-icon">🖥️</div>
+      <div class="card-title">深圳市计算机行业协会</div>
+      <div class="card-action">
+        <button class="install-btn">
+          访问官网
+          <i class="fas fa-external-link-alt"></i>
+        </button>
+      </div>
+    </div>
+    <div class="card-content">
+      <p class="card-description">成立于1987年，是深圳计算机行业历史最悠久的协会组织。</p>
+      <div class="card-meta">
+        <span class="meta-author">By 深圳市计算机行业协会</span>
+        <span class="meta-stars">⭐ 200+</span>
+      </div>
+      <div class="card-tags">
+        <span class="tag official">官方</span>
+        <span class="tag">计算机</span>
+        <span class="tag">历史悠久</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 深圳市人工智能行业协会 -->
+  <div class="association-card">
+    <div class="card-header">
+      <div class="card-icon">🧠</div>
+      <div class="card-title">深圳市人工智能行业协会</div>
+      <div class="card-action">
+        <button class="install-btn">
+          访问官网
+          <i class="fas fa-external-link-alt"></i>
+        </button>
+      </div>
+    </div>
+    <div class="card-content">
+      <p class="card-description">专注于AI技术推广和应用，为会员企业提供技术交流和合作平台。</p>
+      <div class="card-meta">
+        <span class="meta-author">By 深圳市人工智能行业协会</span>
+        <span class="meta-stars">⭐ 150+</span>
+      </div>
+      <div class="card-tags">
+        <span class="tag premium">优质</span>
+        <span class="tag">人工智能</span>
+        <span class="tag">技术推广</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 深圳市智能硬件协会 -->
+  <div class="association-card">
+    <div class="card-header">
+      <div class="card-icon">🔧</div>
+      <div class="card-title">深圳市智能硬件协会</div>
+      <div class="card-action">
+        <button class="install-btn">
+          访问官网
+          <i class="fas fa-external-link-alt"></i>
+        </button>
+      </div>
+    </div>
+    <div class="card-content">
+      <p class="card-description">聚焦智能硬件产业发展，推动硬件与软件深度融合。</p>
+      <div class="card-meta">
+        <span class="meta-author">By 深圳市智能硬件协会</span>
+        <span class="meta-stars">⭐ 100+</span>
+      </div>
+      <div class="card-tags">
+        <span class="tag standard">标准</span>
+        <span class="tag">智能硬件</span>
+        <span class="tag">产业融合</span>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
