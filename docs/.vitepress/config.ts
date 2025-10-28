@@ -100,6 +100,9 @@ export default defineConfig({
             ]
           },
           { text: '软件行业KOL', link: '/guide/career/software-kol' },
+          { text: '行业报告与数据', link: '/guide/career/industry-reports' },
+          { text: '技术媒体与资讯', link: '/guide/career/tech-media' },
+          { text: '资本市场动态', link: '/guide/career/capital-market' },
           { text: '产业趋势分析', link: '/guide/career/industry-trends' },
           { text: '政策支持解读', link: '/guide/career/policy-support' }
         ]
