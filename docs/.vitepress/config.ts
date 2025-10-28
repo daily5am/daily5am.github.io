@@ -80,21 +80,18 @@ export default defineConfig({
         text: '行业资讯',
         items: [
           {
-            text: '优质企业',
             items: [
               { text: '优质企业列表', link: '/guide/career/companies/' },
               { text: '优质企业搜索', link: '/guide/career/top-companies' }
             ]
           },
           {
-            text: '协会资源',
             items: [
               { text: '协会资源列表', link: '/guide/career/associations/' },
               { text: '协会资源搜索', link: '/guide/career/shenzhen-associations' }
             ]
           },
           {
-            text: '投资机构',
             items: [
               { text: '投资机构列表', link: '/guide/career/investors/' },
               { text: '投资机构搜索', link: '/guide/career/top-investors' }
@@ -690,22 +687,64 @@ export default defineConfig({
           text: '软件协会资源',
           items: [
             { text: '协会概览', link: '/guide/career/associations/' },
-            { text: '深圳市软件行业协会', link: '/guide/career/associations/shenzhen-software-industry' },
-            { text: '深圳市人工智能产业协会', link: '/guide/career/associations/shenzhen-ai-industry' },
-            { text: '深圳市金融科技协会', link: '/guide/career/associations/shenzhen-fintech' },
-            { text: '深圳市计算机行业协会', link: '/guide/career/associations/shenzhen-computer-industry' },
-            { text: '深圳市人工智能行业协会', link: '/guide/career/associations/shenzhen-ai-association' },
-            { text: '深圳市智能硬件协会', link: '/guide/career/associations/shenzhen-smart-hardware' },
-            { text: '深圳市智能终端产业协会', link: '/guide/career/associations/shenzhen-smart-terminal' },
-            { text: '深圳市信息服务业区块链协会', link: '/guide/career/associations/shenzhen-blockchain' },
-            { text: '深圳市金融区块链发展促进会', link: '/guide/career/associations/shenzhen-fisco' },
-            { text: '深圳市物联网产业协会', link: '/guide/career/associations/shenzhen-iot' },
-            { text: '深圳市智能制造产业促进会', link: '/guide/career/associations/shenzhen-smart-manufacturing' },
-            { text: '深圳市智慧医疗协会', link: '/guide/career/associations/shenzhen-smart-health' },
-            { text: '深圳市信息技术应用创新联盟', link: '/guide/career/associations/shenzhen-xinchuang' },
-            { text: '深圳市鲲鹏产业联盟', link: '/guide/career/associations/shenzhen-kunpeng' },
-            { text: '中国计算机学会深圳分部', link: '/guide/career/associations/shenzhen-ccf' },
-            { text: '国际人工智能产业联盟深圳中心', link: '/guide/career/associations/shenzhen-international-ai' }
+            {
+              text: '软件行业协会',
+              collapsed: false,
+              items: [
+                { text: '深圳市软件行业协会', link: '/guide/career/associations/shenzhen-software-industry' },
+                { text: '深圳市计算机行业协会', link: '/guide/career/associations/shenzhen-computer-industry' }
+              ]
+            },
+            {
+              text: '人工智能协会',
+              collapsed: false,
+              items: [
+                { text: '深圳市人工智能产业协会', link: '/guide/career/associations/shenzhen-ai-industry' },
+                { text: '深圳市人工智能行业协会', link: '/guide/career/associations/shenzhen-ai-association' },
+                { text: '国际人工智能产业联盟深圳中心', link: '/guide/career/associations/shenzhen-international-ai' }
+              ]
+            },
+            {
+              text: '金融科技协会',
+              collapsed: false,
+              items: [
+                { text: '深圳市金融科技协会', link: '/guide/career/associations/shenzhen-fintech' },
+                { text: '深圳市金融区块链发展促进会', link: '/guide/career/associations/shenzhen-fisco' }
+              ]
+            },
+            {
+              text: '智能硬件协会',
+              collapsed: false,
+              items: [
+                { text: '深圳市智能硬件协会', link: '/guide/career/associations/shenzhen-smart-hardware' },
+                { text: '深圳市智能终端产业协会', link: '/guide/career/associations/shenzhen-smart-terminal' }
+              ]
+            },
+            {
+              text: '新兴技术协会',
+              collapsed: false,
+              items: [
+                { text: '深圳市信息服务业区块链协会', link: '/guide/career/associations/shenzhen-blockchain' },
+                { text: '深圳市物联网产业协会', link: '/guide/career/associations/shenzhen-iot' }
+              ]
+            },
+            {
+              text: '产业联盟',
+              collapsed: false,
+              items: [
+                { text: '深圳市智能制造产业促进会', link: '/guide/career/associations/shenzhen-smart-manufacturing' },
+                { text: '深圳市智慧医疗协会', link: '/guide/career/associations/shenzhen-smart-health' },
+                { text: '深圳市信息技术应用创新联盟', link: '/guide/career/associations/shenzhen-xinchuang' },
+                { text: '深圳市鲲鹏产业联盟', link: '/guide/career/associations/shenzhen-kunpeng' }
+              ]
+            },
+            {
+              text: '学术组织',
+              collapsed: false,
+              items: [
+                { text: '中国计算机学会深圳分部', link: '/guide/career/associations/shenzhen-ccf' }
+              ]
+            }
           ]
         }
       ],
@@ -713,37 +752,86 @@ export default defineConfig({
       '/guide/career/companies/': [
         {
           text: '优质企业资源',
+          collapsed: false,
           items: [
             { text: '企业概览', link: '/guide/career/companies/' },
-            { text: '云天励飞', link: '/guide/career/companies/yunshan-lifly' },
-            { text: '云豹智能', link: '/guide/career/companies/cloud-leopard' },
-            { text: '奥比中光', link: '/guide/career/companies/orbbec' },
-            { text: '元象科技', link: '/guide/career/companies/yuanxiang-tech' },
-            { text: '实在智能', link: '/guide/career/companies/shizai-intelligent' },
-            { text: '极视角', link: '/guide/career/companies/extreme-vision' },
-            { text: '优必选', link: '/guide/career/companies/ubtech' },
-            { text: '力维智联', link: '/guide/career/companies/levi-intelligent' },
-            { text: '商汤科技', link: '/guide/career/companies/sense-time' },
-            { text: '微众银行', link: '/guide/career/companies/webank' },
-            { text: '腾讯金融科技', link: '/guide/career/companies/tencent-fintech' },
-            { text: '平安科技', link: '/guide/career/companies/pingan-tech' },
-            { text: '金证科技', link: '/guide/career/companies/jinzheng-tech' },
-            { text: '招银云创', link: '/guide/career/companies/cmb-cloud' },
-            { text: '集友科创', link: '/guide/career/companies/jiyou-tech' },
-            { text: '华为技术', link: '/guide/career/companies/huawei' },
-            { text: '中兴通讯', link: '/guide/career/companies/zte' },
-            { text: 'TCL', link: '/guide/career/companies/tcl' },
-            { text: '创维', link: '/guide/career/companies/skyworth' },
-            { text: '康佳', link: '/guide/career/companies/konka' },
-            { text: '华勤控股', link: '/guide/career/companies/huaqin' },
-            { text: '闻泰科技', link: '/guide/career/companies/wingtech' },
-            { text: '广和通', link: '/guide/career/companies/fibocom' },
-            { text: '富士康', link: '/guide/career/companies/foxconn' },
-            { text: '正威集团', link: '/guide/career/companies/amer' },
-            { text: '华珑国际', link: '/guide/career/companies/hualong' },
-            { text: '迈瑞医疗', link: '/guide/career/companies/mindray' },
-            { text: '卫盈联信息技术', link: '/guide/career/companies/weiyinlian' },
-            { text: '中电科新型智慧城市研究院', link: '/guide/career/companies/cetc-smart-city' }
+            {
+              text: '人工智能企业',
+              collapsed: false,
+              items: [
+                { text: '云天励飞', link: '/guide/career/companies/yunshan-lifly' },
+                { text: '云豹智能', link: '/guide/career/companies/cloud-leopard' },
+                { text: '奥比中光', link: '/guide/career/companies/orbbec' },
+                { text: '元象科技', link: '/guide/career/companies/yuanxiang-tech' },
+                { text: '实在智能', link: '/guide/career/companies/shizai-intelligent' },
+                { text: '极视角', link: '/guide/career/companies/extreme-vision' },
+                { text: '优必选', link: '/guide/career/companies/ubtech' },
+                { text: '力维智联', link: '/guide/career/companies/levi-intelligent' },
+                { text: '商汤科技', link: '/guide/career/companies/sense-time' }
+              ]
+            },
+            {
+              text: '金融科技企业',
+              collapsed: false,
+              items: [
+                { text: '微众银行', link: '/guide/career/companies/webank' },
+                { text: '腾讯金融科技', link: '/guide/career/companies/tencent-fintech' },
+                { text: '平安科技', link: '/guide/career/companies/pingan-tech' },
+                { text: '金证科技', link: '/guide/career/companies/jinzheng-tech' },
+                { text: '招银云创', link: '/guide/career/companies/cmb-cloud' },
+                { text: '集友科创', link: '/guide/career/companies/jiyou-tech' }
+              ]
+            },
+            {
+              text: '通信设备企业',
+              collapsed: false,
+              items: [
+                { text: '华为技术', link: '/guide/career/companies/huawei' },
+                { text: '中兴通讯', link: '/guide/career/companies/zte' }
+              ]
+            },
+            {
+              text: '消费电子企业',
+              collapsed: false,
+              items: [
+                { text: 'TCL', link: '/guide/career/companies/tcl' },
+                { text: '创维', link: '/guide/career/companies/skyworth' },
+                { text: '康佳', link: '/guide/career/companies/konka' }
+              ]
+            },
+            {
+              text: '电子制造企业',
+              collapsed: false,
+              items: [
+                { text: '华勤控股', link: '/guide/career/companies/huaqin' },
+                { text: '闻泰科技', link: '/guide/career/companies/wingtech' },
+                { text: '广和通', link: '/guide/career/companies/fibocom' },
+                { text: '富士康', link: '/guide/career/companies/foxconn' }
+              ]
+            },
+            {
+              text: '制造业企业',
+              collapsed: false,
+              items: [
+                { text: '正威集团', link: '/guide/career/companies/amer' },
+                { text: '华珑国际', link: '/guide/career/companies/hualong' }
+              ]
+            },
+            {
+              text: '医疗健康企业',
+              collapsed: false,
+              items: [
+                { text: '迈瑞医疗', link: '/guide/career/companies/mindray' },
+                { text: '卫盈联信息技术', link: '/guide/career/companies/weiyinlian' }
+              ]
+            },
+            {
+              text: '智慧城市企业',
+              collapsed: false,
+              items: [
+                { text: '中电科新型智慧城市研究院', link: '/guide/career/companies/cetc-smart-city' }
+              ]
+            }
           ]
         }
       ],
@@ -751,10 +839,12 @@ export default defineConfig({
       '/guide/career/investors/': [
         {
           text: '投资机构资源',
+          collapsed: false,
           items: [
             { text: '投资机构概览', link: '/guide/career/investors/' },
             {
               text: '顶级VC',
+              collapsed: false,
               items: [
                 { text: '红杉中国', link: '/guide/career/investors/sequoia-china' },
                 { text: 'IDG资本', link: '/guide/career/investors/idg-capital' },
@@ -763,6 +853,7 @@ export default defineConfig({
             },
             {
               text: '天使基金',
+              collapsed: false,
               items: [
                 { text: '真格基金', link: '/guide/career/investors/zhenfund' },
                 { text: '创新工场', link: '/guide/career/investors/sinovation-ventures' }
@@ -770,6 +861,7 @@ export default defineConfig({
             },
             {
               text: '产业投资',
+              collapsed: false,
               items: [
                 { text: '腾讯投资', link: '/guide/career/investors/tencent-investment' },
                 { text: '阿里巴巴投资', link: '/guide/career/investors/alibaba-investment' },
@@ -780,12 +872,14 @@ export default defineConfig({
             },
             {
               text: '国资投资',
+              collapsed: false,
               items: [
                 { text: '深创投', link: '/guide/career/investors/szvc' }
               ]
             },
             {
               text: '专业VC',
+              collapsed: false,
               items: [
                 { text: '达晨创投', link: '/guide/career/investors/fortune-vc' },
                 { text: '同创伟业', link: '/guide/career/investors/co-win-ventures' },
