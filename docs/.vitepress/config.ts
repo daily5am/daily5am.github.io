@@ -748,6 +748,60 @@ export default defineConfig({
         }
       ],
       '/guide/career/top-companies': false,
+      '/guide/career/investors/': [
+        {
+          text: '投资机构资源',
+          items: [
+            { text: '投资机构概览', link: '/guide/career/investors/' },
+            {
+              text: '顶级VC',
+              items: [
+                { text: '红杉中国', link: '/guide/career/investors/sequoia-china' },
+                { text: 'IDG资本', link: '/guide/career/investors/idg-capital' },
+                { text: '经纬中国', link: '/guide/career/investors/matrix-china' }
+              ]
+            },
+            {
+              text: '天使基金',
+              items: [
+                { text: '真格基金', link: '/guide/career/investors/zhenfund' },
+                { text: '创新工场', link: '/guide/career/investors/sinovation-ventures' }
+              ]
+            },
+            {
+              text: '产业投资',
+              items: [
+                { text: '腾讯投资', link: '/guide/career/investors/tencent-investment' },
+                { text: '阿里巴巴投资', link: '/guide/career/investors/alibaba-investment' },
+                { text: '字节跳动投资', link: '/guide/career/investors/bytedance-investment' },
+                { text: '美团投资', link: '/guide/career/investors/meituan-investment' },
+                { text: '小米投资', link: '/guide/career/investors/xiaomi-investment' }
+              ]
+            },
+            {
+              text: '国资投资',
+              items: [
+                { text: '深创投', link: '/guide/career/investors/szvc' }
+              ]
+            },
+            {
+              text: '专业VC',
+              items: [
+                { text: '达晨创投', link: '/guide/career/investors/fortune-vc' },
+                { text: '同创伟业', link: '/guide/career/investors/co-win-ventures' },
+                { text: '松禾资本', link: '/guide/career/investors/songhe-capital' },
+                { text: '华创资本', link: '/guide/career/investors/china-growth-capital' },
+                { text: '光速中国', link: '/guide/career/investors/lightspeed-china' },
+                { text: 'GGV纪源资本', link: '/guide/career/investors/ggv-capital' },
+                { text: 'DCM中国', link: '/guide/career/investors/dcm-ventures' },
+                { text: 'K2VC', link: '/guide/career/investors/k2-ventures' },
+                { text: '云启资本', link: '/guide/career/investors/yunqi-partners' }
+              ]
+            }
+          ]
+        }
+      ],
+      '/guide/career/top-investors': false,
       '/guide/competition/': [
         {
           text: '竞赛指导',
