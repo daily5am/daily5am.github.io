@@ -30,745 +30,358 @@ sidebar: false
   <div class="section-header">
     <h2 class="section-title">所有企业资源</h2>
     <div class="section-count">
-      <span class="count-badge">25</span>
+      <span class="count-badge" id="companyCount">0</span>
     </div>
   </div>
 
   <div class="associations-gallery" id="associationsGallery">
-  <!-- 云天励飞 -->
-  <div class="association-card clickable-card" data-search="云天励飞 AI芯片 DeepEdge10 Max 边缘AI 独角兽 GPNPU 智能安防" data-article="/guide/career/companies/yunshan-lifly">
-    <div class="card-header">
-      <div class="card-title">云天励飞</div>
-      <div class="card-action">
-        <button class="install-btn" onclick="event.stopPropagation(); window.open('https://www.intellifly.com', '_blank');">
-          访问官网
-          <i class="fas fa-external-link-alt"></i>
-        </button>
-      </div>
-    </div>
-    <div class="card-content">
-      <p class="card-description">专注于边缘AI芯片研发的高科技企业，自主研发DeepEdge10 Max芯片，采用GPNPU架构融合GPU与NPU特性。</p>
-      <div class="card-meta">
-        <span class="meta-highlight">边缘AI芯片领先企业，GPNPU架构，智能安防+智慧城市</span>
-      </div>
-      <div class="card-tags">
-        <span class="tag premium">独角兽</span>
-        <span class="tag">人工智能</span>
-        <span class="tag">芯片设计</span>
-        <span class="tag city">深圳</span>
-      </div>
-    </div>
+    <!-- 企业卡片将通过JavaScript动态生成 -->
   </div>
-
-  <!-- 云豹智能 -->
-  <div class="association-card clickable-card" data-search="云豹智能 DPU芯片 独角兽 集成电路 数据中心 云计算" data-article="/guide/career/companies/cloud-leopard">
-    <div class="card-header">
-      <div class="card-title">云豹智能</div>
-      <div class="card-action">
-        <button class="install-btn" onclick="event.stopPropagation(); window.open('https://www.cloudleopard.com', '_blank');">
-          访问官网
-          <i class="fas fa-external-link-alt"></i>
-        </button>
-      </div>
-    </div>
-    <div class="card-content">
-      <p class="card-description">国内DPU芯片领域唯一独角兽企业，专注于高性能数据处理芯片研发，仅用4年成长为行业龙头。</p>
-      <div class="card-meta">
-        <span class="meta-highlight">国内DPU领域唯一独角兽，4年成长为行业龙头</span>
-      </div>
-      <div class="card-tags">
-        <span class="tag premium">独角兽</span>
-        <span class="tag">人工智能</span>
-        <span class="tag">芯片设计</span>
-        <span class="tag city">深圳</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- 奥比中光 -->
-  <div class="association-card clickable-card" data-search="奥比中光 3D视觉 深度相机 AI视觉算法" data-article="/guide/career/companies/orbbec">
-    <div class="card-header">
-      <div class="card-title">奥比中光</div>
-      <div class="card-action">
-        <button class="install-btn" onclick="event.stopPropagation(); window.open('https://www.orbbec.com', '_blank');">
-          访问官网
-          <i class="fas fa-external-link-alt"></i>
-        </button>
-      </div>
-    </div>
-    <div class="card-content">
-      <p class="card-description">3D视觉感知技术领导者，深度相机和AI视觉算法。</p>
-      <div class="card-meta">
-        <span class="meta-highlight">3D感知技术领导者，深度相机和AI视觉算法</span>
-      </div>
-      <div class="card-tags">
-        <span class="tag standard">上市</span>
-        <span class="tag">人工智能</span>
-        <span class="tag">智能硬件</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- 元象科技 -->
-  <div class="association-card clickable-card" data-search="元象科技 AI+3D 胡润独角兽榜 融合技术" data-article="/guide/career/companies/yuanxiang-tech">
-    <div class="card-header">
-      <div class="card-title">元象科技</div>
-      <div class="card-action">
-        <button class="install-btn" onclick="event.stopPropagation(); window.open('https://www.yuanxiang.com', '_blank');">
-          访问官网
-          <i class="fas fa-external-link-alt"></i>
-        </button>
-      </div>
-    </div>
-    <div class="card-content">
-      <p class="card-description">连续3年入选胡润全球独角兽榜，AI+3D融合技术。</p>
-      <div class="card-meta">
-        <span class="meta-highlight">连续3年胡润独角兽榜，AI+3D融合技术</span>
-      </div>
-      <div class="card-tags">
-        <span class="tag premium">独角兽</span>
-        <span class="tag">人工智能</span>
-        <span class="tag">算法研发</span>
-        <span class="tag city">深圳</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- 实在智能 -->
-  <div class="association-card clickable-card" data-search="实在智能 专精特新 小巨人 AI准独角兽" data-article="/guide/career/companies/shizai-intelligent">
-    <div class="card-header">
-      <div class="card-title">实在智能</div>
-      <div class="card-action">
-        <button class="install-btn" onclick="event.stopPropagation(); window.open('https://www.shizai.com', '_blank');">
-          访问官网
-          <i class="fas fa-external-link-alt"></i>
-        </button>
-      </div>
-    </div>
-    <div class="card-content">
-      <p class="card-description">国家级专精特新小巨人企业，AI准独角兽企业。</p>
-      <div class="card-meta">
-        <span class="meta-highlight">国家级专精特新小巨人，AI准独角兽企业</span>
-      </div>
-      <div class="card-tags">
-        <span class="tag standard">小巨人</span>
-        <span class="tag">人工智能</span>
-        <span class="tag">算法研发</span>
-        <span class="tag city">深圳</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- 极视角 -->
-  <div class="association-card clickable-card" data-search="极视角 计算机视觉 AI视觉解决方案" data-article="/guide/career/companies/extreme-vision">
-    <div class="card-header">
-      <div class="card-title">极视角</div>
-      <div class="card-action">
-        <button class="install-btn" onclick="event.stopPropagation(); window.open('https://www.extremevision.com', '_blank');">
-          访问官网
-          <i class="fas fa-external-link-alt"></i>
-        </button>
-      </div>
-    </div>
-    <div class="card-content">
-      <p class="card-description">计算机视觉算法平台，AI视觉解决方案。</p>
-      <div class="card-meta">
-        <span class="meta-highlight">计算机视觉算法平台，AI视觉解决方案</span>
-      </div>
-      <div class="card-tags">
-        <span class="tag standard">专精特新</span>
-        <span class="tag">人工智能</span>
-        <span class="tag">算法研发</span>
-        <span class="tag city">深圳</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- 优必选 -->
-  <div class="association-card clickable-card" data-search="优必选 智能机器人 人形机器人 全球领先" data-article="/guide/career/companies/ubtech">
-    <div class="card-header">
-      <div class="card-title">优必选</div>
-      <div class="card-action">
-        <button class="install-btn" onclick="event.stopPropagation(); window.open('https://www.ubtrobot.com', '_blank');">
-          访问官网
-          <i class="fas fa-external-link-alt"></i>
-        </button>
-      </div>
-    </div>
-    <div class="card-content">
-      <p class="card-description">智能机器人技术，全球机器人领先企业。</p>
-      <div class="card-meta">
-        <span class="meta-highlight">全球机器人领先企业，人形机器人技术</span>
-      </div>
-      <div class="card-tags">
-        <span class="tag premium">独角兽</span>
-        <span class="tag">人工智能</span>
-        <span class="tag">应用开发</span>
-        <span class="tag city">深圳</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- 力维智联 -->
-  <div class="association-card clickable-card" data-search="力维智联 智慧城市 AI解决方案" data-article="/guide/career/companies/levi-intelligent">
-    <div class="card-header">
-      <div class="card-title">力维智联</div>
-      <div class="card-action">
-        <button class="install-btn" onclick="event.stopPropagation(); window.open('https://www.levi.com', '_blank');">
-          访问官网
-          <i class="fas fa-external-link-alt"></i>
-        </button>
-      </div>
-    </div>
-    <div class="card-content">
-      <p class="card-description">智慧城市AI解决方案提供商。</p>
-      <div class="card-meta">
-        <span class="meta-highlight">智慧城市AI解决方案提供商</span>
-      </div>
-      <div class="card-tags">
-        <span class="tag standard">专精特新</span>
-        <span class="tag">人工智能</span>
-        <span class="tag">应用开发</span>
-        <span class="tag city">深圳</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- 商汤科技 -->
-  <div class="association-card clickable-card" data-search="商汤科技 计算机视觉 深度学习 独角兽" data-article="/guide/career/companies/sense-time">
-    <div class="card-header">
-      <div class="card-title">商汤科技</div>
-      <div class="card-action">
-        <button class="install-btn" onclick="event.stopPropagation(); window.open('https://www.sensetime.com', '_blank');">
-          访问官网
-          <i class="fas fa-external-link-alt"></i>
-        </button>
-      </div>
-    </div>
-    <div class="card-content">
-      <p class="card-description">计算机视觉和深度学习技术，AI视觉领域独角兽。</p>
-      <div class="card-meta">
-        <span class="meta-highlight">计算机视觉和深度学习技术，AI视觉独角兽</span>
-      </div>
-      <div class="card-tags">
-        <span class="tag premium">独角兽</span>
-        <span class="tag">人工智能</span>
-        <span class="tag">应用开发</span>
-        <span class="tag city">深圳</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- 微众银行 -->
-  <div class="association-card clickable-card" data-search="微众银行 数字银行 FISCO BCOS 区块链 全分布式银行 微粒贷" data-article="/guide/career/companies/webank">
-    <div class="card-header">
-      <div class="card-title">微众银行</div>
-      <div class="card-action">
-        <button class="install-btn" onclick="event.stopPropagation(); window.open('https://www.webank.com', '_blank');">
-          访问官网
-          <i class="fas fa-external-link-alt"></i>
-        </button>
-      </div>
-    </div>
-    <div class="card-content">
-      <p class="card-description">中国首家互联网银行，数字银行领域排名第一，自主研发FISCO BCOS区块链平台，构建全分布式银行系统。</p>
-      <div class="card-meta">
-        <span class="meta-highlight">数字银行第一，FISCO BCOS平台，服务3亿+用户</span>
-      </div>
-      <div class="card-tags">
-        <span class="tag standard">上市</span>
-        <span class="tag">金融科技</span>
-        <span class="tag">数字货币</span>
-        <span class="tag city">深圳</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- 腾讯金融科技 -->
-  <div class="association-card clickable-card" data-search="腾讯金融科技 支付 金融科技生态" data-article="/guide/career/companies/tencent-fintech">
-    <div class="card-header">
-      <div class="card-title">腾讯金融科技</div>
-      <div class="card-action">
-        <button class="install-btn" onclick="event.stopPropagation(); window.open('https://www.tencent.com', '_blank');">
-          访问官网
-          <i class="fas fa-external-link-alt"></i>
-        </button>
-      </div>
-    </div>
-    <div class="card-content">
-      <p class="card-description">支付领域排名第二，金融科技生态。</p>
-      <div class="card-meta">
-        <span class="meta-highlight">支付领域第二，金融科技生态</span>
-      </div>
-      <div class="card-tags">
-        <span class="tag standard">上市</span>
-        <span class="tag">金融科技</span>
-        <span class="tag">支付</span>
-        <span class="tag city">深圳</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- 平安科技 -->
-  <div class="association-card clickable-card" data-search="平安科技 保险科技 金融+AI 生态联盟" data-article="/guide/career/companies/pingan-tech">
-    <div class="card-header">
-      <div class="card-title">平安科技</div>
-      <div class="card-action">
-        <button class="install-btn" onclick="event.stopPropagation(); window.open('https://tech.pingan.com', '_blank');">
-          访问官网
-          <i class="fas fa-external-link-alt"></i>
-        </button>
-      </div>
-    </div>
-    <div class="card-content">
-      <p class="card-description">保险科技领域排名第一，金融+AI生态联盟。</p>
-      <div class="card-meta">
-        <span class="meta-highlight">保险科技第一，金融+AI生态联盟</span>
-      </div>
-      <div class="card-tags">
-        <span class="tag standard">上市</span>
-        <span class="tag">金融科技</span>
-        <span class="tag">保险科技</span>
-        <span class="tag city">深圳</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- 金证科技 -->
-  <div class="association-card clickable-card" data-search="金证科技 金融IT 解决方案" data-article="/guide/career/companies/jinzheng-tech">
-    <div class="card-header">
-      <div class="card-title">金证科技</div>
-      <div class="card-action">
-        <button class="install-btn" onclick="event.stopPropagation(); window.open('https://www.jinzheng.com', '_blank');">
-          访问官网
-          <i class="fas fa-external-link-alt"></i>
-        </button>
-      </div>
-    </div>
-    <div class="card-content">
-      <p class="card-description">金融IT解决方案提供商。</p>
-      <div class="card-meta">
-        <span class="meta-highlight">金融IT解决方案提供商</span>
-      </div>
-      <div class="card-tags">
-        <span class="tag standard">上市</span>
-        <span class="tag">金融科技</span>
-        <span class="tag">区块链</span>
-        <span class="tag city">深圳</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- 招银云创 -->
-  <div class="association-card clickable-card" data-search="招银云创 招商银行 科技子公司" data-article="/guide/career/companies/cmb-cloud">
-    <div class="card-header">
-      <div class="card-title">招银云创</div>
-      <div class="card-action">
-        <button class="install-btn" onclick="event.stopPropagation(); window.open('https://www.cmbcloud.com', '_blank');">
-          访问官网
-          <i class="fas fa-external-link-alt"></i>
-        </button>
-      </div>
-    </div>
-    <div class="card-content">
-      <p class="card-description">招商银行科技子公司。</p>
-      <div class="card-meta">
-        <span class="meta-highlight">招商银行科技子公司</span>
-      </div>
-      <div class="card-tags">
-        <span class="tag standard">专精特新</span>
-        <span class="tag">金融科技</span>
-        <span class="tag">区块链</span>
-        <span class="tag city">深圳</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- 集友科创 -->
-  <div class="association-card clickable-card" data-search="集友科创 金融科技 创新企业" data-article="/guide/career/companies/jiyou-tech">
-    <div class="card-header">
-      <div class="card-title">集友科创</div>
-      <div class="card-action">
-        <button class="install-btn" onclick="event.stopPropagation(); window.open('https://www.jiyou.com', '_blank');">
-          访问官网
-          <i class="fas fa-external-link-alt"></i>
-        </button>
-      </div>
-    </div>
-    <div class="card-content">
-      <p class="card-description">金融科技创新企业。</p>
-      <div class="card-meta">
-        <span class="meta-highlight">金融科技创新企业</span>
-      </div>
-      <div class="card-tags">
-        <span class="tag standard">专精特新</span>
-        <span class="tag">金融科技</span>
-        <span class="tag">智能金融</span>
-        <span class="tag city">深圳</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- 华为技术 -->
-  <div class="association-card clickable-card" data-search="华为技术 通信设备 5G技术 全球领先 鸿蒙系统 昇腾AI" data-article="/guide/career/companies/huawei">
-    <div class="card-header">
-      <div class="card-title">华为技术</div>
-      <div class="card-action">
-        <button class="install-btn" onclick="event.stopPropagation(); window.open('https://www.huawei.com', '_blank');">
-          访问官网
-          <i class="fas fa-external-link-alt"></i>
-        </button>
-      </div>
-    </div>
-    <div class="card-content">
-      <p class="card-description">全球领先的ICT解决方案供应商，5G技术全球领先，拥有鸿蒙分布式操作系统和昇腾AI计算平台。</p>
-      <div class="card-meta">
-        <span class="meta-highlight">全球通信设备巨头，5G技术全球领先，年研发投入超千亿</span>
-      </div>
-      <div class="card-tags">
-        <span class="tag standard">上市</span>
-        <span class="tag">智能硬件</span>
-        <span class="tag">消费电子</span>
-        <span class="tag city">深圳</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- 中兴通讯 -->
-  <div class="association-card clickable-card" data-search="中兴通讯 5G技术 通信设备 制造" data-article="/guide/career/companies/zte">
-    <div class="card-header">
-      <div class="card-title">中兴通讯</div>
-      <div class="card-action">
-        <button class="install-btn" onclick="event.stopPropagation(); window.open('https://www.zte.com.cn', '_blank');">
-          访问官网
-          <i class="fas fa-external-link-alt"></i>
-        </button>
-      </div>
-    </div>
-    <div class="card-content">
-      <p class="card-description">5G技术领先，通信设备制造。</p>
-      <div class="card-meta">
-        <span class="meta-highlight">5G技术领先，通信设备制造</span>
-      </div>
-      <div class="card-tags">
-        <span class="tag standard">上市</span>
-        <span class="tag">智能硬件</span>
-        <span class="tag">消费电子</span>
-        <span class="tag city">深圳</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- TCL -->
-  <div class="association-card clickable-card" data-search="TCL 消费电子 智能家电 制造" data-article="/guide/career/companies/tcl">
-    <div class="card-header">
-      <div class="card-title">TCL</div>
-      <div class="card-action">
-        <button class="install-btn" onclick="event.stopPropagation(); window.open('https://www.tcl.com', '_blank');">
-          访问官网
-          <i class="fas fa-external-link-alt"></i>
-        </button>
-      </div>
-    </div>
-    <div class="card-content">
-      <p class="card-description">消费电子制造，智能家电。</p>
-      <div class="card-meta">
-        <span class="meta-highlight">消费电子制造，智能家电</span>
-      </div>
-      <div class="card-tags">
-        <span class="tag standard">上市</span>
-        <span class="tag">智能硬件</span>
-        <span class="tag">消费电子</span>
-        <span class="tag city">深圳</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- 创维 -->
-  <div class="association-card clickable-card" data-search="创维 智能家电 显示技术" data-article="/guide/career/companies/skyworth">
-    <div class="card-header">
-      <div class="card-title">创维</div>
-      <div class="card-action">
-        <button class="install-btn" onclick="event.stopPropagation(); window.open('https://www.skyworth.com', '_blank');">
-          访问官网
-          <i class="fas fa-external-link-alt"></i>
-        </button>
-      </div>
-    </div>
-    <div class="card-content">
-      <p class="card-description">智能家电，显示技术。</p>
-      <div class="card-meta">
-        <span class="meta-highlight">智能家电，显示技术</span>
-      </div>
-      <div class="card-tags">
-        <span class="tag standard">上市</span>
-        <span class="tag">智能硬件</span>
-        <span class="tag">消费电子</span>
-        <span class="tag city">深圳</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- 康佳 -->
-  <div class="association-card clickable-card" data-search="康佳 电子制造 智能终端" data-article="/guide/career/companies/konka">
-    <div class="card-header">
-      <div class="card-title">康佳</div>
-      <div class="card-action">
-        <button class="install-btn" onclick="event.stopPropagation(); window.open('https://www.konka.com', '_blank');">
-          访问官网
-          <i class="fas fa-external-link-alt"></i>
-        </button>
-      </div>
-    </div>
-    <div class="card-content">
-      <p class="card-description">电子制造，智能终端。</p>
-      <div class="card-meta">
-        <span class="meta-highlight">电子制造，智能终端</span>
-      </div>
-      <div class="card-tags">
-        <span class="tag standard">上市</span>
-        <span class="tag">智能硬件</span>
-        <span class="tag">消费电子</span>
-        <span class="tag city">深圳</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- 华勤控股 -->
-  <div class="association-card clickable-card" data-search="华勤控股 ODM OEM 智能终端" data-article="/guide/career/companies/huaqin">
-    <div class="card-header">
-      <div class="card-title">华勤控股</div>
-      <div class="card-action">
-        <button class="install-btn" onclick="event.stopPropagation(); window.open('https://www.huaqin.com', '_blank');">
-          访问官网
-          <i class="fas fa-external-link-alt"></i>
-        </button>
-      </div>
-    </div>
-    <div class="card-content">
-      <p class="card-description">ODM/OEM厂商，智能终端制造。</p>
-      <div class="card-meta">
-        <span class="meta-highlight">ODM/OEM厂商，智能终端制造</span>
-      </div>
-      <div class="card-tags">
-        <span class="tag standard">上市</span>
-        <span class="tag">智能硬件</span>
-        <span class="tag">智能穿戴</span>
-        <span class="tag city">深圳</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- 闻泰科技 -->
-  <div class="association-card clickable-card" data-search="闻泰科技 智能终端 制造" data-article="/guide/career/companies/wingtech">
-    <div class="card-header">
-      <div class="card-title">闻泰科技</div>
-      <div class="card-action">
-        <button class="install-btn" onclick="event.stopPropagation(); window.open('https://www.wingtech.com', '_blank');">
-          访问官网
-          <i class="fas fa-external-link-alt"></i>
-        </button>
-      </div>
-    </div>
-    <div class="card-content">
-      <p class="card-description">智能终端制造。</p>
-      <div class="card-meta">
-        <span class="meta-highlight">智能终端制造</span>
-      </div>
-      <div class="card-tags">
-        <span class="tag standard">上市</span>
-        <span class="tag">智能硬件</span>
-        <span class="tag">智能穿戴</span>
-        <span class="tag city">深圳</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- 广和通 -->
-  <div class="association-card clickable-card" data-search="广和通 无线通信 模块供应商" data-article="/guide/career/companies/fibocom">
-    <div class="card-header">
-      <div class="card-title">广和通</div>
-      <div class="card-action">
-        <button class="install-btn" onclick="event.stopPropagation(); window.open('https://www.fibocom.com', '_blank');">
-          访问官网
-          <i class="fas fa-external-link-alt"></i>
-        </button>
-      </div>
-    </div>
-    <div class="card-content">
-      <p class="card-description">无线通信模块供应商。</p>
-      <div class="card-meta">
-        <span class="meta-highlight">无线通信模块供应商</span>
-      </div>
-      <div class="card-tags">
-        <span class="tag standard">上市</span>
-        <span class="tag">智能硬件</span>
-        <span class="tag">智能穿戴</span>
-        <span class="tag city">深圳</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- 富士康 -->
-  <div class="association-card clickable-card" data-search="富士康 制造服务 代工" data-article="/guide/career/companies/foxconn">
-    <div class="card-header">
-      <div class="card-title">富士康</div>
-      <div class="card-action">
-        <button class="install-btn" onclick="event.stopPropagation(); window.open('https://www.foxconn.com', '_blank');">
-          访问官网
-          <i class="fas fa-external-link-alt"></i>
-        </button>
-      </div>
-    </div>
-    <div class="card-content">
-      <p class="card-description">制造服务商，全球代工巨头。</p>
-      <div class="card-meta">
-        <span class="meta-highlight">制造服务商，全球代工巨头</span>
-      </div>
-      <div class="card-tags">
-        <span class="tag standard">上市</span>
-        <span class="tag">智能硬件</span>
-        <span class="tag">核心器件</span>
-        <span class="tag city">深圳</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- 正威集团 -->
-  <div class="association-card clickable-card" data-search="正威集团 制造服务 金属加工" data-article="/guide/career/companies/amer">
-    <div class="card-header">
-      <div class="card-title">正威集团</div>
-      <div class="card-action">
-        <button class="install-btn" onclick="event.stopPropagation(); window.open('https://www.amer.com', '_blank');">
-          访问官网
-          <i class="fas fa-external-link-alt"></i>
-        </button>
-      </div>
-    </div>
-    <div class="card-content">
-      <p class="card-description">制造服务商，金属加工。</p>
-      <div class="card-meta">
-        <span class="meta-highlight">制造服务商，金属加工</span>
-      </div>
-      <div class="card-tags">
-        <span class="tag standard">上市</span>
-        <span class="tag">智能硬件</span>
-        <span class="tag">核心器件</span>
-        <span class="tag city">深圳</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- 华珑国际 -->
-  <div class="association-card clickable-card" data-search="华珑国际 制造服务" data-article="/guide/career/companies/hualong">
-    <div class="card-header">
-      <div class="card-title">华珑国际</div>
-      <div class="card-action">
-        <button class="install-btn" onclick="event.stopPropagation(); window.open('https://www.hualong.com', '_blank');">
-          访问官网
-          <i class="fas fa-external-link-alt"></i>
-        </button>
-      </div>
-    </div>
-    <div class="card-content">
-      <p class="card-description">制造服务商。</p>
-      <div class="card-meta">
-        <span class="meta-highlight">制造服务商</span>
-      </div>
-      <div class="card-tags">
-        <span class="tag standard">专精特新</span>
-        <span class="tag">智能硬件</span>
-        <span class="tag">核心器件</span>
-        <span class="tag city">深圳</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- 迈瑞医疗 -->
-  <div class="association-card clickable-card" data-search="迈瑞医疗 医械一哥 医疗器械 AI医疗 启元重症大模型 350亿营收" data-article="/guide/career/companies/mindray">
-    <div class="card-header">
-      <div class="card-title">迈瑞医疗</div>
-      <div class="card-action">
-        <button class="install-btn" onclick="event.stopPropagation(); window.open('https://www.mindray.com', '_blank');">
-          访问官网
-          <i class="fas fa-external-link-alt"></i>
-        </button>
-      </div>
-    </div>
-    <div class="card-content">
-      <p class="card-description">中国"医械一哥"，全球领先医疗器械企业，2023年营业收入接近350亿元，与腾讯联合开发"启元重症大模型"。</p>
-      <div class="card-meta">
-        <span class="meta-highlight">中国医械一哥，2023年营收350亿元，AI血细胞识别准确率97%+</span>
-      </div>
-      <div class="card-tags">
-        <span class="tag standard">上市</span>
-        <span class="tag">智慧医疗</span>
-        <span class="tag">医疗设备</span>
-        <span class="tag city">深圳</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- 卫盈联信息技术 -->
-  <div class="association-card clickable-card" data-search="卫盈联信息技术 医疗信息化 解决方案" data-article="/guide/career/companies/weiyinlian">
-    <div class="card-header">
-      <div class="card-title">卫盈联信息技术</div>
-      <div class="card-action">
-        <button class="install-btn" onclick="event.stopPropagation(); window.open('https://www.weiyinlian.com', '_blank');">
-          访问官网
-          <i class="fas fa-external-link-alt"></i>
-        </button>
-      </div>
-    </div>
-    <div class="card-content">
-      <p class="card-description">医疗信息化解决方案提供商。</p>
-      <div class="card-meta">
-        <span class="meta-highlight">医疗信息化解决方案提供商</span>
-      </div>
-      <div class="card-tags">
-        <span class="tag standard">专精特新</span>
-        <span class="tag">智慧医疗</span>
-        <span class="tag">智慧服务</span>
-        <span class="tag city">深圳</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- 中电科新型智慧城市研究院 -->
-  <div class="association-card clickable-card" data-search="中电科新型智慧城市研究院 智慧城市 医疗应用" data-article="/guide/career/companies/cetc-smart-city">
-    <div class="card-header">
-      <div class="card-title">中电科新型智慧城市研究院</div>
-      <div class="card-action">
-        <button class="install-btn" onclick="event.stopPropagation(); window.open('https://www.cetc-smartcity.com', '_blank');">
-          访问官网
-          <i class="fas fa-external-link-alt"></i>
-        </button>
-      </div>
-    </div>
-    <div class="card-content">
-      <p class="card-description">智慧城市医疗应用。</p>
-      <div class="card-meta">
-        <span class="meta-highlight">智慧城市医疗应用</span>
-      </div>
-      <div class="card-tags">
-        <span class="tag standard">专精特新</span>
-        <span class="tag">智慧医疗</span>
-        <span class="tag">智慧服务</span>
-        <span class="tag city">深圳</span>
-      </div>
-    </div>
-  </div>
-</div>
 </div>
 
 <script setup>
 // 使用Vue的客户端组件来处理搜索和过滤功能
 import { onMounted } from 'vue'
 
+// 企业数据配置
+const companiesData = [
+  {
+    id: 'yunshan-lifly',
+    name: '云天励飞',
+    website: 'https://www.intellifly.com',
+    description: '专注于边缘AI芯片研发的高科技企业，自主研发DeepEdge10 Max芯片，采用GPNPU架构融合GPU与NPU特性。',
+    highlight: '边缘AI芯片领先企业，GPNPU架构，智能安防+智慧城市',
+    searchKeywords: '云天励飞 AI芯片 DeepEdge10 Max 边缘AI 独角兽 GPNPU 智能安防',
+    tags: ['独角兽', '人工智能', '芯片设计', '深圳'],
+    articlePath: '/guide/career/companies/yunshan-lifly'
+  },
+  {
+    id: 'cloud-leopard',
+    name: '云豹智能',
+    website: 'https://www.cloudleopard.com',
+    description: '国内DPU芯片领域唯一独角兽企业，专注于高性能数据处理芯片研发，仅用4年成长为行业龙头。',
+    highlight: '国内DPU领域唯一独角兽，4年成长为行业龙头',
+    searchKeywords: '云豹智能 DPU芯片 独角兽 集成电路 数据中心 云计算',
+    tags: ['独角兽', '人工智能', '芯片设计', '深圳'],
+    articlePath: '/guide/career/companies/cloud-leopard'
+  },
+  {
+    id: 'orbbec',
+    name: '奥比中光',
+    website: 'https://www.orbbec.com',
+    description: '3D视觉感知技术领导者，深度相机和AI视觉算法。',
+    highlight: '3D感知技术领导者，深度相机和AI视觉算法',
+    searchKeywords: '奥比中光 3D视觉 深度相机 AI视觉算法',
+    tags: ['上市', '人工智能', '智能硬件'],
+    articlePath: '/guide/career/companies/orbbec'
+  },
+  {
+    id: 'yuanxiang-tech',
+    name: '元象科技',
+    website: 'https://www.yuanxiang.com',
+    description: '连续3年入选胡润全球独角兽榜，AI+3D融合技术。',
+    highlight: '连续3年胡润独角兽榜，AI+3D融合技术',
+    searchKeywords: '元象科技 AI+3D 胡润独角兽榜 融合技术',
+    tags: ['独角兽', '人工智能', '算法研发', '深圳'],
+    articlePath: '/guide/career/companies/yuanxiang-tech'
+  },
+  {
+    id: 'shizai-intelligent',
+    name: '实在智能',
+    website: 'https://www.shizai.com',
+    description: '国家级专精特新小巨人企业，AI准独角兽企业。',
+    highlight: '国家级专精特新小巨人，AI准独角兽企业',
+    searchKeywords: '实在智能 专精特新 小巨人 AI准独角兽',
+    tags: ['小巨人', '人工智能', '算法研发', '深圳'],
+    articlePath: '/guide/career/companies/shizai-intelligent'
+  },
+  {
+    id: 'extreme-vision',
+    name: '极视角',
+    website: 'https://www.extremevision.com',
+    description: '计算机视觉算法平台，AI视觉解决方案。',
+    highlight: '计算机视觉算法平台，AI视觉解决方案',
+    searchKeywords: '极视角 计算机视觉 AI视觉解决方案',
+    tags: ['专精特新', '人工智能', '算法研发', '深圳'],
+    articlePath: '/guide/career/companies/extreme-vision'
+  },
+  {
+    id: 'ubtech',
+    name: '优必选',
+    website: 'https://www.ubtrobot.com',
+    description: '智能机器人技术，全球机器人领先企业。',
+    highlight: '全球机器人领先企业，人形机器人技术',
+    searchKeywords: '优必选 智能机器人 人形机器人 全球领先',
+    tags: ['独角兽', '人工智能', '应用开发', '深圳'],
+    articlePath: '/guide/career/companies/ubtech'
+  },
+  {
+    id: 'levi-intelligent',
+    name: '力维智联',
+    website: 'https://www.levi.com',
+    description: '智慧城市AI解决方案提供商。',
+    highlight: '智慧城市AI解决方案提供商',
+    searchKeywords: '力维智联 智慧城市 AI解决方案',
+    tags: ['专精特新', '人工智能', '应用开发', '深圳'],
+    articlePath: '/guide/career/companies/levi-intelligent'
+  },
+  {
+    id: 'sense-time',
+    name: '商汤科技',
+    website: 'https://www.sensetime.com',
+    description: '计算机视觉和深度学习技术，AI视觉领域独角兽。',
+    highlight: '计算机视觉和深度学习技术，AI视觉独角兽',
+    searchKeywords: '商汤科技 计算机视觉 深度学习 独角兽',
+    tags: ['独角兽', '人工智能', '应用开发', '深圳'],
+    articlePath: '/guide/career/companies/sense-time'
+  },
+  {
+    id: 'webank',
+    name: '微众银行',
+    website: 'https://www.webank.com',
+    description: '中国首家互联网银行，数字银行领域排名第一，自主研发FISCO BCOS区块链平台，构建全分布式银行系统。',
+    highlight: '数字银行第一，FISCO BCOS平台，服务3亿+用户',
+    searchKeywords: '微众银行 数字银行 FISCO BCOS 区块链 全分布式银行 微粒贷',
+    tags: ['上市', '金融科技', '数字货币', '深圳'],
+    articlePath: '/guide/career/companies/webank'
+  },
+  {
+    id: 'tencent-fintech',
+    name: '腾讯金融科技',
+    website: 'https://www.tencent.com',
+    description: '支付领域排名第二，金融科技生态。',
+    highlight: '支付领域第二，金融科技生态',
+    searchKeywords: '腾讯金融科技 支付 金融科技生态',
+    tags: ['上市', '金融科技', '支付', '深圳'],
+    articlePath: '/guide/career/companies/tencent-fintech'
+  },
+  {
+    id: 'pingan-tech',
+    name: '平安科技',
+    website: 'https://tech.pingan.com',
+    description: '保险科技领域排名第一，金融+AI生态联盟。',
+    highlight: '保险科技第一，金融+AI生态联盟',
+    searchKeywords: '平安科技 保险科技 金融+AI 生态联盟',
+    tags: ['上市', '金融科技', '保险科技', '深圳'],
+    articlePath: '/guide/career/companies/pingan-tech'
+  },
+  {
+    id: 'jinzheng-tech',
+    name: '金证科技',
+    website: 'https://www.jinzheng.com',
+    description: '金融IT解决方案提供商。',
+    highlight: '金融IT解决方案提供商',
+    searchKeywords: '金证科技 金融IT 解决方案',
+    tags: ['上市', '金融科技', '区块链', '深圳'],
+    articlePath: '/guide/career/companies/jinzheng-tech'
+  },
+  {
+    id: 'cmb-cloud',
+    name: '招银云创',
+    website: 'https://www.cmbcloud.com',
+    description: '招商银行科技子公司。',
+    highlight: '招商银行科技子公司',
+    searchKeywords: '招银云创 招商银行 科技子公司',
+    tags: ['专精特新', '金融科技', '区块链', '深圳'],
+    articlePath: '/guide/career/companies/cmb-cloud'
+  },
+  {
+    id: 'jiyou-tech',
+    name: '集友科创',
+    website: 'https://www.jiyou.com',
+    description: '金融科技创新企业。',
+    highlight: '金融科技创新企业',
+    searchKeywords: '集友科创 金融科技 创新企业',
+    tags: ['专精特新', '金融科技', '智能金融', '深圳'],
+    articlePath: '/guide/career/companies/jiyou-tech'
+  },
+  {
+    id: 'huawei',
+    name: '华为技术',
+    website: 'https://www.huawei.com',
+    description: '全球领先的ICT解决方案供应商，5G技术全球领先，拥有鸿蒙分布式操作系统和昇腾AI计算平台。',
+    highlight: '全球通信设备巨头，5G技术全球领先，年研发投入超千亿',
+    searchKeywords: '华为技术 通信设备 5G技术 全球领先 鸿蒙系统 昇腾AI',
+    tags: ['上市', '智能硬件', '消费电子', '深圳'],
+    articlePath: '/guide/career/companies/huawei'
+  },
+  {
+    id: 'zte',
+    name: '中兴通讯',
+    website: 'https://www.zte.com.cn',
+    description: '5G技术领先，通信设备制造。',
+    highlight: '5G技术领先，通信设备制造',
+    searchKeywords: '中兴通讯 5G技术 通信设备 制造',
+    tags: ['上市', '智能硬件', '消费电子', '深圳'],
+    articlePath: '/guide/career/companies/zte'
+  },
+  {
+    id: 'tcl',
+    name: 'TCL',
+    website: 'https://www.tcl.com',
+    description: '消费电子制造，智能家电。',
+    highlight: '消费电子制造，智能家电',
+    searchKeywords: 'TCL 消费电子 智能家电 制造',
+    tags: ['上市', '智能硬件', '消费电子', '深圳'],
+    articlePath: '/guide/career/companies/tcl'
+  },
+  {
+    id: 'skyworth',
+    name: '创维',
+    website: 'https://www.skyworth.com',
+    description: '智能家电，显示技术。',
+    highlight: '智能家电，显示技术',
+    searchKeywords: '创维 智能家电 显示技术',
+    tags: ['上市', '智能硬件', '消费电子', '深圳'],
+    articlePath: '/guide/career/companies/skyworth'
+  },
+  {
+    id: 'konka',
+    name: '康佳',
+    website: 'https://www.konka.com',
+    description: '电子制造，智能终端。',
+    highlight: '电子制造，智能终端',
+    searchKeywords: '康佳 电子制造 智能终端',
+    tags: ['上市', '智能硬件', '消费电子', '深圳'],
+    articlePath: '/guide/career/companies/konka'
+  },
+  {
+    id: 'huaqin',
+    name: '华勤控股',
+    website: 'https://www.huaqin.com',
+    description: 'ODM/OEM厂商，智能终端制造。',
+    highlight: 'ODM/OEM厂商，智能终端制造',
+    searchKeywords: '华勤控股 ODM OEM 智能终端',
+    tags: ['上市', '智能硬件', '智能穿戴', '深圳'],
+    articlePath: '/guide/career/companies/huaqin'
+  },
+  {
+    id: 'wingtech',
+    name: '闻泰科技',
+    website: 'https://www.wingtech.com',
+    description: '智能终端制造。',
+    highlight: '智能终端制造',
+    searchKeywords: '闻泰科技 智能终端 制造',
+    tags: ['上市', '智能硬件', '智能穿戴', '深圳'],
+    articlePath: '/guide/career/companies/wingtech'
+  },
+  {
+    id: 'fibocom',
+    name: '广和通',
+    website: 'https://www.fibocom.com',
+    description: '无线通信模块供应商。',
+    highlight: '无线通信模块供应商',
+    searchKeywords: '广和通 无线通信 模块供应商',
+    tags: ['上市', '智能硬件', '智能穿戴', '深圳'],
+    articlePath: '/guide/career/companies/fibocom'
+  },
+  {
+    id: 'foxconn',
+    name: '富士康',
+    website: 'https://www.foxconn.com',
+    description: '制造服务商，全球代工巨头。',
+    highlight: '制造服务商，全球代工巨头',
+    searchKeywords: '富士康 制造服务 代工',
+    tags: ['上市', '智能硬件', '核心器件', '深圳'],
+    articlePath: '/guide/career/companies/foxconn'
+  },
+  {
+    id: 'amer',
+    name: '正威集团',
+    website: 'https://www.amer.com',
+    description: '制造服务商，金属加工。',
+    highlight: '制造服务商，金属加工',
+    searchKeywords: '正威集团 制造服务 金属加工',
+    tags: ['上市', '智能硬件', '核心器件', '深圳'],
+    articlePath: '/guide/career/companies/amer'
+  },
+  {
+    id: 'hualong',
+    name: '华珑国际',
+    website: 'https://www.hualong.com',
+    description: '制造服务商。',
+    highlight: '制造服务商',
+    searchKeywords: '华珑国际 制造服务',
+    tags: ['专精特新', '智能硬件', '核心器件', '深圳'],
+    articlePath: '/guide/career/companies/hualong'
+  },
+  {
+    id: 'mindray',
+    name: '迈瑞医疗',
+    website: 'https://www.mindray.com',
+    description: '中国"医械一哥"，全球领先医疗器械企业，2023年营业收入接近350亿元，与腾讯联合开发"启元重症大模型"。',
+    highlight: '中国医械一哥，2023年营收350亿元，AI血细胞识别准确率97%+',
+    searchKeywords: '迈瑞医疗 医械一哥 医疗器械 AI医疗 启元重症大模型 350亿营收',
+    tags: ['上市', '智慧医疗', '医疗设备', '深圳'],
+    articlePath: '/guide/career/companies/mindray'
+  },
+  {
+    id: 'weiyinlian',
+    name: '卫盈联信息技术',
+    website: 'https://www.weiyinlian.com',
+    description: '医疗信息化解决方案提供商。',
+    highlight: '医疗信息化解决方案提供商',
+    searchKeywords: '卫盈联信息技术 医疗信息化 解决方案',
+    tags: ['专精特新', '智慧医疗', '智慧服务', '深圳'],
+    articlePath: '/guide/career/companies/weiyinlian'
+  },
+  {
+    id: 'cetc-smart-city',
+    name: '中电科新型智慧城市研究院',
+    website: 'https://www.cetc-smartcity.com',
+    description: '智慧城市医疗应用。',
+    highlight: '智慧城市医疗应用',
+    searchKeywords: '中电科新型智慧城市研究院 智慧城市 医疗应用',
+    tags: ['专精特新', '智慧医疗', '智慧服务', '深圳'],
+    articlePath: '/guide/career/companies/cetc-smart-city'
+  }
+]
+
+// 生成企业卡片的HTML
+function generateCompanyCard(company) {
+  const tagClass = getTagClass(company.tags[0])
+  const cityTag = company.tags.includes('深圳') ? '<span class="tag city">深圳</span>' : ''
+  
+  return `
+  <div class="association-card clickable-card" data-search="${company.searchKeywords}" data-article="${company.articlePath}">
+    <div class="card-header">
+      <div class="card-title">${company.name}</div>
+      <div class="card-action">
+        <button class="install-btn" onclick="event.stopPropagation(); window.open('${company.website}', '_blank');">
+          访问官网
+          <i class="fas fa-external-link-alt"></i>
+        </button>
+      </div>
+    </div>
+    <div class="card-content">
+      <p class="card-description">${company.description}</p>
+      <div class="card-meta">
+        <span class="meta-highlight">${company.highlight}</span>
+      </div>
+      <div class="card-tags">
+        <span class="tag ${tagClass}">${company.tags[0]}</span>
+        ${company.tags.slice(1).map(tag => `<span class="tag">${tag}</span>`).join('')}
+        ${cityTag}
+      </div>
+    </div>
+  </div>`
+}
+
+// 获取标签样式类
+function getTagClass(tag) {
+  const tagClassMap = {
+    '独角兽': 'premium',
+    '上市': 'standard',
+    '专精特新': 'standard',
+    '小巨人': 'standard'
+  }
+  return tagClassMap[tag] || ''
+}
+
 onMounted(() => {
   const searchInput = document.getElementById('searchInput')
-  const countBadge = document.querySelector('.count-badge')
-  const associationCards = document.querySelectorAll('.association-card')
+  const countBadge = document.getElementById('companyCount')
+  const associationsGallery = document.getElementById('associationsGallery')
   const filterSection = document.getElementById('filterSection')
   
   let currentSearchTerm = ''
@@ -777,6 +390,13 @@ onMounted(() => {
     industry: 'all', 
     level: 'all',
     city: 'all'
+  }
+  
+  // 渲染企业卡片
+  function renderCompanies() {
+    associationsGallery.innerHTML = companiesData.map(company => generateCompanyCard(company)).join('')
+    updateCount()
+    setupCardListeners()
   }
   
   // 动态创建过滤器
@@ -863,6 +483,7 @@ onMounted(() => {
       activeFilters[filterType] = filterValue
     }
     
+    const associationCards = document.querySelectorAll('.association-card')
     associationCards.forEach(card => {
       const searchData = card.getAttribute('data-search')?.toLowerCase() || ''
       const cardTitle = card.querySelector('.card-title')?.textContent?.toLowerCase() || ''
@@ -983,17 +604,20 @@ onMounted(() => {
   }
   
   // 为所有可点击卡片添加点击事件监听器
-  associationCards.forEach(card => {
-    if (card.classList.contains('clickable-card')) {
-      card.addEventListener('click', handleCardClick)
-      
-      // 为卡片上的标签添加点击事件监听器
-      const cardTags = card.querySelectorAll('.tag')
-      cardTags.forEach(tag => {
-        tag.addEventListener('click', handleCardTagClick)
-      })
-    }
-  })
+  function setupCardListeners() {
+    const associationCards = document.querySelectorAll('.association-card')
+    associationCards.forEach(card => {
+      if (card.classList.contains('clickable-card')) {
+        card.addEventListener('click', handleCardClick)
+        
+        // 为卡片上的标签添加点击事件监听器
+        const cardTags = card.querySelectorAll('.tag')
+        cardTags.forEach(tag => {
+          tag.addEventListener('click', handleCardTagClick)
+        })
+      }
+    })
+  }
   
   // 监听搜索输入
   if (searchInput) {
@@ -1003,8 +627,8 @@ onMounted(() => {
   }
   
   // 初始化
+  renderCompanies()
   createFilterSection()
   setupFilterListeners()
-  updateCount()
 })
 </script>
