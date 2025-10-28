@@ -99,6 +99,7 @@ export default defineConfig({
               { text: '投资机构搜索', link: '/guide/career/top-investors' }
             ]
           },
+          { text: '软件行业KOL', link: '/guide/career/software-kol' },
           { text: '产业趋势分析', link: '/guide/career/industry-trends' },
           { text: '政策支持解读', link: '/guide/career/policy-support' }
         ]
