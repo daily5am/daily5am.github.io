@@ -783,6 +783,39 @@ export default defineConfig({
             { text: '学习方法', link: '/guide/soft-skills/learning-methods' }
           ]
         }
+      ],
+      '/guide/career/top-investors': [
+        {
+          text: '投资机构名录',
+          items: [
+            { text: '概览', link: '/guide/career/top-investors' },
+            { text: '顶级VC', link: '/guide/career/top-investors#顶级vc' },
+            { text: '天使基金', link: '/guide/career/top-investors#天使基金' },
+            { text: '产业投资', link: '/guide/career/top-investors#产业投资' },
+            { text: '国资投资', link: '/guide/career/top-investors#国资投资' },
+            { text: '专业VC', link: '/guide/career/top-investors#专业vc' },
+            { text: '红杉中国', link: '/guide/career/top-investors#红杉中国' },
+            { text: 'IDG资本', link: '/guide/career/top-investors#idg资本' },
+            { text: '经纬中国', link: '/guide/career/top-investors#经纬中国' },
+            { text: '真格基金', link: '/guide/career/top-investors#真格基金' },
+            { text: '创新工场', link: '/guide/career/top-investors#创新工场' },
+            { text: '腾讯投资', link: '/guide/career/top-investors#腾讯投资' },
+            { text: '阿里巴巴投资', link: '/guide/career/top-investors#阿里巴巴投资' },
+            { text: '字节跳动投资', link: '/guide/career/top-investors#字节跳动投资' },
+            { text: '美团投资', link: '/guide/career/top-investors#美团投资' },
+            { text: '小米投资', link: '/guide/career/top-investors#小米投资' },
+            { text: '深创投', link: '/guide/career/top-investors#深创投' },
+            { text: '达晨创投', link: '/guide/career/top-investors#达晨创投' },
+            { text: '同创伟业', link: '/guide/career/top-investors#同创伟业' },
+            { text: '松禾资本', link: '/guide/career/top-investors#松禾资本' },
+            { text: '华创资本', link: '/guide/career/top-investors#华创资本' },
+            { text: '光速中国', link: '/guide/career/top-investors#光速中国' },
+            { text: 'GGV纪源资本', link: '/guide/career/top-investors#ggv纪源资本' },
+            { text: 'DCM中国', link: '/guide/career/top-investors#dcm中国' },
+            { text: 'K2VC', link: '/guide/career/top-investors#k2vc' },
+            { text: '云启资本', link: '/guide/career/top-investors#云启资本' }
+          ]
+        }
       ]
     },
 

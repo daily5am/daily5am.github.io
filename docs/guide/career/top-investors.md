@@ -34,6 +34,32 @@ sidebar: false
     </div>
   </div>
 
+  <!-- 投资机构分类 -->
+  <h3 id="顶级vc">顶级VC</h3>
+  <div class="investor-category" data-category="顶级VC">
+    <!-- 顶级VC机构将通过JavaScript动态生成 -->
+  </div>
+
+  <h3 id="天使基金">天使基金</h3>
+  <div class="investor-category" data-category="天使基金">
+    <!-- 天使基金机构将通过JavaScript动态生成 -->
+  </div>
+
+  <h3 id="产业投资">产业投资</h3>
+  <div class="investor-category" data-category="产业投资">
+    <!-- 产业投资机构将通过JavaScript动态生成 -->
+  </div>
+
+  <h3 id="国资投资">国资投资</h3>
+  <div class="investor-category" data-category="国资投资">
+    <!-- 国资投资机构将通过JavaScript动态生成 -->
+  </div>
+
+  <h3 id="专业vc">专业VC</h3>
+  <div class="investor-category" data-category="专业VC">
+    <!-- 专业VC机构将通过JavaScript动态生成 -->
+  </div>
+
   <div class="associations-gallery" id="associationsGallery">
     <!-- 投资机构卡片将通过JavaScript动态生成 -->
   </div>
@@ -253,7 +279,7 @@ function generateInvestorCard(investor) {
   const cityTag = investor.tags.includes('深圳') || investor.tags.includes('北京') || investor.tags.includes('上海') || investor.tags.includes('杭州') ? `<span class="tag city">${investor.tags[3]}</span>` : ''
   
   return `
-  <div class="association-card clickable-card" data-search="${investor.searchKeywords}" data-article="${investor.articlePath}">
+  <div class="association-card clickable-card" id="${investor.id}" data-search="${investor.searchKeywords}" data-article="${investor.articlePath}">
     <div class="card-header">
       <div class="card-title">${investor.name}</div>
       <div class="card-action">
@@ -305,6 +331,18 @@ onMounted(() => {
   
   // 渲染投资机构卡片
   function renderInvestors() {
+    // 按分类渲染投资机构
+    const categories = ['顶级VC', '天使基金', '产业投资', '国资投资', '专业VC']
+    
+    categories.forEach(category => {
+      const categoryDiv = document.querySelector(`[data-category="${category}"]`)
+      if (categoryDiv) {
+        const categoryInvestors = investorsData.filter(investor => investor.tags[0] === category)
+        categoryDiv.innerHTML = categoryInvestors.map(investor => generateInvestorCard(investor)).join('')
+      }
+    })
+    
+    // 渲染所有投资机构到主画廊
     associationsGallery.innerHTML = investorsData.map(investor => generateInvestorCard(investor)).join('')
     updateCount()
     setupCardListeners()
