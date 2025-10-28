@@ -27,6 +27,7 @@ help:
 	@echo "  $(GREEN)clean$(NC)          清理依赖和构建文件"
 	@echo "  $(GREEN)reinstall$(NC)      重新安装依赖"
 	@echo "  $(GREEN)deploy$(NC)         构建并准备部署"
+	@echo "  $(GREEN)release$(NC)        创建发布标签并推送到远程仓库"
 	@echo "  $(GREEN)info$(NC)           显示项目信息"
 	@echo "  $(GREEN)status$(NC)         检查项目状态"
 	@echo "  $(GREEN)quick-start$(NC)    快速开始 (安装依赖 + 启动开发服务器)"
@@ -79,6 +80,18 @@ deploy: build
 	@echo "$(GREEN)🚀 准备部署...$(NC)"
 	@echo "$(YELLOW)构建文件位于: docs/.vitepress/dist$(NC)"
 	@echo "$(YELLOW)可以推送到GitHub/GitLab进行自动部署$(NC)"
+
+.PHONY: release
+release:
+	@echo "$(GREEN)🏷️  创建发布标签...$(NC)"
+	@TIMESTAMP=$$(date +"%Y%m%d.%H%M%S"); \
+	TAG_NAME="release-$$TIMESTAMP"; \
+	echo "$(YELLOW)创建标签: $$TAG_NAME$(NC)"; \
+	git tag $$TAG_NAME; \
+	echo "$(GREEN)✅ 标签创建成功: $$TAG_NAME$(NC)"; \
+	echo "$(YELLOW)推送标签到远程仓库...$(NC)"; \
+	git push origin $$TAG_NAME; \
+	echo "$(GREEN)✅ 标签推送成功！$(NC)"
 
 # 项目信息
 .PHONY: info
