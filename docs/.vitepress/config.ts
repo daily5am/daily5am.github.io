@@ -684,6 +684,36 @@ export default defineConfig({
           ]
         }
       ],
+      '/guide/career/freelancer': [
+        {
+          text: '自由职业相关文章',
+          items: [
+            { text: 'Freelancer 自由职业者指南', link: '/guide/career/freelancer' },
+            { text: '独立开发者指南', link: '/guide/career/independent-developer' },
+            { text: '职业发展路径', link: '/guide/career/career-path' },
+            { text: '技能提升计划', link: '/guide/career/skill-development' },
+            { text: '薪资谈判技巧', link: '/guide/career/salary-negotiation' },
+            { text: '跳槽策略指南', link: '/guide/career/job-hopping-strategy' },
+            { text: '企业分享', link: '/guide/career/enterprise-sharing' },
+            { text: '求职平台', link: '/guide/career/job-platforms' }
+          ]
+        }
+      ],
+      '/guide/career/independent-developer': [
+        {
+          text: '独立开发相关文章',
+          items: [
+            { text: '独立开发者指南', link: '/guide/career/independent-developer' },
+            { text: 'Freelancer 自由职业者指南', link: '/guide/career/freelancer' },
+            { text: '职业发展路径', link: '/guide/career/career-path' },
+            { text: '技能提升计划', link: '/guide/career/skill-development' },
+            { text: '薪资谈判技巧', link: '/guide/career/salary-negotiation' },
+            { text: '跳槽策略指南', link: '/guide/career/job-hopping-strategy' },
+            { text: '企业分享', link: '/guide/career/enterprise-sharing' },
+            { text: '求职平台', link: '/guide/career/job-platforms' }
+          ]
+        }
+      ],
       '/guide/career/associations/': [
         {
           text: '软件协会资源',
