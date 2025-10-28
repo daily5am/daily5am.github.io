@@ -188,16 +188,62 @@ export default defineConfig({
         {
           text: '产业趋势分析',
           items: [
-            { text: '概览', link: '/guide/career/industry-trends' },
-            { text: 'AI与人工智能', link: '/guide/career/industry-trends#ai与人工智能' },
-            { text: '云计算与大数据', link: '/guide/career/industry-trends#云计算与大数据' },
-            { text: '物联网与5G', link: '/guide/career/industry-trends#物联网与5g' },
-            { text: '区块链与Web3', link: '/guide/career/industry-trends#区块链与web3' },
-            { text: '量子计算', link: '/guide/career/industry-trends#量子计算' },
-            { text: '元宇宙与VR/AR', link: '/guide/career/industry-trends#元宇宙与vrar' },
-            { text: '自动驾驶', link: '/guide/career/industry-trends#自动驾驶' },
-            { text: '技术发展建议', link: '/guide/career/industry-trends#技术发展建议' },
-            { text: '相关资源', link: '/guide/career/industry-trends#相关资源' }
+            { text: '产业趋势分析', link: '/guide/career/industry-trends' },
+            {
+              text: '行业奖项与认证',
+              collapsed: false,
+              items: [
+                { text: '技术奖项概览', link: '/guide/career/industry-awards' },
+                { text: '开源软件奖', link: '/guide/career/industry-awards#开源软件奖' },
+                { text: '技术创新奖', link: '/guide/career/industry-awards#技术创新奖' },
+                { text: '产品设计奖', link: '/guide/career/industry-awards#产品设计奖' },
+                { text: '行业认证体系', link: '/guide/career/industry-awards#行业认证体系' }
+              ]
+            },
+            {
+              text: '商业模式与案例',
+              collapsed: false,
+              items: [
+                { text: '商业模式分析', link: '/guide/career/business-models' },
+                { text: 'SaaS模式', link: '/guide/career/business-models#saas模式' },
+                { text: '平台模式', link: '/guide/career/business-models#平台模式' },
+                { text: '生态模式', link: '/guide/career/business-models#生态模式' },
+                { text: '成功案例研究', link: '/guide/career/business-models#成功案例研究' }
+              ]
+            },
+            {
+              text: '人才市场分析',
+              collapsed: false,
+              items: [
+                { text: '人才市场概览', link: '/guide/career/talent-market' },
+                { text: '薪资报告', link: '/guide/career/talent-market#薪资报告' },
+                { text: '人才需求', link: '/guide/career/talent-market#人才需求' },
+                { text: '招聘趋势', link: '/guide/career/talent-market#招聘趋势' },
+                { text: '技能要求', link: '/guide/career/talent-market#技能要求' }
+              ]
+            },
+            {
+              text: '国际技术动态',
+              collapsed: false,
+              items: [
+                { text: '全球技术趋势', link: '/guide/career/global-tech-trends' },
+                { text: '硅谷动态', link: '/guide/career/global-tech-trends#硅谷动态' },
+                { text: '欧洲技术', link: '/guide/career/global-tech-trends#欧洲技术' },
+                { text: '日本技术发展', link: '/guide/career/global-tech-trends#日本技术发展' },
+                { text: '技术标准', link: '/guide/career/global-tech-trends#技术标准' }
+              ]
+            },
+            {
+              text: '研发机构与实验室',
+              collapsed: false,
+              items: [
+                { text: '研发机构概览', link: '/guide/career/research-institutions' },
+                { text: '企业研究院', link: '/guide/career/research-institutions#企业研究院' },
+                { text: '高校实验室', link: '/guide/career/research-institutions#高校实验室' },
+                { text: '政府实验室', link: '/guide/career/research-institutions#政府实验室' },
+                { text: '国际合作', link: '/guide/career/research-institutions#国际合作' }
+              ]
+            }
           ]
         }
       ],
