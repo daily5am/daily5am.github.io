@@ -73,7 +73,9 @@ export default defineConfig({
         text: '就业面试',
         items: [
           { text: '面试指导', link: '/guide/career/' },
-          { text: '求职平台', link: '/guide/career/job-platforms' }
+          { text: '求职平台', link: '/guide/career/job-platforms' },
+          { text: 'Freelancer', link: '/guide/career/freelancer' },
+          { text: '独立开发者', link: '/guide/career/independent-developer' }
         ]
       },
       {
