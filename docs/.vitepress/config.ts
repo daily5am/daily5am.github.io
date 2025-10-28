@@ -662,28 +662,6 @@ export default defineConfig({
           ]
         }
       ],
-      '/guide/career/': [
-        {
-          text: '面试指导',
-          items: [
-            { text: '学习路径', link: '/guide/career/' },
-            { text: '面试技巧', link: '/guide/career/interview-skills' },
-            { text: '企业分享', link: '/guide/career/enterprise-sharing' },
-            { text: '技术面试准备', link: '/guide/career/interview-preparation' },
-            { text: '算法面试技巧', link: '/guide/career/algorithm-interview' },
-            { text: '系统设计面试', link: '/guide/career/system-design-interview' },
-            { text: '行为面试指南', link: '/guide/career/behavioral-interview' },
-            { text: '简历撰写技巧', link: '/guide/career/resume-writing' },
-            { text: '项目经验包装', link: '/guide/career/project-presentation' },
-            { text: '技能展示方法', link: '/guide/career/skill-showcase' },
-            { text: '简历模板下载', link: '/guide/career/resume-templates' },
-            { text: '职业发展路径', link: '/guide/career/career-path' },
-            { text: '技能提升计划', link: '/guide/career/skill-development' },
-            { text: '薪资谈判技巧', link: '/guide/career/salary-negotiation' },
-            { text: '跳槽策略指南', link: '/guide/career/job-hopping-strategy' }
-          ]
-        }
-      ],
       '/guide/career/freelancer': [
         {
           text: '自由职业相关文章',
@@ -711,6 +689,28 @@ export default defineConfig({
             { text: '跳槽策略指南', link: '/guide/career/job-hopping-strategy' },
             { text: '企业分享', link: '/guide/career/enterprise-sharing' },
             { text: '求职平台', link: '/guide/career/job-platforms' }
+          ]
+        }
+      ],
+      '/guide/career/': [
+        {
+          text: '面试指导',
+          items: [
+            { text: '学习路径', link: '/guide/career/' },
+            { text: '面试技巧', link: '/guide/career/interview-skills' },
+            { text: '企业分享', link: '/guide/career/enterprise-sharing' },
+            { text: '技术面试准备', link: '/guide/career/interview-preparation' },
+            { text: '算法面试技巧', link: '/guide/career/algorithm-interview' },
+            { text: '系统设计面试', link: '/guide/career/system-design-interview' },
+            { text: '行为面试指南', link: '/guide/career/behavioral-interview' },
+            { text: '简历撰写技巧', link: '/guide/career/resume-writing' },
+            { text: '项目经验包装', link: '/guide/career/project-presentation' },
+            { text: '技能展示方法', link: '/guide/career/skill-showcase' },
+            { text: '简历模板下载', link: '/guide/career/resume-templates' },
+            { text: '职业发展路径', link: '/guide/career/career-path' },
+            { text: '技能提升计划', link: '/guide/career/skill-development' },
+            { text: '薪资谈判技巧', link: '/guide/career/salary-negotiation' },
+            { text: '跳槽策略指南', link: '/guide/career/job-hopping-strategy' }
           ]
         }
       ],
