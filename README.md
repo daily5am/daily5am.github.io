@@ -105,6 +105,42 @@ milliondollardev/
    npm run docs:preview
    ```
 
+3. **自动部署到 GitHub Pages**
+   ```bash
+   # 使用脚本自动创建标签并部署
+   npm run deploy
+   
+   # 或者指定版本号
+   npm run deploy:version 1.0.0
+   ```
+
+### 🚀 GitHub Actions 自动部署
+
+项目配置了 GitHub Actions 工作流，支持自动部署到 GitHub Pages：
+
+#### 触发条件
+- **自动触发**: 推送以 `v` 开头的标签（如 `v1.0.0`）
+- **手动触发**: 在 GitHub Actions 页面手动运行
+
+#### 部署流程
+1. **构建**: 安装依赖并构建 VitePress 项目
+2. **部署**: 将构建结果部署到 GitHub Pages
+3. **发布**: 自动创建 GitHub Release
+
+#### 使用方法
+```bash
+# 创建并推送标签（自动触发部署）
+git tag v1.0.0
+git push origin v1.0.0
+
+# 或使用便捷脚本
+npm run deploy
+```
+
+#### 部署地址
+- **GitHub Pages**: `https://{username}.github.io/milliondollardev/`
+- **Actions 状态**: `https://github.com/{username}/milliondollardev/actions`
+
 ## 📖 内容模块
 
 ### 🚀 新手入门 (0-1年)

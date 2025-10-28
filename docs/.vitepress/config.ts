@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: '百万研发知识平台',
   description: '从小白到价值百万的研发专家成长指南',
-  base: '/milliondollardev/',
+  base: '/',
   
   // 忽略死链接检查，因为很多页面还在规划中
   ignoreDeadLinks: true,
