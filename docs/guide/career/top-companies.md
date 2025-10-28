@@ -36,7 +36,7 @@ sidebar: false
 
   <div class="associations-gallery" id="associationsGallery">
   <!-- 云天励飞 -->
-  <div class="association-card clickable-card" data-search="云天励飞 AI芯片 DeepEdge10 Max 边缘AI 独角兽 GPNPU 智能安防" data-article="/milliondollardev/guide/career/companies/yunshan-lifly">
+  <div class="association-card clickable-card" data-search="云天励飞 AI芯片 DeepEdge10 Max 边缘AI 独角兽 GPNPU 智能安防" data-article="/guide/career/companies/yunshan-lifly">
     <div class="card-header">
       <div class="card-title">云天励飞</div>
       <div class="card-action">
@@ -61,7 +61,7 @@ sidebar: false
   </div>
 
   <!-- 云豹智能 -->
-  <div class="association-card clickable-card" data-search="云豹智能 DPU芯片 独角兽 集成电路 数据中心 云计算" data-article="/milliondollardev/guide/career/companies/cloud-leopard">
+  <div class="association-card clickable-card" data-search="云豹智能 DPU芯片 独角兽 集成电路 数据中心 云计算" data-article="/guide/career/companies/cloud-leopard">
     <div class="card-header">
       <div class="card-title">云豹智能</div>
       <div class="card-action">
@@ -86,7 +86,7 @@ sidebar: false
   </div>
 
   <!-- 奥比中光 -->
-  <div class="association-card clickable-card" data-search="奥比中光 3D视觉 深度相机 AI视觉算法" data-article="/milliondollardev/guide/career/companies/orbbec">
+  <div class="association-card clickable-card" data-search="奥比中光 3D视觉 深度相机 AI视觉算法" data-article="/guide/career/companies/orbbec">
     <div class="card-header">
       <div class="card-title">奥比中光</div>
       <div class="card-action">
@@ -110,7 +110,7 @@ sidebar: false
   </div>
 
   <!-- 元象科技 -->
-  <div class="association-card clickable-card" data-search="元象科技 AI+3D 胡润独角兽榜 融合技术" data-article="/milliondollardev/guide/career/companies/yuanxiang-tech">
+  <div class="association-card clickable-card" data-search="元象科技 AI+3D 胡润独角兽榜 融合技术" data-article="/guide/career/companies/yuanxiang-tech">
     <div class="card-header">
       <div class="card-title">元象科技</div>
       <div class="card-action">
@@ -135,7 +135,7 @@ sidebar: false
   </div>
 
   <!-- 实在智能 -->
-  <div class="association-card clickable-card" data-search="实在智能 专精特新 小巨人 AI准独角兽" data-article="/milliondollardev/guide/career/companies/shizai-intelligent">
+  <div class="association-card clickable-card" data-search="实在智能 专精特新 小巨人 AI准独角兽" data-article="/guide/career/companies/shizai-intelligent">
     <div class="card-header">
       <div class="card-title">实在智能</div>
       <div class="card-action">
@@ -160,7 +160,7 @@ sidebar: false
   </div>
 
   <!-- 极视角 -->
-  <div class="association-card clickable-card" data-search="极视角 计算机视觉 AI视觉解决方案" data-article="/milliondollardev/guide/career/companies/extreme-vision">
+  <div class="association-card clickable-card" data-search="极视角 计算机视觉 AI视觉解决方案" data-article="/guide/career/companies/extreme-vision">
     <div class="card-header">
       <div class="card-title">极视角</div>
       <div class="card-action">
@@ -185,7 +185,7 @@ sidebar: false
   </div>
 
   <!-- 优必选 -->
-  <div class="association-card clickable-card" data-search="优必选 智能机器人 人形机器人 全球领先" data-article="/milliondollardev/guide/career/companies/ubtech">
+  <div class="association-card clickable-card" data-search="优必选 智能机器人 人形机器人 全球领先" data-article="/guide/career/companies/ubtech">
     <div class="card-header">
       <div class="card-title">优必选</div>
       <div class="card-action">
@@ -210,7 +210,7 @@ sidebar: false
   </div>
 
   <!-- 力维智联 -->
-  <div class="association-card clickable-card" data-search="力维智联 智慧城市 AI解决方案" data-article="/milliondollardev/guide/career/companies/levi-intelligent">
+  <div class="association-card clickable-card" data-search="力维智联 智慧城市 AI解决方案" data-article="/guide/career/companies/levi-intelligent">
     <div class="card-header">
       <div class="card-title">力维智联</div>
       <div class="card-action">
@@ -235,7 +235,7 @@ sidebar: false
   </div>
 
   <!-- 商汤科技 -->
-  <div class="association-card clickable-card" data-search="商汤科技 计算机视觉 深度学习 独角兽" data-article="/milliondollardev/guide/career/companies/sense-time">
+  <div class="association-card clickable-card" data-search="商汤科技 计算机视觉 深度学习 独角兽" data-article="/guide/career/companies/sense-time">
     <div class="card-header">
       <div class="card-title">商汤科技</div>
       <div class="card-action">
@@ -260,7 +260,7 @@ sidebar: false
   </div>
 
   <!-- 微众银行 -->
-  <div class="association-card clickable-card" data-search="微众银行 数字银行 FISCO BCOS 区块链 全分布式银行 微粒贷" data-article="/milliondollardev/guide/career/companies/webank">
+  <div class="association-card clickable-card" data-search="微众银行 数字银行 FISCO BCOS 区块链 全分布式银行 微粒贷" data-article="/guide/career/companies/webank">
     <div class="card-header">
       <div class="card-title">微众银行</div>
       <div class="card-action">
@@ -285,7 +285,7 @@ sidebar: false
   </div>
 
   <!-- 腾讯金融科技 -->
-  <div class="association-card clickable-card" data-search="腾讯金融科技 支付 金融科技生态" data-article="/milliondollardev/guide/career/companies/tencent-fintech">
+  <div class="association-card clickable-card" data-search="腾讯金融科技 支付 金融科技生态" data-article="/guide/career/companies/tencent-fintech">
     <div class="card-header">
       <div class="card-title">腾讯金融科技</div>
       <div class="card-action">
@@ -310,7 +310,7 @@ sidebar: false
   </div>
 
   <!-- 平安科技 -->
-  <div class="association-card clickable-card" data-search="平安科技 保险科技 金融+AI 生态联盟" data-article="/milliondollardev/guide/career/companies/pingan-tech">
+  <div class="association-card clickable-card" data-search="平安科技 保险科技 金融+AI 生态联盟" data-article="/guide/career/companies/pingan-tech">
     <div class="card-header">
       <div class="card-title">平安科技</div>
       <div class="card-action">
@@ -335,7 +335,7 @@ sidebar: false
   </div>
 
   <!-- 金证科技 -->
-  <div class="association-card clickable-card" data-search="金证科技 金融IT 解决方案" data-article="/milliondollardev/guide/career/companies/jinzheng-tech">
+  <div class="association-card clickable-card" data-search="金证科技 金融IT 解决方案" data-article="/guide/career/companies/jinzheng-tech">
     <div class="card-header">
       <div class="card-title">金证科技</div>
       <div class="card-action">
@@ -360,7 +360,7 @@ sidebar: false
   </div>
 
   <!-- 招银云创 -->
-  <div class="association-card clickable-card" data-search="招银云创 招商银行 科技子公司" data-article="/milliondollardev/guide/career/companies/cmb-cloud">
+  <div class="association-card clickable-card" data-search="招银云创 招商银行 科技子公司" data-article="/guide/career/companies/cmb-cloud">
     <div class="card-header">
       <div class="card-title">招银云创</div>
       <div class="card-action">
@@ -385,7 +385,7 @@ sidebar: false
   </div>
 
   <!-- 集友科创 -->
-  <div class="association-card clickable-card" data-search="集友科创 金融科技 创新企业" data-article="/milliondollardev/guide/career/companies/jiyou-tech">
+  <div class="association-card clickable-card" data-search="集友科创 金融科技 创新企业" data-article="/guide/career/companies/jiyou-tech">
     <div class="card-header">
       <div class="card-title">集友科创</div>
       <div class="card-action">
@@ -410,7 +410,7 @@ sidebar: false
   </div>
 
   <!-- 华为技术 -->
-  <div class="association-card clickable-card" data-search="华为技术 通信设备 5G技术 全球领先 鸿蒙系统 昇腾AI" data-article="/milliondollardev/guide/career/companies/huawei">
+  <div class="association-card clickable-card" data-search="华为技术 通信设备 5G技术 全球领先 鸿蒙系统 昇腾AI" data-article="/guide/career/companies/huawei">
     <div class="card-header">
       <div class="card-title">华为技术</div>
       <div class="card-action">
@@ -435,7 +435,7 @@ sidebar: false
   </div>
 
   <!-- 中兴通讯 -->
-  <div class="association-card clickable-card" data-search="中兴通讯 5G技术 通信设备 制造" data-article="/milliondollardev/guide/career/companies/zte">
+  <div class="association-card clickable-card" data-search="中兴通讯 5G技术 通信设备 制造" data-article="/guide/career/companies/zte">
     <div class="card-header">
       <div class="card-title">中兴通讯</div>
       <div class="card-action">
@@ -460,7 +460,7 @@ sidebar: false
   </div>
 
   <!-- TCL -->
-  <div class="association-card clickable-card" data-search="TCL 消费电子 智能家电 制造" data-article="/milliondollardev/guide/career/companies/tcl">
+  <div class="association-card clickable-card" data-search="TCL 消费电子 智能家电 制造" data-article="/guide/career/companies/tcl">
     <div class="card-header">
       <div class="card-title">TCL</div>
       <div class="card-action">
@@ -485,7 +485,7 @@ sidebar: false
   </div>
 
   <!-- 创维 -->
-  <div class="association-card clickable-card" data-search="创维 智能家电 显示技术" data-article="/milliondollardev/guide/career/companies/skyworth">
+  <div class="association-card clickable-card" data-search="创维 智能家电 显示技术" data-article="/guide/career/companies/skyworth">
     <div class="card-header">
       <div class="card-title">创维</div>
       <div class="card-action">
@@ -510,7 +510,7 @@ sidebar: false
   </div>
 
   <!-- 康佳 -->
-  <div class="association-card clickable-card" data-search="康佳 电子制造 智能终端" data-article="/milliondollardev/guide/career/companies/konka">
+  <div class="association-card clickable-card" data-search="康佳 电子制造 智能终端" data-article="/guide/career/companies/konka">
     <div class="card-header">
       <div class="card-title">康佳</div>
       <div class="card-action">
@@ -535,7 +535,7 @@ sidebar: false
   </div>
 
   <!-- 华勤控股 -->
-  <div class="association-card clickable-card" data-search="华勤控股 ODM OEM 智能终端" data-article="/milliondollardev/guide/career/companies/huaqin">
+  <div class="association-card clickable-card" data-search="华勤控股 ODM OEM 智能终端" data-article="/guide/career/companies/huaqin">
     <div class="card-header">
       <div class="card-title">华勤控股</div>
       <div class="card-action">
@@ -560,7 +560,7 @@ sidebar: false
   </div>
 
   <!-- 闻泰科技 -->
-  <div class="association-card clickable-card" data-search="闻泰科技 智能终端 制造" data-article="/milliondollardev/guide/career/companies/wingtech">
+  <div class="association-card clickable-card" data-search="闻泰科技 智能终端 制造" data-article="/guide/career/companies/wingtech">
     <div class="card-header">
       <div class="card-title">闻泰科技</div>
       <div class="card-action">
@@ -585,7 +585,7 @@ sidebar: false
   </div>
 
   <!-- 广和通 -->
-  <div class="association-card clickable-card" data-search="广和通 无线通信 模块供应商" data-article="/milliondollardev/guide/career/companies/fibocom">
+  <div class="association-card clickable-card" data-search="广和通 无线通信 模块供应商" data-article="/guide/career/companies/fibocom">
     <div class="card-header">
       <div class="card-title">广和通</div>
       <div class="card-action">
@@ -610,7 +610,7 @@ sidebar: false
   </div>
 
   <!-- 富士康 -->
-  <div class="association-card clickable-card" data-search="富士康 制造服务 代工" data-article="/milliondollardev/guide/career/companies/foxconn">
+  <div class="association-card clickable-card" data-search="富士康 制造服务 代工" data-article="/guide/career/companies/foxconn">
     <div class="card-header">
       <div class="card-title">富士康</div>
       <div class="card-action">
@@ -635,7 +635,7 @@ sidebar: false
   </div>
 
   <!-- 正威集团 -->
-  <div class="association-card clickable-card" data-search="正威集团 制造服务 金属加工" data-article="/milliondollardev/guide/career/companies/amer">
+  <div class="association-card clickable-card" data-search="正威集团 制造服务 金属加工" data-article="/guide/career/companies/amer">
     <div class="card-header">
       <div class="card-title">正威集团</div>
       <div class="card-action">
@@ -660,7 +660,7 @@ sidebar: false
   </div>
 
   <!-- 华珑国际 -->
-  <div class="association-card clickable-card" data-search="华珑国际 制造服务" data-article="/milliondollardev/guide/career/companies/hualong">
+  <div class="association-card clickable-card" data-search="华珑国际 制造服务" data-article="/guide/career/companies/hualong">
     <div class="card-header">
       <div class="card-title">华珑国际</div>
       <div class="card-action">
@@ -685,7 +685,7 @@ sidebar: false
   </div>
 
   <!-- 迈瑞医疗 -->
-  <div class="association-card clickable-card" data-search="迈瑞医疗 医械一哥 医疗器械 AI医疗 启元重症大模型 350亿营收" data-article="/milliondollardev/guide/career/companies/mindray">
+  <div class="association-card clickable-card" data-search="迈瑞医疗 医械一哥 医疗器械 AI医疗 启元重症大模型 350亿营收" data-article="/guide/career/companies/mindray">
     <div class="card-header">
       <div class="card-title">迈瑞医疗</div>
       <div class="card-action">
@@ -710,7 +710,7 @@ sidebar: false
   </div>
 
   <!-- 卫盈联信息技术 -->
-  <div class="association-card clickable-card" data-search="卫盈联信息技术 医疗信息化 解决方案" data-article="/milliondollardev/guide/career/companies/weiyinlian">
+  <div class="association-card clickable-card" data-search="卫盈联信息技术 医疗信息化 解决方案" data-article="/guide/career/companies/weiyinlian">
     <div class="card-header">
       <div class="card-title">卫盈联信息技术</div>
       <div class="card-action">
@@ -735,7 +735,7 @@ sidebar: false
   </div>
 
   <!-- 中电科新型智慧城市研究院 -->
-  <div class="association-card clickable-card" data-search="中电科新型智慧城市研究院 智慧城市 医疗应用" data-article="/milliondollardev/guide/career/companies/cetc-smart-city">
+  <div class="association-card clickable-card" data-search="中电科新型智慧城市研究院 智慧城市 医疗应用" data-article="/guide/career/companies/cetc-smart-city">
     <div class="card-header">
       <div class="card-title">中电科新型智慧城市研究院</div>
       <div class="card-action">

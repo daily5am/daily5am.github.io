@@ -36,7 +36,7 @@ sidebar: false
 
   <div class="associations-gallery" id="associationsGallery">
   <!-- 深圳市软件行业协会 -->
-  <div class="association-card clickable-card" data-search="深圳市软件行业协会 软件产业 5A级 官方 4000家会员企业" data-article="/milliondollardev/guide/career/associations/shenzhen-software-industry">
+  <div class="association-card clickable-card" data-search="深圳市软件行业协会 软件产业 5A级 官方 4000家会员企业" data-article="/guide/career/associations/shenzhen-software-industry">
     <div class="card-header">
       <div class="card-title">深圳市软件行业协会</div>
       <div class="card-action">
@@ -61,7 +61,7 @@ sidebar: false
   </div>
 
   <!-- 深圳市人工智能产业协会 -->
-  <div class="association-card clickable-card" data-search="深圳市人工智能产业协会 人工智能 AI 优质 全国首家 46家上市企业 291家专精特新" data-article="/milliondollardev/guide/career/associations/shenzhen-ai-industry">
+  <div class="association-card clickable-card" data-search="深圳市人工智能产业协会 人工智能 AI 优质 全国首家 46家上市企业 291家专精特新" data-article="/guide/career/associations/shenzhen-ai-industry">
     <div class="card-header">
       <div class="card-title">深圳市人工智能产业协会</div>
       <div class="card-action">
@@ -86,7 +86,7 @@ sidebar: false
   </div>
 
   <!-- 深圳市金融科技协会 -->
-  <div class="association-card clickable-card" data-search="深圳市金融科技协会 金融科技 CIO社群 官方 深交所 中国平安" data-article="/milliondollardev/guide/career/associations/shenzhen-fintech">
+  <div class="association-card clickable-card" data-search="深圳市金融科技协会 金融科技 CIO社群 官方 深交所 中国平安" data-article="/guide/career/associations/shenzhen-fintech">
     <div class="card-header">
       <div class="card-title">深圳市金融科技协会</div>
       <div class="card-action">
@@ -111,7 +111,7 @@ sidebar: false
   </div>
 
   <!-- 深圳市计算机行业协会 -->
-  <div class="association-card clickable-card" data-search="深圳市计算机行业协会 计算机 官方 历史悠久 1987年" data-article="/milliondollardev/guide/career/associations/shenzhen-computer-industry">
+  <div class="association-card clickable-card" data-search="深圳市计算机行业协会 计算机 官方 历史悠久 1987年" data-article="/guide/career/associations/shenzhen-computer-industry">
     <div class="card-header">
       <div class="card-title">深圳市计算机行业协会</div>
       <div class="card-action">
@@ -136,7 +136,7 @@ sidebar: false
   </div>
 
   <!-- 深圳市人工智能行业协会 -->
-  <div class="association-card clickable-card" data-search="深圳市人工智能行业协会 人工智能 AI 优质 技术推广 合作平台" data-article="/milliondollardev/guide/career/associations/shenzhen-ai-association">
+  <div class="association-card clickable-card" data-search="深圳市人工智能行业协会 人工智能 AI 优质 技术推广 合作平台" data-article="/guide/career/associations/shenzhen-ai-association">
     <div class="card-header">
       <div class="card-title">深圳市人工智能行业协会</div>
       <div class="card-action">
@@ -161,7 +161,7 @@ sidebar: false
   </div>
 
   <!-- 深圳市智能硬件协会 -->
-  <div class="association-card clickable-card" data-search="深圳市智能硬件协会 智能硬件 标准 产业融合 硬件软件" data-article="/milliondollardev/guide/career/associations/shenzhen-smart-hardware">
+  <div class="association-card clickable-card" data-search="深圳市智能硬件协会 智能硬件 标准 产业融合 硬件软件" data-article="/guide/career/associations/shenzhen-smart-hardware">
     <div class="card-header">
       <div class="card-title">深圳市智能硬件协会</div>
       <div class="card-action">
@@ -186,7 +186,7 @@ sidebar: false
   </div>
 
   <!-- 深圳市智能终端产业协会 -->
-  <div class="association-card clickable-card" data-search="深圳市智能终端产业协会 智能终端 2023年 华为中兴 政府支持" data-article="/milliondollardev/guide/career/associations/shenzhen-smart-terminal">
+  <div class="association-card clickable-card" data-search="深圳市智能终端产业协会 智能终端 2023年 华为中兴 政府支持" data-article="/guide/career/associations/shenzhen-smart-terminal">
     <div class="card-header">
       <div class="card-title">深圳市智能终端产业协会</div>
       <div class="card-action">
@@ -211,7 +211,7 @@ sidebar: false
   </div>
 
   <!-- 深圳市信息服务业区块链协会 -->
-  <div class="association-card clickable-card" data-search="深圳市信息服务业区块链协会 区块链 深圳首个 2019年 自律公约" data-article="/milliondollardev/guide/career/associations/shenzhen-blockchain">
+  <div class="association-card clickable-card" data-search="深圳市信息服务业区块链协会 区块链 深圳首个 2019年 自律公约" data-article="/guide/career/associations/shenzhen-blockchain">
     <div class="card-header">
       <div class="card-title">深圳市信息服务业区块链协会</div>
       <div class="card-action">
@@ -236,7 +236,7 @@ sidebar: false
   </div>
 
   <!-- 深圳市金融区块链发展促进会 -->
-  <div class="association-card clickable-card" data-search="深圳市金融区块链发展促进会 金链盟 FISCO BCOS 微众银行 腾讯" data-article="/milliondollardev/guide/career/associations/shenzhen-fisco">
+  <div class="association-card clickable-card" data-search="深圳市金融区块链发展促进会 金链盟 FISCO BCOS 微众银行 腾讯" data-article="/guide/career/associations/shenzhen-fisco">
     <div class="card-header">
       <div class="card-title">深圳市金融区块链发展促进会</div>
       <div class="card-action">
@@ -261,7 +261,7 @@ sidebar: false
   </div>
 
   <!-- 深圳市物联网产业协会 -->
-  <div class="association-card clickable-card" data-search="深圳市物联网产业协会 物联网 2012年 白皮书 产业研究" data-article="/milliondollardev/guide/career/associations/shenzhen-iot">
+  <div class="association-card clickable-card" data-search="深圳市物联网产业协会 物联网 2012年 白皮书 产业研究" data-article="/guide/career/associations/shenzhen-iot">
     <div class="card-header">
       <div class="card-title">深圳市物联网产业协会</div>
       <div class="card-action">
@@ -286,7 +286,7 @@ sidebar: false
   </div>
 
   <!-- 深圳市智能制造产业促进会 -->
-  <div class="association-card clickable-card" data-search="深圳市智能制造产业促进会 智能制造 1500家 航盛电子 产业链" data-article="/milliondollardev/guide/career/associations/shenzhen-smart-manufacturing">
+  <div class="association-card clickable-card" data-search="深圳市智能制造产业促进会 智能制造 1500家 航盛电子 产业链" data-article="/guide/career/associations/shenzhen-smart-manufacturing">
     <div class="card-header">
       <div class="card-title">深圳市智能制造产业促进会</div>
       <div class="card-action">
@@ -311,7 +311,7 @@ sidebar: false
   </div>
 
   <!-- 深圳市智慧医疗协会 -->
-  <div class="association-card clickable-card" data-search="深圳市智慧医疗协会 智慧医疗 东方汇富 大健康 投资基金" data-article="/milliondollardev/guide/career/associations/shenzhen-smart-health">
+  <div class="association-card clickable-card" data-search="深圳市智慧医疗协会 智慧医疗 东方汇富 大健康 投资基金" data-article="/guide/career/associations/shenzhen-smart-health">
     <div class="card-header">
       <div class="card-title">深圳市智慧医疗协会</div>
       <div class="card-action">
@@ -336,7 +336,7 @@ sidebar: false
   </div>
 
   <!-- 深圳市信息技术应用创新联盟 -->
-  <div class="association-card clickable-card" data-search="深圳市信息技术应用创新联盟 信创 2019年 工信局 华为" data-article="/milliondollardev/guide/career/associations/shenzhen-xinchuang">
+  <div class="association-card clickable-card" data-search="深圳市信息技术应用创新联盟 信创 2019年 工信局 华为" data-article="/guide/career/associations/shenzhen-xinchuang">
     <div class="card-header">
       <div class="card-title">深圳市信息技术应用创新联盟</div>
       <div class="card-action">
@@ -361,7 +361,7 @@ sidebar: false
   </div>
 
   <!-- 深圳市鲲鹏产业联盟 -->
-  <div class="association-card clickable-card" data-search="深圳市鲲鹏产业联盟 鲲鹏 工信局 生态建设 信创" data-article="/milliondollardev/guide/career/associations/shenzhen-kunpeng">
+  <div class="association-card clickable-card" data-search="深圳市鲲鹏产业联盟 鲲鹏 工信局 生态建设 信创" data-article="/guide/career/associations/shenzhen-kunpeng">
     <div class="card-header">
       <div class="card-title">深圳市鲲鹏产业联盟</div>
       <div class="card-action">
@@ -386,7 +386,7 @@ sidebar: false
   </div>
 
   <!-- 中国计算机学会深圳分部 -->
-  <div class="association-card clickable-card" data-search="中国计算机学会深圳分部 CCF 2012年 首个城市分部 优秀分部" data-article="/milliondollardev/guide/career/associations/shenzhen-ccf">
+  <div class="association-card clickable-card" data-search="中国计算机学会深圳分部 CCF 2012年 首个城市分部 优秀分部" data-article="/guide/career/associations/shenzhen-ccf">
     <div class="card-header">
       <div class="card-title">中国计算机学会深圳分部</div>
       <div class="card-action">
@@ -411,7 +411,7 @@ sidebar: false
   </div>
 
   <!-- 国际人工智能产业联盟深圳中心 -->
-  <div class="association-card clickable-card" data-search="国际人工智能产业联盟深圳中心 国际AI 2024年 北大科创园 866位院士" data-article="/milliondollardev/guide/career/associations/shenzhen-international-ai">
+  <div class="association-card clickable-card" data-search="国际人工智能产业联盟深圳中心 国际AI 2024年 北大科创园 866位院士" data-article="/guide/career/associations/shenzhen-international-ai">
     <div class="card-header">
       <div class="card-title">国际人工智能产业联盟深圳中心</div>
       <div class="card-action">
