@@ -3,9 +3,9 @@ name: Deploy to GitHub Pages
 on:
   push:
     tags:
-      - 'v*'                    # 当推送以v开头的标签时触发
-      - 'release-*'            # 当推送以release-开头的标签时触发
-  workflow_dispatch:           # 允许手动触发
+      - 'v*'
+      - 'release-*'
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -56,7 +56,6 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-  # 创建Release
   create-release:
     if: startsWith(github.ref, 'refs/tags/v') || startsWith(github.ref, 'refs/tags/release-')
     runs-on: ubuntu-latest
@@ -70,14 +69,12 @@ jobs:
       - name: Generate Changelog
         id: changelog
         run: |
-          # 获取上一个标签
           PREVIOUS_TAG=$(git describe --tags --abbrev=0 HEAD~1 2>/dev/null || echo "")
           CURRENT_TAG=${GITHUB_REF#refs/tags/}
           
           echo "Previous tag: $PREVIOUS_TAG"
           echo "Current tag: $CURRENT_TAG"
           
-          # 生成changelog
           if [ -n "$PREVIOUS_TAG" ]; then
             CHANGELOG=$(git log --pretty=format:"- %s (%h)" $PREVIOUS_TAG..HEAD)
           else
