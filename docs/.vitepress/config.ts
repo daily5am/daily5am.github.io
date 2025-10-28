@@ -93,6 +93,13 @@ export default defineConfig({
               { text: '协会资源搜索', link: '/guide/career/shenzhen-associations' }
             ]
           },
+          {
+            text: '投资机构',
+            items: [
+              { text: '投资机构列表', link: '/guide/career/investors/' },
+              { text: '投资机构搜索', link: '/guide/career/top-investors' }
+            ]
+          },
           { text: '产业趋势分析', link: '/guide/career/industry-trends' },
           { text: '政策支持解读', link: '/guide/career/policy-support' }
         ]
