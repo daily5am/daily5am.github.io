@@ -3,7 +3,8 @@ name: Deploy to GitHub Pages
 on:
   push:
     tags:
-      - 'v*'  # 当推送以v开头的标签时触发
+      - 'v*'        # 当推送以v开头的标签时触发
+      - 'release-*' # 当推送以release-开头的标签时触发
   workflow_dispatch:  # 允许手动触发
 
 permissions:
@@ -57,7 +58,7 @@ jobs:
 
   # 创建Release
   create-release:
-    if: startsWith(github.ref, 'refs/tags/v')
+    if: startsWith(github.ref, 'refs/tags/v') || startsWith(github.ref, 'refs/tags/release-')
     runs-on: ubuntu-latest
     needs: [build, deploy]
     steps:
@@ -91,9 +92,10 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           tag_name: ${{ github.ref_name }}
-          name: Release ${{ github.ref_name }}
+          name: |
+            ${{ startsWith(github.ref_name, 'release-') && 'Release ' || 'Version ' }}${{ github.ref_name }}
           body: |
-            ## 🚀 新版本发布
+            ## 🚀 ${{ startsWith(github.ref_name, 'release-') && '发布版本' || '新版本发布' }}
             
             ### 📝 更新内容
             ${{ steps.changelog.outputs.changelog }}
@@ -105,7 +107,8 @@ jobs:
             - 构建时间: ${{ github.run_started_at }}
             - 提交哈希: ${{ github.sha }}
             - 工作流: ${{ github.workflow }}
+            - 标签类型: ${{ startsWith(github.ref_name, 'release-') && 'Release Tag' || 'Version Tag' }}
           draft: false
-          prerelease: false
+          prerelease: ${{ startsWith(github.ref_name, 'release-') }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
