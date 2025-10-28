@@ -3,9 +3,9 @@ name: Deploy to GitHub Pages
 on:
   push:
     tags:
-      - 'v*'        # 当推送以v开头的标签时触发
-      - 'release-*' # 当推送以release-开头的标签时触发
-  workflow_dispatch:  # 允许手动触发
+      - 'v*'                    # 当推送以v开头的标签时触发
+      - 'release-*'            # 当推送以release-开头的标签时触发
+  workflow_dispatch:           # 允许手动触发
 
 permissions:
   contents: read
