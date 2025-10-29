@@ -184,6 +184,110 @@ export default defineConfig({
           ]
         }
       ],
+      '/guide/career/industry-reports': [
+        {
+          text: '行业报告与数据',
+          items: [
+            { text: '行业报告与数据', link: '/guide/career/industry-reports' },
+            {
+              text: '权威研究机构',
+              collapsed: false,
+              items: [
+                { text: '国际权威机构', link: '/guide/career/industry-reports#国际权威机构' },
+                { text: '国内权威机构', link: '/guide/career/industry-reports#国内权威机构' },
+                { text: 'Gartner分析', link: '/guide/career/industry-reports#gartner' },
+                { text: 'IDC市场研究', link: '/guide/career/industry-reports#idc' },
+                { text: '艾瑞咨询报告', link: '/guide/career/industry-reports#艾瑞咨询' }
+              ]
+            },
+            {
+              text: '报告类型分析',
+              collapsed: false,
+              items: [
+                { text: '市场研究报告', link: '/guide/career/industry-reports#市场研究报告' },
+                { text: '用户行为报告', link: '/guide/career/industry-reports#用户行为报告' },
+                { text: '细分领域报告', link: '/guide/career/industry-reports#细分领域报告' },
+                { text: '技术趋势报告', link: '/guide/career/industry-reports#技术趋势报告' },
+                { text: '竞争分析报告', link: '/guide/career/industry-reports#竞争分析报告' }
+              ]
+            },
+            {
+              text: '数据获取渠道',
+              collapsed: false,
+              items: [
+                { text: '官方渠道', link: '/guide/career/industry-reports#官方渠道' },
+                { text: '媒体平台', link: '/guide/career/industry-reports#媒体平台' },
+                { text: '数据平台', link: '/guide/career/industry-reports#数据平台' },
+                { text: '免费资源', link: '/guide/career/industry-reports#免费资源' },
+                { text: '付费服务', link: '/guide/career/industry-reports#付费服务' }
+              ]
+            },
+            {
+              text: '分析方法与技巧',
+              collapsed: false,
+              items: [
+                { text: '报告解读方法', link: '/guide/career/industry-reports#报告解读方法' },
+                { text: '数据质量评估', link: '/guide/career/industry-reports#数据质量评估' },
+                { text: '趋势分析方法', link: '/guide/career/industry-reports#趋势分析方法' },
+                { text: '对比分析技巧', link: '/guide/career/industry-reports#对比分析技巧' },
+                { text: '实践应用指南', link: '/guide/career/industry-reports#实践应用指南' }
+              ]
+            }
+          ]
+        }
+      ],
+      '/guide/career/tech-media': [
+        {
+          text: '技术媒体与资讯',
+          items: [
+            { text: '技术媒体与资讯', link: '/guide/career/tech-media' },
+            {
+              text: '国际技术媒体',
+              collapsed: false,
+              items: [
+                { text: '主流技术媒体', link: '/guide/career/tech-media#主流技术媒体' },
+                { text: '开发者媒体', link: '/guide/career/tech-media#开发者媒体' },
+                { text: '专业分析媒体', link: '/guide/career/tech-media#专业分析媒体' },
+                { text: 'TechCrunch', link: '/guide/career/tech-media#techcrunch' },
+                { text: 'Hacker News', link: '/guide/career/tech-media#hacker-news' }
+              ]
+            },
+            {
+              text: '国内技术媒体',
+              collapsed: false,
+              items: [
+                { text: '主流科技媒体', link: '/guide/career/tech-media#主流科技媒体' },
+                { text: '开发者社区', link: '/guide/career/tech-media#开发者社区' },
+                { text: '垂直领域媒体', link: '/guide/career/tech-media#垂直领域媒体' },
+                { text: '36氪', link: '/guide/career/tech-media#36氪' },
+                { text: 'InfoQ', link: '/guide/career/tech-media#infoq' }
+              ]
+            },
+            {
+              text: '资讯获取策略',
+              collapsed: false,
+              items: [
+                { text: '多渠道关注', link: '/guide/career/tech-media#多渠道关注' },
+                { text: '时间管理', link: '/guide/career/tech-media#时间管理' },
+                { text: '内容筛选', link: '/guide/career/tech-media#内容筛选' },
+                { text: 'RSS订阅', link: '/guide/career/tech-media#rss订阅' },
+                { text: '社交媒体', link: '/guide/career/tech-media#社交媒体' }
+              ]
+            },
+            {
+              text: '分析技巧与应用',
+              collapsed: false,
+              items: [
+                { text: '资讯分析技巧', link: '/guide/career/tech-media#资讯分析技巧' },
+                { text: '趋势识别方法', link: '/guide/career/tech-media#趋势识别方法' },
+                { text: '深度分析方法', link: '/guide/career/tech-media#深度分析方法' },
+                { text: '职业发展应用', link: '/guide/career/tech-media#职业发展应用' },
+                { text: '项目应用实践', link: '/guide/career/tech-media#项目应用实践' }
+              ]
+            }
+          ]
+        }
+      ],
       '/guide/career/industry-trends': [
         {
           text: '产业趋势分析',
