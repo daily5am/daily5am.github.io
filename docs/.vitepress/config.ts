@@ -288,6 +288,143 @@ export default defineConfig({
           ]
         }
       ],
+      '/guide/career/software-kol': [
+        {
+          text: '软件行业KOL',
+          items: [
+            { text: '软件行业KOL', link: '/guide/career/software-kol' },
+            {
+              text: 'KOL价值与作用',
+              collapsed: false,
+              items: [
+                { text: '技术引领', link: '/guide/career/software-kol#技术引领' },
+                { text: '知识传播', link: '/guide/career/software-kol#知识传播' },
+                { text: '商业影响', link: '/guide/career/software-kol#商业影响' },
+                { text: '行业推动', link: '/guide/career/software-kol#行业推动' },
+                { text: '标准制定', link: '/guide/career/software-kol#标准制定' }
+              ]
+            },
+            {
+              text: '国际知名KOL',
+              collapsed: false,
+              items: [
+                { text: '技术大牛', link: '/guide/career/software-kol#技术大牛' },
+                { text: '创业领袖', link: '/guide/career/software-kol#创业领袖' },
+                { text: '数据科学', link: '/guide/career/software-kol#数据科学' },
+                { text: 'Linus Torvalds', link: '/guide/career/software-kol#linus-torvalds' },
+                { text: 'Andrew Ng', link: '/guide/career/software-kol#andrew-ng' }
+              ]
+            },
+            {
+              text: '国内知名KOL',
+              collapsed: false,
+              items: [
+                { text: '企业领袖', link: '/guide/career/software-kol#企业领袖' },
+                { text: '技术专家', link: '/guide/career/software-kol#技术专家' },
+                { text: '开源贡献者', link: '/guide/career/software-kol#开源贡献者' },
+                { text: '尤雨溪', link: '/guide/career/software-kol#尤雨溪' },
+                { text: '阮一峰', link: '/guide/career/software-kol#阮一峰' }
+              ]
+            },
+            {
+              text: 'KOL关注平台',
+              collapsed: false,
+              items: [
+                { text: '社交媒体', link: '/guide/career/software-kol#社交媒体' },
+                { text: '内容平台', link: '/guide/career/software-kol#内容平台' },
+                { text: '会议活动', link: '/guide/career/software-kol#会议活动' },
+                { text: '教育平台', link: '/guide/career/software-kol#教育平台' },
+                { text: '开源平台', link: '/guide/career/software-kol#开源平台' }
+              ]
+            },
+            {
+              text: '成为KOL指南',
+              collapsed: false,
+              items: [
+                { text: '专业能力', link: '/guide/career/software-kol#专业能力' },
+                { text: '内容创作', link: '/guide/career/software-kol#内容创作' },
+                { text: '社区参与', link: '/guide/career/software-kol#社区参与' },
+                { text: '网络建设', link: '/guide/career/software-kol#网络建设' },
+                { text: '影响力评估', link: '/guide/career/software-kol#影响力评估' }
+              ]
+            }
+          ]
+        }
+      ],
+      '/guide/career/capital-market': [
+        {
+          text: '资本市场动态',
+          items: [
+            { text: '资本市场动态', link: '/guide/career/capital-market' },
+            {
+              text: 'IPO动态分析',
+              collapsed: false,
+              items: [
+                { text: '国际IPO市场', link: '/guide/career/capital-market#国际ipo市场' },
+                { text: 'IPO分析维度', link: '/guide/career/capital-market#ipo分析维度' },
+                { text: '美股IPO', link: '/guide/career/capital-market#美股ipo' },
+                { text: '港股IPO', link: '/guide/career/capital-market#港股ipo' },
+                { text: 'A股IPO', link: '/guide/career/capital-market#a股ipo' }
+              ]
+            },
+            {
+              text: '融资动态追踪',
+              collapsed: false,
+              items: [
+                { text: '融资轮次', link: '/guide/career/capital-market#融资轮次' },
+                { text: '投资热点', link: '/guide/career/capital-market#投资热点' },
+                { text: '早期融资', link: '/guide/career/capital-market#早期融资' },
+                { text: '成长期融资', link: '/guide/career/capital-market#成长期融资' },
+                { text: '后期融资', link: '/guide/career/capital-market#后期融资' }
+              ]
+            },
+            {
+              text: '并购重组分析',
+              collapsed: false,
+              items: [
+                { text: '并购类型', link: '/guide/career/capital-market#并购类型' },
+                { text: '并购分析', link: '/guide/career/capital-market#并购分析' },
+                { text: '技术并购', link: '/guide/career/capital-market#技术并购' },
+                { text: '战略并购', link: '/guide/career/capital-market#战略并购' },
+                { text: '财务并购', link: '/guide/career/capital-market#财务并购' }
+              ]
+            },
+            {
+              text: '股价表现分析',
+              collapsed: false,
+              items: [
+                { text: '股价分析', link: '/guide/career/capital-market#股价分析' },
+                { text: '影响因素', link: '/guide/career/capital-market#影响因素' },
+                { text: '技术公司股价', link: '/guide/career/capital-market#技术公司股价' },
+                { text: '行业指数', link: '/guide/career/capital-market#行业指数' },
+                { text: '基本面因素', link: '/guide/career/capital-market#基本面因素' }
+              ]
+            },
+            {
+              text: '投资机构动态',
+              collapsed: false,
+              items: [
+                { text: '投资机构类型', link: '/guide/career/capital-market#投资机构类型' },
+                { text: '投资趋势', link: '/guide/career/capital-market#投资趋势' },
+                { text: '风险投资', link: '/guide/career/capital-market#风险投资' },
+                { text: '私募股权', link: '/guide/career/capital-market#私募股权' },
+                { text: '战略投资', link: '/guide/career/capital-market#战略投资' }
+              ]
+            },
+            {
+              text: '市场分析工具',
+              collapsed: false,
+              items: [
+                { text: '数据平台', link: '/guide/career/capital-market#数据平台' },
+                { text: '分析工具', link: '/guide/career/capital-market#分析工具' },
+                { text: '财务分析', link: '/guide/career/capital-market#财务分析' },
+                { text: '技术分析', link: '/guide/career/capital-market#技术分析' },
+                { text: '实践应用', link: '/guide/career/capital-market#实践应用' }
+              ]
+            }
+          ]
+        }
+      ],
       '/guide/career/industry-trends': [
         {
           text: '产业趋势分析',
