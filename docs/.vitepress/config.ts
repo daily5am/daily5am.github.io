@@ -80,6 +80,7 @@ export default defineConfig({
             ]
           },
           { text: 'AI工具与框架', link: '/guide/ai/tools-frameworks' },
+          { text: 'AI大模型', link: '/guide/ai/ai-large-model' },
           { text: 'AI Agent',
             items: [
               { text: 'AI Agent 概述', link: '/guide/ai/ai-agent' },
