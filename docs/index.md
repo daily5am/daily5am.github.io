@@ -97,3 +97,7 @@ features:
 ---
 
 **准备好开始你的技术成长之旅了吗？** [立即开始学习 →](/guide/beginner/)
+
+## 站内词云
+
+<WordCloud />

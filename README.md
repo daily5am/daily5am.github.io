@@ -304,6 +304,28 @@ npm run deploy
 
 本项目采用 [MIT 许可证](LICENSE)。
 
+## 📈 访问统计与词云
+
+### Plausible 接入
+- 已在 `docs/.vitepress/config.ts` 的 `head` 注入你提供的脚本。
+- 已添加 SPA 路由钩子，确保页面内导航也统计 `pageview`。
+
+### 站内词云
+- 生成命令：
+  ```bash
+  npm run generate:wordcloud
+  ```
+- 构建并生成（建议用于部署）：
+  ```bash
+  npm run build:site
+  ```
+- 产物：`docs/public/wordcloud.json`
+- 页面：`/analytics/wordcloud`
+
+### CHANGELOG 约定
+- 仅记录“网站布局与功能”的变更（如导航、主题、组件、脚本、性能）。
+- 不记录文章内容新增/修改。
+
 ## 🙏 致谢
 
 感谢所有为这个项目做出贡献的开发者们！
