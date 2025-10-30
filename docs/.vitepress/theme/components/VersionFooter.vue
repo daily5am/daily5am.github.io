@@ -6,6 +6,13 @@
     <div class="vf-row">
       <span>本文内容遵循 <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">MIT License</a>，除非另有特别说明。</span>
     </div>
+    <div class="vf-row">
+      <span>本文链接：</span>
+      <a :href="currentUrl" target="_blank" rel="noopener">{{ currentUrl }}</a>
+    </div>
+    <div class="vf-row">
+      <span>作者：{{ author }}</span>
+    </div>
   </div>
   
 </template>
@@ -16,6 +23,7 @@ import { useData } from 'vitepress'
 
 const { page } = useData()
 const meta = ref({})
+const currentUrl = ref('')
 const relative = computed(() => (page.value && page.value.relativePath) || '')
 const info = computed(() => {
   const base = meta.value[relative.value] || {}
@@ -25,6 +33,7 @@ const info = computed(() => {
     updatedAt: fm.updated || base.updatedAt
   }
 })
+const author = computed(() => (page.value?.frontmatter?.author) || 'daily5am')
 
 function pad(n){ return String(n).padStart(2, '0') }
 function formatDate(str){
@@ -42,6 +51,9 @@ onMounted(async () => {
   try {
     const res = await fetch('/meta.json', { cache: 'no-store' })
     if (res.ok) meta.value = await res.json()
+  } catch {}
+  try {
+    currentUrl.value = window.location.href
   } catch {}
 })
 </script>

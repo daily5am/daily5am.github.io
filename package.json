@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "build:meta": "node scripts/generate-article-meta.mjs",
-    "docs:dev": "node scripts/generate-article-meta.mjs && vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "build:site": "node scripts/generate-article-meta.mjs && vitepress build docs && node scripts/generate-wordcloud.mjs",
+    "docs:dev": "node scripts/generate-article-meta.mjs && node scripts/generate-feed.mjs && vitepress dev docs",
+    "docs:build": "vitepress build docs && node scripts/generate-feed.mjs",
+    "build:site": "node scripts/generate-article-meta.mjs && vitepress build docs && node scripts/generate-feed.mjs && node scripts/generate-wordcloud.mjs",
     "generate:wordcloud": "node scripts/generate-wordcloud.mjs",
     "docs:preview": "vitepress preview docs",
     "deploy": "./scripts/deploy.sh",
@@ -25,6 +25,7 @@
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.16",
     "autoprefixer": "^10.4.21",
+    "feed": "^4.2.2",
     "fast-glob": "^3.3.2",
     "gray-matter": "^4.0.3",
     "markdown-it": "^14.1.0",

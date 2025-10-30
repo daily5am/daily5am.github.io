@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { genFeed } from './plugins/rss'
 
 export default defineConfig({
   title: '百万研发知识平台',
@@ -14,6 +15,8 @@ export default defineConfig({
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
     ['link', { href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap', rel: 'stylesheet' }],
+    // RSS autodiscovery
+    ['link', { rel: 'alternate', type: 'application/rss+xml', title: 'RSS', href: '/feed.xml' }],
     // Plausible Analytics
     ['script', { async: '', src: 'https://plausible.io/js/pa-HD7aAzbAH5lP__1S5Ux2h.js' }],
     ['script', {}, `window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init();`],
@@ -140,7 +143,13 @@ export default defineConfig({
           { text: '2025', link: '/weekly/2025' }
         ]
       },
-      { text: '关于', link: '/about' }
+      {
+        text: '关于',
+        items: [
+          { text: '关于我', link: '/about' },
+          { text: 'RSS 订阅', link: '/feed.xml' }
+        ]
+      }
     ],
 
     sidebar: {
@@ -1288,6 +1297,12 @@ export default defineConfig({
 
     search: {
       provider: 'local'
+    }
+  }
+  ,
+  hooks: {
+    async buildEnd(siteConfig) {
+      await genFeed(siteConfig)
     }
   }
 })
