@@ -4,7 +4,7 @@
         <title>百万研发知识平台</title>
         <link>https://milliondollardev.example.com</link>
         <description>从小白到价值百万的研发专家成长指南</description>
-        <lastBuildDate>Thu, 30 Oct 2025 13:52:28 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 30 Oct 2025 14:03:52 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
@@ -72,6 +72,24 @@
             <title><![CDATA[AI工具与框架]]></title>
             <link>https://milliondollardev.example.com/guide/ai/tools-frameworks.html</link>
             <guid>https://milliondollardev.example.com/guide/ai/tools-frameworks.html</guid>
+            <pubDate>Thu, 01 Jan 1970 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[新手入门 (0-1年)]]></title>
+            <link>https://milliondollardev.example.com/guide/beginner/</link>
+            <guid>https://milliondollardev.example.com/guide/beginner/</guid>
+            <pubDate>Thu, 01 Jan 1970 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[编程语言基础]]></title>
+            <link>https://milliondollardev.example.com/guide/beginner/programming-basics.html</link>
+            <guid>https://milliondollardev.example.com/guide/beginner/programming-basics.html</guid>
+            <pubDate>Thu, 01 Jan 1970 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[竞赛指导]]></title>
+            <link>https://milliondollardev.example.com/guide/competition/</link>
+            <guid>https://milliondollardev.example.com/guide/competition/</guid>
             <pubDate>Thu, 01 Jan 1970 00:00:00 GMT</pubDate>
         </item>
         <item>
@@ -198,24 +216,6 @@
             <title><![CDATA[无题]]></title>
             <link>https://milliondollardev.example.com/guide/career/top-investors.html</link>
             <guid>https://milliondollardev.example.com/guide/career/top-investors.html</guid>
-            <pubDate>Thu, 01 Jan 1970 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[新手入门 (0-1年)]]></title>
-            <link>https://milliondollardev.example.com/guide/beginner/</link>
-            <guid>https://milliondollardev.example.com/guide/beginner/</guid>
-            <pubDate>Thu, 01 Jan 1970 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[编程语言基础]]></title>
-            <link>https://milliondollardev.example.com/guide/beginner/programming-basics.html</link>
-            <guid>https://milliondollardev.example.com/guide/beginner/programming-basics.html</guid>
-            <pubDate>Thu, 01 Jan 1970 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[竞赛指导]]></title>
-            <link>https://milliondollardev.example.com/guide/competition/</link>
-            <guid>https://milliondollardev.example.com/guide/competition/</guid>
             <pubDate>Thu, 01 Jan 1970 00:00:00 GMT</pubDate>
         </item>
         <item>
