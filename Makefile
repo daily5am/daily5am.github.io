@@ -32,7 +32,6 @@ help:
 	@echo "  $(GREEN)status$(NC)         检查项目状态"
 	@echo "  $(GREEN)quick-start$(NC)    快速开始 (安装依赖 + 启动开发服务器)"
 	@echo "  $(GREEN)all$(NC)            检查环境 + 安装依赖 + 启动开发服务器"
-  @echo "  $(GREEN)hook-install$(NC)   安装 git pre-commit 钩子(自动写入frontmatter)"
 
 # 开发相关命令
 .PHONY: start
@@ -124,7 +123,3 @@ quick-start: install start
 
 .PHONY: all
 all: install start
-
-.PHONY: hook-install
-hook-install:
-	@bash scripts/install-hook.sh

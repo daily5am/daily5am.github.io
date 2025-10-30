@@ -48,9 +48,9 @@ function formatMDY(str) {
 
 function placeUnderTitle() {
   try {
-    const container = document.querySelector('.VPContent .content') || document.querySelector('.content')
-    if (!container || !rootEl.value) return
-    const h1 = container.querySelector('h1')
+    if (!rootEl.value) return false
+    // Try multiple known containers across VitePress versions
+    const h1 = document.querySelector('.VPDoc .content h1, .vp-doc .content h1, main .content h1, .content h1, h1')
     if (h1 && h1.parentNode) {
       h1.parentNode.insertBefore(rootEl.value, h1.nextSibling)
       return true
@@ -63,7 +63,7 @@ let mo
 
 async function ensurePlacement() {
   if (placeUnderTitle()) return
-  const target = document.querySelector('.VPContent .content') || document.querySelector('.content')
+  const target = document.querySelector('.VPDoc .content, .vp-doc .content, main .content, .content')
   if (!target) return
   if (mo) mo.disconnect()
   mo = new MutationObserver(() => {
@@ -88,10 +88,10 @@ watch(relative, async () => {
 </script>
 
 <style scoped>
-.meta-wrapper{ margin:8px 0 16px; }
-.meta-row{ display:flex; flex-wrap:wrap; gap:12px; font-size:.9rem; color: var(--vp-c-text-3); }
+.meta-wrapper{ margin:6px 0 18px; }
+.meta-row{ display:flex; flex-wrap:wrap; gap:12px; font-size:.92rem; line-height:1.6; color: var(--vp-c-text-3); }
 .meta-item{ position:relative; padding-left:0; }
-.meta-row .meta-item + .meta-item::before{ content:'·'; margin:0 4px 0 2px; color: var(--vp-c-text-3); }
+.meta-row .meta-item + .meta-item::before{ content:'·'; margin:0 6px 0 2px; color: var(--vp-c-text-3); }
 </style>
 
 

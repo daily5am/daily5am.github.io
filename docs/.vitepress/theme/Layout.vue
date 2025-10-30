@@ -4,6 +4,7 @@
       <MetaBar v-if="showMeta" />
     </template>
     <template #doc-after>
+      <VersionFooter />
       <Comment v-if="showComments" />
     </template>
   </Layout>
@@ -14,6 +15,7 @@
 import Layout from 'vitepress/dist/client/theme-default/Layout.vue'
 import Comment from './components/Comment.vue'
   import MetaBar from './components/MetaBar.vue'
+import VersionFooter from './components/VersionFooter.vue'
 import { computed } from 'vue'
 import { useData } from 'vitepress'
 
