@@ -28,7 +28,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20'
           cache: 'npm'
 
       - name: Setup Pages
@@ -37,8 +37,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build with VitePress
-        run: npm run docs:build
+      - name: Build site (with RSS)
+        run: SITE_URL=https://daily5am.online npm run build:site
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
