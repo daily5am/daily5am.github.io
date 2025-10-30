@@ -59,14 +59,28 @@ export default defineConfig({
       {
         text: '人工智能',
         items: [
-          { text: 'AI Agent', link: '/guide/ai/ai-agent' },
-          { text: '大语言模型', link: '/guide/ai/llm' },
-          { text: '机器学习', link: '/guide/ai/machine-learning' },
-          { text: '深度学习', link: '/guide/ai/deep-learning' },
-          { text: '计算机视觉', link: '/guide/ai/computer-vision' },
-          { text: '自然语言处理', link: '/guide/ai/nlp' },
-          { text: '强化学习', link: '/guide/ai/reinforcement-learning' },
-          { text: 'AI工具与框架', link: '/guide/ai/tools-frameworks' }
+          {
+            text: '基础理论',
+            items: [
+              { text: '大语言模型', link: '/guide/ai/llm' },
+              { text: '机器学习', link: '/guide/ai/machine-learning' },
+              { text: '深度学习', link: '/guide/ai/deep-learning' },
+              { text: '计算机视觉', link: '/guide/ai/computer-vision' },
+              { text: '自然语言处理', link: '/guide/ai/nlp' },
+              { text: '强化学习', link: '/guide/ai/reinforcement-learning' },
+            ]
+          },
+          { text: 'AI工具与框架', link: '/guide/ai/tools-frameworks' },
+          { text: 'AI Agent',
+            items: [
+              { text: 'AI Agent 概述', link: '/guide/ai/ai-agent' },
+            ]
+          },
+          { text: 'AI Coding',
+            items: [
+              { text: 'Vibe Coding', link: '/guide/ai/vibe-coding' }
+            ]
+          },
         ]
       },
       {
