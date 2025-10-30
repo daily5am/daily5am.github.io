@@ -1287,11 +1287,11 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/yourusername/milliondollardev' }
+      { icon: 'github', link: 'https://github.com/daily5am/milliondollardev' }
     ],
 
     footer: {
-      message: '基于深圳软件技术协会资源，助力开发者成长',
+      message: '助力开发者成长',
       copyright: 'Copyright © 2024 百万研发知识平台'
     },
 

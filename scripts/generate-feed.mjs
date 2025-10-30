@@ -9,7 +9,7 @@ const ROOT = process.cwd()
 const DOCS_DIR = path.join(ROOT, 'docs')
 const OUT_DIR = path.join(DOCS_DIR, '.vitepress', 'dist')
 const PUBLIC_DIR = path.join(DOCS_DIR, 'public')
-const BASE_URL = process.env.SITE_URL || 'https://milliondollardev.example.com'
+const BASE_URL = process.env.SITE_URL || 'https://daily5am.online'
 
 function toRoute(p) {
   // from absolute md path under docs → /relative.html

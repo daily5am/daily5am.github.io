@@ -62,7 +62,7 @@ const companiesData = [
     description: '国内DPU芯片领域唯一独角兽企业，专注于高性能数据处理芯片研发，仅用4年成长为行业龙头。',
     highlight: '国内DPU领域唯一独角兽，4年成长为行业龙头',
     searchKeywords: '云豹智能 DPU芯片 独角兽 集成电路 数据中心 云计算',
-    tags: ['独角兽', '人工智能', '芯片设计', '深圳'],
+    tags: ['独角兽', 'D轮及以上融资', '人工智能', '芯片设计', '深圳'],
     articlePath: '/guide/career/companies/cloud-leopard'
   },
   {
@@ -72,7 +72,7 @@ const companiesData = [
     description: '3D视觉感知技术领导者，深度相机和AI视觉算法。',
     highlight: '3D感知技术领导者，深度相机和AI视觉算法',
     searchKeywords: '奥比中光 3D视觉 深度相机 AI视觉算法',
-    tags: ['上市', '人工智能', '智能硬件'],
+    tags: ['上市', '已上市', '人工智能', '智能硬件'],
     articlePath: '/guide/career/companies/orbbec'
   },
   {
@@ -82,7 +82,7 @@ const companiesData = [
     description: '连续3年入选胡润全球独角兽榜，AI+3D融合技术。',
     highlight: '连续3年胡润独角兽榜，AI+3D融合技术',
     searchKeywords: '元象科技 AI+3D 胡润独角兽榜 融合技术',
-    tags: ['独角兽', '人工智能', '算法研发', '深圳'],
+    tags: ['独角兽', 'D轮及以上融资', '人工智能', '算法研发', '深圳'],
     articlePath: '/guide/career/companies/yuanxiang-tech'
   },
   {
@@ -112,7 +112,7 @@ const companiesData = [
     description: '智能机器人技术，全球机器人领先企业。',
     highlight: '全球机器人领先企业，人形机器人技术',
     searchKeywords: '优必选 智能机器人 人形机器人 全球领先',
-    tags: ['独角兽', '人工智能', '应用开发', '深圳'],
+    tags: ['独角兽', 'D轮及以上融资', '人工智能', '应用开发', '深圳'],
     articlePath: '/guide/career/companies/ubtech'
   },
   {
@@ -142,7 +142,7 @@ const companiesData = [
     description: '中国首家互联网银行，数字银行领域排名第一，自主研发FISCO BCOS区块链平台，构建全分布式银行系统。',
     highlight: '数字银行第一，FISCO BCOS平台，服务3亿+用户',
     searchKeywords: '微众银行 数字银行 FISCO BCOS 区块链 全分布式银行 微粒贷',
-    tags: ['上市', '金融科技', '数字货币', '深圳'],
+    tags: ['上市', '已上市', '金融科技', '数字货币', '深圳', '银行/信用社'],
     articlePath: '/guide/career/companies/webank'
   },
   {
@@ -152,7 +152,7 @@ const companiesData = [
     description: '支付领域排名第二，金融科技生态。',
     highlight: '支付领域第二，金融科技生态',
     searchKeywords: '腾讯金融科技 支付 金融科技生态',
-    tags: ['上市', '金融科技', '支付', '深圳'],
+    tags: ['上市', '已上市', '金融科技', '支付', '深圳'],
     articlePath: '/guide/career/companies/tencent-fintech'
   },
   {
@@ -162,7 +162,7 @@ const companiesData = [
     description: '保险科技领域排名第一，金融+AI生态联盟。',
     highlight: '保险科技第一，金融+AI生态联盟',
     searchKeywords: '平安科技 保险科技 金融+AI 生态联盟',
-    tags: ['上市', '金融科技', '保险科技', '深圳'],
+    tags: ['上市', '已上市', '金融科技', '保险科技', '深圳'],
     articlePath: '/guide/career/companies/pingan-tech'
   },
   {
@@ -172,7 +172,7 @@ const companiesData = [
     description: '金融IT解决方案提供商。',
     highlight: '金融IT解决方案提供商',
     searchKeywords: '金证科技 金融IT 解决方案',
-    tags: ['上市', '金融科技', '区块链', '深圳'],
+    tags: ['上市', '已上市', '金融科技', '区块链', '深圳'],
     articlePath: '/guide/career/companies/jinzheng-tech'
   },
   {
@@ -202,7 +202,7 @@ const companiesData = [
     description: '全球领先的ICT解决方案供应商，5G技术全球领先，拥有鸿蒙分布式操作系统和昇腾AI计算平台。',
     highlight: '全球通信设备巨头，5G技术全球领先，年研发投入超千亿',
     searchKeywords: '华为技术 通信设备 5G技术 全球领先 鸿蒙系统 昇腾AI',
-    tags: ['上市', '智能硬件', '消费电子', '深圳'],
+    tags: ['上市', '已上市', '智能硬件', '消费电子', '深圳'],
     articlePath: '/guide/career/companies/huawei'
   },
   {
@@ -212,7 +212,7 @@ const companiesData = [
     description: '5G技术领先，通信设备制造。',
     highlight: '5G技术领先，通信设备制造',
     searchKeywords: '中兴通讯 5G技术 通信设备 制造',
-    tags: ['上市', '智能硬件', '消费电子', '深圳'],
+    tags: ['上市', '已上市', '智能硬件', '消费电子', '深圳'],
     articlePath: '/guide/career/companies/zte'
   },
   {
@@ -222,7 +222,7 @@ const companiesData = [
     description: '消费电子制造，智能家电。',
     highlight: '消费电子制造，智能家电',
     searchKeywords: 'TCL 消费电子 智能家电 制造',
-    tags: ['上市', '智能硬件', '消费电子', '深圳'],
+    tags: ['上市', '已上市', '智能硬件', '消费电子', '深圳'],
     articlePath: '/guide/career/companies/tcl'
   },
   {
@@ -232,7 +232,7 @@ const companiesData = [
     description: '智能家电，显示技术。',
     highlight: '智能家电，显示技术',
     searchKeywords: '创维 智能家电 显示技术',
-    tags: ['上市', '智能硬件', '消费电子', '深圳'],
+    tags: ['上市', '已上市', '智能硬件', '消费电子', '深圳'],
     articlePath: '/guide/career/companies/skyworth'
   },
   {
@@ -242,7 +242,7 @@ const companiesData = [
     description: '电子制造，智能终端。',
     highlight: '电子制造，智能终端',
     searchKeywords: '康佳 电子制造 智能终端',
-    tags: ['上市', '智能硬件', '消费电子', '深圳'],
+    tags: ['上市', '已上市', '智能硬件', '消费电子', '深圳'],
     articlePath: '/guide/career/companies/konka'
   },
   {
@@ -252,7 +252,7 @@ const companiesData = [
     description: 'ODM/OEM厂商，智能终端制造。',
     highlight: 'ODM/OEM厂商，智能终端制造',
     searchKeywords: '华勤控股 ODM OEM 智能终端',
-    tags: ['上市', '智能硬件', '智能穿戴', '深圳'],
+    tags: ['上市', '已上市', '智能硬件', '智能穿戴', '深圳'],
     articlePath: '/guide/career/companies/huaqin'
   },
   {
@@ -262,7 +262,7 @@ const companiesData = [
     description: '智能终端制造。',
     highlight: '智能终端制造',
     searchKeywords: '闻泰科技 智能终端 制造',
-    tags: ['上市', '智能硬件', '智能穿戴', '深圳'],
+    tags: ['上市', '已上市', '智能硬件', '智能穿戴', '深圳'],
     articlePath: '/guide/career/companies/wingtech'
   },
   {
@@ -272,7 +272,7 @@ const companiesData = [
     description: '无线通信模块供应商。',
     highlight: '无线通信模块供应商',
     searchKeywords: '广和通 无线通信 模块供应商',
-    tags: ['上市', '智能硬件', '智能穿戴', '深圳'],
+    tags: ['上市', '已上市', '智能硬件', '智能穿戴', '深圳'],
     articlePath: '/guide/career/companies/fibocom'
   },
   {
@@ -282,7 +282,7 @@ const companiesData = [
     description: '制造服务商，全球代工巨头。',
     highlight: '制造服务商，全球代工巨头',
     searchKeywords: '富士康 制造服务 代工',
-    tags: ['上市', '智能硬件', '核心器件', '深圳'],
+    tags: ['上市', '已上市', '智能硬件', '核心器件', '深圳', '外企'],
     articlePath: '/guide/career/companies/foxconn'
   },
   {
@@ -332,7 +332,7 @@ const companiesData = [
     description: '智慧城市医疗应用。',
     highlight: '智慧城市医疗应用',
     searchKeywords: '中电科新型智慧城市研究院 智慧城市 医疗应用',
-    tags: ['专精特新', '智慧医疗', '智慧服务', '深圳'],
+    tags: ['专精特新', '智慧医疗', '智慧服务', '深圳', '研究所/院'],
     articlePath: '/guide/career/companies/cetc-smart-city'
   },
   // 新增公司列表
@@ -343,7 +343,7 @@ const companiesData = [
     description: '全球领先的全景相机和运动相机品牌，专注于360度全景影像技术，产品覆盖消费级和专业级市场。',
     highlight: '全球全景相机领导者，360度影像技术领先',
     searchKeywords: '影石 Insta360 全景相机 运动相机 360度影像',
-    tags: ['独角兽', '智能硬件', '消费电子', '深圳'],
+    tags: ['独角兽', 'D轮及以上融资', '智能硬件', '消费电子', '深圳'],
     articlePath: '/guide/career/companies/insta360'
   },
   {
@@ -353,7 +353,7 @@ const companiesData = [
     description: '中国领先的互联网科技公司，业务涵盖社交、游戏、金融、云服务等领域，拥有微信、QQ等核心产品。',
     highlight: '中国互联网巨头，微信生态，游戏行业领导者',
     searchKeywords: '腾讯 微信 QQ 游戏 社交 互联网',
-    tags: ['上市', '互联网', '应用开发', '深圳'],
+    tags: ['上市', '已上市', '互联网', '应用开发', '深圳', '民企', '10000人以上'],
     articlePath: '/guide/career/companies/tencent'
   },
   {
@@ -373,7 +373,7 @@ const companiesData = [
     description: '腾讯旗下云计算服务品牌，提供云服务器、云数据库、人工智能等全方位云服务解决方案。',
     highlight: '国内云服务前三，AI能力领先，服务企业超200万',
     searchKeywords: '腾讯云 云计算 云服务器 AI 企业服务',
-    tags: ['上市', '云计算', '应用开发', '深圳'],
+    tags: ['上市', '已上市', '云计算', '应用开发', '深圳'],
     articlePath: '/guide/career/companies/tencent-cloud'
   },
   {
@@ -383,7 +383,7 @@ const companiesData = [
     description: '全球领先的电子商务和云计算公司，业务涵盖电商、云计算、数字媒体、物流等领域。',
     highlight: '全球电商巨头，云计算领导者，年GMV超8万亿',
     searchKeywords: '阿里巴巴 淘宝 天猫 电商 云计算',
-    tags: ['上市', '电商', '应用开发', '杭州'],
+    tags: ['上市', '已上市', '电商', '应用开发', '杭州', '民企', '10000人以上'],
     articlePath: '/guide/career/companies/alibaba'
   },
   {
@@ -393,7 +393,7 @@ const companiesData = [
     description: '全球领先的金融科技公司，提供数字支付、数字金融、数字生活等服务，支付宝用户超10亿。',
     highlight: '全球金融科技领导者，支付宝生态，服务用户超10亿',
     searchKeywords: '蚂蚁集团 支付宝 金融科技 数字支付',
-    tags: ['独角兽', '金融科技', '支付', '杭州'],
+    tags: ['独角兽', 'D轮及以上融资', '金融科技', '支付', '杭州'],
     articlePath: '/guide/career/companies/ant-group'
   },
   {
@@ -413,7 +413,7 @@ const companiesData = [
     description: '阿里巴巴旗下云计算服务品牌，提供弹性计算、数据库、存储、网络等全方位云服务。',
     highlight: '国内云服务第一，全球前三，服务企业超300万',
     searchKeywords: '阿里云 云计算 云服务器 企业服务',
-    tags: ['上市', '云计算', '应用开发', '杭州'],
+    tags: ['上市', '已上市', '云计算', '应用开发', '杭州'],
     articlePath: '/guide/career/companies/aliyun'
   },
   {
@@ -423,7 +423,7 @@ const companiesData = [
     description: '全球领先的互联网科技公司，旗下产品包括抖音、今日头条、TikTok等，专注于内容创作和信息分发。',
     highlight: '全球内容平台领导者，TikTok月活超10亿',
     searchKeywords: '字节跳动 抖音 TikTok 今日头条 内容平台',
-    tags: ['独角兽', '互联网', '应用开发', '北京'],
+    tags: ['独角兽', 'D轮及以上融资', '互联网', '应用开发', '北京', '10000人以上'],
     articlePath: '/guide/career/companies/bytedance'
   },
   {
@@ -433,7 +433,7 @@ const companiesData = [
     description: '字节跳动旗下视频剪辑应用，提供智能剪辑、特效、音乐等功能，用户超2亿。',
     highlight: '国内视频剪辑第一，AI智能剪辑，用户超2亿',
     searchKeywords: '剪映 视频剪辑 AI剪辑 特效 音乐',
-    tags: ['独角兽', '互联网', '应用开发', '北京'],
+    tags: ['独角兽', 'D轮及以上融资', '互联网', '应用开发', '北京'],
     articlePath: '/guide/career/companies/jianying'
   },
   {
@@ -443,7 +443,7 @@ const companiesData = [
     description: '字节跳动旗下企业协作平台，提供即时通讯、视频会议、文档协作等一站式办公解决方案。',
     highlight: '企业协作平台新星，AI办公助手，服务企业超50万',
     searchKeywords: '飞书 企业协作 办公软件 视频会议',
-    tags: ['独角兽', '互联网', '应用开发', '北京'],
+    tags: ['独角兽', 'D轮及以上融资', '互联网', '应用开发', '北京'],
     articlePath: '/guide/career/companies/feishu'
   },
   {
@@ -453,7 +453,7 @@ const companiesData = [
     description: '字节跳动旗下短视频平台，全球月活用户超6亿，是领先的短视频内容创作和分享平台。',
     highlight: '全球短视频领导者，月活超6亿，内容生态丰富',
     searchKeywords: '抖音 短视频 内容创作 直播 电商',
-    tags: ['独角兽', '互联网', '应用开发', '北京'],
+    tags: ['独角兽', 'D轮及以上融资', '互联网', '应用开发', '北京'],
     articlePath: '/guide/career/companies/douyin'
   },
   {
@@ -463,7 +463,7 @@ const companiesData = [
     description: '字节跳动旗下数字营销平台，为广告主提供精准营销解决方案，覆盖抖音、今日头条等产品。',
     highlight: '数字营销平台领导者，服务广告主超100万',
     searchKeywords: '巨量引擎 数字营销 广告投放 精准营销',
-    tags: ['独角兽', '互联网', '应用开发', '北京'],
+    tags: ['独角兽', 'D轮及以上融资', '互联网', '应用开发', '北京'],
     articlePath: '/guide/career/companies/juliang-engine'
   },
   {
@@ -473,7 +473,7 @@ const companiesData = [
     description: '全球领先的无人机和影像设备制造商，在消费级和专业级无人机市场占据主导地位。',
     highlight: '全球无人机领导者，市场份额超70%，年营收超200亿',
     searchKeywords: '大疆 无人机 航拍 影像设备 创新科技',
-    tags: ['独角兽', '智能硬件', '消费电子', '深圳'],
+    tags: ['独角兽', 'D轮及以上融资', '智能硬件', '消费电子', '深圳'],
     articlePath: '/guide/career/companies/dji'
   },
   {
@@ -483,7 +483,7 @@ const companiesData = [
     description: '中国领先的综合物流服务商，提供快递、快运、冷运、同城配送等全方位物流服务。',
     highlight: '中国快递行业领导者，年营收超1500亿',
     searchKeywords: '顺丰 快递 物流 冷链 同城配送',
-    tags: ['上市', '物流', '应用开发', '深圳'],
+    tags: ['上市', '已上市', '物流', '应用开发', '深圳', '10000人以上'],
     articlePath: '/guide/career/companies/sf-express'
   },
   {
@@ -493,7 +493,7 @@ const companiesData = [
     description: '全球领先的新能源汽车和电池制造商，在电动汽车、储能、轨道交通等领域具有领先优势。',
     highlight: '全球新能源汽车领导者，年销量超300万辆',
     searchKeywords: '比亚迪 新能源汽车 电池 储能 轨道交通',
-    tags: ['上市', '智能硬件', '核心器件', '深圳'],
+    tags: ['上市', '已上市', '智能硬件', '核心器件', '深圳', '10000人以上', '民企'],
     articlePath: '/guide/career/companies/byd'
   },
   {
@@ -513,7 +513,7 @@ const companiesData = [
     description: '中国领先的生活服务电子商务平台，提供外卖、到店、酒店旅游、出行等全方位生活服务。',
     highlight: '生活服务电商领导者，年交易额超7000亿',
     searchKeywords: '美团 外卖 生活服务 到店 酒店旅游',
-    tags: ['上市', '电商', '应用开发', '北京'],
+    tags: ['上市', '已上市', '电商', '应用开发', '北京', '10000人以上'],
     articlePath: '/guide/career/companies/meituan'
   },
   {
@@ -523,7 +523,7 @@ const companiesData = [
     description: '全球领先的一站式出行平台，提供网约车、出租车、代驾、货运等多元化出行服务。',
     highlight: '全球出行平台领导者，日订单超5000万',
     searchKeywords: '滴滴出行 网约车 出租车 代驾 货运',
-    tags: ['独角兽', '互联网', '应用开发', '北京'],
+    tags: ['独角兽', 'D轮及以上融资', '互联网', '应用开发', '北京'],
     articlePath: '/guide/career/companies/didi'
   },
   {
@@ -533,7 +533,7 @@ const companiesData = [
     description: '全球领先的智能终端制造商，专注于智能手机、智能手表、耳机等消费电子产品的研发和制造。',
     highlight: '全球智能手机前五，年销量超1亿台',
     searchKeywords: 'OPPO 智能手机 智能手表 耳机 消费电子',
-    tags: ['上市', '智能硬件', '消费电子', '深圳'],
+    tags: ['上市', '已上市', '智能硬件', '消费电子', '深圳', '10000人以上'],
     articlePath: '/guide/career/companies/oppo'
   },
   {
@@ -543,7 +543,7 @@ const companiesData = [
     description: '全球领先的智能终端制造商，专注于智能手机、智能手表、耳机等消费电子产品的研发和制造。',
     highlight: '全球智能手机前五，年销量超1亿台',
     searchKeywords: 'vivo 智能手机 智能手表 耳机 消费电子',
-    tags: ['上市', '智能硬件', '消费电子', '深圳'],
+    tags: ['上市', '已上市', '智能硬件', '消费电子', '深圳', '10000人以上'],
     articlePath: '/guide/career/companies/vivo'
   },
   {
@@ -553,7 +553,7 @@ const companiesData = [
     description: '中国领先的网络安全和云计算解决方案提供商，专注于企业级安全、云计算、基础网络等领域。',
     highlight: '网络安全领导者，云计算解决方案提供商',
     searchKeywords: '深信服 网络安全 云计算 企业安全',
-    tags: ['上市', '互联网', '应用开发', '深圳'],
+    tags: ['上市', '已上市', '互联网', '应用开发', '深圳'],
     articlePath: '/guide/career/companies/sangfor'
   },
   {
@@ -563,7 +563,7 @@ const companiesData = [
     description: '全球领先的专业通信设备制造商，专注于对讲机、集群通信、应急通信等专业通信解决方案。',
     highlight: '全球专业通信设备领导者，市场份额前三',
     searchKeywords: '海能达 对讲机 集群通信 应急通信',
-    tags: ['上市', '智能硬件', '核心器件', '深圳'],
+    tags: ['上市', '已上市', '智能硬件', '核心器件', '深圳'],
     articlePath: '/guide/career/companies/hytera'
   },
   {
@@ -573,7 +573,7 @@ const companiesData = [
     description: '东南亚领先的电商平台，为消费者提供购物、支付、物流等一站式电商服务。',
     highlight: '东南亚电商领导者，月活用户超4亿',
     searchKeywords: '虾皮 Shopee 东南亚电商 购物 支付',
-    tags: ['独角兽', '电商', '应用开发', '深圳'],
+    tags: ['独角兽', 'D轮及以上融资', '电商', '应用开发', '深圳'],
     articlePath: '/guide/career/companies/shopee'
   },
   {
@@ -583,7 +583,7 @@ const companiesData = [
     description: '计算机视觉和深度学习技术，AI视觉领域独角兽。',
     highlight: '计算机视觉和深度学习技术，AI视觉独角兽',
     searchKeywords: '商汤科技 计算机视觉 深度学习 独角兽',
-    tags: ['独角兽', '人工智能', '应用开发', '深圳'],
+    tags: ['独角兽', 'D轮及以上融资', '人工智能', '应用开发', '深圳'],
     articlePath: '/guide/career/companies/sense-time'
   },
   {
@@ -593,7 +593,7 @@ const companiesData = [
     description: '智能机器人技术，全球机器人领先企业。',
     highlight: '全球机器人领先企业，人形机器人技术',
     searchKeywords: '优必选 智能机器人 人形机器人 全球领先',
-    tags: ['独角兽', '人工智能', '应用开发', '深圳'],
+    tags: ['独角兽', 'D轮及以上融资', '人工智能', '应用开发', '深圳'],
     articlePath: '/guide/career/companies/ubtech'
   },
   {
@@ -603,7 +603,7 @@ const companiesData = [
     description: '企业级智能服务AI公司，专注于自然语言处理、对话机器人、智能客服等AI应用。',
     highlight: '企业级AI服务领导者，智能客服技术领先',
     searchKeywords: '追一科技 自然语言处理 对话机器人 智能客服',
-    tags: ['独角兽', '人工智能', '算法研发', '深圳'],
+    tags: ['独角兽', 'D轮及以上融资', '人工智能', '算法研发', '深圳'],
     articlePath: '/guide/career/companies/zhuoyi-tech'
   },
   {
@@ -613,7 +613,7 @@ const companiesData = [
     description: '计算机视觉和裸眼3D技术领导者，专注于3D显示、VR/AR等视觉技术研发。',
     highlight: '裸眼3D技术领导者，计算机视觉技术领先',
     searchKeywords: '超多维科技 裸眼3D 计算机视觉 VR AR',
-    tags: ['独角兽', '人工智能', '算法研发', '深圳'],
+    tags: ['独角兽', 'D轮及以上融资', '人工智能', '算法研发', '深圳'],
     articlePath: '/guide/career/companies/superd'
   },
   {
@@ -623,7 +623,7 @@ const companiesData = [
     description: '中国领先的同城货运平台，为用户提供便捷的货运服务，连接货主和司机。',
     highlight: '同城货运领导者，月活用户超1000万',
     searchKeywords: '货拉拉 同城货运 物流 司机 货主',
-    tags: ['独角兽', '物流', '应用开发', '深圳'],
+    tags: ['独角兽', 'D轮及以上融资', '物流', '应用开发', '深圳'],
     articlePath: '/guide/career/companies/huolala'
   },
   {
@@ -633,7 +633,7 @@ const companiesData = [
     description: '中国领先的少儿编程教育平台，为4-16岁儿童提供编程教育服务。',
     highlight: '少儿编程教育领导者，服务用户超3000万',
     searchKeywords: '编程猫 少儿编程 编程教育 儿童教育',
-    tags: ['独角兽', '教育', '应用开发', '深圳'],
+    tags: ['独角兽', 'D轮及以上融资', '教育', '应用开发', '深圳'],
     articlePath: '/guide/career/companies/codemao'
   },
   {
@@ -643,7 +643,7 @@ const companiesData = [
     description: '中国领先的智能快递柜服务商，为快递公司和用户提供智能快递柜服务。',
     highlight: '智能快递柜领导者，覆盖城市超300个',
     searchKeywords: '丰巢 智能快递柜 快递 物流 便民服务',
-    tags: ['独角兽', '物流', '应用开发', '深圳'],
+    tags: ['独角兽', 'D轮及以上融资', '物流', '应用开发', '深圳'],
     articlePath: '/guide/career/companies/fengchao'
   },
   {
@@ -653,7 +653,7 @@ const companiesData = [
     description: '中国领先的产品经理学习平台，为产品经理提供学习、交流、求职等服务。',
     highlight: '产品经理学习平台领导者，用户超500万',
     searchKeywords: '人人都是产品经理 产品经理 学习 交流 求职',
-    tags: ['独角兽', '教育', '应用开发', '深圳'],
+    tags: ['独角兽', 'D轮及以上融资', '教育', '应用开发', '深圳'],
     articlePath: '/guide/career/companies/woshipm'
   },
   {
@@ -663,7 +663,7 @@ const companiesData = [
     description: '全球领先的语言学习社交平台，帮助用户通过语言交换学习外语。',
     highlight: '语言学习社交平台领导者，用户超3000万',
     searchKeywords: 'HelloTalk 语言学习 社交 外语 语言交换',
-    tags: ['独角兽', '教育', '应用开发', '深圳'],
+    tags: ['独角兽', 'D轮及以上融资', '教育', '应用开发', '深圳'],
     articlePath: '/guide/career/companies/hellotalk'
   },
   {
@@ -673,7 +673,7 @@ const companiesData = [
     description: '专注于海外新兴市场的移动应用开发商，拥有SnapTube、Lark Player等多款广受欢迎的产品。',
     highlight: '海外新兴市场应用领导者，产品用户超5亿',
     searchKeywords: '大宇无限 SnapTube Lark Player 海外应用',
-    tags: ['独角兽', '互联网', '应用开发', '深圳'],
+    tags: ['独角兽', 'D轮及以上融资', '互联网', '应用开发', '深圳'],
     articlePath: '/guide/career/companies/dayu-wuxian'
   },
   {
@@ -683,7 +683,7 @@ const companiesData = [
     description: '中国领先的知识付费平台，为知识创作者和用户提供知识分享和付费服务。',
     highlight: '知识付费平台领导者，创作者超100万',
     searchKeywords: '知识星球 知识付费 知识分享 创作者',
-    tags: ['独角兽', '教育', '应用开发', '深圳'],
+    tags: ['独角兽', 'D轮及以上融资', '教育', '应用开发', '深圳'],
     articlePath: '/guide/career/companies/xingqiu'
   },
   {
@@ -693,7 +693,7 @@ const companiesData = [
     description: '中国领先的在线旅游服务商，提供机票、酒店、旅游等全方位旅游服务。',
     highlight: '在线旅游服务领导者，年交易额超3000亿',
     searchKeywords: '携程 在线旅游 机票 酒店 旅游服务',
-    tags: ['上市', '电商', '应用开发', '上海'],
+    tags: ['上市', '已上市', '电商', '应用开发', '上海', '10000人以上'],
     articlePath: '/guide/career/companies/ctrip'
   },
   {
@@ -703,7 +703,7 @@ const companiesData = [
     description: '中国领先的人工智能公司，专注于语音识别、自然语言处理、机器翻译等AI技术。',
     highlight: 'AI语音技术领导者，语音识别准确率超98%',
     searchKeywords: '科大讯飞 语音识别 自然语言处理 机器翻译 AI',
-    tags: ['上市', '人工智能', '算法研发', '合肥'],
+    tags: ['上市', '已上市', '人工智能', '算法研发', '合肥'],
     articlePath: '/guide/career/companies/iflytek'
   },
   {
@@ -713,7 +713,7 @@ const companiesData = [
     description: '中国领先的社交电商平台，通过社交拼团模式为用户提供优质商品和优惠价格。',
     highlight: '社交电商领导者，年GMV超2万亿',
     searchKeywords: '拼多多 社交电商 拼团 优惠 购物',
-    tags: ['上市', '电商', '应用开发', '上海'],
+    tags: ['上市', '已上市', '电商', '应用开发', '上海', '10000人以上'],
     articlePath: '/guide/career/companies/pinduoduo'
   },
   {
@@ -723,7 +723,7 @@ const companiesData = [
     description: '中国领先的生活方式平台，为用户提供购物分享、生活记录、美妆护肤等内容。',
     highlight: '生活方式平台领导者，月活用户超2亿',
     searchKeywords: '小红书 生活方式 购物分享 美妆护肤',
-    tags: ['独角兽', '电商', '应用开发', '上海'],
+    tags: ['独角兽', 'D轮及以上融资', '电商', '应用开发', '上海'],
     articlePath: '/guide/career/companies/xiaohongshu'
   },
   {
@@ -733,7 +733,7 @@ const companiesData = [
     description: '中国领先的潮流电商平台，专注于球鞋、潮牌、美妆等潮流商品的交易和鉴定。',
     highlight: '潮流电商领导者，球鞋鉴定技术领先',
     searchKeywords: '得物 潮流电商 球鞋 潮牌 美妆 鉴定',
-    tags: ['独角兽', '电商', '应用开发', '上海'],
+    tags: ['独角兽', 'D轮及以上融资', '电商', '应用开发', '上海'],
     articlePath: '/guide/career/companies/dewu'
   },
   {
@@ -743,7 +743,7 @@ const companiesData = [
     description: '全球领先的智能手机品牌，专注于高端智能手机的研发和制造。',
     highlight: '高端智能手机品牌，全球用户超1000万',
     searchKeywords: '一加 智能手机 高端 科技 创新',
-    tags: ['独角兽', '智能硬件', '消费电子', '深圳'],
+    tags: ['独角兽', 'D轮及以上融资', '智能硬件', '消费电子', '深圳'],
     articlePath: '/guide/career/companies/oneplus'
   },
   {
@@ -763,7 +763,7 @@ const companiesData = [
     description: '中国领先的电商平台，提供自营商品、第三方商家、物流配送等全方位电商服务。',
     highlight: '电商平台领导者，年GMV超2万亿',
     searchKeywords: '京东 电商 自营 物流 购物',
-    tags: ['上市', '电商', '应用开发', '北京'],
+    tags: ['上市', '已上市', '电商', '应用开发', '北京', '10000人以上'],
     articlePath: '/guide/career/companies/jd'
   },
   {
@@ -773,7 +773,7 @@ const companiesData = [
     description: '中国领先的互联网券商，为用户提供港股、美股、A股等全球股票交易服务。',
     highlight: '互联网券商领导者，用户超2000万',
     searchKeywords: '富途证券 互联网券商 港股 美股 A股',
-    tags: ['上市', '金融科技', '智能金融', '深圳'],
+    tags: ['上市', '已上市', '金融科技', '智能金融', '深圳'],
     articlePath: '/guide/career/companies/futu'
   },
   {
@@ -783,7 +783,7 @@ const companiesData = [
     description: '招商银行旗下科技公司，专注于金融科技、数字化转型、智能风控等领域。',
     highlight: '银行科技领导者，数字化转型领先',
     searchKeywords: '招银科技 金融科技 数字化转型 智能风控',
-    tags: ['上市', '金融科技', '智能金融', '深圳'],
+    tags: ['上市', '已上市', '金融科技', '智能金融', '深圳'],
     articlePath: '/guide/career/companies/cmb-tech'
   },
   {
@@ -793,7 +793,7 @@ const companiesData = [
     description: '中国领先的综合金融服务集团，业务涵盖保险、银行、投资、科技等领域。',
     highlight: '综合金融服务领导者，年营收超1万亿',
     searchKeywords: '平安 保险 银行 投资 科技 金融服务',
-    tags: ['上市', '金融科技', '保险科技', '深圳'],
+    tags: ['上市', '已上市', '金融科技', '保险科技', '深圳', '民企', '10000人以上'],
     articlePath: '/guide/career/companies/pingan'
   },
   {
@@ -803,7 +803,7 @@ const companiesData = [
     description: '中国领先的SaaS服务商，为商家提供电商、零售、餐饮等行业的数字化解决方案。',
     highlight: 'SaaS服务领导者，服务商家超600万',
     searchKeywords: '有赞 SaaS 电商 零售 餐饮 数字化',
-    tags: ['上市', '互联网', '应用开发', '杭州'],
+    tags: ['上市', '已上市', '互联网', '应用开发', '杭州'],
     articlePath: '/guide/career/companies/youzan'
   },
   {
@@ -813,7 +813,7 @@ const companiesData = [
     description: '中国领先的互联网服务提供商，专注于下载加速、云计算、区块链等领域。',
     highlight: '下载加速领导者，云计算服务提供商',
     searchKeywords: '迅雷 下载加速 云计算 区块链 互联网服务',
-    tags: ['上市', '互联网', '应用开发', '深圳'],
+    tags: ['上市', '已上市', '互联网', '应用开发', '深圳'],
     articlePath: '/guide/career/companies/xunlei'
   },
   {
@@ -823,7 +823,7 @@ const companiesData = [
     description: '中国领先的企业管理软件提供商，专注于ERP、财务软件、人力资源等企业管理解决方案。',
     highlight: '企业管理软件领导者，服务企业超500万',
     searchKeywords: '金蝶 ERP 财务软件 人力资源 企业管理',
-    tags: ['上市', '互联网', '应用开发', '深圳'],
+    tags: ['上市', '已上市', '互联网', '应用开发', '深圳'],
     articlePath: '/guide/career/companies/kingdee'
   },
   {
@@ -833,7 +833,7 @@ const companiesData = [
     description: '中国领先的知识付费技术服务商，为内容创作者提供知识付费、在线教育等技术服务。',
     highlight: '知识付费技术服务领导者，服务创作者超100万',
     searchKeywords: '小鹅通 知识付费 在线教育 内容创作 技术服务',
-    tags: ['独角兽', '教育', '应用开发', '深圳'],
+    tags: ['独角兽', 'D轮及以上融资', '教育', '应用开发', '深圳'],
     articlePath: '/guide/career/companies/xiaoe-tong'
   },
   {
@@ -862,7 +862,7 @@ const companiesData = [
 function generateCompanyCard(company) {
   const tagClass = getTagClass(company.tags[0])
   const cityTag = company.tags.includes('深圳') ? '<span class="tag city">深圳</span>' : ''
-  
+
   return `
   <div class="association-card clickable-card" data-search="${company.searchKeywords}" data-article="${company.articlePath}">
     <div class="card-header">
@@ -910,7 +910,10 @@ onMounted(() => {
     nature: 'all',
     industry: 'all', 
     level: 'all',
-    city: 'all'
+    city: 'all',
+    ownership: 'all',
+    funding: 'all',
+    size: 'all'
   }
   
   // 渲染企业卡片
@@ -923,6 +926,20 @@ onMounted(() => {
   // 动态创建过滤器
   function createFilterSection() {
     const filterGroups = [
+      {
+        title: '企业性质',
+        type: 'ownership',
+        filters: [
+          { value: 'all', text: '全部', active: true },
+          { value: '国企', text: '国企' },
+          { value: '央企', text: '央企' },
+          { value: '银行/信用社', text: '银行/信用社' },
+          { value: '研究所/院', text: '研究所/院' },
+          { value: '外企', text: '外企' },
+          { value: '民企', text: '民企' },
+          { value: '事业单位', text: '事业单位' }
+        ]
+      },
       {
         title: '企业类型',
         type: 'nature',
@@ -963,6 +980,34 @@ onMounted(() => {
           { value: '核心器件', text: '核心器件' },
           { value: '医疗设备', text: '医疗设备' },
           { value: '智慧服务', text: '智慧服务' }
+        ]
+      },
+      {
+        title: '融资阶段',
+        type: 'funding',
+        filters: [
+          { value: 'all', text: '全部', active: true },
+          { value: '天使轮', text: '天使轮' },
+          { value: 'A轮融资', text: 'A轮融资' },
+          { value: 'B轮融资', text: 'B轮融资' },
+          { value: 'C轮融资', text: 'C轮融资' },
+          { value: 'D轮及以上融资', text: 'D轮及以上融资' },
+          { value: '未融资', text: '未融资' },
+          { value: '不需要融资', text: '不需要融资' },
+          { value: '已上市', text: '已上市' }
+        ]
+      },
+      {
+        title: '公司规模',
+        type: 'size',
+        filters: [
+          { value: 'all', text: '全部', active: true },
+          { value: '0-20人', text: '0-20人' },
+          { value: '20-99人', text: '20-99人' },
+          { value: '100-499人', text: '100-499人' },
+          { value: '500-999人', text: '500-999人' },
+          { value: '1000-9999人', text: '1000-9999人' },
+          { value: '10000人以上', text: '10000人以上' }
         ]
       },
       {
@@ -1023,9 +1068,12 @@ onMounted(() => {
       const industryMatches = activeFilters.industry === 'all' || cardTags.includes(activeFilters.industry)
       const levelMatches = activeFilters.level === 'all' || cardTags.includes(activeFilters.level)
       const cityMatches = activeFilters.city === 'all' || cardTags.includes(activeFilters.city)
+      const ownershipMatches = activeFilters.ownership === 'all' || cardTags.includes(activeFilters.ownership)
+      const fundingMatches = activeFilters.funding === 'all' || cardTags.includes(activeFilters.funding)
+      const sizeMatches = activeFilters.size === 'all' || cardTags.includes(activeFilters.size)
       
       // 同时满足搜索和所有过滤条件
-      if (searchMatches && natureMatches && industryMatches && levelMatches && cityMatches) {
+      if (searchMatches && natureMatches && industryMatches && levelMatches && cityMatches && ownershipMatches && fundingMatches && sizeMatches) {
         card.style.display = 'block'
       } else {
         card.style.display = 'none'
@@ -1083,6 +1131,12 @@ onMounted(() => {
       filterType = 'level'
     } else if (['深圳'].includes(tagText)) {
       filterType = 'city'
+    } else if (['国企', '央企', '银行/信用社', '研究所/院', '外企', '民企', '事业单位'].includes(tagText)) {
+      filterType = 'ownership'
+    } else if (['天使轮', 'A轮融资', 'B轮融资', 'C轮融资', 'D轮及以上融资', '未融资', '不需要融资', '已上市'].includes(tagText)) {
+      filterType = 'funding'
+    } else if (['0-20人', '20-99人', '100-499人', '500-999人', '1000-9999人', '10000人以上'].includes(tagText)) {
+      filterType = 'size'
     }
     
     if (filterType) {
