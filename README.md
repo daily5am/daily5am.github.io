@@ -326,6 +326,14 @@ npm run deploy
 - 仅记录“网站布局与功能”的变更（如导航、主题、组件、脚本、性能）。
 - 不记录文章内容新增/修改。
 
+## 🧑‍💻 开发者文档（/dev）
+- 入口：`/dev/README.md`
+- 目录：
+  - `comments-cloudbase.md`：CloudBase 与 Twikoo 部署指南
+  - `comments-policy.md`：评论风控与内容安全策略
+  - `dev-checklist.md`：开发变更步骤与测试要点
+  - `README.md`：目录导览与更新约定
+
 ## 🙏 致谢
 
 感谢所有为这个项目做出贡献的开发者们！

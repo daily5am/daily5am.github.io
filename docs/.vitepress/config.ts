@@ -16,7 +16,9 @@ export default defineConfig({
     ['link', { href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap', rel: 'stylesheet' }],
     // Plausible Analytics
     ['script', { async: '', src: 'https://plausible.io/js/pa-HD7aAzbAH5lP__1S5Ux2h.js' }],
-    ['script', {}, `window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init();`]
+    ['script', {}, `window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init();`],
+    // Twikoo config: Netlify Functions endpoint
+    ['script', {}, `window.__TK__=window.__TK__||{serverURL:'https://discuss.daily5am.online/.netlify/functions/twikoo',envId:'',lang:'zh-CN'};`]
   ],
 
   themeConfig: {

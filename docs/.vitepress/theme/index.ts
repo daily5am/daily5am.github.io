@@ -12,6 +12,7 @@ export default {
     app.component('AssociationGrid', AssociationGrid)
     app.component('FilterSection', FilterSection)
     app.component('WordCloud', WordCloud)
+    // Comment 组件由 Layout 直接引入，无需全局注册
 
     // Ensure SPA navigations are tracked by Plausible
     if (router) {
