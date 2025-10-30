@@ -18,7 +18,7 @@ export default defineConfig({
     ['script', { async: '', src: 'https://plausible.io/js/pa-HD7aAzbAH5lP__1S5Ux2h.js' }],
     ['script', {}, `window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init();`],
     // Twikoo config: Netlify Functions endpoint
-    ['script', {}, `window.__TK__=window.__TK__||{serverURL:'https://discuss.daily5am.online/.netlify/functions/twikoo',envId:'',lang:'zh-CN'};`]
+    ['script', {}, `window.__TK__=window.__TK__||{serverURL:'',envId:'https://discuss.daily5am.online/.netlify/functions/twikoo',lang:'zh-CN'};`]
   ],
 
   themeConfig: {

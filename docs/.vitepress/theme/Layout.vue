@@ -1,8 +1,5 @@
 <template>
   <Layout>
-    <template #nav-bar-title-before>
-      <CustomNavbar />
-    </template>
     <template #doc-after>
       <Comment v-if="showComments" />
     </template>
@@ -12,7 +9,6 @@
 
 <script setup>
 import Layout from 'vitepress/dist/client/theme-default/Layout.vue'
-import CustomNavbar from '../components/CustomNavbar.vue'
 import Comment from './components/Comment.vue'
 import { computed } from 'vue'
 import { useData } from 'vitepress'

@@ -1,4 +1,5 @@
 import DefaultTheme from 'vitepress/theme'
+import Layout from './Layout.vue'
 import VideoPlayer from './components/VideoPlayer.vue'
 import AssociationGrid from './components/AssociationGrid.vue'
 import FilterSection from './components/FilterSection.vue'
@@ -7,6 +8,7 @@ import './custom.css'
 
 export default {
   extends: DefaultTheme,
+  Layout,
   enhanceApp({ app, router }) {
     app.component('VideoPlayer', VideoPlayer)
     app.component('AssociationGrid', AssociationGrid)

@@ -32,6 +32,7 @@ async function loadScript(src) {
 function enforceClientGuards() {
   const root = document.getElementById('tcomment')
   if (!root) return
+  // 媒体与输入保持默认；仅做链接安全控制
   // 链接点击白名单：仅 http/https 且带主机；否则转纯文本
   root.addEventListener('click', (e) => {
     const t = e.target
