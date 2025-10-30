@@ -1,5 +1,8 @@
 <template>
   <Layout>
+    <template #doc-before>
+      <MetaBar v-if="showMeta" />
+    </template>
     <template #doc-after>
       <Comment v-if="showComments" />
     </template>
@@ -10,6 +13,7 @@
 <script setup>
 import Layout from 'vitepress/dist/client/theme-default/Layout.vue'
 import Comment from './components/Comment.vue'
+  import MetaBar from './components/MetaBar.vue'
 import { computed } from 'vue'
 import { useData } from 'vitepress'
 
@@ -20,4 +24,5 @@ const showComments = computed(() => {
   // 只在文档内容页面显示（有 title/lastUpdated 等）
   return true
 })
+const showMeta = computed(() => true)
 </script>

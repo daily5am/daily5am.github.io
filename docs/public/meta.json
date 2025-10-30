@@ -1,0 +1,674 @@
+{
+  "guide/ai/ai-agent.md": {
+    "createdAt": "2025-10-28T03:52:54+08:00",
+    "updatedAt": "2025-10-28T03:52:54+08:00",
+    "wordCount": 1529,
+    "readingMinutes": 6
+  },
+  "guide/ai/computer-vision.md": {
+    "createdAt": "2025-10-28T03:52:54+08:00",
+    "updatedAt": "2025-10-28T03:52:54+08:00",
+    "wordCount": 1619,
+    "readingMinutes": 6
+  },
+  "guide/ai/deep-learning.md": {
+    "createdAt": "2025-10-28T03:52:54+08:00",
+    "updatedAt": "2025-10-28T03:52:54+08:00",
+    "wordCount": 1547,
+    "readingMinutes": 6
+  },
+  "guide/ai/llm.md": {
+    "createdAt": "2025-10-28T03:52:54+08:00",
+    "updatedAt": "2025-10-28T03:52:54+08:00",
+    "wordCount": 1342,
+    "readingMinutes": 5
+  },
+  "guide/ai/machine-learning.md": {
+    "createdAt": "2025-10-28T03:52:54+08:00",
+    "updatedAt": "2025-10-28T03:52:54+08:00",
+    "wordCount": 1451,
+    "readingMinutes": 5
+  },
+  "guide/ai/nlp.md": {
+    "createdAt": "2025-10-28T03:52:54+08:00",
+    "updatedAt": "2025-10-28T03:52:54+08:00",
+    "wordCount": 1903,
+    "readingMinutes": 7
+  },
+  "guide/ai/reinforcement-learning.md": {
+    "createdAt": "2025-10-28T03:52:54+08:00",
+    "updatedAt": "2025-10-28T03:52:54+08:00",
+    "wordCount": 1443,
+    "readingMinutes": 5
+  },
+  "guide/ai/tools-frameworks.md": {
+    "createdAt": "2025-10-28T03:52:54+08:00",
+    "updatedAt": "2025-10-28T03:52:54+08:00",
+    "wordCount": 1561,
+    "readingMinutes": 6
+  },
+  "guide/beginner/index.md": {
+    "createdAt": "2025-10-19T19:20:02+08:00",
+    "updatedAt": "2025-10-19T19:20:02+08:00",
+    "wordCount": 623,
+    "readingMinutes": 3
+  },
+  "guide/beginner/programming-basics.md": {
+    "createdAt": "2025-10-19T19:20:02+08:00",
+    "updatedAt": "2025-10-19T19:20:02+08:00",
+    "wordCount": 552,
+    "readingMinutes": 2
+  },
+  "guide/career/COMPANY_DATA_GUIDE.md": {
+    "createdAt": "2025-10-28T17:09:07+08:00",
+    "updatedAt": "2025-10-28T17:09:07+08:00",
+    "wordCount": 512,
+    "readingMinutes": 2
+  },
+  "guide/career/associations/index.md": {
+    "createdAt": "2025-10-28T01:03:57+08:00",
+    "updatedAt": "2025-10-28T01:25:17+08:00",
+    "wordCount": 1762,
+    "readingMinutes": 6
+  },
+  "guide/career/associations/shenzhen-ai-association.md": {
+    "createdAt": "2025-10-28T01:03:57+08:00",
+    "updatedAt": "2025-10-28T01:03:57+08:00",
+    "wordCount": 557,
+    "readingMinutes": 2
+  },
+  "guide/career/associations/shenzhen-ai-industry.md": {
+    "createdAt": "2025-10-28T01:03:57+08:00",
+    "updatedAt": "2025-10-28T01:03:57+08:00",
+    "wordCount": 529,
+    "readingMinutes": 2
+  },
+  "guide/career/associations/shenzhen-blockchain.md": {
+    "createdAt": "2025-10-28T01:25:17+08:00",
+    "updatedAt": "2025-10-28T01:25:17+08:00",
+    "wordCount": 562,
+    "readingMinutes": 2
+  },
+  "guide/career/associations/shenzhen-ccf.md": {
+    "createdAt": "2025-10-28T01:25:17+08:00",
+    "updatedAt": "2025-10-28T01:25:17+08:00",
+    "wordCount": 640,
+    "readingMinutes": 3
+  },
+  "guide/career/associations/shenzhen-computer-industry.md": {
+    "createdAt": "2025-10-28T01:03:57+08:00",
+    "updatedAt": "2025-10-28T01:03:57+08:00",
+    "wordCount": 539,
+    "readingMinutes": 2
+  },
+  "guide/career/associations/shenzhen-fintech.md": {
+    "createdAt": "2025-10-28T01:03:57+08:00",
+    "updatedAt": "2025-10-28T01:03:57+08:00",
+    "wordCount": 534,
+    "readingMinutes": 2
+  },
+  "guide/career/associations/shenzhen-fisco.md": {
+    "createdAt": "2025-10-28T01:25:17+08:00",
+    "updatedAt": "2025-10-28T01:25:17+08:00",
+    "wordCount": 736,
+    "readingMinutes": 3
+  },
+  "guide/career/associations/shenzhen-international-ai.md": {
+    "createdAt": "2025-10-28T01:25:17+08:00",
+    "updatedAt": "2025-10-28T01:25:17+08:00",
+    "wordCount": 754,
+    "readingMinutes": 3
+  },
+  "guide/career/associations/shenzhen-iot.md": {
+    "createdAt": "2025-10-28T01:25:17+08:00",
+    "updatedAt": "2025-10-28T01:25:17+08:00",
+    "wordCount": 656,
+    "readingMinutes": 3
+  },
+  "guide/career/associations/shenzhen-kunpeng.md": {
+    "createdAt": "2025-10-28T01:25:17+08:00",
+    "updatedAt": "2025-10-28T01:25:17+08:00",
+    "wordCount": 598,
+    "readingMinutes": 2
+  },
+  "guide/career/associations/shenzhen-smart-hardware.md": {
+    "createdAt": "2025-10-28T01:03:57+08:00",
+    "updatedAt": "2025-10-28T01:03:57+08:00",
+    "wordCount": 619,
+    "readingMinutes": 3
+  },
+  "guide/career/associations/shenzhen-smart-health.md": {
+    "createdAt": "2025-10-28T01:25:17+08:00",
+    "updatedAt": "2025-10-28T01:25:17+08:00",
+    "wordCount": 620,
+    "readingMinutes": 3
+  },
+  "guide/career/associations/shenzhen-smart-manufacturing.md": {
+    "createdAt": "2025-10-28T01:25:17+08:00",
+    "updatedAt": "2025-10-28T01:25:17+08:00",
+    "wordCount": 616,
+    "readingMinutes": 3
+  },
+  "guide/career/associations/shenzhen-smart-terminal.md": {
+    "createdAt": "2025-10-28T01:25:17+08:00",
+    "updatedAt": "2025-10-28T01:25:17+08:00",
+    "wordCount": 687,
+    "readingMinutes": 3
+  },
+  "guide/career/associations/shenzhen-software-industry.md": {
+    "createdAt": "2025-10-28T01:03:57+08:00",
+    "updatedAt": "2025-10-28T01:03:57+08:00",
+    "wordCount": 504,
+    "readingMinutes": 2
+  },
+  "guide/career/associations/shenzhen-xinchuang.md": {
+    "createdAt": "2025-10-28T01:25:17+08:00",
+    "updatedAt": "2025-10-28T01:25:17+08:00",
+    "wordCount": 603,
+    "readingMinutes": 3
+  },
+  "guide/career/business-models.md": {
+    "createdAt": "2025-10-29T03:16:21+08:00",
+    "updatedAt": "2025-10-29T03:16:21+08:00",
+    "wordCount": 2744,
+    "readingMinutes": 10
+  },
+  "guide/career/capital-market.md": {
+    "createdAt": "2025-10-29T03:07:43+08:00",
+    "updatedAt": "2025-10-29T03:07:43+08:00",
+    "wordCount": 2679,
+    "readingMinutes": 9
+  },
+  "guide/career/companies/alibaba.md": {
+    "createdAt": "2025-10-28T17:37:59+08:00",
+    "updatedAt": "2025-10-28T17:37:59+08:00",
+    "wordCount": 1429,
+    "readingMinutes": 5
+  },
+  "guide/career/companies/byd.md": {
+    "createdAt": "2025-10-28T17:37:59+08:00",
+    "updatedAt": "2025-10-28T17:37:59+08:00",
+    "wordCount": 1430,
+    "readingMinutes": 5
+  },
+  "guide/career/companies/bytedance.md": {
+    "createdAt": "2025-10-28T17:37:59+08:00",
+    "updatedAt": "2025-10-28T17:37:59+08:00",
+    "wordCount": 1399,
+    "readingMinutes": 5
+  },
+  "guide/career/companies/cloud-leopard.md": {
+    "createdAt": "2025-10-28T02:09:35+08:00",
+    "updatedAt": "2025-10-28T02:09:35+08:00",
+    "wordCount": 650,
+    "readingMinutes": 3
+  },
+  "guide/career/companies/didi.md": {
+    "createdAt": "2025-10-28T17:37:59+08:00",
+    "updatedAt": "2025-10-28T17:37:59+08:00",
+    "wordCount": 1380,
+    "readingMinutes": 5
+  },
+  "guide/career/companies/dji.md": {
+    "createdAt": "2025-10-28T17:37:59+08:00",
+    "updatedAt": "2025-10-28T17:37:59+08:00",
+    "wordCount": 1401,
+    "readingMinutes": 5
+  },
+  "guide/career/companies/huawei.md": {
+    "createdAt": "2025-10-28T02:09:35+08:00",
+    "updatedAt": "2025-10-28T17:37:59+08:00",
+    "wordCount": 1183,
+    "readingMinutes": 4
+  },
+  "guide/career/companies/index.md": {
+    "createdAt": "2025-10-28T02:47:08+08:00",
+    "updatedAt": "2025-10-28T02:47:08+08:00",
+    "wordCount": 2642,
+    "readingMinutes": 9
+  },
+  "guide/career/companies/meituan.md": {
+    "createdAt": "2025-10-28T17:37:59+08:00",
+    "updatedAt": "2025-10-28T17:37:59+08:00",
+    "wordCount": 1347,
+    "readingMinutes": 5
+  },
+  "guide/career/companies/mindray.md": {
+    "createdAt": "2025-10-28T02:09:35+08:00",
+    "updatedAt": "2025-10-28T02:09:35+08:00",
+    "wordCount": 778,
+    "readingMinutes": 3
+  },
+  "guide/career/companies/oppo.md": {
+    "createdAt": "2025-10-28T17:37:59+08:00",
+    "updatedAt": "2025-10-28T17:37:59+08:00",
+    "wordCount": 1304,
+    "readingMinutes": 5
+  },
+  "guide/career/companies/orbbec.md": {
+    "createdAt": "2025-10-28T02:47:08+08:00",
+    "updatedAt": "2025-10-28T02:47:08+08:00",
+    "wordCount": 276,
+    "readingMinutes": 1
+  },
+  "guide/career/companies/pingan-tech.md": {
+    "createdAt": "2025-10-29T00:18:44+08:00",
+    "updatedAt": "2025-10-29T00:18:44+08:00",
+    "wordCount": 1441,
+    "readingMinutes": 5
+  },
+  "guide/career/companies/sensetime.md": {
+    "createdAt": "2025-10-29T00:18:44+08:00",
+    "updatedAt": "2025-10-29T00:18:44+08:00",
+    "wordCount": 1392,
+    "readingMinutes": 5
+  },
+  "guide/career/companies/shizai-intelligent.md": {
+    "createdAt": "2025-10-28T02:47:08+08:00",
+    "updatedAt": "2025-10-28T02:47:08+08:00",
+    "wordCount": 265,
+    "readingMinutes": 1
+  },
+  "guide/career/companies/tcl.md": {
+    "createdAt": "2025-10-29T00:18:44+08:00",
+    "updatedAt": "2025-10-29T00:18:44+08:00",
+    "wordCount": 1297,
+    "readingMinutes": 5
+  },
+  "guide/career/companies/tencent.md": {
+    "createdAt": "2025-10-28T17:37:59+08:00",
+    "updatedAt": "2025-10-28T17:37:59+08:00",
+    "wordCount": 1468,
+    "readingMinutes": 5
+  },
+  "guide/career/companies/vivo.md": {
+    "createdAt": "2025-10-28T17:37:59+08:00",
+    "updatedAt": "2025-10-28T17:37:59+08:00",
+    "wordCount": 1295,
+    "readingMinutes": 5
+  },
+  "guide/career/companies/webank.md": {
+    "createdAt": "2025-10-28T02:09:35+08:00",
+    "updatedAt": "2025-10-28T02:09:35+08:00",
+    "wordCount": 695,
+    "readingMinutes": 3
+  },
+  "guide/career/companies/yuanxiang-tech.md": {
+    "createdAt": "2025-10-28T02:47:08+08:00",
+    "updatedAt": "2025-10-28T02:47:08+08:00",
+    "wordCount": 272,
+    "readingMinutes": 1
+  },
+  "guide/career/companies/yunshan-lifly.md": {
+    "createdAt": "2025-10-28T02:09:35+08:00",
+    "updatedAt": "2025-10-28T02:09:35+08:00",
+    "wordCount": 566,
+    "readingMinutes": 2
+  },
+  "guide/career/companies/zte.md": {
+    "createdAt": "2025-10-29T00:18:44+08:00",
+    "updatedAt": "2025-10-29T00:18:44+08:00",
+    "wordCount": 1436,
+    "readingMinutes": 5
+  },
+  "guide/career/enterprise-sharing.md": {
+    "createdAt": "2025-10-27T19:46:18+08:00",
+    "updatedAt": "2025-10-27T19:46:18+08:00",
+    "wordCount": 904,
+    "readingMinutes": 4
+  },
+  "guide/career/freelancer.md": {
+    "createdAt": "2025-10-29T02:40:11+08:00",
+    "updatedAt": "2025-10-29T02:50:31+08:00",
+    "wordCount": 3824,
+    "readingMinutes": 13
+  },
+  "guide/career/global-tech-trends.md": {
+    "createdAt": "2025-10-29T03:16:21+08:00",
+    "updatedAt": "2025-10-29T03:16:21+08:00",
+    "wordCount": 2134,
+    "readingMinutes": 8
+  },
+  "guide/career/independent-developer.md": {
+    "createdAt": "2025-10-29T02:40:11+08:00",
+    "updatedAt": "2025-10-29T02:40:11+08:00",
+    "wordCount": 2093,
+    "readingMinutes": 7
+  },
+  "guide/career/index.md": {
+    "createdAt": "2025-10-27T19:46:18+08:00",
+    "updatedAt": "2025-10-27T19:46:18+08:00",
+    "wordCount": 1168,
+    "readingMinutes": 4
+  },
+  "guide/career/industry-awards.md": {
+    "createdAt": "2025-10-29T03:16:21+08:00",
+    "updatedAt": "2025-10-29T03:16:21+08:00",
+    "wordCount": 2564,
+    "readingMinutes": 9
+  },
+  "guide/career/industry-reports.md": {
+    "createdAt": "2025-10-29T03:07:43+08:00",
+    "updatedAt": "2025-10-29T03:07:43+08:00",
+    "wordCount": 2796,
+    "readingMinutes": 10
+  },
+  "guide/career/industry-trends.md": {
+    "createdAt": "2025-10-27T19:46:18+08:00",
+    "updatedAt": "2025-10-28T02:47:08+08:00",
+    "wordCount": 1042,
+    "readingMinutes": 4
+  },
+  "guide/career/interview-skills.md": {
+    "createdAt": "2025-10-27T19:46:18+08:00",
+    "updatedAt": "2025-10-27T19:46:18+08:00",
+    "wordCount": 559,
+    "readingMinutes": 2
+  },
+  "guide/career/investors/alibaba-investment.md": {
+    "createdAt": "2025-10-29T00:58:34+08:00",
+    "updatedAt": "2025-10-29T00:58:34+08:00",
+    "wordCount": 1978,
+    "readingMinutes": 7
+  },
+  "guide/career/investors/bytedance-investment.md": {
+    "createdAt": "2025-10-29T00:58:34+08:00",
+    "updatedAt": "2025-10-29T00:58:34+08:00",
+    "wordCount": 1927,
+    "readingMinutes": 7
+  },
+  "guide/career/investors/china-growth-capital.md": {
+    "createdAt": "2025-10-29T00:58:34+08:00",
+    "updatedAt": "2025-10-29T00:58:34+08:00",
+    "wordCount": 1939,
+    "readingMinutes": 7
+  },
+  "guide/career/investors/co-win-ventures.md": {
+    "createdAt": "2025-10-29T00:58:34+08:00",
+    "updatedAt": "2025-10-29T00:58:34+08:00",
+    "wordCount": 1961,
+    "readingMinutes": 7
+  },
+  "guide/career/investors/dcm-ventures.md": {
+    "createdAt": "2025-10-29T00:58:34+08:00",
+    "updatedAt": "2025-10-29T00:58:34+08:00",
+    "wordCount": 1851,
+    "readingMinutes": 7
+  },
+  "guide/career/investors/fortune-vc.md": {
+    "createdAt": "2025-10-29T00:58:34+08:00",
+    "updatedAt": "2025-10-29T00:58:34+08:00",
+    "wordCount": 1921,
+    "readingMinutes": 7
+  },
+  "guide/career/investors/ggv-capital.md": {
+    "createdAt": "2025-10-29T00:58:34+08:00",
+    "updatedAt": "2025-10-29T00:58:34+08:00",
+    "wordCount": 1865,
+    "readingMinutes": 7
+  },
+  "guide/career/investors/idg-capital.md": {
+    "createdAt": "2025-10-29T00:58:34+08:00",
+    "updatedAt": "2025-10-29T00:58:34+08:00",
+    "wordCount": 1917,
+    "readingMinutes": 7
+  },
+  "guide/career/investors/index.md": {
+    "createdAt": "2025-10-28T17:26:40+08:00",
+    "updatedAt": "2025-10-28T17:26:40+08:00",
+    "wordCount": 478,
+    "readingMinutes": 2
+  },
+  "guide/career/investors/k2-ventures.md": {
+    "createdAt": "2025-10-29T00:58:34+08:00",
+    "updatedAt": "2025-10-29T00:58:34+08:00",
+    "wordCount": 1847,
+    "readingMinutes": 7
+  },
+  "guide/career/investors/lightspeed-china.md": {
+    "createdAt": "2025-10-29T00:58:34+08:00",
+    "updatedAt": "2025-10-29T00:58:34+08:00",
+    "wordCount": 1857,
+    "readingMinutes": 7
+  },
+  "guide/career/investors/matrix-china.md": {
+    "createdAt": "2025-10-29T00:58:34+08:00",
+    "updatedAt": "2025-10-29T00:58:34+08:00",
+    "wordCount": 1895,
+    "readingMinutes": 7
+  },
+  "guide/career/investors/meituan-investment.md": {
+    "createdAt": "2025-10-29T00:58:34+08:00",
+    "updatedAt": "2025-10-29T00:58:34+08:00",
+    "wordCount": 1849,
+    "readingMinutes": 7
+  },
+  "guide/career/investors/sequoia-china.md": {
+    "createdAt": "2025-10-29T00:58:34+08:00",
+    "updatedAt": "2025-10-29T00:58:34+08:00",
+    "wordCount": 1877,
+    "readingMinutes": 7
+  },
+  "guide/career/investors/sinovation-ventures.md": {
+    "createdAt": "2025-10-29T00:58:34+08:00",
+    "updatedAt": "2025-10-29T00:58:34+08:00",
+    "wordCount": 1782,
+    "readingMinutes": 6
+  },
+  "guide/career/investors/songhe-capital.md": {
+    "createdAt": "2025-10-29T00:58:34+08:00",
+    "updatedAt": "2025-10-29T00:58:34+08:00",
+    "wordCount": 1958,
+    "readingMinutes": 7
+  },
+  "guide/career/investors/szvc.md": {
+    "createdAt": "2025-10-29T00:58:34+08:00",
+    "updatedAt": "2025-10-29T00:58:34+08:00",
+    "wordCount": 1824,
+    "readingMinutes": 7
+  },
+  "guide/career/investors/tencent-investment.md": {
+    "createdAt": "2025-10-29T00:58:34+08:00",
+    "updatedAt": "2025-10-29T00:58:34+08:00",
+    "wordCount": 1884,
+    "readingMinutes": 7
+  },
+  "guide/career/investors/xiaomi-investment.md": {
+    "createdAt": "2025-10-29T00:58:34+08:00",
+    "updatedAt": "2025-10-29T00:58:34+08:00",
+    "wordCount": 1871,
+    "readingMinutes": 7
+  },
+  "guide/career/investors/yunqi-partners.md": {
+    "createdAt": "2025-10-29T00:58:34+08:00",
+    "updatedAt": "2025-10-29T00:58:34+08:00",
+    "wordCount": 1845,
+    "readingMinutes": 7
+  },
+  "guide/career/investors/zhenfund.md": {
+    "createdAt": "2025-10-29T00:58:34+08:00",
+    "updatedAt": "2025-10-29T00:58:34+08:00",
+    "wordCount": 1778,
+    "readingMinutes": 6
+  },
+  "guide/career/job-platforms.md": {
+    "createdAt": "2025-10-28T03:41:54+08:00",
+    "updatedAt": "2025-10-28T03:41:54+08:00",
+    "wordCount": 1919,
+    "readingMinutes": 7
+  },
+  "guide/career/platforms/51job.md": {
+    "createdAt": "2025-10-28T03:41:54+08:00",
+    "updatedAt": "2025-10-28T03:41:54+08:00",
+    "wordCount": 1270,
+    "readingMinutes": 5
+  },
+  "guide/career/platforms/58.md": {
+    "createdAt": "2025-10-28T03:41:54+08:00",
+    "updatedAt": "2025-10-28T03:41:54+08:00",
+    "wordCount": 1197,
+    "readingMinutes": 4
+  },
+  "guide/career/platforms/angellist.md": {
+    "createdAt": "2025-10-28T03:41:54+08:00",
+    "updatedAt": "2025-10-28T03:41:54+08:00",
+    "wordCount": 1255,
+    "readingMinutes": 5
+  },
+  "guide/career/platforms/boss.md": {
+    "createdAt": "2025-10-28T03:41:54+08:00",
+    "updatedAt": "2025-10-28T03:41:54+08:00",
+    "wordCount": 1257,
+    "readingMinutes": 5
+  },
+  "guide/career/platforms/indeed.md": {
+    "createdAt": "2025-10-28T03:41:54+08:00",
+    "updatedAt": "2025-10-28T03:41:54+08:00",
+    "wordCount": 1202,
+    "readingMinutes": 5
+  },
+  "guide/career/platforms/lagou.md": {
+    "createdAt": "2025-10-28T03:41:54+08:00",
+    "updatedAt": "2025-10-28T03:41:54+08:00",
+    "wordCount": 1254,
+    "readingMinutes": 5
+  },
+  "guide/career/platforms/liepin.md": {
+    "createdAt": "2025-10-28T03:41:54+08:00",
+    "updatedAt": "2025-10-28T03:41:54+08:00",
+    "wordCount": 1274,
+    "readingMinutes": 5
+  },
+  "guide/career/platforms/linkedin.md": {
+    "createdAt": "2025-10-28T03:41:54+08:00",
+    "updatedAt": "2025-10-28T03:41:54+08:00",
+    "wordCount": 1267,
+    "readingMinutes": 5
+  },
+  "guide/career/platforms/nowcoder.md": {
+    "createdAt": "2025-10-28T03:41:54+08:00",
+    "updatedAt": "2025-10-28T03:41:54+08:00",
+    "wordCount": 1277,
+    "readingMinutes": 5
+  },
+  "guide/career/platforms/shixiseng.md": {
+    "createdAt": "2025-10-28T03:41:54+08:00",
+    "updatedAt": "2025-10-28T03:41:54+08:00",
+    "wordCount": 1260,
+    "readingMinutes": 5
+  },
+  "guide/career/platforms/stackoverflow.md": {
+    "createdAt": "2025-10-28T03:41:54+08:00",
+    "updatedAt": "2025-10-28T03:41:54+08:00",
+    "wordCount": 1226,
+    "readingMinutes": 5
+  },
+  "guide/career/platforms/zhaopin.md": {
+    "createdAt": "2025-10-28T03:41:54+08:00",
+    "updatedAt": "2025-10-28T03:41:54+08:00",
+    "wordCount": 1234,
+    "readingMinutes": 5
+  },
+  "guide/career/policy-support.md": {
+    "createdAt": "2025-10-27T21:05:43+08:00",
+    "updatedAt": "2025-10-28T02:47:08+08:00",
+    "wordCount": 1475,
+    "readingMinutes": 5
+  },
+  "guide/career/research-institutions.md": {
+    "createdAt": "2025-10-29T03:16:21+08:00",
+    "updatedAt": "2025-10-29T03:16:21+08:00",
+    "wordCount": 2445,
+    "readingMinutes": 9
+  },
+  "guide/career/shenzhen-associations.md": {
+    "createdAt": "2025-10-27T19:46:18+08:00",
+    "updatedAt": "2025-10-28T16:55:35+08:00",
+    "wordCount": 4408,
+    "readingMinutes": 15
+  },
+  "guide/career/software-kol.md": {
+    "createdAt": "2025-10-29T02:59:16+08:00",
+    "updatedAt": "2025-10-29T02:59:16+08:00",
+    "wordCount": 2036,
+    "readingMinutes": 7
+  },
+  "guide/career/talent-market.md": {
+    "createdAt": "2025-10-29T03:16:21+08:00",
+    "updatedAt": "2025-10-29T03:16:21+08:00",
+    "wordCount": 2497,
+    "readingMinutes": 9
+  },
+  "guide/career/tech-media.md": {
+    "createdAt": "2025-10-29T03:07:43+08:00",
+    "updatedAt": "2025-10-29T03:07:43+08:00",
+    "wordCount": 3108,
+    "readingMinutes": 11
+  },
+  "guide/career/top-companies.md": {
+    "createdAt": "2025-10-27T19:46:18+08:00",
+    "updatedAt": "2025-10-28T17:26:40+08:00",
+    "wordCount": 8516,
+    "readingMinutes": 29
+  },
+  "guide/career/top-investors.md": {
+    "createdAt": "2025-10-28T17:26:40+08:00",
+    "updatedAt": "2025-10-28T17:26:40+08:00",
+    "wordCount": 3412,
+    "readingMinutes": 12
+  },
+  "guide/competition/index.md": {
+    "createdAt": "2025-10-27T19:46:18+08:00",
+    "updatedAt": "2025-10-27T19:46:18+08:00",
+    "wordCount": 1157,
+    "readingMinutes": 4
+  },
+  "guide/expert/index.md": {
+    "createdAt": "2025-10-19T19:20:02+08:00",
+    "updatedAt": "2025-10-19T19:20:02+08:00",
+    "wordCount": 565,
+    "readingMinutes": 2
+  },
+  "guide/intermediate/index.md": {
+    "createdAt": "2025-10-19T19:20:02+08:00",
+    "updatedAt": "2025-10-19T19:20:02+08:00",
+    "wordCount": 582,
+    "readingMinutes": 2
+  },
+  "guide/junior/code-standards.md": {
+    "createdAt": "2025-10-19T19:20:02+08:00",
+    "updatedAt": "2025-10-19T19:20:02+08:00",
+    "wordCount": 626,
+    "readingMinutes": 3
+  },
+  "guide/junior/index.md": {
+    "createdAt": "2025-10-19T19:20:02+08:00",
+    "updatedAt": "2025-10-19T19:20:02+08:00",
+    "wordCount": 587,
+    "readingMinutes": 2
+  },
+  "guide/senior/index.md": {
+    "createdAt": "2025-10-19T19:20:02+08:00",
+    "updatedAt": "2025-10-19T19:20:02+08:00",
+    "wordCount": 576,
+    "readingMinutes": 2
+  },
+  "guide/soft-skills/index.md": {
+    "createdAt": "2025-10-19T19:20:02+08:00",
+    "updatedAt": "2025-10-19T19:20:02+08:00",
+    "wordCount": 561,
+    "readingMinutes": 2
+  },
+  "index.md": {
+    "createdAt": "2025-10-19T19:20:02+08:00",
+    "updatedAt": "2025-10-30T15:28:26+08:00",
+    "wordCount": 882,
+    "readingMinutes": 3
+  },
+  "weekly/2025.md": {
+    "createdAt": "2025-10-28T04:05:34+08:00",
+    "updatedAt": "2025-10-28T04:05:34+08:00",
+    "wordCount": 2353,
+    "readingMinutes": 8
+  }
+}

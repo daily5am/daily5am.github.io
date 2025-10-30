@@ -4,9 +4,10 @@
   "description": "百万研发知识平台 - 从小白到价值百万的研发专家成长指南",
   "type": "module",
   "scripts": {
-    "docs:dev": "vitepress dev docs",
+    "build:meta": "node scripts/generate-article-meta.mjs",
+    "docs:dev": "node scripts/generate-article-meta.mjs && vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "build:site": "vitepress build docs && node scripts/generate-wordcloud.mjs",
+    "build:site": "node scripts/generate-article-meta.mjs && vitepress build docs && node scripts/generate-wordcloud.mjs",
     "generate:wordcloud": "node scripts/generate-wordcloud.mjs",
     "docs:preview": "vitepress preview docs",
     "deploy": "./scripts/deploy.sh",
