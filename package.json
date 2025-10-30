@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "build:meta": "node scripts/generate-article-meta.mjs",
-    "docs:dev": "node scripts/generate-article-meta.mjs && node scripts/generate-feed.mjs && vitepress dev docs",
+    "docs:dev": "DEV_FEED=1 node scripts/generate-article-meta.mjs && DEV_FEED=1 node scripts/generate-feed.mjs && vitepress dev docs",
     "docs:build": "vitepress build docs && node scripts/generate-feed.mjs",
     "build:site": "node scripts/generate-article-meta.mjs && vitepress build docs && node scripts/generate-feed.mjs && node scripts/generate-wordcloud.mjs",
     "generate:wordcloud": "node scripts/generate-wordcloud.mjs",

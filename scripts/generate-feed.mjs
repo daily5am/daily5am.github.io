@@ -60,9 +60,11 @@ async function main() {
 
   fs.mkdirSync(OUT_DIR, { recursive: true })
   fs.writeFileSync(path.join(OUT_DIR, 'feed.xml'), feed.rss2(), 'utf-8')
-  // also write to public for dev server access
-  fs.mkdirSync(PUBLIC_DIR, { recursive: true })
-  fs.writeFileSync(path.join(PUBLIC_DIR, 'feed.xml'), feed.rss2(), 'utf-8')
+  if (process.env.DEV_FEED === '1') {
+    // Only for local dev preview; not meant to be committed
+    fs.mkdirSync(PUBLIC_DIR, { recursive: true })
+    fs.writeFileSync(path.join(PUBLIC_DIR, 'feed.xml'), feed.rss2(), 'utf-8')
+  }
   console.log(`RSS generated: ${path.join(OUT_DIR, 'feed.xml')} (${items.length} items)`) 
 }
 

@@ -1,5 +1,4 @@
 import { defineConfig } from 'vitepress'
-import { genFeed } from './plugins/rss'
 
 export default defineConfig({
   title: '百万研发知识平台',
@@ -1298,12 +1297,6 @@ export default defineConfig({
 
     search: {
       provider: 'local'
-    }
-  }
-  ,
-  hooks: {
-    async buildEnd(siteConfig) {
-      await genFeed(siteConfig)
     }
   }
 })

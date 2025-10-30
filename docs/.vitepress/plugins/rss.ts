@@ -3,7 +3,7 @@ import path from 'node:path'
 import { Feed } from 'feed'
 import { createContentLoader, type SiteConfig } from 'vitepress'
 
-const siteUrl = process.env.SITE_URL || 'https://milliondollardev.example.com'
+const siteUrl = process.env.SITE_URL || 'https://daily5am.online'
 const siteTitle = '百万研发知识平台'
 const siteDescription = '从小白到价值百万的研发专家成长指南'
 
