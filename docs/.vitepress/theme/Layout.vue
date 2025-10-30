@@ -7,6 +7,9 @@
       <VersionFooter />
       <Comment v-if="showComments" />
     </template>
+    <template #layout-bottom>
+      <QuickActions :showOnMobile="true" />
+    </template>
   </Layout>
   
 </template>
@@ -16,6 +19,7 @@ import Layout from 'vitepress/dist/client/theme-default/Layout.vue'
 import Comment from './components/Comment.vue'
   import MetaBar from './components/MetaBar.vue'
 import VersionFooter from './components/VersionFooter.vue'
+import QuickActions from './components/QuickActions.vue'
 import { computed } from 'vue'
 import { useData } from 'vitepress'
 
