@@ -41,6 +41,10 @@ export default defineConfig({
     lightModeSwitchTitle: '切换到亮色模式',
     darkModeSwitchTitle: '切换到暗色模式',
     
+    // 标题导航配置：显示 h2 和 h3 两个级别的标题
+    outline: [2, 3],
+    outlineTitle: '本页目录',
+    
     nav: [
       { text: '首页', link: '/' },
       {
@@ -116,12 +120,29 @@ export default defineConfig({
         ]
       },
       {
-        text: '就业面试',
+        text: '职业事业',
         items: [
           { text: '面试指导', link: '/guide/career/' },
           { text: '求职平台', link: '/guide/career/job-platforms' },
-          { text: 'Freelancer', link: '/guide/career/freelancer' },
-          { text: '独立开发者', link: '/guide/career/independent-developer' }
+          { text: '职业资格', link: '/guide/career/professional-qualifications/' },
+          {
+            items: [
+              { text: '职业经理人', link: '/guide/career/career-manager/' },
+              { text: '团队管理', link: '/guide/team-management/' },
+              { text: '职业晋升路线', link: '/guide/team-management/career-path/' }
+            ]
+          },
+          {
+            items: [
+              { text: 'Freelancer', link: '/guide/career/freelancer' },
+              { text: '独立开发者', link: '/guide/career/independent-developer' }
+            ]
+          },
+          {
+            items: [
+              { text: '技术创业', link: '/guide/career/technical-entrepreneur/' }
+            ]
+          }
         ]
       },
       {
@@ -145,19 +166,19 @@ export default defineConfig({
               { text: '投资机构搜索', link: '/guide/career/top-investors' }
             ]
           },
+          {
+            text: '竞赛科研',
+            items: [
+              { text: '竞赛指导', link: '/guide/competition/' },
+              { text: '科研机构', link: '/guide/research/' }
+            ]
+          },
           { text: '软件行业KOL', link: '/guide/career/software-kol' },
           { text: '行业报告与数据', link: '/guide/career/industry-reports' },
           { text: '技术媒体与资讯', link: '/guide/career/tech-media' },
           { text: '资本市场动态', link: '/guide/career/capital-market' },
           { text: '产业趋势分析', link: '/guide/career/industry-trends' },
           { text: '政策支持解读', link: '/guide/career/policy-support' }
-        ]
-      },
-      {
-        text: '竞赛科研',
-        items: [
-          { text: '竞赛指导', link: '/guide/competition/' },
-          { text: '科研机构', link: '/guide/research/' }
         ]
       },
       {
@@ -1035,6 +1056,42 @@ export default defineConfig({
           ]
         }
       ],
+      '/guide/career/professional-qualifications/': [
+        {
+          text: '职业资格认证',
+          items: [
+            { text: '概述', link: '/guide/career/professional-qualifications/' },
+            { text: '软考认证', link: '/guide/career/professional-qualifications/china-soft-exam' },
+            { text: '云平台认证', link: '/guide/career/professional-qualifications/cloud-certifications' },
+            { text: '项目管理认证', link: '/guide/career/professional-qualifications/project-management-certifications' },
+            { text: '开发认证', link: '/guide/career/professional-qualifications/development-certifications' },
+            { text: '安全认证', link: '/guide/career/professional-qualifications/security-certifications' }
+          ]
+        }
+      ],
+      '/guide/career/career-manager/': [
+        {
+          text: '职业经理人',
+          items: [
+            { text: '概述', link: '/guide/career/career-manager/' },
+            { text: '技术经理', link: '/guide/career/career-manager/technical-manager' },
+            { text: '产品经理', link: '/guide/career/career-manager/product-manager' },
+            { text: '运营经理', link: '/guide/career/career-manager/operations-manager' },
+            { text: '项目管理经理', link: '/guide/career/career-manager/project-management-manager' }
+          ]
+        }
+      ],
+      '/guide/career/technical-entrepreneur/': [
+        {
+          text: '技术创业',
+          items: [
+            { text: '概述', link: '/guide/career/technical-entrepreneur/' },
+            { text: '创业筹备工作', link: '/guide/career/technical-entrepreneur/preparation' },
+            { text: '知识学习指南', link: '/guide/career/technical-entrepreneur/knowledge-learning' },
+            { text: '创业案例参考', link: '/guide/career/technical-entrepreneur/startup-cases' }
+          ]
+        }
+      ],
       '/guide/career/': [
         {
           text: '面试指导',
@@ -1123,7 +1180,6 @@ export default defineConfig({
           ]
         }
       ],
-      '/guide/career/shenzhen-associations': false,
       '/guide/career/companies/': [
         {
           text: '优质企业资源',
@@ -1210,7 +1266,6 @@ export default defineConfig({
           ]
         }
       ],
-      '/guide/career/top-companies': false,
       '/guide/career/investors/': [
         {
           text: '投资机构资源',
@@ -1270,7 +1325,6 @@ export default defineConfig({
           ]
         }
       ],
-      '/guide/career/top-investors': false,
       '/guide/competition/': [
         {
           text: '竞赛指导',
@@ -1292,6 +1346,32 @@ export default defineConfig({
             { text: '技术演讲', link: '/guide/competition/technical-presentation' },
             { text: '文档编写', link: '/guide/competition/documentation' },
             { text: '作品集制作', link: '/guide/competition/portfolio' }
+          ]
+        }
+      ],
+      '/guide/team-management/': [
+        {
+          text: '团队经理人',
+          items: [
+            { text: '团队管理', link: '/guide/team-management/' },
+            { text: '团队建设', link: '/guide/team-management/team-building' },
+            { text: '人员管理', link: '/guide/team-management/people-management' },
+            { text: '沟通协调', link: '/guide/team-management/communication' },
+            { text: '领导力', link: '/guide/team-management/leadership' },
+            { text: '项目管理', link: '/guide/team-management/project-management' },
+            { text: '冲突处理', link: '/guide/team-management/conflict-resolution' }
+          ]
+        }
+      ],
+      '/guide/team-management/career-path/': [
+        {
+          text: '职业晋升路线',
+          items: [
+            { text: '概述', link: '/guide/team-management/career-path/' },
+            { text: '成为技术主管', link: '/guide/team-management/career-path/become-technical-lead' },
+            { text: '成为技术经理', link: '/guide/team-management/career-path/become-technical-manager' },
+            { text: '成为技术总监', link: '/guide/team-management/career-path/become-technical-director' },
+            { text: '成为技术CTO', link: '/guide/team-management/career-path/become-technical-cto' }
           ]
         }
       ],
@@ -1366,6 +1446,21 @@ export default defineConfig({
             { text: '异步I/O编程', link: '/guide/system-design/io-intensive/async-io' },
             { text: '连接管理', link: '/guide/system-design/io-intensive/connection-management' },
             { text: 'I/O密集型架构设计', link: '/guide/system-design/io-intensive/architecture-design' }
+          ]
+        }
+      ],
+      '/guide/research/': [
+        {
+          text: '科研机构',
+          items: [
+            { text: '概述', link: '/guide/research/' },
+            { text: '中科院研究所', link: '/guide/research/cas-institutes' },
+            { text: '高校科研机构', link: '/guide/research/university-labs' },
+            { text: '企业研究院', link: '/guide/research/corporate-labs' },
+            { text: '清华大学', link: '/guide/research/tsinghua-university' },
+            { text: '北京大学', link: '/guide/research/pku-university' },
+            { text: '阿里巴巴达摩院', link: '/guide/research/alibaba-damo' },
+            { text: '腾讯AI Lab', link: '/guide/research/tencent-ai-lab' }
           ]
         }
       ]
