@@ -54,11 +54,24 @@ export default defineConfig({
         text: '系统设计',
         items: [
           { text: '架构基础', link: '/guide/system-design/architecture-basics' },
-          { text: '分布式系统', link: '/guide/system-design/distributed-systems' },
-          { text: '微服务系统', link: '/guide/system-design/microservices' },
           { text: '系统设计', link: '/guide/system-design/system-design' },
-          { text: '高并发系统', link: '/guide/system-design/high-concurrency/' },
-          { text: '高可用系统', link: '/guide/system-design/high-availability/' }
+          {
+            text: '结构类型',
+            items: [
+              { text: '分布式系统', link: '/guide/system-design/distributed-systems' },
+              { text: '微服务系统', link: '/guide/system-design/microservices/' }
+            ]
+          },
+          {
+            text: '任务类型',
+            items: [
+              { text: '高并发系统', link: '/guide/system-design/high-concurrency/' },
+              { text: '高可用系统', link: '/guide/system-design/high-availability/' },
+              { text: '高性能系统', link: '/guide/system-design/high-performance/' },
+              { text: '计算密集型系统', link: '/guide/system-design/compute-intensive/' },
+              { text: 'I/O密集型系统', link: '/guide/system-design/io-intensive/' }
+            ]
+          }
         ]
       },
       {
@@ -1319,6 +1332,40 @@ export default defineConfig({
             { text: '监控告警', link: '/guide/system-design/high-availability/monitoring-alerting' },
             { text: '数据一致性', link: '/guide/system-design/high-availability/data-consistency' },
             { text: '高可用架构设计', link: '/guide/system-design/high-availability/architecture-design' }
+          ]
+        }
+      ],
+      '/guide/system-design/high-performance/': [
+        {
+          text: '高性能系统',
+          items: [
+            { text: '概述', link: '/guide/system-design/high-performance/' },
+            { text: '性能优化原则', link: '/guide/system-design/high-performance/optimization-principles' },
+            { text: '性能测试与调优', link: '/guide/system-design/high-performance/performance-testing' },
+            { text: '性能监控', link: '/guide/system-design/high-performance/performance-monitoring' },
+            { text: '高性能架构设计', link: '/guide/system-design/high-performance/architecture-design' }
+          ]
+        }
+      ],
+      '/guide/system-design/compute-intensive/': [
+        {
+          text: '计算密集型系统',
+          items: [
+            { text: '概述', link: '/guide/system-design/compute-intensive/' },
+            { text: '并行计算', link: '/guide/system-design/compute-intensive/parallel-computing' },
+            { text: '计算密集型架构设计', link: '/guide/system-design/compute-intensive/architecture-design' }
+          ]
+        }
+      ],
+      '/guide/system-design/io-intensive/': [
+        {
+          text: 'I/O密集型系统',
+          items: [
+            { text: '概述', link: '/guide/system-design/io-intensive/' },
+            { text: 'WebSocket高负载集群', link: '/guide/system-design/io-intensive/websocket-cluster' },
+            { text: '异步I/O编程', link: '/guide/system-design/io-intensive/async-io' },
+            { text: '连接管理', link: '/guide/system-design/io-intensive/connection-management' },
+            { text: 'I/O密集型架构设计', link: '/guide/system-design/io-intensive/architecture-design' }
           ]
         }
       ]
