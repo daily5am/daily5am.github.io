@@ -665,6 +665,60 @@
     "wordCount": 561,
     "readingMinutes": 2
   },
+  "guide/system-design/high-availability/disaster-recovery.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 1048,
+    "readingMinutes": 4
+  },
+  "guide/system-design/high-availability/index.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 1188,
+    "readingMinutes": 4
+  },
+  "guide/system-design/high-concurrency/architecture-design.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 1167,
+    "readingMinutes": 4
+  },
+  "guide/system-design/high-concurrency/caching.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 840,
+    "readingMinutes": 3
+  },
+  "guide/system-design/high-concurrency/database-optimization.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 857,
+    "readingMinutes": 3
+  },
+  "guide/system-design/high-concurrency/index.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 797,
+    "readingMinutes": 3
+  },
+  "guide/system-design/high-concurrency/load-balancing.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 889,
+    "readingMinutes": 3
+  },
+  "guide/system-design/high-concurrency/message-queue.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 925,
+    "readingMinutes": 4
+  },
+  "guide/system-design/high-concurrency/rate-limiting-circuit-breaker.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 551,
+    "readingMinutes": 2
+  },
   "index.md": {
     "createdAt": "2025-10-19T19:20:02+08:00",
     "updatedAt": "2025-10-30T15:28:26+08:00",

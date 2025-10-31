@@ -9,7 +9,12 @@ export default defineConfig({
   ignoreDeadLinks: true,
   
   head: [
-    ['link', { rel: 'icon', href: '/logo.svg' }],
+    // Favicon - 多个格式和尺寸以确保最佳兼容性
+    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/logo.png' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/logo.png' }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
+    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/logo.png' }],
+    ['link', { rel: 'shortcut icon', href: '/logo.png' }],
     ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
@@ -25,7 +30,10 @@ export default defineConfig({
   ],
 
   themeConfig: {
-    logo: '/logo.svg',
+    logo: {
+      light: '/logo.svg',
+      dark: '/logo-dark.svg'
+    },
     
     // 外观设置
     appearance: true,
@@ -48,7 +56,9 @@ export default defineConfig({
           { text: '架构基础', link: '/guide/system-design/architecture-basics' },
           { text: '分布式系统', link: '/guide/system-design/distributed-systems' },
           { text: '微服务系统', link: '/guide/system-design/microservices' },
-          { text: '系统设计', link: '/guide/system-design/system-design' }
+          { text: '系统设计', link: '/guide/system-design/system-design' },
+          { text: '高并发系统', link: '/guide/system-design/high-concurrency/' },
+          { text: '高可用系统', link: '/guide/system-design/high-availability/' }
         ]
       },
       {
@@ -1281,6 +1291,34 @@ export default defineConfig({
             { text: '职业规划', link: '/guide/soft-skills/career-planning' },
             { text: '面试指南', link: '/guide/soft-skills/interview-guide' },
             { text: '学习方法', link: '/guide/soft-skills/learning-methods' }
+          ]
+        }
+      ],
+      '/guide/system-design/high-concurrency/': [
+        {
+          text: '高并发系统',
+          items: [
+            { text: '概述', link: '/guide/system-design/high-concurrency/' },
+            { text: '负载均衡', link: '/guide/system-design/high-concurrency/load-balancing' },
+            { text: '缓存系统', link: '/guide/system-design/high-concurrency/caching' },
+            { text: '消息队列', link: '/guide/system-design/high-concurrency/message-queue' },
+            { text: '数据库优化', link: '/guide/system-design/high-concurrency/database-optimization' },
+            { text: '限流与熔断', link: '/guide/system-design/high-concurrency/rate-limiting-circuit-breaker' },
+            { text: '高并发架构设计', link: '/guide/system-design/high-concurrency/architecture-design' }
+          ]
+        }
+      ],
+      '/guide/system-design/high-availability/': [
+        {
+          text: '高可用系统',
+          items: [
+            { text: '概述', link: '/guide/system-design/high-availability/' },
+            { text: '容灾备份', link: '/guide/system-design/high-availability/disaster-recovery' },
+            { text: '故障转移', link: '/guide/system-design/high-availability/failover' },
+            { text: '服务降级', link: '/guide/system-design/high-availability/degradation' },
+            { text: '监控告警', link: '/guide/system-design/high-availability/monitoring-alerting' },
+            { text: '数据一致性', link: '/guide/system-design/high-availability/data-consistency' },
+            { text: '高可用架构设计', link: '/guide/system-design/high-availability/architecture-design' }
           ]
         }
       ]
