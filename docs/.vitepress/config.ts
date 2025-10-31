@@ -114,7 +114,7 @@ export default defineConfig({
           },
           { text: 'AI Coding',
             items: [
-              { text: 'Vibe Coding', link: '/guide/ai/vibe-coding' }
+              { text: 'Vibe Coding', link: '/guide/ai/vibe-coding/' }
             ]
           },
         ]
@@ -197,6 +197,32 @@ export default defineConfig({
     ],
 
     sidebar: {
+      '/guide/system-design/': [
+        {
+          text: '系统设计',
+          items: [
+            { text: '架构基础', link: '/guide/system-design/architecture-basics' },
+            { text: '系统设计', link: '/guide/system-design/system-design' },
+            { text: '分布式系统', link: '/guide/system-design/distributed-systems' },
+            { text: '微服务系统', link: '/guide/system-design/microservices/' }
+          ]
+        }
+      ],
+      '/guide/devops/': [
+        {
+          text: '运维开发',
+          items: [
+            { text: '发布部署', link: '/guide/devops/deployment' },
+            { text: '可观测技术', link: '/guide/devops/observability' },
+            { text: 'CI/CD', link: '/guide/devops/cicd' },
+            { text: '容器化', link: '/guide/devops/containerization' },
+            { text: '基础设施即代码', link: '/guide/devops/iac' },
+            { text: '监控告警', link: '/guide/devops/monitoring' },
+            { text: '日志管理', link: '/guide/devops/logging' },
+            { text: '性能调优', link: '/guide/devops/performance' }
+          ]
+        }
+      ],
       '/guide/beginner/': [
         {
           text: '新手入门 (0-1年)',
@@ -694,6 +720,18 @@ export default defineConfig({
             { text: '技术挑战', link: '/guide/ai/reinforcement-learning#技术挑战' },
             { text: '学习资源', link: '/guide/ai/reinforcement-learning#学习资源' },
             { text: '下一步', link: '/guide/ai/reinforcement-learning#下一步' }
+          ]
+        }
+      ],
+      '/guide/ai/vibe-coding/': [
+        {
+          text: 'Vibe Coding',
+          items: [
+            { text: '概述', link: '/guide/ai/vibe-coding/' },
+            { text: 'AI编程工具使用', link: '/guide/ai/vibe-coding/tools' },
+            { text: 'Prompt工程', link: '/guide/ai/vibe-coding/prompt-engineering' },
+            { text: '实践案例', link: '/guide/ai/vibe-coding/practice-cases' },
+            { text: '最佳实践', link: '/guide/ai/vibe-coding/best-practices' }
           ]
         }
       ],
