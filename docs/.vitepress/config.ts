@@ -51,7 +51,10 @@ export default defineConfig({
         text: '学习指南',
         items: [
           { text: '学习路径', link: '/guide/learning-path' },
-          { text: '新手入门', link: '/guide/beginner/' }
+          { text: '新手入门', link: '/guide/beginner/' },
+          { text: '小程序开发', link: '/guide/miniprogram/' },
+          { text: 'Web前端开发', link: '/guide/frontend/' },
+          { text: '全栈开发工程师', link: '/guide/fullstack/' }
         ]
       },
       {
@@ -220,6 +223,46 @@ export default defineConfig({
             { text: '监控告警', link: '/guide/devops/monitoring' },
             { text: '日志管理', link: '/guide/devops/logging' },
             { text: '性能调优', link: '/guide/devops/performance' }
+          ]
+        }
+      ],
+      '/guide/miniprogram/': [
+        {
+          text: '小程序开发',
+          items: [
+            { text: '概述', link: '/guide/miniprogram/' },
+            { text: '微信小程序开发', link: '/guide/miniprogram/wechat-miniprogram' },
+            { text: '支付宝小程序开发', link: '/guide/miniprogram/alipay-miniprogram' },
+            { text: '小程序组件开发', link: '/guide/miniprogram/components' },
+            { text: '小程序性能优化', link: '/guide/miniprogram/performance' }
+          ]
+        }
+      ],
+      '/guide/frontend/': [
+        {
+          text: 'Web前端开发',
+          items: [
+            { text: '概述', link: '/guide/frontend/' },
+            { text: 'HTML/CSS基础', link: '/guide/frontend/html-css' },
+            { text: 'JavaScript进阶', link: '/guide/frontend/javascript' },
+            { text: 'React开发', link: '/guide/frontend/react' },
+            { text: 'Vue开发', link: '/guide/frontend/vue' },
+            { text: '前端工程化', link: '/guide/frontend/engineering' },
+            { text: '性能优化', link: '/guide/frontend/performance' }
+          ]
+        }
+      ],
+      '/guide/fullstack/': [
+        {
+          text: '全栈开发工程师',
+          items: [
+            { text: '概述', link: '/guide/fullstack/' },
+            { text: '前端开发基础', link: '/guide/fullstack/frontend-basics' },
+            { text: '后端开发基础', link: '/guide/fullstack/backend-basics' },
+            { text: '数据库设计', link: '/guide/fullstack/database-design' },
+            { text: 'API开发实践', link: '/guide/fullstack/api-development' },
+            { text: '全栈项目实战', link: '/guide/fullstack/fullstack-project' },
+            { text: '部署和运维', link: '/guide/fullstack/deployment' }
           ]
         }
       ],
