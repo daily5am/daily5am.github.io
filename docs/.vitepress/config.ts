@@ -185,6 +185,17 @@ export default defineConfig({
         ]
       },
       {
+        text: '脑研室',
+        items: [
+          { text: '脑科学', link: '/guide/brain-lab/' },
+          { text: '学习方法', link: '/guide/brain-lab/learning-methods/' },
+          { text: '饮食管理', link: '/guide/brain-lab/nutrition/' },
+          { text: '睡眠管理', link: '/guide/brain-lab/sleep/' },
+          { text: '运动管理', link: '/guide/brain-lab/exercise/' },
+          { text: '挑战不可能', link: '/guide/brain-lab/impossible-challenge/' },
+        ]
+      },
+      {
         text: '周刊',
         items: [
           { text: '2025', link: '/weekly/2025' }
@@ -1542,6 +1553,119 @@ export default defineConfig({
             { text: '北京大学', link: '/guide/research/pku-university' },
             { text: '阿里巴巴达摩院', link: '/guide/research/alibaba-damo' },
             { text: '腾讯AI Lab', link: '/guide/research/tencent-ai-lab' }
+          ]
+        }
+      ],
+      '/guide/brain-lab/': [
+        {
+          text: '脑科学',
+          items: [
+            { text: '概述', link: '/guide/brain-lab/' },
+            { text: '脑科学基础', link: '/guide/brain-lab/neuroscience' },
+            { text: '学习理论', link: '/guide/brain-lab/learning-theory' },
+            { text: '认知心理学', link: '/guide/brain-lab/cognitive-psychology' },
+            { text: '记忆与遗忘', link: '/guide/brain-lab/memory' },
+            { text: '注意力管理', link: '/guide/brain-lab/attention' },
+            { text: '习惯养成', link: '/guide/brain-lab/habits' },
+            { text: '决策与判断', link: '/guide/brain-lab/decision-making' },
+            { text: '实践应用', link: '/guide/brain-lab/practice' }
+          ]
+        }
+      ],
+      '/guide/brain-lab/learning-methods/': [
+        {
+          text: '学习方法',
+          items: [
+            { text: '概述', link: '/guide/brain-lab/learning-methods/' },
+            { 
+              text: '学习理论', 
+              items: [
+                { text: '主动学习法', link: '/guide/brain-lab/learning-methods/active-learning' },
+                { text: '间隔重复法', link: '/guide/brain-lab/learning-methods/spaced-repetition' },
+                { text: '费曼学习法', link: '/guide/brain-lab/learning-methods/feynman-technique' },
+                { text: '思维导图法', link: '/guide/brain-lab/learning-methods/mind-mapping' },
+                { text: '刻意练习', link: '/guide/brain-lab/learning-methods/deliberate-practice' }
+              ]
+            },
+            {
+              text: '笔记方法',
+              items: [
+                { text: '康奈尔笔记法', link: '/guide/brain-lab/learning-methods/note-taking-cornell' },
+                { text: '大纲笔记法', link: '/guide/brain-lab/learning-methods/note-taking-outline' },
+                { text: '视觉笔记法', link: '/guide/brain-lab/learning-methods/note-taking-visual' },
+                { text: '卡片笔记法', link: '/guide/brain-lab/learning-methods/note-taking-zettelkasten' },
+                { text: '电子笔记方法', link: '/guide/brain-lab/learning-methods/note-taking-digital' }
+              ]
+            }
+          ]
+        }
+      ],
+      '/guide/brain-lab/nutrition/': [
+        {
+          text: '饮食管理',
+          items: [
+            { text: '概述', link: '/guide/brain-lab/nutrition/' },
+            { text: '健脑营养素', link: '/guide/brain-lab/nutrition/brain-nutrients' },
+            { text: '饮食计划', link: '/guide/brain-lab/nutrition/meal-planning' },
+            { text: '营养补充', link: '/guide/brain-lab/nutrition/supplements' },
+            { text: '饮食与认知', link: '/guide/brain-lab/nutrition/nutrition-cognition' }
+          ]
+        }
+      ],
+      '/guide/brain-lab/sleep/': [
+        {
+          text: '睡眠管理',
+          items: [
+            { text: '概述', link: '/guide/brain-lab/sleep/' },
+            { text: '睡眠科学', link: '/guide/brain-lab/sleep/sleep-science' },
+            { text: '睡眠质量优化', link: '/guide/brain-lab/sleep/sleep-quality' },
+            { text: '睡眠周期管理', link: '/guide/brain-lab/sleep/sleep-cycles' },
+            { text: '失眠与改善', link: '/guide/brain-lab/sleep/insomnia-solutions' }
+          ]
+        }
+      ],
+      '/guide/brain-lab/exercise/': [
+        {
+          text: '运动管理',
+          items: [
+            { text: '概述', link: '/guide/brain-lab/exercise/' },
+            { text: '运动与大脑', link: '/guide/brain-lab/exercise/exercise-brain' },
+            { text: '有氧运动计划', link: '/guide/brain-lab/exercise/cardio-plan' },
+            { text: '力量训练计划', link: '/guide/brain-lab/exercise/strength-training' },
+            { text: '运动与认知提升', link: '/guide/brain-lab/exercise/exercise-cognition' }
+          ]
+        }
+      ],
+      '/guide/brain-lab/impossible-challenge/': [
+        {
+          text: '挑战不可能',
+          items: [
+            { text: '概述', link: '/guide/brain-lab/impossible-challenge/' },
+            {
+              text: '执行方法',
+              items: [
+                { text: '心理障碍突破', link: '/guide/brain-lab/impossible-challenge/mental-barriers' },
+                { text: '极限挑战方法', link: '/guide/brain-lab/impossible-challenge/extreme-challenge' },
+                { text: '目标设定与达成', link: '/guide/brain-lab/impossible-challenge/goal-setting' },
+                { text: '意志力训练', link: '/guide/brain-lab/impossible-challenge/willpower-training' },
+                { text: '成长型思维', link: '/guide/brain-lab/impossible-challenge/growth-mindset' },
+                { text: '成功案例分析', link: '/guide/brain-lab/impossible-challenge/success-cases' },
+              ]
+            },
+            {
+              text: '重要概念',
+              items: [
+                { text: '心流', link: '/guide/brain-lab/impossible-challenge/flow' },
+                { text: '动机', link: '/guide/brain-lab/impossible-challenge/motivation' },
+              ]
+            },
+            {
+              text: '读书笔记',
+              items: [
+                { text: '《刻意练习》', link: '/guide/brain-lab/impossible-challenge/reading-notes/deliberate-practice' },
+                { text: '《挑战不可能》', link: '/guide/brain-lab/impossible-challenge/reading-notes/impossible-challenge' },
+              ]
+            }
           ]
         }
       ]

@@ -1,4 +1,10 @@
 {
+  "about.md": {
+    "createdAt": "2025-11-01T01:44:00+08:00",
+    "updatedAt": "2025-11-01T01:44:00+08:00",
+    "wordCount": 412,
+    "readingMinutes": 2
+  },
   "guide/ai/ai-agent.md": {
     "createdAt": "2025-10-28T03:52:54+08:00",
     "updatedAt": "2025-10-28T03:52:54+08:00",
@@ -53,6 +59,36 @@
     "wordCount": 1561,
     "readingMinutes": 6
   },
+  "guide/ai/vibe-coding/best-practices.md": {
+    "createdAt": "2025-11-01T01:44:00+08:00",
+    "updatedAt": "2025-11-01T01:44:00+08:00",
+    "wordCount": 766,
+    "readingMinutes": 3
+  },
+  "guide/ai/vibe-coding/index.md": {
+    "createdAt": "2025-11-01T01:44:00+08:00",
+    "updatedAt": "2025-11-01T01:44:00+08:00",
+    "wordCount": 1025,
+    "readingMinutes": 4
+  },
+  "guide/ai/vibe-coding/practice-cases.md": {
+    "createdAt": "2025-11-01T01:44:00+08:00",
+    "updatedAt": "2025-11-01T01:44:00+08:00",
+    "wordCount": 576,
+    "readingMinutes": 2
+  },
+  "guide/ai/vibe-coding/prompt-engineering.md": {
+    "createdAt": "2025-11-01T01:44:00+08:00",
+    "updatedAt": "2025-11-01T01:44:00+08:00",
+    "wordCount": 393,
+    "readingMinutes": 2
+  },
+  "guide/ai/vibe-coding/tools.md": {
+    "createdAt": "2025-11-01T01:44:00+08:00",
+    "updatedAt": "2025-11-01T01:44:00+08:00",
+    "wordCount": 601,
+    "readingMinutes": 3
+  },
   "guide/beginner/index.md": {
     "createdAt": "2025-10-19T19:20:02+08:00",
     "updatedAt": "2025-10-19T19:20:02+08:00",
@@ -64,6 +100,60 @@
     "updatedAt": "2025-10-19T19:20:02+08:00",
     "wordCount": 552,
     "readingMinutes": 2
+  },
+  "guide/brain-lab/attention.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 936,
+    "readingMinutes": 4
+  },
+  "guide/brain-lab/cognitive-psychology.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 847,
+    "readingMinutes": 3
+  },
+  "guide/brain-lab/decision-making.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 1001,
+    "readingMinutes": 4
+  },
+  "guide/brain-lab/habits.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 1099,
+    "readingMinutes": 4
+  },
+  "guide/brain-lab/index.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 1008,
+    "readingMinutes": 4
+  },
+  "guide/brain-lab/learning-theory.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 955,
+    "readingMinutes": 4
+  },
+  "guide/brain-lab/memory.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 932,
+    "readingMinutes": 4
+  },
+  "guide/brain-lab/neuroscience.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 669,
+    "readingMinutes": 3
+  },
+  "guide/brain-lab/practice.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 998,
+    "readingMinutes": 4
   },
   "guide/career/COMPANY_DATA_GUIDE.md": {
     "createdAt": "2025-10-28T17:09:07+08:00",
@@ -184,6 +274,36 @@
     "updatedAt": "2025-10-29T03:07:43+08:00",
     "wordCount": 2679,
     "readingMinutes": 9
+  },
+  "guide/career/career-manager/index.md": {
+    "createdAt": "2025-11-01T01:20:08+08:00",
+    "updatedAt": "2025-11-01T01:20:08+08:00",
+    "wordCount": 1358,
+    "readingMinutes": 5
+  },
+  "guide/career/career-manager/operations-manager.md": {
+    "createdAt": "2025-11-01T01:20:08+08:00",
+    "updatedAt": "2025-11-01T01:20:08+08:00",
+    "wordCount": 1299,
+    "readingMinutes": 5
+  },
+  "guide/career/career-manager/product-manager.md": {
+    "createdAt": "2025-11-01T01:20:08+08:00",
+    "updatedAt": "2025-11-01T01:20:08+08:00",
+    "wordCount": 1348,
+    "readingMinutes": 5
+  },
+  "guide/career/career-manager/project-management-manager.md": {
+    "createdAt": "2025-11-01T01:20:08+08:00",
+    "updatedAt": "2025-11-01T01:20:08+08:00",
+    "wordCount": 1352,
+    "readingMinutes": 5
+  },
+  "guide/career/career-manager/technical-manager.md": {
+    "createdAt": "2025-11-01T01:20:08+08:00",
+    "updatedAt": "2025-11-01T01:20:08+08:00",
+    "wordCount": 1091,
+    "readingMinutes": 4
   },
   "guide/career/companies/alibaba.md": {
     "createdAt": "2025-10-28T17:37:59+08:00",
@@ -581,6 +701,42 @@
     "wordCount": 1475,
     "readingMinutes": 5
   },
+  "guide/career/professional-qualifications/china-soft-exam.md": {
+    "createdAt": "2025-11-01T01:20:08+08:00",
+    "updatedAt": "2025-11-01T01:20:08+08:00",
+    "wordCount": 1218,
+    "readingMinutes": 5
+  },
+  "guide/career/professional-qualifications/cloud-certifications.md": {
+    "createdAt": "2025-11-01T01:20:08+08:00",
+    "updatedAt": "2025-11-01T01:20:08+08:00",
+    "wordCount": 906,
+    "readingMinutes": 4
+  },
+  "guide/career/professional-qualifications/development-certifications.md": {
+    "createdAt": "2025-11-01T01:20:08+08:00",
+    "updatedAt": "2025-11-01T01:20:08+08:00",
+    "wordCount": 620,
+    "readingMinutes": 3
+  },
+  "guide/career/professional-qualifications/index.md": {
+    "createdAt": "2025-11-01T01:20:08+08:00",
+    "updatedAt": "2025-11-01T01:20:08+08:00",
+    "wordCount": 1047,
+    "readingMinutes": 4
+  },
+  "guide/career/professional-qualifications/project-management-certifications.md": {
+    "createdAt": "2025-11-01T01:20:08+08:00",
+    "updatedAt": "2025-11-01T01:20:08+08:00",
+    "wordCount": 827,
+    "readingMinutes": 3
+  },
+  "guide/career/professional-qualifications/security-certifications.md": {
+    "createdAt": "2025-11-01T01:20:08+08:00",
+    "updatedAt": "2025-11-01T01:20:08+08:00",
+    "wordCount": 663,
+    "readingMinutes": 3
+  },
   "guide/career/research-institutions.md": {
     "createdAt": "2025-10-29T03:16:21+08:00",
     "updatedAt": "2025-10-29T03:16:21+08:00",
@@ -611,6 +767,30 @@
     "wordCount": 3108,
     "readingMinutes": 11
   },
+  "guide/career/technical-entrepreneur/index.md": {
+    "createdAt": "2025-11-01T01:20:08+08:00",
+    "updatedAt": "2025-11-01T01:20:08+08:00",
+    "wordCount": 951,
+    "readingMinutes": 4
+  },
+  "guide/career/technical-entrepreneur/knowledge-learning.md": {
+    "createdAt": "2025-11-01T01:20:08+08:00",
+    "updatedAt": "2025-11-01T01:20:08+08:00",
+    "wordCount": 2131,
+    "readingMinutes": 8
+  },
+  "guide/career/technical-entrepreneur/preparation.md": {
+    "createdAt": "2025-11-01T01:20:08+08:00",
+    "updatedAt": "2025-11-01T01:20:08+08:00",
+    "wordCount": 1838,
+    "readingMinutes": 7
+  },
+  "guide/career/technical-entrepreneur/startup-cases.md": {
+    "createdAt": "2025-11-01T01:20:08+08:00",
+    "updatedAt": "2025-11-01T01:20:08+08:00",
+    "wordCount": 2925,
+    "readingMinutes": 10
+  },
   "guide/career/top-companies.md": {
     "createdAt": "2025-10-27T19:46:18+08:00",
     "updatedAt": "2025-10-30T23:16:20+08:00",
@@ -629,11 +809,71 @@
     "wordCount": 1157,
     "readingMinutes": 4
   },
+  "guide/devops/cicd.md": {
+    "createdAt": "2025-11-01T01:44:00+08:00",
+    "updatedAt": "2025-11-01T01:44:00+08:00",
+    "wordCount": 209,
+    "readingMinutes": 1
+  },
+  "guide/devops/containerization.md": {
+    "createdAt": "2025-11-01T01:44:00+08:00",
+    "updatedAt": "2025-11-01T01:44:00+08:00",
+    "wordCount": 158,
+    "readingMinutes": 1
+  },
+  "guide/devops/deployment.md": {
+    "createdAt": "2025-11-01T01:44:00+08:00",
+    "updatedAt": "2025-11-01T01:44:00+08:00",
+    "wordCount": 314,
+    "readingMinutes": 2
+  },
+  "guide/devops/iac.md": {
+    "createdAt": "2025-11-01T01:44:00+08:00",
+    "updatedAt": "2025-11-01T01:44:00+08:00",
+    "wordCount": 137,
+    "readingMinutes": 1
+  },
+  "guide/devops/logging.md": {
+    "createdAt": "2025-11-01T01:44:00+08:00",
+    "updatedAt": "2025-11-01T01:44:00+08:00",
+    "wordCount": 151,
+    "readingMinutes": 1
+  },
+  "guide/devops/monitoring.md": {
+    "createdAt": "2025-11-01T01:44:00+08:00",
+    "updatedAt": "2025-11-01T01:44:00+08:00",
+    "wordCount": 132,
+    "readingMinutes": 1
+  },
+  "guide/devops/observability.md": {
+    "createdAt": "2025-11-01T01:44:00+08:00",
+    "updatedAt": "2025-11-01T01:44:00+08:00",
+    "wordCount": 165,
+    "readingMinutes": 1
+  },
+  "guide/devops/performance.md": {
+    "createdAt": "2025-11-01T01:44:00+08:00",
+    "updatedAt": "2025-11-01T01:44:00+08:00",
+    "wordCount": 171,
+    "readingMinutes": 1
+  },
   "guide/expert/index.md": {
     "createdAt": "2025-10-19T19:20:02+08:00",
     "updatedAt": "2025-10-19T19:20:02+08:00",
     "wordCount": 565,
     "readingMinutes": 2
+  },
+  "guide/frontend/index.md": {
+    "createdAt": "2025-11-01T02:09:46+08:00",
+    "updatedAt": "2025-11-01T02:09:46+08:00",
+    "wordCount": 818,
+    "readingMinutes": 3
+  },
+  "guide/fullstack/index.md": {
+    "createdAt": "2025-11-01T02:09:46+08:00",
+    "updatedAt": "2025-11-01T02:09:46+08:00",
+    "wordCount": 1011,
+    "readingMinutes": 4
   },
   "guide/intermediate/index.md": {
     "createdAt": "2025-10-19T19:20:02+08:00",
@@ -653,6 +893,66 @@
     "wordCount": 587,
     "readingMinutes": 2
   },
+  "guide/learning-path.md": {
+    "createdAt": "2025-11-01T01:44:00+08:00",
+    "updatedAt": "2025-11-01T01:44:00+08:00",
+    "wordCount": 886,
+    "readingMinutes": 3
+  },
+  "guide/miniprogram/index.md": {
+    "createdAt": "2025-11-01T02:09:46+08:00",
+    "updatedAt": "2025-11-01T02:09:46+08:00",
+    "wordCount": 832,
+    "readingMinutes": 3
+  },
+  "guide/research/alibaba-damo.md": {
+    "createdAt": "2025-11-01T01:20:08+08:00",
+    "updatedAt": "2025-11-01T01:20:08+08:00",
+    "wordCount": 234,
+    "readingMinutes": 1
+  },
+  "guide/research/cas-institutes.md": {
+    "createdAt": "2025-11-01T01:20:08+08:00",
+    "updatedAt": "2025-11-01T01:20:08+08:00",
+    "wordCount": 775,
+    "readingMinutes": 3
+  },
+  "guide/research/corporate-labs.md": {
+    "createdAt": "2025-11-01T01:20:08+08:00",
+    "updatedAt": "2025-11-01T01:20:08+08:00",
+    "wordCount": 820,
+    "readingMinutes": 3
+  },
+  "guide/research/index.md": {
+    "createdAt": "2025-11-01T01:20:08+08:00",
+    "updatedAt": "2025-11-01T01:20:08+08:00",
+    "wordCount": 716,
+    "readingMinutes": 3
+  },
+  "guide/research/pku-university.md": {
+    "createdAt": "2025-11-01T01:20:08+08:00",
+    "updatedAt": "2025-11-01T01:20:08+08:00",
+    "wordCount": 197,
+    "readingMinutes": 1
+  },
+  "guide/research/tencent-ai-lab.md": {
+    "createdAt": "2025-11-01T01:20:08+08:00",
+    "updatedAt": "2025-11-01T01:20:08+08:00",
+    "wordCount": 161,
+    "readingMinutes": 1
+  },
+  "guide/research/tsinghua-university.md": {
+    "createdAt": "2025-11-01T01:20:08+08:00",
+    "updatedAt": "2025-11-01T01:20:08+08:00",
+    "wordCount": 322,
+    "readingMinutes": 2
+  },
+  "guide/research/university-labs.md": {
+    "createdAt": "2025-11-01T01:20:08+08:00",
+    "updatedAt": "2025-11-01T01:20:08+08:00",
+    "wordCount": 955,
+    "readingMinutes": 4
+  },
   "guide/senior/index.md": {
     "createdAt": "2025-10-19T19:20:02+08:00",
     "updatedAt": "2025-10-19T19:20:02+08:00",
@@ -665,58 +965,262 @@
     "wordCount": 561,
     "readingMinutes": 2
   },
+  "guide/system-design/architecture-basics.md": {
+    "createdAt": "2025-11-01T01:44:00+08:00",
+    "updatedAt": "2025-11-01T01:44:00+08:00",
+    "wordCount": 593,
+    "readingMinutes": 2
+  },
+  "guide/system-design/compute-intensive/architecture-design.md": {
+    "createdAt": "2025-10-31T23:59:20+08:00",
+    "updatedAt": "2025-10-31T23:59:20+08:00",
+    "wordCount": 239,
+    "readingMinutes": 1
+  },
+  "guide/system-design/compute-intensive/index.md": {
+    "createdAt": "2025-10-31T23:59:20+08:00",
+    "updatedAt": "2025-10-31T23:59:20+08:00",
+    "wordCount": 608,
+    "readingMinutes": 3
+  },
+  "guide/system-design/compute-intensive/parallel-computing.md": {
+    "createdAt": "2025-10-31T23:59:20+08:00",
+    "updatedAt": "2025-10-31T23:59:20+08:00",
+    "wordCount": 304,
+    "readingMinutes": 2
+  },
+  "guide/system-design/distributed-systems.md": {
+    "createdAt": "2025-11-01T01:44:00+08:00",
+    "updatedAt": "2025-11-01T01:44:00+08:00",
+    "wordCount": 964,
+    "readingMinutes": 4
+  },
+  "guide/system-design/high-availability/architecture-design.md": {
+    "createdAt": "2025-10-31T19:40:42+08:00",
+    "updatedAt": "2025-10-31T19:40:42+08:00",
+    "wordCount": 1105,
+    "readingMinutes": 4
+  },
+  "guide/system-design/high-availability/data-consistency.md": {
+    "createdAt": "2025-10-31T19:40:42+08:00",
+    "updatedAt": "2025-10-31T19:40:42+08:00",
+    "wordCount": 891,
+    "readingMinutes": 3
+  },
+  "guide/system-design/high-availability/degradation.md": {
+    "createdAt": "2025-10-31T19:40:42+08:00",
+    "updatedAt": "2025-10-31T19:40:42+08:00",
+    "wordCount": 777,
+    "readingMinutes": 3
+  },
   "guide/system-design/high-availability/disaster-recovery.md": {
-    "createdAt": "",
-    "updatedAt": "",
+    "createdAt": "2025-10-31T19:40:42+08:00",
+    "updatedAt": "2025-10-31T19:40:42+08:00",
     "wordCount": 1048,
     "readingMinutes": 4
   },
+  "guide/system-design/high-availability/failover.md": {
+    "createdAt": "2025-10-31T19:40:42+08:00",
+    "updatedAt": "2025-10-31T19:40:42+08:00",
+    "wordCount": 611,
+    "readingMinutes": 3
+  },
   "guide/system-design/high-availability/index.md": {
-    "createdAt": "",
-    "updatedAt": "",
+    "createdAt": "2025-10-31T19:40:42+08:00",
+    "updatedAt": "2025-10-31T19:40:42+08:00",
     "wordCount": 1188,
     "readingMinutes": 4
   },
+  "guide/system-design/high-availability/monitoring-alerting.md": {
+    "createdAt": "2025-10-31T19:40:42+08:00",
+    "updatedAt": "2025-10-31T19:40:42+08:00",
+    "wordCount": 532,
+    "readingMinutes": 2
+  },
   "guide/system-design/high-concurrency/architecture-design.md": {
-    "createdAt": "",
-    "updatedAt": "",
-    "wordCount": 1167,
-    "readingMinutes": 4
+    "createdAt": "2025-10-31T19:40:42+08:00",
+    "updatedAt": "2025-10-31T19:40:42+08:00",
+    "wordCount": 1202,
+    "readingMinutes": 5
   },
   "guide/system-design/high-concurrency/caching.md": {
-    "createdAt": "",
-    "updatedAt": "",
-    "wordCount": 840,
+    "createdAt": "2025-10-31T19:40:42+08:00",
+    "updatedAt": "2025-10-31T19:40:42+08:00",
+    "wordCount": 872,
     "readingMinutes": 3
   },
   "guide/system-design/high-concurrency/database-optimization.md": {
-    "createdAt": "",
-    "updatedAt": "",
-    "wordCount": 857,
+    "createdAt": "2025-10-31T19:40:42+08:00",
+    "updatedAt": "2025-10-31T19:40:42+08:00",
+    "wordCount": 890,
     "readingMinutes": 3
   },
   "guide/system-design/high-concurrency/index.md": {
-    "createdAt": "",
-    "updatedAt": "",
-    "wordCount": 797,
+    "createdAt": "2025-10-31T19:40:42+08:00",
+    "updatedAt": "2025-10-31T19:40:42+08:00",
+    "wordCount": 830,
     "readingMinutes": 3
   },
   "guide/system-design/high-concurrency/load-balancing.md": {
-    "createdAt": "",
-    "updatedAt": "",
-    "wordCount": 889,
-    "readingMinutes": 3
+    "createdAt": "2025-10-31T19:40:42+08:00",
+    "updatedAt": "2025-10-31T19:40:42+08:00",
+    "wordCount": 921,
+    "readingMinutes": 4
   },
   "guide/system-design/high-concurrency/message-queue.md": {
-    "createdAt": "",
-    "updatedAt": "",
-    "wordCount": 925,
+    "createdAt": "2025-10-31T19:40:42+08:00",
+    "updatedAt": "2025-10-31T19:40:42+08:00",
+    "wordCount": 957,
     "readingMinutes": 4
   },
   "guide/system-design/high-concurrency/rate-limiting-circuit-breaker.md": {
-    "createdAt": "",
-    "updatedAt": "",
-    "wordCount": 551,
+    "createdAt": "2025-10-31T19:40:42+08:00",
+    "updatedAt": "2025-10-31T19:40:42+08:00",
+    "wordCount": 584,
+    "readingMinutes": 2
+  },
+  "guide/system-design/high-performance/architecture-design.md": {
+    "createdAt": "2025-10-31T23:59:20+08:00",
+    "updatedAt": "2025-10-31T23:59:20+08:00",
+    "wordCount": 329,
+    "readingMinutes": 2
+  },
+  "guide/system-design/high-performance/index.md": {
+    "createdAt": "2025-10-31T23:59:20+08:00",
+    "updatedAt": "2025-10-31T23:59:20+08:00",
+    "wordCount": 961,
+    "readingMinutes": 4
+  },
+  "guide/system-design/high-performance/optimization-principles.md": {
+    "createdAt": "2025-10-31T23:59:20+08:00",
+    "updatedAt": "2025-10-31T23:59:20+08:00",
+    "wordCount": 331,
+    "readingMinutes": 2
+  },
+  "guide/system-design/high-performance/performance-monitoring.md": {
+    "createdAt": "2025-10-31T23:59:20+08:00",
+    "updatedAt": "2025-10-31T23:59:20+08:00",
+    "wordCount": 261,
+    "readingMinutes": 1
+  },
+  "guide/system-design/high-performance/performance-testing.md": {
+    "createdAt": "2025-10-31T23:59:20+08:00",
+    "updatedAt": "2025-10-31T23:59:20+08:00",
+    "wordCount": 482,
+    "readingMinutes": 2
+  },
+  "guide/system-design/io-intensive/architecture-design.md": {
+    "createdAt": "2025-10-31T23:59:20+08:00",
+    "updatedAt": "2025-10-31T23:59:20+08:00",
+    "wordCount": 235,
+    "readingMinutes": 1
+  },
+  "guide/system-design/io-intensive/async-io.md": {
+    "createdAt": "2025-10-31T23:59:20+08:00",
+    "updatedAt": "2025-10-31T23:59:20+08:00",
+    "wordCount": 241,
+    "readingMinutes": 1
+  },
+  "guide/system-design/io-intensive/connection-management.md": {
+    "createdAt": "2025-10-31T23:59:20+08:00",
+    "updatedAt": "2025-10-31T23:59:20+08:00",
+    "wordCount": 171,
+    "readingMinutes": 1
+  },
+  "guide/system-design/io-intensive/index.md": {
+    "createdAt": "2025-10-31T23:59:20+08:00",
+    "updatedAt": "2025-10-31T23:59:20+08:00",
+    "wordCount": 1021,
+    "readingMinutes": 4
+  },
+  "guide/system-design/io-intensive/websocket-cluster.md": {
+    "createdAt": "2025-10-31T23:59:20+08:00",
+    "updatedAt": "2025-10-31T23:59:20+08:00",
+    "wordCount": 516,
+    "readingMinutes": 2
+  },
+  "guide/system-design/microservices/index.md": {
+    "createdAt": "2025-11-01T01:44:00+08:00",
+    "updatedAt": "2025-11-01T01:44:00+08:00",
+    "wordCount": 1092,
+    "readingMinutes": 4
+  },
+  "guide/system-design/system-design.md": {
+    "createdAt": "2025-11-01T01:44:00+08:00",
+    "updatedAt": "2025-11-01T01:44:00+08:00",
+    "wordCount": 793,
+    "readingMinutes": 3
+  },
+  "guide/team-management/career-path/become-technical-cto.md": {
+    "createdAt": "2025-11-01T01:20:08+08:00",
+    "updatedAt": "2025-11-01T01:20:08+08:00",
+    "wordCount": 2445,
+    "readingMinutes": 9
+  },
+  "guide/team-management/career-path/become-technical-director.md": {
+    "createdAt": "2025-11-01T01:20:08+08:00",
+    "updatedAt": "2025-11-01T01:20:08+08:00",
+    "wordCount": 1983,
+    "readingMinutes": 7
+  },
+  "guide/team-management/career-path/become-technical-lead.md": {
+    "createdAt": "2025-11-01T01:20:08+08:00",
+    "updatedAt": "2025-11-01T01:20:08+08:00",
+    "wordCount": 2064,
+    "readingMinutes": 7
+  },
+  "guide/team-management/career-path/become-technical-manager.md": {
+    "createdAt": "2025-11-01T01:20:08+08:00",
+    "updatedAt": "2025-11-01T01:20:08+08:00",
+    "wordCount": 2034,
+    "readingMinutes": 7
+  },
+  "guide/team-management/career-path/index.md": {
+    "createdAt": "2025-11-01T01:20:08+08:00",
+    "updatedAt": "2025-11-01T01:20:08+08:00",
+    "wordCount": 1474,
+    "readingMinutes": 5
+  },
+  "guide/team-management/communication.md": {
+    "createdAt": "2025-11-01T01:20:08+08:00",
+    "updatedAt": "2025-11-01T01:20:08+08:00",
+    "wordCount": 262,
+    "readingMinutes": 1
+  },
+  "guide/team-management/conflict-resolution.md": {
+    "createdAt": "2025-11-01T01:20:08+08:00",
+    "updatedAt": "2025-11-01T01:20:08+08:00",
+    "wordCount": 271,
+    "readingMinutes": 1
+  },
+  "guide/team-management/index.md": {
+    "createdAt": "2025-11-01T01:20:08+08:00",
+    "updatedAt": "2025-11-01T01:20:08+08:00",
+    "wordCount": 848,
+    "readingMinutes": 3
+  },
+  "guide/team-management/leadership.md": {
+    "createdAt": "2025-11-01T01:20:08+08:00",
+    "updatedAt": "2025-11-01T01:20:08+08:00",
+    "wordCount": 362,
+    "readingMinutes": 2
+  },
+  "guide/team-management/people-management.md": {
+    "createdAt": "2025-11-01T01:20:08+08:00",
+    "updatedAt": "2025-11-01T01:20:08+08:00",
+    "wordCount": 302,
+    "readingMinutes": 2
+  },
+  "guide/team-management/project-management.md": {
+    "createdAt": "2025-11-01T01:20:08+08:00",
+    "updatedAt": "2025-11-01T01:20:08+08:00",
+    "wordCount": 361,
+    "readingMinutes": 2
+  },
+  "guide/team-management/team-building.md": {
+    "createdAt": "2025-11-01T01:20:08+08:00",
+    "updatedAt": "2025-11-01T01:20:08+08:00",
+    "wordCount": 353,
     "readingMinutes": 2
   },
   "index.md": {
