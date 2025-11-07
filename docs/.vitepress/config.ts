@@ -91,7 +91,8 @@ export default defineConfig({
           { text: '基础设施即代码', link: '/guide/devops/iac' },
           { text: '监控告警', link: '/guide/devops/monitoring' },
           { text: '日志管理', link: '/guide/devops/logging' },
-          { text: '性能调优', link: '/guide/devops/performance' }
+          { text: '性能调优', link: '/guide/devops/performance' },
+          { text: 'CNCF', link: '/guide/devops/cncf/' }
         ]
       },
       {
@@ -125,7 +126,8 @@ export default defineConfig({
       {
         text: '职业事业',
         items: [
-          { text: '面试指导', link: '/guide/career/' },
+          { text: '面试技巧', link: '/guide/career/' },
+          { text: '面试准备', link: '/guide/career/interview-preparation/' },
           { text: '求职平台', link: '/guide/career/job-platforms' },
           { text: '职业资格', link: '/guide/career/professional-qualifications/' },
           {
@@ -233,7 +235,38 @@ export default defineConfig({
             { text: '基础设施即代码', link: '/guide/devops/iac' },
             { text: '监控告警', link: '/guide/devops/monitoring' },
             { text: '日志管理', link: '/guide/devops/logging' },
-            { text: '性能调优', link: '/guide/devops/performance' }
+            { text: '性能调优', link: '/guide/devops/performance' },
+            { text: 'CNCF', link: '/guide/devops/cncf/' }
+          ]
+        }
+      ],
+      '/guide/devops/cncf/': [
+        {
+          text: 'CNCF',
+          items: [
+            { text: '概述', link: '/guide/devops/cncf/' },
+            {
+              text: '毕业项目',
+              collapsed: false,
+              items: [
+                { text: 'Kubernetes', link: '/guide/devops/cncf/kubernetes' },
+                { text: 'Prometheus', link: '/guide/devops/cncf/prometheus' },
+                { text: 'Envoy', link: '/guide/devops/cncf/envoy' },
+                { text: 'Helm', link: '/guide/devops/cncf/helm' },
+                { text: 'containerd', link: '/guide/devops/cncf/containerd' },
+                { text: 'etcd', link: '/guide/devops/cncf/etcd' },
+                { text: 'CoreDNS', link: '/guide/devops/cncf/coredns' },
+                { text: 'Fluentd', link: '/guide/devops/cncf/fluentd' },
+                { text: 'Jaeger', link: '/guide/devops/cncf/jaeger' },
+                { text: 'gRPC', link: '/guide/devops/cncf/grpc' },
+                { text: 'Linkerd', link: '/guide/devops/cncf/linkerd' },
+                { text: 'OpenTelemetry', link: '/guide/devops/cncf/opentelemetry' },
+                { text: 'Rook', link: '/guide/devops/cncf/rook' },
+                { text: 'Vitess', link: '/guide/devops/cncf/vitess' },
+                { text: 'Falco', link: '/guide/devops/cncf/falco' },
+                { text: 'CNI', link: '/guide/devops/cncf/cni' }
+              ]
+            }
           ]
         }
       ],

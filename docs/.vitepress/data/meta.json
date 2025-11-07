@@ -102,58 +102,280 @@
     "readingMinutes": 2
   },
   "guide/brain-lab/attention.md": {
-    "createdAt": "",
-    "updatedAt": "",
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
     "wordCount": 936,
     "readingMinutes": 4
   },
   "guide/brain-lab/cognitive-psychology.md": {
-    "createdAt": "",
-    "updatedAt": "",
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
     "wordCount": 847,
     "readingMinutes": 3
   },
   "guide/brain-lab/decision-making.md": {
-    "createdAt": "",
-    "updatedAt": "",
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
     "wordCount": 1001,
     "readingMinutes": 4
   },
+  "guide/brain-lab/exercise/cardio-plan.md": {
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
+    "wordCount": 287,
+    "readingMinutes": 1
+  },
+  "guide/brain-lab/exercise/exercise-brain.md": {
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
+    "wordCount": 301,
+    "readingMinutes": 2
+  },
+  "guide/brain-lab/exercise/exercise-cognition.md": {
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
+    "wordCount": 336,
+    "readingMinutes": 2
+  },
+  "guide/brain-lab/exercise/index.md": {
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
+    "wordCount": 457,
+    "readingMinutes": 2
+  },
+  "guide/brain-lab/exercise/strength-training.md": {
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
+    "wordCount": 266,
+    "readingMinutes": 1
+  },
   "guide/brain-lab/habits.md": {
-    "createdAt": "",
-    "updatedAt": "",
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
     "wordCount": 1099,
     "readingMinutes": 4
   },
-  "guide/brain-lab/index.md": {
-    "createdAt": "",
-    "updatedAt": "",
-    "wordCount": 1008,
+  "guide/brain-lab/impossible-challenge/extreme-challenge.md": {
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
+    "wordCount": 737,
+    "readingMinutes": 3
+  },
+  "guide/brain-lab/impossible-challenge/flow.md": {
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
+    "wordCount": 1152,
     "readingMinutes": 4
   },
+  "guide/brain-lab/impossible-challenge/goal-setting.md": {
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
+    "wordCount": 844,
+    "readingMinutes": 3
+  },
+  "guide/brain-lab/impossible-challenge/growth-mindset.md": {
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
+    "wordCount": 867,
+    "readingMinutes": 3
+  },
+  "guide/brain-lab/impossible-challenge/index.md": {
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
+    "wordCount": 1237,
+    "readingMinutes": 5
+  },
+  "guide/brain-lab/impossible-challenge/mental-barriers.md": {
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
+    "wordCount": 674,
+    "readingMinutes": 3
+  },
+  "guide/brain-lab/impossible-challenge/motivation.md": {
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
+    "wordCount": 1312,
+    "readingMinutes": 5
+  },
+  "guide/brain-lab/impossible-challenge/reading-notes/deliberate-practice.md": {
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
+    "wordCount": 1433,
+    "readingMinutes": 5
+  },
+  "guide/brain-lab/impossible-challenge/reading-notes/impossible-challenge.md": {
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
+    "wordCount": 1647,
+    "readingMinutes": 6
+  },
+  "guide/brain-lab/impossible-challenge/success-cases.md": {
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
+    "wordCount": 1208,
+    "readingMinutes": 5
+  },
+  "guide/brain-lab/impossible-challenge/willpower-training.md": {
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
+    "wordCount": 962,
+    "readingMinutes": 4
+  },
+  "guide/brain-lab/index.md": {
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
+    "wordCount": 1004,
+    "readingMinutes": 4
+  },
+  "guide/brain-lab/learning-methods/active-learning.md": {
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
+    "wordCount": 338,
+    "readingMinutes": 2
+  },
+  "guide/brain-lab/learning-methods/deliberate-practice.md": {
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
+    "wordCount": 466,
+    "readingMinutes": 2
+  },
+  "guide/brain-lab/learning-methods/feynman-technique.md": {
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
+    "wordCount": 369,
+    "readingMinutes": 2
+  },
+  "guide/brain-lab/learning-methods/index.md": {
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
+    "wordCount": 1101,
+    "readingMinutes": 4
+  },
+  "guide/brain-lab/learning-methods/mind-mapping.md": {
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
+    "wordCount": 354,
+    "readingMinutes": 2
+  },
+  "guide/brain-lab/learning-methods/note-taking-cornell.md": {
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
+    "wordCount": 531,
+    "readingMinutes": 2
+  },
+  "guide/brain-lab/learning-methods/note-taking-digital.md": {
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
+    "wordCount": 637,
+    "readingMinutes": 3
+  },
+  "guide/brain-lab/learning-methods/note-taking-outline.md": {
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
+    "wordCount": 417,
+    "readingMinutes": 2
+  },
+  "guide/brain-lab/learning-methods/note-taking-visual.md": {
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
+    "wordCount": 510,
+    "readingMinutes": 2
+  },
+  "guide/brain-lab/learning-methods/note-taking-zettelkasten.md": {
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
+    "wordCount": 530,
+    "readingMinutes": 2
+  },
+  "guide/brain-lab/learning-methods/spaced-repetition.md": {
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
+    "wordCount": 312,
+    "readingMinutes": 2
+  },
   "guide/brain-lab/learning-theory.md": {
-    "createdAt": "",
-    "updatedAt": "",
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
     "wordCount": 955,
     "readingMinutes": 4
   },
   "guide/brain-lab/memory.md": {
-    "createdAt": "",
-    "updatedAt": "",
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
     "wordCount": 932,
     "readingMinutes": 4
   },
   "guide/brain-lab/neuroscience.md": {
-    "createdAt": "",
-    "updatedAt": "",
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
     "wordCount": 669,
     "readingMinutes": 3
   },
+  "guide/brain-lab/nutrition/brain-nutrients.md": {
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
+    "wordCount": 291,
+    "readingMinutes": 1
+  },
+  "guide/brain-lab/nutrition/index.md": {
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
+    "wordCount": 446,
+    "readingMinutes": 2
+  },
+  "guide/brain-lab/nutrition/meal-planning.md": {
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
+    "wordCount": 257,
+    "readingMinutes": 1
+  },
+  "guide/brain-lab/nutrition/nutrition-cognition.md": {
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
+    "wordCount": 291,
+    "readingMinutes": 1
+  },
+  "guide/brain-lab/nutrition/supplements.md": {
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
+    "wordCount": 234,
+    "readingMinutes": 1
+  },
   "guide/brain-lab/practice.md": {
-    "createdAt": "",
-    "updatedAt": "",
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
     "wordCount": 998,
     "readingMinutes": 4
+  },
+  "guide/brain-lab/sleep/index.md": {
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
+    "wordCount": 419,
+    "readingMinutes": 2
+  },
+  "guide/brain-lab/sleep/insomnia-solutions.md": {
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
+    "wordCount": 358,
+    "readingMinutes": 2
+  },
+  "guide/brain-lab/sleep/sleep-cycles.md": {
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
+    "wordCount": 291,
+    "readingMinutes": 1
+  },
+  "guide/brain-lab/sleep/sleep-quality.md": {
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
+    "wordCount": 264,
+    "readingMinutes": 1
+  },
+  "guide/brain-lab/sleep/sleep-science.md": {
+    "createdAt": "2025-11-02T00:59:26+08:00",
+    "updatedAt": "2025-11-02T00:59:26+08:00",
+    "wordCount": 273,
+    "readingMinutes": 1
   },
   "guide/career/COMPANY_DATA_GUIDE.md": {
     "createdAt": "2025-10-28T17:09:07+08:00",
@@ -815,6 +1037,108 @@
     "wordCount": 209,
     "readingMinutes": 1
   },
+  "guide/devops/cncf/cni.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 318,
+    "readingMinutes": 2
+  },
+  "guide/devops/cncf/containerd.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 387,
+    "readingMinutes": 2
+  },
+  "guide/devops/cncf/coredns.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 333,
+    "readingMinutes": 2
+  },
+  "guide/devops/cncf/envoy.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 464,
+    "readingMinutes": 2
+  },
+  "guide/devops/cncf/etcd.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 320,
+    "readingMinutes": 2
+  },
+  "guide/devops/cncf/falco.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 363,
+    "readingMinutes": 2
+  },
+  "guide/devops/cncf/fluentd.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 366,
+    "readingMinutes": 2
+  },
+  "guide/devops/cncf/grpc.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 401,
+    "readingMinutes": 2
+  },
+  "guide/devops/cncf/helm.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 439,
+    "readingMinutes": 2
+  },
+  "guide/devops/cncf/index.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 1115,
+    "readingMinutes": 4
+  },
+  "guide/devops/cncf/jaeger.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 434,
+    "readingMinutes": 2
+  },
+  "guide/devops/cncf/kubernetes.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 466,
+    "readingMinutes": 2
+  },
+  "guide/devops/cncf/linkerd.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 386,
+    "readingMinutes": 2
+  },
+  "guide/devops/cncf/opentelemetry.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 387,
+    "readingMinutes": 2
+  },
+  "guide/devops/cncf/prometheus.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 533,
+    "readingMinutes": 2
+  },
+  "guide/devops/cncf/rook.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 347,
+    "readingMinutes": 2
+  },
+  "guide/devops/cncf/vitess.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 368,
+    "readingMinutes": 2
+  },
   "guide/devops/containerization.md": {
     "createdAt": "2025-11-01T01:44:00+08:00",
     "updatedAt": "2025-11-01T01:44:00+08:00",
@@ -880,6 +1204,12 @@
     "updatedAt": "2025-10-19T19:20:02+08:00",
     "wordCount": 582,
     "readingMinutes": 2
+  },
+  "guide/interview-preparation/后端高级研发工程师面试准备.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 47,
+    "readingMinutes": 1
   },
   "guide/junior/code-standards.md": {
     "createdAt": "2025-10-19T19:20:02+08:00",
