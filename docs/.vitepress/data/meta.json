@@ -1038,104 +1038,104 @@
     "readingMinutes": 1
   },
   "guide/devops/cncf/cni.md": {
-    "createdAt": "",
-    "updatedAt": "",
+    "createdAt": "2025-11-07T16:52:30+08:00",
+    "updatedAt": "2025-11-07T16:52:30+08:00",
     "wordCount": 318,
     "readingMinutes": 2
   },
   "guide/devops/cncf/containerd.md": {
-    "createdAt": "",
-    "updatedAt": "",
+    "createdAt": "2025-11-07T16:52:30+08:00",
+    "updatedAt": "2025-11-07T16:52:30+08:00",
     "wordCount": 387,
     "readingMinutes": 2
   },
   "guide/devops/cncf/coredns.md": {
-    "createdAt": "",
-    "updatedAt": "",
+    "createdAt": "2025-11-07T16:52:30+08:00",
+    "updatedAt": "2025-11-07T16:52:30+08:00",
     "wordCount": 333,
     "readingMinutes": 2
   },
   "guide/devops/cncf/envoy.md": {
-    "createdAt": "",
-    "updatedAt": "",
+    "createdAt": "2025-11-07T16:52:30+08:00",
+    "updatedAt": "2025-11-07T16:52:30+08:00",
     "wordCount": 464,
     "readingMinutes": 2
   },
   "guide/devops/cncf/etcd.md": {
-    "createdAt": "",
-    "updatedAt": "",
+    "createdAt": "2025-11-07T16:52:30+08:00",
+    "updatedAt": "2025-11-07T16:52:30+08:00",
     "wordCount": 320,
     "readingMinutes": 2
   },
   "guide/devops/cncf/falco.md": {
-    "createdAt": "",
-    "updatedAt": "",
+    "createdAt": "2025-11-07T16:52:30+08:00",
+    "updatedAt": "2025-11-07T16:52:30+08:00",
     "wordCount": 363,
     "readingMinutes": 2
   },
   "guide/devops/cncf/fluentd.md": {
-    "createdAt": "",
-    "updatedAt": "",
+    "createdAt": "2025-11-07T16:52:30+08:00",
+    "updatedAt": "2025-11-07T16:52:30+08:00",
     "wordCount": 366,
     "readingMinutes": 2
   },
   "guide/devops/cncf/grpc.md": {
-    "createdAt": "",
-    "updatedAt": "",
+    "createdAt": "2025-11-07T16:52:30+08:00",
+    "updatedAt": "2025-11-07T16:52:30+08:00",
     "wordCount": 401,
     "readingMinutes": 2
   },
   "guide/devops/cncf/helm.md": {
-    "createdAt": "",
-    "updatedAt": "",
+    "createdAt": "2025-11-07T16:52:30+08:00",
+    "updatedAt": "2025-11-07T16:52:30+08:00",
     "wordCount": 439,
     "readingMinutes": 2
   },
   "guide/devops/cncf/index.md": {
-    "createdAt": "",
-    "updatedAt": "",
+    "createdAt": "2025-11-07T16:52:30+08:00",
+    "updatedAt": "2025-11-07T16:52:30+08:00",
     "wordCount": 1115,
     "readingMinutes": 4
   },
   "guide/devops/cncf/jaeger.md": {
-    "createdAt": "",
-    "updatedAt": "",
+    "createdAt": "2025-11-07T16:52:30+08:00",
+    "updatedAt": "2025-11-07T16:52:30+08:00",
     "wordCount": 434,
     "readingMinutes": 2
   },
   "guide/devops/cncf/kubernetes.md": {
-    "createdAt": "",
-    "updatedAt": "",
+    "createdAt": "2025-11-07T16:52:30+08:00",
+    "updatedAt": "2025-11-07T16:52:30+08:00",
     "wordCount": 466,
     "readingMinutes": 2
   },
   "guide/devops/cncf/linkerd.md": {
-    "createdAt": "",
-    "updatedAt": "",
+    "createdAt": "2025-11-07T16:52:30+08:00",
+    "updatedAt": "2025-11-07T16:52:30+08:00",
     "wordCount": 386,
     "readingMinutes": 2
   },
   "guide/devops/cncf/opentelemetry.md": {
-    "createdAt": "",
-    "updatedAt": "",
+    "createdAt": "2025-11-07T16:52:30+08:00",
+    "updatedAt": "2025-11-07T16:52:30+08:00",
     "wordCount": 387,
     "readingMinutes": 2
   },
   "guide/devops/cncf/prometheus.md": {
-    "createdAt": "",
-    "updatedAt": "",
+    "createdAt": "2025-11-07T16:52:30+08:00",
+    "updatedAt": "2025-11-07T16:52:30+08:00",
     "wordCount": 533,
     "readingMinutes": 2
   },
   "guide/devops/cncf/rook.md": {
-    "createdAt": "",
-    "updatedAt": "",
+    "createdAt": "2025-11-07T16:52:30+08:00",
+    "updatedAt": "2025-11-07T16:52:30+08:00",
     "wordCount": 347,
     "readingMinutes": 2
   },
   "guide/devops/cncf/vitess.md": {
-    "createdAt": "",
-    "updatedAt": "",
+    "createdAt": "2025-11-07T16:52:30+08:00",
+    "updatedAt": "2025-11-07T16:52:30+08:00",
     "wordCount": 368,
     "readingMinutes": 2
   },
@@ -1206,8 +1206,8 @@
     "readingMinutes": 2
   },
   "guide/interview-preparation/后端高级研发工程师面试准备.md": {
-    "createdAt": "",
-    "updatedAt": "",
+    "createdAt": "2025-11-07T16:52:30+08:00",
+    "updatedAt": "2025-11-07T16:52:30+08:00",
     "wordCount": 47,
     "readingMinutes": 1
   },
@@ -1319,11 +1319,71 @@
     "wordCount": 304,
     "readingMinutes": 2
   },
-  "guide/system-design/distributed-systems.md": {
-    "createdAt": "2025-11-01T01:44:00+08:00",
-    "updatedAt": "2025-11-01T01:44:00+08:00",
-    "wordCount": 964,
+  "guide/system-design/distributed-systems/communication.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 455,
+    "readingMinutes": 2
+  },
+  "guide/system-design/distributed-systems/computing.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 569,
+    "readingMinutes": 2
+  },
+  "guide/system-design/distributed-systems/consistency.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 815,
+    "readingMinutes": 3
+  },
+  "guide/system-design/distributed-systems/coordination.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 607,
+    "readingMinutes": 3
+  },
+  "guide/system-design/distributed-systems/index.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 1126,
     "readingMinutes": 4
+  },
+  "guide/system-design/distributed-systems/java-dubbo.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 458,
+    "readingMinutes": 2
+  },
+  "guide/system-design/distributed-systems/java-governance.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 430,
+    "readingMinutes": 2
+  },
+  "guide/system-design/distributed-systems/java-spring-cloud.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 441,
+    "readingMinutes": 2
+  },
+  "guide/system-design/distributed-systems/java-transaction.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 570,
+    "readingMinutes": 2
+  },
+  "guide/system-design/distributed-systems/storage.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 696,
+    "readingMinutes": 3
+  },
+  "guide/system-design/distributed-systems/transaction.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 804,
+    "readingMinutes": 3
   },
   "guide/system-design/high-availability/architecture-design.md": {
     "createdAt": "2025-10-31T19:40:42+08:00",

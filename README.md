@@ -69,7 +69,7 @@ milliondollardev/
 
 ### 环境要求
 
-- Node.js >= 16
+- Node.js >= 18 (推荐 >= 20)
 - npm >= 7
 
 ### 本地开发
@@ -92,6 +92,59 @@ milliondollardev/
 
 4. **访问站点**
    打开浏览器访问 `http://localhost:5173`
+
+### 🐳 Docker 开发
+
+使用 Docker 可以快速启动开发环境，无需在本地安装 Node.js：
+
+1. **使用 Makefile 命令（推荐）**
+   ```bash
+   # 构建镜像并启动容器
+   make docker-up
+   
+   # 停止容器
+   make docker-down
+   
+   # 查看容器日志
+   make docker-logs
+   
+   # 重启容器
+   make docker-restart
+   ```
+
+2. **使用 Docker Compose 命令**
+   ```bash
+   # 构建镜像并启动容器（前台运行）
+   docker compose up --build
+   
+   # 后台运行（推荐）
+   docker compose up -d --build
+   
+   # 停止容器
+   docker compose down
+   
+   # 查看日志
+   docker compose logs -f
+   ```
+
+3. **访问站点**
+   打开浏览器访问 `http://localhost:5173`
+
+**Docker 开发优势：**
+- ✅ 无需本地安装 Node.js 环境
+- ✅ 环境隔离，避免版本冲突
+- ✅ 支持热重载，代码修改实时生效
+- ✅ 一键启动，快速开始开发
+- ✅ 使用 Node.js 20，确保最佳兼容性
+
+**故障排除：**
+- 如果遇到 `node:fs/promises` 相关错误，请确保使用 Node.js 18+ 版本
+- Docker 环境已配置为使用 Node.js 20，无需担心版本问题
+- **macOS 热重载说明**：当前配置使用镜像内文件，不支持热重载。如需启用热重载：
+  1. 打开 Docker Desktop → Settings → Resources → File Sharing
+  2. 确保项目目录 `/Users/ygr/Code/mygithub/milliondollardev` 在共享列表中
+  3. 取消注释 `docker-compose.yml` 中的 volumes 配置
+  4. 重新构建并启动：`make docker-clean && make docker-up`
 
 ### 构建部署
 

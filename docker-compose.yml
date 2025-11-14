@@ -1,0 +1,30 @@
+# 百万研发知识平台 Docker Compose 配置
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: milliondollardev
+    ports:
+      - "5173:5173"
+    # volumes:
+    # 暂时注释掉源代码挂载，使用镜像内的文件
+    # 如果需要在 macOS 上启用热重载，需要：
+    # 1. 确保 Docker Desktop 的文件共享设置包含项目目录
+    # 2. 取消注释下面的行
+    # - .:/app:cached
+    # 排除 node_modules，使用容器内构建时安装的依赖
+    # - /app/node_modules
+    working_dir: /app
+    environment:
+      - NODE_ENV=development
+      - DOCKER_ENV=true
+    restart: unless-stopped
+    stdin_open: true
+    tty: true
+
+volumes:
+  # 命名卷用于 node_modules，避免被宿主机覆盖
+  node_modules:
+

@@ -8,6 +8,13 @@ export default defineConfig({
   // 忽略死链接检查，因为很多页面还在规划中
   ignoreDeadLinks: true,
   
+  // 服务器配置：Docker 环境中监听所有网络接口
+  server: {
+    // 在 Docker 容器中始终监听 0.0.0.0 以允许外部访问
+    host: '0.0.0.0',
+    port: 5173
+  },
+  
   head: [
     // Favicon - 多个格式和尺寸以确保最佳兼容性
     ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/logo.png' }],
@@ -65,7 +72,7 @@ export default defineConfig({
           {
             text: '结构类型',
             items: [
-              { text: '分布式系统', link: '/guide/system-design/distributed-systems' },
+              { text: '分布式系统', link: '/guide/system-design/distributed-systems/' },
               { text: '微服务系统', link: '/guide/system-design/microservices/' }
             ]
           },
@@ -219,8 +226,44 @@ export default defineConfig({
           items: [
             { text: '架构基础', link: '/guide/system-design/architecture-basics' },
             { text: '系统设计', link: '/guide/system-design/system-design' },
-            { text: '分布式系统', link: '/guide/system-design/distributed-systems' },
+            { text: '分布式系统', link: '/guide/system-design/distributed-systems/' },
             { text: '微服务系统', link: '/guide/system-design/microservices/' }
+          ]
+        }
+      ],
+      '/guide/system-design/distributed-systems/': [
+        {
+          text: '分布式系统',
+          items: [
+            { text: '概述', link: '/guide/system-design/distributed-systems/' },
+            {
+              text: '核心理论',
+              collapsed: false,
+              items: [
+                { text: '分布式一致性', link: '/guide/system-design/distributed-systems/consistency' },
+                { text: '分布式存储', link: '/guide/system-design/distributed-systems/storage' },
+                { text: '分布式计算', link: '/guide/system-design/distributed-systems/computing' }
+              ]
+            },
+            {
+              text: '关键技术',
+              collapsed: false,
+              items: [
+                { text: '分布式事务', link: '/guide/system-design/distributed-systems/transaction' },
+                { text: '分布式协调', link: '/guide/system-design/distributed-systems/coordination' },
+                { text: '分布式通信', link: '/guide/system-design/distributed-systems/communication' }
+              ]
+            },
+            {
+              text: 'Java生态实现',
+              collapsed: false,
+              items: [
+                { text: 'Spring Cloud', link: '/guide/system-design/distributed-systems/java-spring-cloud' },
+                { text: 'Apache Dubbo', link: '/guide/system-design/distributed-systems/java-dubbo' },
+                { text: '分布式事务解决方案', link: '/guide/system-design/distributed-systems/java-transaction' },
+                { text: '服务治理', link: '/guide/system-design/distributed-systems/java-governance' }
+              ]
+            }
           ]
         }
       ],

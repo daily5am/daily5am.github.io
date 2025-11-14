@@ -200,13 +200,31 @@
 - **消息队列**: Kafka、RabbitMQ
 - **分布式追踪**: Zipkin、Jaeger
 
+## 📚 技术专题
+
+### 核心理论
+- [分布式一致性](./consistency) - CAP理论、Raft、Paxos等一致性协议
+- [分布式存储](./storage) - 数据复制、分片、一致性哈希
+- [分布式计算](./computing) - MapReduce、流式计算、分布式调度
+
+### 关键技术
+- [分布式事务](./transaction) - 2PC、3PC、Saga、TCC等事务模式
+- [分布式协调](./coordination) - 服务发现、配置管理、分布式锁
+- [分布式通信](./communication) - RPC、消息队列、服务网格
+
+### Java生态实现
+- [Spring Cloud](./java-spring-cloud) - Spring Cloud微服务生态
+- [Apache Dubbo](./java-dubbo) - Dubbo RPC框架
+- [分布式事务解决方案](./java-transaction) - Seata、LCN等
+- [服务治理](./java-governance) - 限流、熔断、降级
+
 ## 💡 下一步
 
-- [架构基础](./architecture-basics.md) - 架构基础知识
-- [系统设计](./system-design.md) - 系统设计方法论
-- [微服务系统](./microservices/) - 微服务架构设计
-- [高并发系统](./high-concurrency/) - 高并发系统设计
-- [高可用系统](./high-availability/) - 高可用系统设计
+- [架构基础](../architecture-basics.md) - 架构基础知识
+- [系统设计](../system-design.md) - 系统设计方法论
+- [微服务系统](../microservices/) - 微服务架构设计
+- [高并发系统](../high-concurrency/) - 高并发系统设计
+- [高可用系统](../high-availability/) - 高可用系统设计
 
 ---
 

@@ -1,0 +1,18 @@
+# Docker 忽略文件
+# 排除不需要复制到镜像中的文件和目录
+
+node_modules
+npm-debug.log
+.git
+.gitignore
+.vscode
+.idea
+*.md
+!README.md
+docs/.vitepress/dist
+.vitepress/cache
+.DS_Store
+*.log
+.env
+.env.local
+

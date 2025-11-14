@@ -32,6 +32,12 @@ help:
 	@echo "  $(GREEN)status$(NC)         检查项目状态"
 	@echo "  $(GREEN)quick-start$(NC)    快速开始 (安装依赖 + 启动开发服务器)"
 	@echo "  $(GREEN)all$(NC)            检查环境 + 安装依赖 + 启动开发服务器"
+	@echo "  $(GREEN)docker-up$(NC)      构建Docker镜像并启动容器"
+	@echo "  $(GREEN)docker-down$(NC)    停止并删除容器"
+	@echo "  $(GREEN)docker-clean$(NC)   清理Docker容器和卷"
+	@echo "  $(GREEN)docker-build$(NC)   仅构建Docker镜像"
+	@echo "  $(GREEN)docker-logs$(NC)    查看容器日志"
+	@echo "  $(GREEN)docker-restart$(NC) 重启容器"
 
 # 开发相关命令
 .PHONY: start
@@ -123,3 +129,41 @@ quick-start: install start
 
 .PHONY: all
 all: install start
+
+# Docker 相关命令
+.PHONY: docker-up
+docker-up:
+	@echo "$(GREEN)🐳 构建Docker镜像并启动容器（后台运行）...$(NC)"
+	@echo "$(YELLOW)访问地址: http://localhost:5173$(NC)"
+	@echo "$(YELLOW)使用 'make docker-down' 停止容器$(NC)"
+	@docker compose up -d --build
+	@echo "$(GREEN)✅ 容器已在后台启动！$(NC)"
+
+.PHONY: docker-down
+docker-down:
+	@echo "$(GREEN)🛑 停止并删除容器...$(NC)"
+	@docker compose down
+	@echo "$(GREEN)✅ 容器已停止并删除！$(NC)"
+
+.PHONY: docker-clean
+docker-clean:
+	@echo "$(GREEN)🧹 清理Docker容器和卷...$(NC)"
+	@docker compose down -v
+	@echo "$(GREEN)✅ 清理完成！$(NC)"
+
+.PHONY: docker-build
+docker-build:
+	@echo "$(GREEN)🔨 构建Docker镜像...$(NC)"
+	@docker compose build
+	@echo "$(GREEN)✅ 镜像构建完成！$(NC)"
+
+.PHONY: docker-logs
+docker-logs:
+	@echo "$(GREEN)📋 查看容器日志...$(NC)"
+	@docker compose logs -f
+
+.PHONY: docker-restart
+docker-restart:
+	@echo "$(GREEN)🔄 重启容器...$(NC)"
+	@docker compose restart
+	@echo "$(GREEN)✅ 容器已重启！$(NC)"
