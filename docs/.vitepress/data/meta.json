@@ -1141,9 +1141,9 @@
   },
   "guide/devops/containerization.md": {
     "createdAt": "2025-11-01T01:44:00+08:00",
-    "updatedAt": "2025-11-01T01:44:00+08:00",
-    "wordCount": 158,
-    "readingMinutes": 1
+    "updatedAt": "2025-11-14T16:36:08+08:00",
+    "wordCount": 785,
+    "readingMinutes": 3
   },
   "guide/devops/deployment.md": {
     "createdAt": "2025-11-01T01:44:00+08:00",
@@ -1320,68 +1320,68 @@
     "readingMinutes": 2
   },
   "guide/system-design/distributed-systems/communication.md": {
-    "createdAt": "",
-    "updatedAt": "",
+    "createdAt": "2025-11-14T16:36:08+08:00",
+    "updatedAt": "2025-11-14T16:36:08+08:00",
     "wordCount": 455,
     "readingMinutes": 2
   },
   "guide/system-design/distributed-systems/computing.md": {
-    "createdAt": "",
-    "updatedAt": "",
+    "createdAt": "2025-11-14T16:36:08+08:00",
+    "updatedAt": "2025-11-14T16:36:08+08:00",
     "wordCount": 569,
     "readingMinutes": 2
   },
   "guide/system-design/distributed-systems/consistency.md": {
-    "createdAt": "",
-    "updatedAt": "",
+    "createdAt": "2025-11-14T16:36:08+08:00",
+    "updatedAt": "2025-11-14T16:36:08+08:00",
     "wordCount": 815,
     "readingMinutes": 3
   },
   "guide/system-design/distributed-systems/coordination.md": {
-    "createdAt": "",
-    "updatedAt": "",
+    "createdAt": "2025-11-14T16:36:08+08:00",
+    "updatedAt": "2025-11-14T16:36:08+08:00",
     "wordCount": 607,
     "readingMinutes": 3
   },
   "guide/system-design/distributed-systems/index.md": {
-    "createdAt": "",
-    "updatedAt": "",
+    "createdAt": "2025-11-01T01:44:00+08:00",
+    "updatedAt": "2025-11-14T16:36:08+08:00",
     "wordCount": 1126,
     "readingMinutes": 4
   },
   "guide/system-design/distributed-systems/java-dubbo.md": {
-    "createdAt": "",
-    "updatedAt": "",
+    "createdAt": "2025-11-14T16:36:08+08:00",
+    "updatedAt": "2025-11-14T16:36:08+08:00",
     "wordCount": 458,
     "readingMinutes": 2
   },
   "guide/system-design/distributed-systems/java-governance.md": {
-    "createdAt": "",
-    "updatedAt": "",
+    "createdAt": "2025-11-14T16:36:08+08:00",
+    "updatedAt": "2025-11-14T16:36:08+08:00",
     "wordCount": 430,
     "readingMinutes": 2
   },
   "guide/system-design/distributed-systems/java-spring-cloud.md": {
-    "createdAt": "",
-    "updatedAt": "",
+    "createdAt": "2025-11-14T16:36:08+08:00",
+    "updatedAt": "2025-11-14T16:36:08+08:00",
     "wordCount": 441,
     "readingMinutes": 2
   },
   "guide/system-design/distributed-systems/java-transaction.md": {
-    "createdAt": "",
-    "updatedAt": "",
+    "createdAt": "2025-11-14T16:36:08+08:00",
+    "updatedAt": "2025-11-14T16:36:08+08:00",
     "wordCount": 570,
     "readingMinutes": 2
   },
   "guide/system-design/distributed-systems/storage.md": {
-    "createdAt": "",
-    "updatedAt": "",
+    "createdAt": "2025-11-14T16:36:08+08:00",
+    "updatedAt": "2025-11-14T16:36:08+08:00",
     "wordCount": 696,
     "readingMinutes": 3
   },
   "guide/system-design/distributed-systems/transaction.md": {
-    "createdAt": "",
-    "updatedAt": "",
+    "createdAt": "2025-11-14T16:36:08+08:00",
+    "updatedAt": "2025-11-14T16:36:08+08:00",
     "wordCount": 804,
     "readingMinutes": 3
   },

@@ -80,17 +80,38 @@ milliondollardev/
    cd milliondollardev
    ```
 
-2. **安装依赖**
+2. **配置 Node.js 版本（推荐）**
+   
+   项目已包含 `.nvmrc` 文件，如果使用 nvm 管理 Node.js 版本：
+   ```bash
+   # 自动使用 .nvmrc 中指定的版本
+   nvm use
+   
+   # 如果该版本未安装，会自动安装
+   nvm install && nvm use
+   ```
+   
+   或者手动安装 Node.js 20：
+   ```bash
+   nvm install 20.19.5
+   nvm use 20.19.5
+   ```
+   
+   **注意**：如果遇到 `Error [ERR_UNKNOWN_BUILTIN_MODULE]: No such built-in module: node:fs/promises` 错误，说明 Node.js 版本过低，请升级到 18+ 版本。
+
+3. **安装依赖**
    ```bash
    npm install
    ```
 
-3. **启动开发服务器**
+4. **启动开发服务器**
    ```bash
    npm run docs:dev
+   # 或使用 Makefile
+   make start
    ```
 
-4. **访问站点**
+5. **访问站点**
    打开浏览器访问 `http://localhost:5173`
 
 ### 🐳 Docker 开发
@@ -138,7 +159,9 @@ milliondollardev/
 - ✅ 使用 Node.js 20，确保最佳兼容性
 
 **故障排除：**
-- 如果遇到 `node:fs/promises` 相关错误，请确保使用 Node.js 18+ 版本
+- **Node.js 版本问题**：如果遇到 `Error [ERR_UNKNOWN_BUILTIN_MODULE]: No such built-in module: node:fs/promises` 错误，说明本地 Node.js 版本过低（需要 >= 18）。解决方案：
+  1. 使用 nvm：`nvm install 20.19.5 && nvm use 20.19.5`
+  2. 或使用 Docker：`make docker-up`（推荐，无需本地安装 Node.js）
 - Docker 环境已配置为使用 Node.js 20，无需担心版本问题
 - **macOS 热重载说明**：当前配置使用镜像内文件，不支持热重载。如需启用热重载：
   1. 打开 Docker Desktop → Settings → Resources → File Sharing
