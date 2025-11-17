@@ -1291,7 +1291,7 @@ export default defineConfig({
               text: '软件研发工程师面试指导',
               collapsed: false,
               items: [
-                { text: '高级Java后端面试题', link: '/guide/career/interview-preparation/java-interview' },
+                { text: '高级Java后端面试题', link: '/guide/career/interview-preparation/java-interview/' },
                 { text: '面试提问指导', link: '/guide/career/interview-preparation/interview-questions-guide' }
               ]
             },
@@ -1340,6 +1340,68 @@ export default defineConfig({
               collapsed: false,
               items: [
                 { text: 'RabbitMQ的Exchange类型', link: '/guide/career/interview-preparation/rabbitmq/exchange-types' }
+              ]
+            }
+          ]
+        }
+      ],
+      '/guide/career/interview-preparation/java-interview/': [
+        {
+          text: '高级Java后端面试题',
+          items: [
+            { text: '概述', link: '/guide/career/interview-preparation/java-interview/' },
+            {
+              text: 'Java基础深入',
+              collapsed: false,
+              items: [
+                { text: 'HashMap底层实现原理', link: '/guide/career/interview-preparation/java-interview/hashmap' },
+                { text: 'ConcurrentHashMap实现原理', link: '/guide/career/interview-preparation/java-interview/concurrent-hashmap' },
+                { text: 'volatile关键字原理', link: '/guide/career/interview-preparation/java-interview/volatile' }
+              ]
+            },
+            {
+              text: 'JVM虚拟机深入',
+              collapsed: false,
+              items: [
+                { text: 'JVM内存模型和GC调优', link: '/guide/career/interview-preparation/java-interview/jvm-memory' },
+                { text: '类加载机制和双亲委派', link: '/guide/career/interview-preparation/java-interview/class-loader' },
+                { text: '内存泄漏排查和解决', link: '/guide/career/interview-preparation/java-interview/memory-leak' }
+              ]
+            },
+            {
+              text: '并发编程高级',
+              collapsed: false,
+              items: [
+                { text: 'synchronized和ReentrantLock', link: '/guide/career/interview-preparation/java-interview/synchronized-lock' },
+                { text: '线程池参数配置和拒绝策略', link: '/guide/career/interview-preparation/java-interview/thread-pool' },
+                { text: 'CAS原理和ABA问题', link: '/guide/career/interview-preparation/java-interview/cas' }
+              ]
+            },
+            {
+              text: 'Spring框架深入',
+              collapsed: false,
+              items: [
+                { text: 'Spring Bean作用域和生命周期', link: '/guide/career/interview-preparation/java-interview/spring-bean' },
+                { text: 'Spring事务传播行为和隔离级别', link: '/guide/career/interview-preparation/java-interview/spring-transaction' },
+                { text: 'Spring Boot自动配置原理', link: '/guide/career/interview-preparation/java-interview/spring-boot-autoconfig' }
+              ]
+            },
+            {
+              text: '数据库深入',
+              collapsed: false,
+              items: [
+                { text: 'MySQL索引优化和查询优化', link: '/guide/career/interview-preparation/java-interview/mysql-index' },
+                { text: 'MySQL事务隔离级别和MVCC', link: '/guide/career/interview-preparation/java-interview/mysql-transaction' },
+                { text: '分库分表策略和中间件', link: '/guide/career/interview-preparation/java-interview/sharding' }
+              ]
+            },
+            {
+              text: '分布式系统',
+              collapsed: false,
+              items: [
+                { text: '分布式事务解决方案', link: '/guide/career/interview-preparation/java-interview/distributed-transaction' },
+                { text: '分布式锁实现和选择', link: '/guide/career/interview-preparation/java-interview/distributed-lock' },
+                { text: '分布式系统设计原则', link: '/guide/career/interview-preparation/java-interview/distributed-design' }
               ]
             }
           ]
