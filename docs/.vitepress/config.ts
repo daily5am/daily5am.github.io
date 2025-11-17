@@ -134,7 +134,7 @@ export default defineConfig({
         text: '职业事业',
         items: [
           { text: '面试技巧', link: '/guide/career/' },
-          { text: '面试准备', link: '/guide/career/interview-preparation/' },
+          { text: 'Java面试题库', link: '/guide/career/interview-preparation/' },
           { text: '求职平台', link: '/guide/career/job-platforms' },
           { text: '职业资格', link: '/guide/career/professional-qualifications/' },
           {
@@ -1299,6 +1299,49 @@ export default defineConfig({
             { text: '技能提升计划', link: '/guide/career/skill-development' },
             { text: '薪资谈判技巧', link: '/guide/career/salary-negotiation' },
             { text: '跳槽策略指南', link: '/guide/career/job-hopping-strategy' }
+          ]
+        }
+      ],
+      '/guide/career/interview-preparation/': [
+        {
+          text: 'Java面试题库',
+          items: [
+            { text: '题库首页', link: '/guide/career/interview-preparation/' },
+            {
+              text: 'Java 基础',
+              collapsed: false,
+              items: [
+                { text: 'Java中==和equals()的区别', link: '/guide/career/interview-preparation/java-basics/equals-vs-equals' }
+              ]
+            },
+            {
+              text: '分布式',
+              collapsed: false,
+              items: [
+                { text: 'CAP理论和BASE理论', link: '/guide/career/interview-preparation/distributed/cap-base' }
+              ]
+            },
+            {
+              text: '微服务',
+              collapsed: false,
+              items: [
+                { text: '微服务架构的优缺点', link: '/guide/career/interview-preparation/microservices/pros-cons' }
+              ]
+            },
+            {
+              text: 'Kafka消息队列',
+              collapsed: false,
+              items: [
+                { text: 'Kafka分区和副本机制', link: '/guide/career/interview-preparation/kafka/partition-replica' }
+              ]
+            },
+            {
+              text: 'RabbitMQ消息队列',
+              collapsed: false,
+              items: [
+                { text: 'RabbitMQ的Exchange类型', link: '/guide/career/interview-preparation/rabbitmq/exchange-types' }
+              ]
+            }
           ]
         }
       ],
