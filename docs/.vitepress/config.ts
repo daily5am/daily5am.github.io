@@ -1265,16 +1265,36 @@ export default defineConfig({
           text: '面试指导',
           items: [
             { text: '学习路径', link: '/guide/career/' },
-            { text: '面试技巧', link: '/guide/career/interview-skills' },
             { text: '企业分享', link: '/guide/career/enterprise-sharing' },
-            { text: '技术面试准备', link: '/guide/career/interview-preparation' },
-            { text: '算法面试技巧', link: '/guide/career/algorithm-interview' },
-            { text: '系统设计面试', link: '/guide/career/system-design-interview' },
-            { text: '行为面试指南', link: '/guide/career/behavioral-interview' },
-            { text: '简历撰写技巧', link: '/guide/career/resume-writing' },
-            { text: '项目经验包装', link: '/guide/career/project-presentation' },
-            { text: '技能展示方法', link: '/guide/career/skill-showcase' },
-            { text: '简历模板下载', link: '/guide/career/resume-templates' },
+            {
+              text: '通用面试技巧',
+              collapsed: false,
+              items: [
+                { text: '面试技巧', link: '/guide/career/interview-skills' },
+                { text: '技术面试准备', link: '/guide/career/interview-preparation' },
+                { text: '算法面试技巧', link: '/guide/career/algorithm-interview' },
+                { text: '系统设计面试', link: '/guide/career/system-design-interview' },
+                { text: '行为面试指南', link: '/guide/career/behavioral-interview' }
+              ]
+            },
+            {
+              text: '面试简历指导',
+              collapsed: false,
+              items: [
+                { text: '简历撰写技巧', link: '/guide/career/resume-writing' },
+                { text: '项目经验包装', link: '/guide/career/project-presentation' },
+                { text: '技能展示方法', link: '/guide/career/skill-showcase' },
+                { text: '简历模板下载', link: '/guide/career/resume-templates' }
+              ]
+            },
+            {
+              text: '软件研发工程师面试指导',
+              collapsed: false,
+              items: [
+                { text: '高级Java后端面试题', link: '/guide/career/interview-preparation/java-interview' },
+                { text: '面试提问指导', link: '/guide/career/interview-preparation/interview-questions-guide' }
+              ]
+            },
             { text: '职业发展路径', link: '/guide/career/career-path' },
             { text: '技能提升计划', link: '/guide/career/skill-development' },
             { text: '薪资谈判技巧', link: '/guide/career/salary-negotiation' },
