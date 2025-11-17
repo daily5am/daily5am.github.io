@@ -1878,7 +1878,7 @@ export default defineConfig({
 
     footer: {
       message: '助力开发者成长',
-      copyright: 'Copyright © 2024 全栈不止编程'
+      copyright: 'Copyright © 2024 全栈不止编程 | <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">粤ICP备16126395号</a>'
     },
 
     search: {
