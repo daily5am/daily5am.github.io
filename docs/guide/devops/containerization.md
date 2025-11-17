@@ -42,7 +42,7 @@ Kubernetes是容器编排平台，提供：
 #### Dockerfile
 
 ```dockerfile
-# 百万研发知识平台 Dockerfile
+# 全栈不止编程 Dockerfile
 # 用于开发环境的容器化部署
 
 FROM node:20-alpine
@@ -67,7 +67,7 @@ CMD ["sh", "-c", "npm run docs:dev -- --host 0.0.0.0"]
 #### docker-compose.yml
 
 ```yaml
-# 百万研发知识平台 Docker Compose 配置
+# 全栈不止编程 Docker Compose 配置
 
 services:
   app:

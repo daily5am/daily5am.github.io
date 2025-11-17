@@ -1,4 +1,4 @@
-# 百万研发知识平台 Makefile
+# 全栈不止编程 Makefile
 # 提供便捷的开发和管理命令
 
 # 默认目标
@@ -11,7 +11,7 @@ RED=\033[0;31m
 NC=\033[0m
 
 # 项目信息
-PROJECT_NAME := 百万研发知识平台
+PROJECT_NAME := 全栈不止编程
 
 # 帮助信息
 .PHONY: help

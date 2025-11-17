@@ -26,14 +26,14 @@ function pickTitle(content, fm) {
 
 async function main() {
   const feed = new Feed({
-    title: '百万研发知识平台',
+    title: '全栈不止编程',
     description: '从小白到价值百万的研发专家成长指南',
     id: BASE_URL,
     link: BASE_URL,
     language: 'zh-CN',
     favicon: `${BASE_URL}/favicon.ico`,
     image: `${BASE_URL}/logo.svg`,
-    copyright: 'Copyright (c) 2024-present, 百万研发知识平台'
+    copyright: 'Copyright (c) 2024-present, 全栈不止编程'
   })
 
   const entries = await fg(['**/*.md', '!**/.vitepress/**', '!**/public/**'], { cwd: DOCS_DIR, dot: false, absolute: true })

@@ -1,4 +1,4 @@
-# 百万研发知识平台 Dockerfile
+# 全栈不止编程 Dockerfile
 # 用于开发环境的容器化部署
 
 FROM node:20-alpine

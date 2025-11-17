@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: '百万研发知识平台',
+  title: '全栈不止编程',
   description: '从小白到价值百万的研发专家成长指南',
   base: '/',
   
@@ -1878,7 +1878,7 @@ export default defineConfig({
 
     footer: {
       message: '助力开发者成长',
-      copyright: 'Copyright © 2024 百万研发知识平台'
+      copyright: 'Copyright © 2024 全栈不止编程'
     },
 
     search: {

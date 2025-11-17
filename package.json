@@ -1,7 +1,7 @@
 {
   "name": "milliondollardev",
   "version": "1.0.0",
-  "description": "百万研发知识平台 - 从小白到价值百万的研发专家成长指南",
+  "description": "全栈不止编程 - 从小白到价值百万的研发专家成长指南",
   "type": "module",
   "scripts": {
     "build:meta": "node scripts/generate-article-meta.mjs",
@@ -20,7 +20,7 @@
     "programming",
     "architecture"
   ],
-  "author": "百万研发知识平台",
+  "author": "全栈不止编程",
   "license": "MIT",
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.16",

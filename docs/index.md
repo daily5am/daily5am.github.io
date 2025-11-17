@@ -2,12 +2,12 @@
 layout: home
 
 hero:
-  name: "百万研发知识平台"
+  name: "全栈不止编程"
   text: "从小白到价值百万的研发专家"
   tagline: "系统化的软件研发成长指南，助你成为技术专家"
   image:
     src: /logo.svg
-    alt: 百万研发知识平台
+    alt: 全栈不止编程
   actions:
     - theme: brand
       text: 开始学习

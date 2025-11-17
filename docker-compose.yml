@@ -1,4 +1,4 @@
-# 百万研发知识平台 Docker Compose 配置
+# 全栈不止编程 Docker Compose 配置
 
 services:
   app:

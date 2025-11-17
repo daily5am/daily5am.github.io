@@ -1,6 +1,6 @@
 # Makefile 使用说明
 
-这个Makefile为百万研发知识平台提供了便捷的开发和管理命令。
+这个Makefile为全栈不止编程提供了便捷的开发和管理命令。
 
 ## 🚀 快速开始
 
@@ -121,7 +121,7 @@ your-command:
 
 ## 🎉 开始使用
 
-现在你可以使用 `make start` 快速启动百万研发知识平台了！
+现在你可以使用 `make start` 快速启动全栈不止编程了！
 
 ```bash
 make start
