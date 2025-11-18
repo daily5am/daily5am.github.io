@@ -1,5 +1,7 @@
 # ConcurrentHashMap实现原理
 
+> **AI生成声明**: 本文档由AI辅助生成，旨在提供ConcurrentHashMap实现原理的完整指南。
+
 ConcurrentHashMap是Java并发包中提供的线程安全的HashMap实现。
 
 ## 核心问题

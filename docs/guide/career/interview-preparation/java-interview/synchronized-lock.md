@@ -1,5 +1,7 @@
 # synchronized和ReentrantLock
 
+> **AI生成声明**: 本文档由AI辅助生成，旨在提供synchronized和ReentrantLock的完整指南。
+
 synchronized和ReentrantLock是Java中两种重要的锁机制，理解它们的区别和选择对于并发编程至关重要。
 
 ## 核心问题

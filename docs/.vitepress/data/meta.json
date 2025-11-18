@@ -1,8 +1,8 @@
 {
   "about.md": {
     "createdAt": "2025-11-01T01:44:00+08:00",
-    "updatedAt": "2025-11-01T01:44:00+08:00",
-    "wordCount": 412,
+    "updatedAt": "2025-11-17T18:06:16+08:00",
+    "wordCount": 410,
     "readingMinutes": 2
   },
   "guide/ai/ai-agent.md": {
@@ -707,6 +707,300 @@
     "wordCount": 1042,
     "readingMinutes": 4
   },
+  "guide/career/interview-preparation/bigdata/data-warehouse.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 483,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/bigdata/flink.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 477,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/bigdata/hadoop.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 463,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/bigdata/hbase.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 462,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/bigdata/hdfs.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 571,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/bigdata/hive.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 508,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/bigdata/mapreduce.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 464,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/bigdata/spark.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 468,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/cache/architecture.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 459,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/cache/consistency.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 478,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/cache/local-vs-distributed.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 521,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/cache/multi-level.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 388,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/cache/update-strategy.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 492,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/distributed/cap-base.md": {
+    "createdAt": "2025-11-17T12:22:22+08:00",
+    "updatedAt": "2025-11-17T12:22:22+08:00",
+    "wordCount": 719,
+    "readingMinutes": 3
+  },
+  "guide/career/interview-preparation/distributed.md": {
+    "createdAt": "2025-11-17T12:22:22+08:00",
+    "updatedAt": "2025-11-17T12:22:22+08:00",
+    "wordCount": 201,
+    "readingMinutes": 1
+  },
+  "guide/career/interview-preparation/index.md": {
+    "createdAt": "2025-11-17T12:22:22+08:00",
+    "updatedAt": "2025-11-17T12:22:22+08:00",
+    "wordCount": 243,
+    "readingMinutes": 1
+  },
+  "guide/career/interview-preparation/interview-questions-guide.md": {
+    "createdAt": "2025-11-17T11:51:19+08:00",
+    "updatedAt": "2025-11-17T17:42:26+08:00",
+    "wordCount": 2858,
+    "readingMinutes": 10
+  },
+  "guide/career/interview-preparation/java-basics/equals-vs-equals.md": {
+    "createdAt": "2025-11-17T12:22:22+08:00",
+    "updatedAt": "2025-11-17T12:22:22+08:00",
+    "wordCount": 325,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/java-basics.md": {
+    "createdAt": "2025-11-17T12:22:22+08:00",
+    "updatedAt": "2025-11-17T12:22:22+08:00",
+    "wordCount": 252,
+    "readingMinutes": 1
+  },
+  "guide/career/interview-preparation/java-interview/cas.md": {
+    "createdAt": "2025-11-17T17:42:26+08:00",
+    "updatedAt": "2025-11-17T17:42:26+08:00",
+    "wordCount": 287,
+    "readingMinutes": 1
+  },
+  "guide/career/interview-preparation/java-interview/class-loader.md": {
+    "createdAt": "2025-11-17T17:42:26+08:00",
+    "updatedAt": "2025-11-17T17:42:26+08:00",
+    "wordCount": 429,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/java-interview/concurrent-hashmap.md": {
+    "createdAt": "2025-11-17T17:42:26+08:00",
+    "updatedAt": "2025-11-17T17:42:26+08:00",
+    "wordCount": 340,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/java-interview/distributed-design.md": {
+    "createdAt": "2025-11-17T17:42:26+08:00",
+    "updatedAt": "2025-11-17T17:42:26+08:00",
+    "wordCount": 340,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/java-interview/distributed-lock.md": {
+    "createdAt": "2025-11-17T17:42:26+08:00",
+    "updatedAt": "2025-11-17T17:42:26+08:00",
+    "wordCount": 352,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/java-interview/distributed-transaction.md": {
+    "createdAt": "2025-11-17T17:42:26+08:00",
+    "updatedAt": "2025-11-17T17:42:26+08:00",
+    "wordCount": 390,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/java-interview/hashmap.md": {
+    "createdAt": "2025-11-17T17:42:26+08:00",
+    "updatedAt": "2025-11-17T17:42:26+08:00",
+    "wordCount": 401,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/java-interview/index.md": {
+    "createdAt": "2025-11-17T11:51:19+08:00",
+    "updatedAt": "2025-11-17T17:42:26+08:00",
+    "wordCount": 2313,
+    "readingMinutes": 8
+  },
+  "guide/career/interview-preparation/java-interview/jvm-memory.md": {
+    "createdAt": "2025-11-17T17:42:26+08:00",
+    "updatedAt": "2025-11-17T17:42:26+08:00",
+    "wordCount": 411,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/java-interview/memory-leak.md": {
+    "createdAt": "2025-11-17T17:42:26+08:00",
+    "updatedAt": "2025-11-17T17:42:26+08:00",
+    "wordCount": 380,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/java-interview/mysql-index.md": {
+    "createdAt": "2025-11-17T17:42:26+08:00",
+    "updatedAt": "2025-11-17T17:42:26+08:00",
+    "wordCount": 375,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/java-interview/mysql-transaction.md": {
+    "createdAt": "2025-11-17T17:42:26+08:00",
+    "updatedAt": "2025-11-17T17:42:26+08:00",
+    "wordCount": 363,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/java-interview/sharding.md": {
+    "createdAt": "2025-11-17T17:42:26+08:00",
+    "updatedAt": "2025-11-17T17:42:26+08:00",
+    "wordCount": 360,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/java-interview/spring-bean.md": {
+    "createdAt": "2025-11-17T17:42:26+08:00",
+    "updatedAt": "2025-11-17T17:42:26+08:00",
+    "wordCount": 294,
+    "readingMinutes": 1
+  },
+  "guide/career/interview-preparation/java-interview/spring-boot-autoconfig.md": {
+    "createdAt": "2025-11-17T17:42:26+08:00",
+    "updatedAt": "2025-11-17T17:42:26+08:00",
+    "wordCount": 242,
+    "readingMinutes": 1
+  },
+  "guide/career/interview-preparation/java-interview/spring-transaction.md": {
+    "createdAt": "2025-11-17T17:42:26+08:00",
+    "updatedAt": "2025-11-17T17:42:26+08:00",
+    "wordCount": 395,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/java-interview/synchronized-lock.md": {
+    "createdAt": "2025-11-17T17:42:26+08:00",
+    "updatedAt": "2025-11-17T17:42:26+08:00",
+    "wordCount": 348,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/java-interview/thread-pool.md": {
+    "createdAt": "2025-11-17T17:42:26+08:00",
+    "updatedAt": "2025-11-17T17:42:26+08:00",
+    "wordCount": 361,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/java-interview/volatile.md": {
+    "createdAt": "2025-11-17T17:42:26+08:00",
+    "updatedAt": "2025-11-17T17:42:26+08:00",
+    "wordCount": 433,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/kafka/partition-replica.md": {
+    "createdAt": "2025-11-17T12:22:22+08:00",
+    "updatedAt": "2025-11-17T12:22:22+08:00",
+    "wordCount": 622,
+    "readingMinutes": 3
+  },
+  "guide/career/interview-preparation/kafka.md": {
+    "createdAt": "2025-11-17T12:22:22+08:00",
+    "updatedAt": "2025-11-17T12:22:22+08:00",
+    "wordCount": 246,
+    "readingMinutes": 1
+  },
+  "guide/career/interview-preparation/microservices/pros-cons.md": {
+    "createdAt": "2025-11-17T12:22:22+08:00",
+    "updatedAt": "2025-11-17T12:22:22+08:00",
+    "wordCount": 998,
+    "readingMinutes": 4
+  },
+  "guide/career/interview-preparation/microservices.md": {
+    "createdAt": "2025-11-17T12:22:22+08:00",
+    "updatedAt": "2025-11-17T12:22:22+08:00",
+    "wordCount": 196,
+    "readingMinutes": 1
+  },
+  "guide/career/interview-preparation/rabbitmq/exchange-types.md": {
+    "createdAt": "2025-11-17T12:22:22+08:00",
+    "updatedAt": "2025-11-17T12:22:22+08:00",
+    "wordCount": 595,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/rabbitmq.md": {
+    "createdAt": "2025-11-17T12:22:22+08:00",
+    "updatedAt": "2025-11-17T12:22:22+08:00",
+    "wordCount": 330,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/redis/cache-problems.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 505,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/redis/cluster.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 368,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/redis/data-structures.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 499,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/redis/distributed-lock.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 413,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/redis/persistence.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 408,
+    "readingMinutes": 2
+  },
   "guide/career/interview-skills.md": {
     "createdAt": "2025-10-27T19:46:18+08:00",
     "updatedAt": "2025-10-27T19:46:18+08:00",
@@ -1141,7 +1435,7 @@
   },
   "guide/devops/containerization.md": {
     "createdAt": "2025-11-01T01:44:00+08:00",
-    "updatedAt": "2025-11-14T16:36:08+08:00",
+    "updatedAt": "2025-11-17T18:06:16+08:00",
     "wordCount": 785,
     "readingMinutes": 3
   },
@@ -1615,8 +1909,8 @@
   },
   "index.md": {
     "createdAt": "2025-10-19T19:20:02+08:00",
-    "updatedAt": "2025-10-30T15:28:26+08:00",
-    "wordCount": 882,
+    "updatedAt": "2025-11-17T18:06:16+08:00",
+    "wordCount": 878,
     "readingMinutes": 3
   },
   "weekly/2025.md": {

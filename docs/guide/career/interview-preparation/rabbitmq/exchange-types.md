@@ -1,5 +1,7 @@
 # RabbitMQ的Exchange类型
 
+> **AI生成声明**: 本文档由AI辅助生成，旨在提供RabbitMQ的Exchange类型的完整指南。
+
 ## 题目描述
 
 请详细说明RabbitMQ中Exchange（交换机）的类型，以及它们各自的特点和使用场景。

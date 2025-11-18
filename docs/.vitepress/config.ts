@@ -1341,6 +1341,42 @@ export default defineConfig({
               items: [
                 { text: 'RabbitMQ的Exchange类型', link: '/guide/career/interview-preparation/rabbitmq/exchange-types' }
               ]
+            },
+            {
+              text: 'Redis',
+              collapsed: false,
+              items: [
+                { text: 'Redis数据结构和使用场景', link: '/guide/career/interview-preparation/redis/data-structures' },
+                { text: 'Redis持久化机制', link: '/guide/career/interview-preparation/redis/persistence' },
+                { text: 'Redis缓存穿透、击穿、雪崩', link: '/guide/career/interview-preparation/redis/cache-problems' },
+                { text: 'Redis分布式锁实现', link: '/guide/career/interview-preparation/redis/distributed-lock' },
+                { text: 'Redis集群模式', link: '/guide/career/interview-preparation/redis/cluster' }
+              ]
+            },
+            {
+              text: '缓存体系',
+              collapsed: false,
+              items: [
+                { text: '缓存架构设计', link: '/guide/career/interview-preparation/cache/architecture' },
+                { text: '多级缓存策略', link: '/guide/career/interview-preparation/cache/multi-level' },
+                { text: '缓存更新策略', link: '/guide/career/interview-preparation/cache/update-strategy' },
+                { text: '缓存一致性方案', link: '/guide/career/interview-preparation/cache/consistency' },
+                { text: '本地缓存vs分布式缓存', link: '/guide/career/interview-preparation/cache/local-vs-distributed' }
+              ]
+            },
+            {
+              text: '大数据',
+              collapsed: false,
+              items: [
+                { text: 'Hadoop生态系统', link: '/guide/career/interview-preparation/bigdata/hadoop' },
+                { text: 'HDFS原理和架构', link: '/guide/career/interview-preparation/bigdata/hdfs' },
+                { text: 'MapReduce计算模型', link: '/guide/career/interview-preparation/bigdata/mapreduce' },
+                { text: 'Spark核心原理', link: '/guide/career/interview-preparation/bigdata/spark' },
+                { text: 'Flink流处理', link: '/guide/career/interview-preparation/bigdata/flink' },
+                { text: 'Hive数据仓库', link: '/guide/career/interview-preparation/bigdata/hive' },
+                { text: 'HBase列式存储', link: '/guide/career/interview-preparation/bigdata/hbase' },
+                { text: '数据仓库设计', link: '/guide/career/interview-preparation/bigdata/data-warehouse' }
+              ]
             }
           ]
         }

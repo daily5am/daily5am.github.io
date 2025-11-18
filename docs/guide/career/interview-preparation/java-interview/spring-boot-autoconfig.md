@@ -1,5 +1,7 @@
 # Spring Boot自动配置原理
 
+> **AI生成声明**: 本文档由AI辅助生成，旨在提供Spring Boot自动配置原理的完整指南。
+
 Spring Boot的自动配置是其核心特性之一，理解自动配置原理对于深入使用Spring Boot至关重要。
 
 ## 核心问题

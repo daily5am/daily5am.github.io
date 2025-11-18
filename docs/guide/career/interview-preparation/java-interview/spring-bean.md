@@ -1,5 +1,7 @@
 # Spring Bean作用域和生命周期
 
+> **AI生成声明**: 本文档由AI辅助生成，旨在提供Spring Bean作用域和生命周期的完整指南。
+
 Spring Bean的作用域和生命周期是Spring框架的核心概念，理解这些对于使用Spring框架至关重要。
 
 ## 核心问题
