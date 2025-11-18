@@ -190,7 +190,7 @@ export default defineConfig({
           { text: '技术媒体与资讯', link: '/guide/career/tech-media' },
           { text: '资本市场动态', link: '/guide/career/capital-market' },
           { text: '产业趋势分析', link: '/guide/career/industry-trends' },
-          { text: '政策支持解读', link: '/guide/career/policy-support' }
+          { text: '政策支持解读', link: '/guide/career/policy-support/' }
         ]
       },
       {
@@ -717,17 +717,37 @@ export default defineConfig({
           ]
         }
       ],
-      '/guide/career/policy-support': [
+      '/guide/career/policy-support/': [
         {
           text: '政策支持解读',
           items: [
-            { text: '概览', link: '/guide/career/policy-support' },
-            { text: '国家层面政策', link: '/guide/career/policy-support#国家层面政策' },
-            { text: '深圳地方政策', link: '/guide/career/policy-support#深圳地方政策' },
-            { text: '资金支持政策', link: '/guide/career/policy-support#资金支持政策' },
-            { text: '申报流程指南', link: '/guide/career/policy-support#申报流程指南' },
-            { text: '政策利用建议', link: '/guide/career/policy-support#政策利用建议' },
-            { text: '相关资源', link: '/guide/career/policy-support#相关资源' }
+            { text: '概览', link: '/guide/career/policy-support/' },
+            {
+              text: '国家层面政策',
+              collapsed: false,
+              items: [
+                { text: '国家层面政策', link: '/guide/career/policy-support/national-policy' },
+                { text: '十五五规划（2026-2030）', link: '/guide/career/policy-support/fifteenth-five-year-plan' }
+              ]
+            },
+            {
+              text: '深圳地方政策',
+              collapsed: false,
+              items: [
+                { text: '深圳地方政策', link: '/guide/career/policy-support/shenzhen-policy' },
+                { text: '深圳20+8产业集群', link: '/guide/career/policy-support/shenzhen-20-8-clusters' }
+              ]
+            },
+            {
+              text: '政策支持',
+              collapsed: false,
+              items: [
+                { text: '资金支持政策', link: '/guide/career/policy-support/funding-support' },
+                { text: '申报流程指南', link: '/guide/career/policy-support/application-guide' },
+                { text: '政策利用建议', link: '/guide/career/policy-support/policy-utilization' },
+                { text: '相关资源', link: '/guide/career/policy-support/resources' }
+              ]
+            }
           ]
         }
       ],
@@ -1547,7 +1567,94 @@ export default defineConfig({
               collapsed: false,
               items: [
                 { text: '华为技术', link: '/guide/career/companies/huawei' },
-                { text: '中兴通讯', link: '/guide/career/companies/zte' }
+                { text: '中兴通讯', link: '/guide/career/companies/zte' },
+                { text: '海能达', link: '/guide/career/companies/hytera' }
+              ]
+            },
+            {
+              text: '智能终端企业',
+              collapsed: false,
+              items: [
+                { text: 'OPPO', link: '/guide/career/companies/oppo' },
+                { text: 'vivo', link: '/guide/career/companies/vivo' },
+                { text: '传音控股', link: '/guide/career/companies/transsion' },
+                { text: '大疆创新', link: '/guide/career/companies/dji' },
+                { text: '小米', link: '/guide/career/companies/xiaomi' }
+              ]
+            },
+            {
+              text: '半导体与芯片企业',
+              collapsed: false,
+              items: [
+                { text: '中芯国际', link: '/guide/career/companies/smic' },
+                { text: '海思半导体', link: '/guide/career/companies/hisilicon' },
+                { text: '汇顶科技', link: '/guide/career/companies/goodix' },
+                { text: '华虹半导体', link: '/guide/career/companies/huahong' },
+                { text: '紫光展锐', link: '/guide/career/companies/unigroup' },
+                { text: '比亚迪半导体', link: '/guide/career/companies/byd-semiconductor' },
+                { text: '韦尔股份', link: '/guide/career/companies/will-semiconductor' },
+                { text: '中微公司', link: '/guide/career/companies/amec' }
+              ]
+            },
+            {
+              text: '软件与信息服务企业',
+              collapsed: false,
+              items: [
+                { text: '腾讯', link: '/guide/career/companies/tencent' },
+                { text: '金蝶', link: '/guide/career/companies/kingdee' },
+                { text: '顺丰科技', link: '/guide/career/companies/sf-tech' },
+                { text: '阿里巴巴', link: '/guide/career/companies/alibaba' },
+                { text: '拼多多', link: '/guide/career/companies/pinduoduo' },
+                { text: '哔哩哔哩', link: '/guide/career/companies/bilibili' },
+                { text: '小红书', link: '/guide/career/companies/xiaohongshu' },
+                { text: '携程', link: '/guide/career/companies/ctrip' },
+                { text: '美团', link: '/guide/career/companies/meituan' }
+              ]
+            },
+            {
+              text: '游戏与数字内容企业',
+              collapsed: false,
+              items: [
+                { text: '米哈游', link: '/guide/career/companies/mihoyo' },
+                { text: '莉莉丝', link: '/guide/career/companies/lilith' },
+                { text: '创梦天地', link: '/guide/career/companies/idreamsky' },
+                { text: '阅文集团', link: '/guide/career/companies/yuewen' },
+                { text: '喜马拉雅', link: '/guide/career/companies/ximalaya' }
+              ]
+            },
+            {
+              text: '新能源汽车企业',
+              collapsed: false,
+              items: [
+                { text: '比亚迪', link: '/guide/career/companies/byd' },
+                { text: '小鹏汽车', link: '/guide/career/companies/xpeng' },
+                { text: '理想汽车', link: '/guide/career/companies/li-auto' },
+                { text: '蔚来汽车', link: '/guide/career/companies/nio' },
+                { text: '特斯拉', link: '/guide/career/companies/tesla' },
+                { text: '地平线', link: '/guide/career/companies/horizon' },
+                { text: '上汽集团', link: '/guide/career/companies/saic' }
+              ]
+            },
+            {
+              text: '新能源与储能企业',
+              collapsed: false,
+              items: [
+                { text: '宁德时代', link: '/guide/career/companies/catl' },
+                { text: '欣旺达', link: '/guide/career/companies/sunwoda' },
+                { text: '亿纬锂能', link: '/guide/career/companies/eve-energy' },
+                { text: '远景能源', link: '/guide/career/companies/envision' }
+              ]
+            },
+            {
+              text: '工业自动化与机器人企业',
+              collapsed: false,
+              items: [
+                { text: '汇川技术', link: '/guide/career/companies/inovance' },
+                { text: '大族激光', link: '/guide/career/companies/hans-laser' },
+                { text: '优必选', link: '/guide/career/companies/ubtech' },
+                { text: '普渡科技', link: '/guide/career/companies/pudu' },
+                { text: '越疆科技', link: '/guide/career/companies/dobot' },
+                { text: '拓斯达', link: '/guide/career/companies/topstar' }
               ]
             },
             {
@@ -1582,7 +1689,30 @@ export default defineConfig({
               collapsed: false,
               items: [
                 { text: '迈瑞医疗', link: '/guide/career/companies/mindray' },
+                { text: '联影医疗', link: '/guide/career/companies/united-imaging' },
+                { text: '华大基因', link: '/guide/career/companies/bgi' },
+                { text: '华大智造', link: '/guide/career/companies/mgi' },
+                { text: '复星医药', link: '/guide/career/companies/fosun-pharma' },
+                { text: '平安好医生', link: '/guide/career/companies/pingan-good-doctor' },
                 { text: '卫盈联信息技术', link: '/guide/career/companies/weiyinlian' }
+              ]
+            },
+            {
+              text: '装备制造企业',
+              collapsed: false,
+              items: [
+                { text: '中集集团', link: '/guide/career/companies/cimc' },
+                { text: '上海电气', link: '/guide/career/companies/shanghai-electric' },
+                { text: '中国商飞', link: '/guide/career/companies/comac' },
+                { text: '格林美', link: '/guide/career/companies/gem' }
+              ]
+            },
+            {
+              text: '显示技术企业',
+              collapsed: false,
+              items: [
+                { text: 'TCL', link: '/guide/career/companies/tcl' },
+                { text: '利亚德', link: '/guide/career/companies/leyard' }
               ]
             },
             {
