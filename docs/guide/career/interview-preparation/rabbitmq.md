@@ -44,29 +44,46 @@ RabbitMQ消息队列相关的面试题集合。
 
 ### 3. 消息可靠性
 
-#### 3.1 消息确认
-- 生产者确认
-- 消费者确认
-- 自动确认和手动确认
-
-#### 3.2 消息持久化
-- 队列持久化
-- 消息持久化
-- 交换机持久化
+- [消息可靠性](/guide/career/interview-preparation/rabbitmq/message-reliability)
+  - 生产者确认机制
+  - 消费者确认机制
+  - 消息持久化
+  - 完整可靠性方案
 
 ### 4. 高级特性
 
 #### 4.1 死信队列
-- 死信队列的概念
-- 死信产生的原因
-- 死信队列的使用
+- [死信队列](/guide/career/interview-preparation/rabbitmq/dead-letter-queue)
+  - 死信队列的概念
+  - 死信产生的原因
+  - 死信队列的配置
+  - 使用场景
 
 #### 4.2 延迟队列
-- 延迟队列的实现
-- TTL（Time To Live）
-- 延迟消息处理
+- [延迟队列](/guide/career/interview-preparation/rabbitmq/delayed-queue)
+  - 基于TTL+死信队列实现
+  - 延迟消息插件
+  - 使用场景
 
-#### 4.3 优先级队列
+#### 4.3 消息堆积
+- [消息堆积](/guide/career/interview-preparation/rabbitmq/message-accumulation)
+  - 消息堆积的原因
+  - 监控方法
+  - 解决方案
+
+#### 4.4 消息幂等性
+- [消息幂等性](/guide/career/interview-preparation/rabbitmq/message-idempotency)
+  - 幂等性的概念
+  - 实现方式
+  - 最佳实践
+
+#### 4.5 消息顺序消费
+- [消息顺序消费](/guide/career/interview-preparation/rabbitmq/message-ordering)
+  - 顺序消费的场景
+  - 实现方式
+  - 注意事项
+
+#### 4.6 优先级队列
 - 队列优先级
 - 消息优先级
 - 使用场景

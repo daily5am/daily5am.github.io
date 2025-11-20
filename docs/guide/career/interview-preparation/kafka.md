@@ -53,14 +53,52 @@ Kafka消息队列相关的面试题集合。
 - 重平衡（Rebalance）
 - 消费分配策略
 
-### 5. 性能优化
+### 5. 消息可靠性
 
-#### 5.1 吞吐量优化
+- [消息可靠性](/guide/career/interview-preparation/kafka/message-reliability)
+  - 生产者确认机制
+  - 副本机制
+  - 消费者位移提交
+
+### 6. 高级特性
+
+#### 6.1 死信队列
+- [死信队列](/guide/career/interview-preparation/kafka/dead-letter-queue)
+  - 死信队列的概念
+  - 实现方式
+  - 使用场景
+
+#### 6.2 延迟队列
+- [延迟队列](/guide/career/interview-preparation/kafka/delayed-queue)
+  - 基于时间戳实现
+  - 使用场景
+
+#### 6.3 消息堆积
+- [消息堆积](/guide/career/interview-preparation/kafka/message-accumulation)
+  - 消息堆积的原因
+  - 监控方法
+  - 解决方案
+
+#### 6.4 消息幂等性
+- [消息幂等性](/guide/career/interview-preparation/kafka/message-idempotency)
+  - 生产者幂等性
+  - 消费者幂等性
+  - 最佳实践
+
+#### 6.5 消息顺序消费
+- [消息顺序消费](/guide/career/interview-preparation/kafka/message-ordering)
+  - 顺序消费的场景
+  - 实现方式
+  - 注意事项
+
+### 7. 性能优化
+
+#### 7.1 吞吐量优化
 - 批量发送
 - 压缩
 - 分区数量
 
-#### 5.2 可靠性保证
+#### 7.2 可靠性保证
 - 副本机制
 - ISR（In-Sync Replicas）
 - 消息持久化

@@ -1352,14 +1352,26 @@ export default defineConfig({
               text: 'Kafka消息队列',
               collapsed: false,
               items: [
-                { text: 'Kafka分区和副本机制', link: '/guide/career/interview-preparation/kafka/partition-replica' }
+                { text: 'Kafka分区和副本机制', link: '/guide/career/interview-preparation/kafka/partition-replica' },
+                { text: '消息可靠性', link: '/guide/career/interview-preparation/kafka/message-reliability' },
+                { text: '死信队列', link: '/guide/career/interview-preparation/kafka/dead-letter-queue' },
+                { text: '延迟队列', link: '/guide/career/interview-preparation/kafka/delayed-queue' },
+                { text: '消息堆积', link: '/guide/career/interview-preparation/kafka/message-accumulation' },
+                { text: '消息幂等性', link: '/guide/career/interview-preparation/kafka/message-idempotency' },
+                { text: '消息顺序消费', link: '/guide/career/interview-preparation/kafka/message-ordering' }
               ]
             },
             {
               text: 'RabbitMQ消息队列',
               collapsed: false,
               items: [
-                { text: 'RabbitMQ的Exchange类型', link: '/guide/career/interview-preparation/rabbitmq/exchange-types' }
+                { text: 'RabbitMQ的Exchange类型', link: '/guide/career/interview-preparation/rabbitmq/exchange-types' },
+                { text: '消息可靠性', link: '/guide/career/interview-preparation/rabbitmq/message-reliability' },
+                { text: '死信队列', link: '/guide/career/interview-preparation/rabbitmq/dead-letter-queue' },
+                { text: '延迟队列', link: '/guide/career/interview-preparation/rabbitmq/delayed-queue' },
+                { text: '消息堆积', link: '/guide/career/interview-preparation/rabbitmq/message-accumulation' },
+                { text: '消息幂等性', link: '/guide/career/interview-preparation/rabbitmq/message-idempotency' },
+                { text: '消息顺序消费', link: '/guide/career/interview-preparation/rabbitmq/message-ordering' }
               ]
             },
             {
