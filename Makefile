@@ -38,6 +38,8 @@ help:
 	@echo "  $(GREEN)docker-build$(NC)   仅构建Docker镜像"
 	@echo "  $(GREEN)docker-logs$(NC)    查看容器日志"
 	@echo "  $(GREEN)docker-restart$(NC) 重启容器"
+	@echo "  $(GREEN)docker-rm$(NC)      删除所有运行中的容器"
+	@echo "  $(GREEN)docker-rm-all$(NC)   删除所有容器（包括停止的）"
 
 # 开发相关命令
 .PHONY: start
@@ -167,3 +169,23 @@ docker-restart:
 	@echo "$(GREEN)🔄 重启容器...$(NC)"
 	@docker compose restart
 	@echo "$(GREEN)✅ 容器已重启！$(NC)"
+
+.PHONY: docker-rm
+docker-rm:
+	@echo "$(GREEN)🗑️  删除所有运行中的容器...$(NC)"
+	@if [ -n "$$(docker ps -q)" ]; then \
+		docker rm -f $$(docker ps -q); \
+		echo "$(GREEN)✅ 所有运行中的容器已删除！$(NC)"; \
+	else \
+		echo "$(YELLOW)⚠️  没有运行中的容器$(NC)"; \
+	fi
+
+.PHONY: docker-rm-all
+docker-rm-all:
+	@echo "$(GREEN)🗑️  删除所有容器（包括停止的）...$(NC)"
+	@if [ -n "$$(docker ps -aq)" ]; then \
+		docker rm -f $$(docker ps -aq); \
+		echo "$(GREEN)✅ 所有容器已删除！$(NC)"; \
+	else \
+		echo "$(YELLOW)⚠️  没有容器$(NC)"; \
+	fi

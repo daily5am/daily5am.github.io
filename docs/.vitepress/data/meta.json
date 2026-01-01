@@ -533,6 +533,36 @@
     "wordCount": 1429,
     "readingMinutes": 5
   },
+  "guide/career/companies/amec.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 118,
+    "readingMinutes": 1
+  },
+  "guide/career/companies/ant-group.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 116,
+    "readingMinutes": 1
+  },
+  "guide/career/companies/bgi.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 249,
+    "readingMinutes": 1
+  },
+  "guide/career/companies/bilibili.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 116,
+    "readingMinutes": 1
+  },
+  "guide/career/companies/byd-semiconductor.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 122,
+    "readingMinutes": 1
+  },
   "guide/career/companies/byd.md": {
     "createdAt": "2025-10-28T17:37:59+08:00",
     "updatedAt": "2025-10-28T17:37:59+08:00",
@@ -545,11 +575,35 @@
     "wordCount": 1399,
     "readingMinutes": 5
   },
+  "guide/career/companies/catl.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 112,
+    "readingMinutes": 1
+  },
+  "guide/career/companies/cimc.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 116,
+    "readingMinutes": 1
+  },
   "guide/career/companies/cloud-leopard.md": {
     "createdAt": "2025-10-28T02:09:35+08:00",
     "updatedAt": "2025-10-28T02:09:35+08:00",
     "wordCount": 650,
     "readingMinutes": 3
+  },
+  "guide/career/companies/comac.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 116,
+    "readingMinutes": 1
+  },
+  "guide/career/companies/ctrip.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 110,
+    "readingMinutes": 1
   },
   "guide/career/companies/didi.md": {
     "createdAt": "2025-10-28T17:37:59+08:00",
@@ -563,17 +617,119 @@
     "wordCount": 1401,
     "readingMinutes": 5
   },
+  "guide/career/companies/dobot.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 118,
+    "readingMinutes": 1
+  },
+  "guide/career/companies/envision.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 114,
+    "readingMinutes": 1
+  },
+  "guide/career/companies/eve-energy.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 112,
+    "readingMinutes": 1
+  },
+  "guide/career/companies/fosun-pharma.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 116,
+    "readingMinutes": 1
+  },
+  "guide/career/companies/gem.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 109,
+    "readingMinutes": 1
+  },
+  "guide/career/companies/goodix.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 116,
+    "readingMinutes": 1
+  },
+  "guide/career/companies/hans-laser.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 116,
+    "readingMinutes": 1
+  },
+  "guide/career/companies/hisilicon.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 119,
+    "readingMinutes": 1
+  },
+  "guide/career/companies/horizon.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 113,
+    "readingMinutes": 1
+  },
+  "guide/career/companies/huahong.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 119,
+    "readingMinutes": 1
+  },
   "guide/career/companies/huawei.md": {
     "createdAt": "2025-10-28T02:09:35+08:00",
     "updatedAt": "2025-10-28T17:37:59+08:00",
     "wordCount": 1183,
     "readingMinutes": 4
   },
+  "guide/career/companies/hytera.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 216,
+    "readingMinutes": 1
+  },
+  "guide/career/companies/idreamsky.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 112,
+    "readingMinutes": 1
+  },
   "guide/career/companies/index.md": {
     "createdAt": "2025-10-28T02:47:08+08:00",
-    "updatedAt": "2025-10-28T02:47:08+08:00",
-    "wordCount": 2642,
-    "readingMinutes": 9
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 5758,
+    "readingMinutes": 20
+  },
+  "guide/career/companies/inovance.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 118,
+    "readingMinutes": 1
+  },
+  "guide/career/companies/kingdee.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 110,
+    "readingMinutes": 1
+  },
+  "guide/career/companies/leyard.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 113,
+    "readingMinutes": 1
+  },
+  "guide/career/companies/li-auto.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 118,
+    "readingMinutes": 1
+  },
+  "guide/career/companies/lilith.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 109,
+    "readingMinutes": 1
   },
   "guide/career/companies/meituan.md": {
     "createdAt": "2025-10-28T17:37:59+08:00",
@@ -581,11 +737,29 @@
     "wordCount": 1347,
     "readingMinutes": 5
   },
+  "guide/career/companies/mgi.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 120,
+    "readingMinutes": 1
+  },
+  "guide/career/companies/mihoyo.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 109,
+    "readingMinutes": 1
+  },
   "guide/career/companies/mindray.md": {
     "createdAt": "2025-10-28T02:09:35+08:00",
     "updatedAt": "2025-10-28T02:09:35+08:00",
     "wordCount": 778,
     "readingMinutes": 3
+  },
+  "guide/career/companies/nio.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 118,
+    "readingMinutes": 1
   },
   "guide/career/companies/oppo.md": {
     "createdAt": "2025-10-28T17:37:59+08:00",
@@ -599,11 +773,35 @@
     "wordCount": 276,
     "readingMinutes": 1
   },
+  "guide/career/companies/pinduoduo.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 109,
+    "readingMinutes": 1
+  },
+  "guide/career/companies/pingan-good-doctor.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 121,
+    "readingMinutes": 1
+  },
   "guide/career/companies/pingan-tech.md": {
     "createdAt": "2025-10-29T00:18:44+08:00",
     "updatedAt": "2025-10-29T00:18:44+08:00",
     "wordCount": 1441,
     "readingMinutes": 5
+  },
+  "guide/career/companies/pudu.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 118,
+    "readingMinutes": 1
+  },
+  "guide/career/companies/saic.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 116,
+    "readingMinutes": 1
   },
   "guide/career/companies/sensetime.md": {
     "createdAt": "2025-10-29T00:18:44+08:00",
@@ -611,10 +809,34 @@
     "wordCount": 1392,
     "readingMinutes": 5
   },
+  "guide/career/companies/sf-tech.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 116,
+    "readingMinutes": 1
+  },
+  "guide/career/companies/shanghai-electric.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 116,
+    "readingMinutes": 1
+  },
   "guide/career/companies/shizai-intelligent.md": {
     "createdAt": "2025-10-28T02:47:08+08:00",
     "updatedAt": "2025-10-28T02:47:08+08:00",
     "wordCount": 265,
+    "readingMinutes": 1
+  },
+  "guide/career/companies/smic.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 242,
+    "readingMinutes": 1
+  },
+  "guide/career/companies/sunwoda.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 109,
     "readingMinutes": 1
   },
   "guide/career/companies/tcl.md": {
@@ -629,6 +851,42 @@
     "wordCount": 1468,
     "readingMinutes": 5
   },
+  "guide/career/companies/tesla.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 115,
+    "readingMinutes": 1
+  },
+  "guide/career/companies/topstar.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 115,
+    "readingMinutes": 1
+  },
+  "guide/career/companies/transsion.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 116,
+    "readingMinutes": 1
+  },
+  "guide/career/companies/ubtech.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 115,
+    "readingMinutes": 1
+  },
+  "guide/career/companies/unigroup.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 116,
+    "readingMinutes": 1
+  },
+  "guide/career/companies/united-imaging.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 116,
+    "readingMinutes": 1
+  },
   "guide/career/companies/vivo.md": {
     "createdAt": "2025-10-28T17:37:59+08:00",
     "updatedAt": "2025-10-28T17:37:59+08:00",
@@ -641,10 +899,46 @@
     "wordCount": 695,
     "readingMinutes": 3
   },
+  "guide/career/companies/will-semiconductor.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 116,
+    "readingMinutes": 1
+  },
+  "guide/career/companies/xiaohongshu.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 113,
+    "readingMinutes": 1
+  },
+  "guide/career/companies/xiaomi.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 110,
+    "readingMinutes": 1
+  },
+  "guide/career/companies/ximalaya.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 116,
+    "readingMinutes": 1
+  },
+  "guide/career/companies/xpeng.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 118,
+    "readingMinutes": 1
+  },
   "guide/career/companies/yuanxiang-tech.md": {
     "createdAt": "2025-10-28T02:47:08+08:00",
     "updatedAt": "2025-10-28T02:47:08+08:00",
     "wordCount": 272,
+    "readingMinutes": 1
+  },
+  "guide/career/companies/yuewen.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 116,
     "readingMinutes": 1
   },
   "guide/career/companies/yunshan-lifly.md": {
@@ -708,93 +1002,93 @@
     "readingMinutes": 4
   },
   "guide/career/interview-preparation/bigdata/data-warehouse.md": {
-    "createdAt": "",
-    "updatedAt": "",
-    "wordCount": 483,
+    "createdAt": "2025-11-18T18:03:36+08:00",
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 512,
     "readingMinutes": 2
   },
   "guide/career/interview-preparation/bigdata/flink.md": {
-    "createdAt": "",
-    "updatedAt": "",
-    "wordCount": 477,
+    "createdAt": "2025-11-18T18:03:36+08:00",
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 504,
     "readingMinutes": 2
   },
   "guide/career/interview-preparation/bigdata/hadoop.md": {
-    "createdAt": "",
-    "updatedAt": "",
-    "wordCount": 463,
+    "createdAt": "2025-11-18T18:03:36+08:00",
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 491,
     "readingMinutes": 2
   },
   "guide/career/interview-preparation/bigdata/hbase.md": {
-    "createdAt": "",
-    "updatedAt": "",
-    "wordCount": 462,
+    "createdAt": "2025-11-18T18:03:36+08:00",
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 490,
     "readingMinutes": 2
   },
   "guide/career/interview-preparation/bigdata/hdfs.md": {
-    "createdAt": "",
-    "updatedAt": "",
-    "wordCount": 571,
+    "createdAt": "2025-11-18T18:03:36+08:00",
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 600,
     "readingMinutes": 2
   },
   "guide/career/interview-preparation/bigdata/hive.md": {
-    "createdAt": "",
-    "updatedAt": "",
-    "wordCount": 508,
+    "createdAt": "2025-11-18T18:03:36+08:00",
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 536,
     "readingMinutes": 2
   },
   "guide/career/interview-preparation/bigdata/mapreduce.md": {
-    "createdAt": "",
-    "updatedAt": "",
-    "wordCount": 464,
+    "createdAt": "2025-11-18T18:03:36+08:00",
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 492,
     "readingMinutes": 2
   },
   "guide/career/interview-preparation/bigdata/spark.md": {
-    "createdAt": "",
-    "updatedAt": "",
-    "wordCount": 468,
+    "createdAt": "2025-11-18T18:03:36+08:00",
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 496,
     "readingMinutes": 2
   },
   "guide/career/interview-preparation/cache/architecture.md": {
-    "createdAt": "",
-    "updatedAt": "",
-    "wordCount": 459,
+    "createdAt": "2025-11-18T18:03:36+08:00",
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 488,
     "readingMinutes": 2
   },
   "guide/career/interview-preparation/cache/consistency.md": {
-    "createdAt": "",
-    "updatedAt": "",
-    "wordCount": 478,
+    "createdAt": "2025-11-18T18:03:36+08:00",
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 508,
     "readingMinutes": 2
   },
   "guide/career/interview-preparation/cache/local-vs-distributed.md": {
-    "createdAt": "",
-    "updatedAt": "",
-    "wordCount": 521,
+    "createdAt": "2025-11-18T18:03:36+08:00",
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 556,
     "readingMinutes": 2
   },
   "guide/career/interview-preparation/cache/multi-level.md": {
-    "createdAt": "",
-    "updatedAt": "",
-    "wordCount": 388,
+    "createdAt": "2025-11-18T18:03:36+08:00",
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 417,
     "readingMinutes": 2
   },
   "guide/career/interview-preparation/cache/update-strategy.md": {
-    "createdAt": "",
-    "updatedAt": "",
-    "wordCount": 492,
+    "createdAt": "2025-11-18T18:03:36+08:00",
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 521,
     "readingMinutes": 2
   },
   "guide/career/interview-preparation/distributed/cap-base.md": {
     "createdAt": "2025-11-17T12:22:22+08:00",
-    "updatedAt": "2025-11-17T12:22:22+08:00",
-    "wordCount": 719,
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 749,
     "readingMinutes": 3
   },
   "guide/career/interview-preparation/distributed.md": {
     "createdAt": "2025-11-17T12:22:22+08:00",
-    "updatedAt": "2025-11-17T12:22:22+08:00",
-    "wordCount": 201,
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 230,
     "readingMinutes": 1
   },
   "guide/career/interview-preparation/index.md": {
@@ -811,56 +1105,56 @@
   },
   "guide/career/interview-preparation/java-basics/equals-vs-equals.md": {
     "createdAt": "2025-11-17T12:22:22+08:00",
-    "updatedAt": "2025-11-17T12:22:22+08:00",
-    "wordCount": 325,
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 354,
     "readingMinutes": 2
   },
   "guide/career/interview-preparation/java-basics.md": {
     "createdAt": "2025-11-17T12:22:22+08:00",
-    "updatedAt": "2025-11-17T12:22:22+08:00",
-    "wordCount": 252,
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 279,
     "readingMinutes": 1
   },
   "guide/career/interview-preparation/java-interview/cas.md": {
     "createdAt": "2025-11-17T17:42:26+08:00",
-    "updatedAt": "2025-11-17T17:42:26+08:00",
-    "wordCount": 287,
-    "readingMinutes": 1
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 317,
+    "readingMinutes": 2
   },
   "guide/career/interview-preparation/java-interview/class-loader.md": {
     "createdAt": "2025-11-17T17:42:26+08:00",
-    "updatedAt": "2025-11-17T17:42:26+08:00",
-    "wordCount": 429,
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 462,
     "readingMinutes": 2
   },
   "guide/career/interview-preparation/java-interview/concurrent-hashmap.md": {
     "createdAt": "2025-11-17T17:42:26+08:00",
-    "updatedAt": "2025-11-17T17:42:26+08:00",
-    "wordCount": 340,
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 368,
     "readingMinutes": 2
   },
   "guide/career/interview-preparation/java-interview/distributed-design.md": {
     "createdAt": "2025-11-17T17:42:26+08:00",
-    "updatedAt": "2025-11-17T17:42:26+08:00",
-    "wordCount": 340,
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 372,
     "readingMinutes": 2
   },
   "guide/career/interview-preparation/java-interview/distributed-lock.md": {
     "createdAt": "2025-11-17T17:42:26+08:00",
-    "updatedAt": "2025-11-17T17:42:26+08:00",
-    "wordCount": 352,
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 384,
     "readingMinutes": 2
   },
   "guide/career/interview-preparation/java-interview/distributed-transaction.md": {
     "createdAt": "2025-11-17T17:42:26+08:00",
-    "updatedAt": "2025-11-17T17:42:26+08:00",
-    "wordCount": 390,
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 422,
     "readingMinutes": 2
   },
   "guide/career/interview-preparation/java-interview/hashmap.md": {
     "createdAt": "2025-11-17T17:42:26+08:00",
-    "updatedAt": "2025-11-17T17:42:26+08:00",
-    "wordCount": 401,
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 431,
     "readingMinutes": 2
   },
   "guide/career/interview-preparation/java-interview/index.md": {
@@ -871,134 +1165,206 @@
   },
   "guide/career/interview-preparation/java-interview/jvm-memory.md": {
     "createdAt": "2025-11-17T17:42:26+08:00",
-    "updatedAt": "2025-11-17T17:42:26+08:00",
-    "wordCount": 411,
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 443,
     "readingMinutes": 2
   },
   "guide/career/interview-preparation/java-interview/memory-leak.md": {
     "createdAt": "2025-11-17T17:42:26+08:00",
-    "updatedAt": "2025-11-17T17:42:26+08:00",
-    "wordCount": 380,
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 412,
     "readingMinutes": 2
   },
   "guide/career/interview-preparation/java-interview/mysql-index.md": {
     "createdAt": "2025-11-17T17:42:26+08:00",
-    "updatedAt": "2025-11-17T17:42:26+08:00",
-    "wordCount": 375,
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 408,
     "readingMinutes": 2
   },
   "guide/career/interview-preparation/java-interview/mysql-transaction.md": {
     "createdAt": "2025-11-17T17:42:26+08:00",
-    "updatedAt": "2025-11-17T17:42:26+08:00",
-    "wordCount": 363,
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 395,
     "readingMinutes": 2
   },
   "guide/career/interview-preparation/java-interview/sharding.md": {
     "createdAt": "2025-11-17T17:42:26+08:00",
-    "updatedAt": "2025-11-17T17:42:26+08:00",
-    "wordCount": 360,
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 393,
     "readingMinutes": 2
   },
   "guide/career/interview-preparation/java-interview/spring-bean.md": {
     "createdAt": "2025-11-17T17:42:26+08:00",
-    "updatedAt": "2025-11-17T17:42:26+08:00",
-    "wordCount": 294,
-    "readingMinutes": 1
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 327,
+    "readingMinutes": 2
   },
   "guide/career/interview-preparation/java-interview/spring-boot-autoconfig.md": {
     "createdAt": "2025-11-17T17:42:26+08:00",
-    "updatedAt": "2025-11-17T17:42:26+08:00",
-    "wordCount": 242,
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 273,
     "readingMinutes": 1
   },
   "guide/career/interview-preparation/java-interview/spring-transaction.md": {
     "createdAt": "2025-11-17T17:42:26+08:00",
-    "updatedAt": "2025-11-17T17:42:26+08:00",
-    "wordCount": 395,
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 430,
     "readingMinutes": 2
   },
   "guide/career/interview-preparation/java-interview/synchronized-lock.md": {
     "createdAt": "2025-11-17T17:42:26+08:00",
-    "updatedAt": "2025-11-17T17:42:26+08:00",
-    "wordCount": 348,
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 374,
     "readingMinutes": 2
   },
   "guide/career/interview-preparation/java-interview/thread-pool.md": {
     "createdAt": "2025-11-17T17:42:26+08:00",
-    "updatedAt": "2025-11-17T17:42:26+08:00",
-    "wordCount": 361,
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 396,
     "readingMinutes": 2
   },
   "guide/career/interview-preparation/java-interview/volatile.md": {
     "createdAt": "2025-11-17T17:42:26+08:00",
-    "updatedAt": "2025-11-17T17:42:26+08:00",
-    "wordCount": 433,
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 462,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/kafka/dead-letter-queue.md": {
+    "createdAt": "2025-11-20T13:28:35+08:00",
+    "updatedAt": "2025-11-20T13:28:35+08:00",
+    "wordCount": 566,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/kafka/delayed-queue.md": {
+    "createdAt": "2025-11-20T13:28:35+08:00",
+    "updatedAt": "2025-11-20T13:28:35+08:00",
+    "wordCount": 528,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/kafka/message-accumulation.md": {
+    "createdAt": "2025-11-20T13:28:35+08:00",
+    "updatedAt": "2025-11-20T13:28:35+08:00",
+    "wordCount": 564,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/kafka/message-idempotency.md": {
+    "createdAt": "2025-11-20T13:28:35+08:00",
+    "updatedAt": "2025-11-20T13:28:35+08:00",
+    "wordCount": 584,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/kafka/message-ordering.md": {
+    "createdAt": "2025-11-20T13:28:35+08:00",
+    "updatedAt": "2025-11-20T13:28:35+08:00",
+    "wordCount": 594,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/kafka/message-reliability.md": {
+    "createdAt": "2025-11-20T13:28:35+08:00",
+    "updatedAt": "2025-11-20T13:28:35+08:00",
+    "wordCount": 555,
     "readingMinutes": 2
   },
   "guide/career/interview-preparation/kafka/partition-replica.md": {
     "createdAt": "2025-11-17T12:22:22+08:00",
-    "updatedAt": "2025-11-17T12:22:22+08:00",
-    "wordCount": 622,
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 653,
     "readingMinutes": 3
   },
   "guide/career/interview-preparation/kafka.md": {
     "createdAt": "2025-11-17T12:22:22+08:00",
-    "updatedAt": "2025-11-17T12:22:22+08:00",
-    "wordCount": 246,
-    "readingMinutes": 1
+    "updatedAt": "2025-11-20T13:28:35+08:00",
+    "wordCount": 468,
+    "readingMinutes": 2
   },
   "guide/career/interview-preparation/microservices/pros-cons.md": {
     "createdAt": "2025-11-17T12:22:22+08:00",
-    "updatedAt": "2025-11-17T12:22:22+08:00",
-    "wordCount": 998,
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 1029,
     "readingMinutes": 4
   },
   "guide/career/interview-preparation/microservices.md": {
     "createdAt": "2025-11-17T12:22:22+08:00",
-    "updatedAt": "2025-11-17T12:22:22+08:00",
-    "wordCount": 196,
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 225,
     "readingMinutes": 1
+  },
+  "guide/career/interview-preparation/rabbitmq/dead-letter-queue.md": {
+    "createdAt": "2025-11-20T13:28:35+08:00",
+    "updatedAt": "2025-11-20T13:28:35+08:00",
+    "wordCount": 588,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/rabbitmq/delayed-queue.md": {
+    "createdAt": "2025-11-20T13:28:35+08:00",
+    "updatedAt": "2025-11-20T13:28:35+08:00",
+    "wordCount": 648,
+    "readingMinutes": 3
   },
   "guide/career/interview-preparation/rabbitmq/exchange-types.md": {
     "createdAt": "2025-11-17T12:22:22+08:00",
-    "updatedAt": "2025-11-17T12:22:22+08:00",
-    "wordCount": 595,
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 623,
+    "readingMinutes": 3
+  },
+  "guide/career/interview-preparation/rabbitmq/message-accumulation.md": {
+    "createdAt": "2025-11-20T13:28:35+08:00",
+    "updatedAt": "2025-11-20T13:28:35+08:00",
+    "wordCount": 586,
     "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/rabbitmq/message-idempotency.md": {
+    "createdAt": "2025-11-20T13:28:35+08:00",
+    "updatedAt": "2025-11-20T13:28:35+08:00",
+    "wordCount": 539,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/rabbitmq/message-ordering.md": {
+    "createdAt": "2025-11-20T13:28:35+08:00",
+    "updatedAt": "2025-11-20T13:28:35+08:00",
+    "wordCount": 578,
+    "readingMinutes": 2
+  },
+  "guide/career/interview-preparation/rabbitmq/message-reliability.md": {
+    "createdAt": "2025-11-20T13:28:35+08:00",
+    "updatedAt": "2025-11-20T13:28:35+08:00",
+    "wordCount": 778,
+    "readingMinutes": 3
   },
   "guide/career/interview-preparation/rabbitmq.md": {
     "createdAt": "2025-11-17T12:22:22+08:00",
-    "updatedAt": "2025-11-17T12:22:22+08:00",
-    "wordCount": 330,
+    "updatedAt": "2025-11-20T13:28:35+08:00",
+    "wordCount": 477,
     "readingMinutes": 2
   },
   "guide/career/interview-preparation/redis/cache-problems.md": {
-    "createdAt": "",
-    "updatedAt": "",
-    "wordCount": 505,
+    "createdAt": "2025-11-18T18:03:36+08:00",
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 541,
     "readingMinutes": 2
   },
   "guide/career/interview-preparation/redis/cluster.md": {
-    "createdAt": "",
-    "updatedAt": "",
-    "wordCount": 368,
+    "createdAt": "2025-11-18T18:03:36+08:00",
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 396,
     "readingMinutes": 2
   },
   "guide/career/interview-preparation/redis/data-structures.md": {
-    "createdAt": "",
-    "updatedAt": "",
-    "wordCount": 499,
+    "createdAt": "2025-11-18T18:03:36+08:00",
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 532,
     "readingMinutes": 2
   },
   "guide/career/interview-preparation/redis/distributed-lock.md": {
-    "createdAt": "",
-    "updatedAt": "",
-    "wordCount": 413,
+    "createdAt": "2025-11-18T18:03:36+08:00",
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 443,
     "readingMinutes": 2
   },
   "guide/career/interview-preparation/redis/persistence.md": {
-    "createdAt": "",
-    "updatedAt": "",
-    "wordCount": 408,
+    "createdAt": "2025-11-18T18:03:36+08:00",
+    "updatedAt": "2025-11-18T18:03:36+08:00",
+    "wordCount": 437,
     "readingMinutes": 2
   },
   "guide/career/interview-skills.md": {
@@ -1211,11 +1577,59 @@
     "wordCount": 1234,
     "readingMinutes": 5
   },
-  "guide/career/policy-support.md": {
-    "createdAt": "2025-10-27T21:05:43+08:00",
-    "updatedAt": "2025-10-28T02:47:08+08:00",
-    "wordCount": 1475,
-    "readingMinutes": 5
+  "guide/career/policy-support/application-guide.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 282,
+    "readingMinutes": 1
+  },
+  "guide/career/policy-support/fifteenth-five-year-plan.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 893,
+    "readingMinutes": 3
+  },
+  "guide/career/policy-support/funding-support.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 249,
+    "readingMinutes": 1
+  },
+  "guide/career/policy-support/index.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 521,
+    "readingMinutes": 2
+  },
+  "guide/career/policy-support/national-policy.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 303,
+    "readingMinutes": 2
+  },
+  "guide/career/policy-support/policy-utilization.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 221,
+    "readingMinutes": 1
+  },
+  "guide/career/policy-support/resources.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 224,
+    "readingMinutes": 1
+  },
+  "guide/career/policy-support/shenzhen-20-8-clusters.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 2673,
+    "readingMinutes": 9
+  },
+  "guide/career/policy-support/shenzhen-policy.md": {
+    "createdAt": "2025-11-18T18:26:13+08:00",
+    "updatedAt": "2025-11-18T18:26:13+08:00",
+    "wordCount": 268,
+    "readingMinutes": 1
   },
   "guide/career/professional-qualifications/china-soft-exam.md": {
     "createdAt": "2025-11-01T01:20:08+08:00",
@@ -1792,6 +2206,30 @@
     "updatedAt": "2025-10-31T23:59:20+08:00",
     "wordCount": 482,
     "readingMinutes": 2
+  },
+  "guide/system-design/iam-idaas/index.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 3414,
+    "readingMinutes": 12
+  },
+  "guide/system-design/iam-idaas/mfa.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 1543,
+    "readingMinutes": 6
+  },
+  "guide/system-design/iam-idaas/oauth-oidc.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 1485,
+    "readingMinutes": 5
+  },
+  "guide/system-design/iam-idaas/sso.md": {
+    "createdAt": "",
+    "updatedAt": "",
+    "wordCount": 1468,
+    "readingMinutes": 5
   },
   "guide/system-design/io-intensive/architecture-design.md": {
     "createdAt": "2025-10-31T23:59:20+08:00",

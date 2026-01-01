@@ -85,6 +85,12 @@ export default defineConfig({
               { text: '计算密集型系统', link: '/guide/system-design/compute-intensive/' },
               { text: 'I/O密集型系统', link: '/guide/system-design/io-intensive/' }
             ]
+          },
+          {
+            text: '专家路线',
+            items: [
+              { text: 'IAM & IDaaS', link: '/guide/system-design/iam-idaas/' }
+            ]
           }
         ]
       },
@@ -220,6 +226,17 @@ export default defineConfig({
     ],
 
     sidebar: {
+      '/guide/system-design/iam-idaas/': [
+        {
+          text: 'IAM & IDaaS',
+          items: [
+            { text: '概述', link: '/guide/system-design/iam-idaas/' },
+            { text: 'OAuth 2.0 和 OpenID Connect', link: '/guide/system-design/iam-idaas/oauth-oidc' },
+            { text: '单点登录(SSO)', link: '/guide/system-design/iam-idaas/sso' },
+            { text: '多因素认证(MFA)', link: '/guide/system-design/iam-idaas/mfa' }
+          ]
+        }
+      ],
       '/guide/system-design/': [
         {
           text: '系统设计',
